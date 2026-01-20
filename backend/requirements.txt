@@ -8,3 +8,4 @@ bcrypt
 flask-jwt-extended
 flask-mail
 gunicorn
+jsonschema
