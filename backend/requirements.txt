@@ -1,11 +1,4 @@
 Flask
 Flask-CORS
-Flask-PyMongo
-pymongo[srv]
-requests
-schedule
-bcrypt
-flask-jwt-extended
 flask-mail
 gunicorn
-jsonschema
