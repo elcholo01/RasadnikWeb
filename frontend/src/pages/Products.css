@@ -1,0 +1,400 @@
+/* Modern UI za proizvode */
+.hero-small {
+  background: linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%);
+  color: white;
+  padding: 70px 0 40px 0;
+  text-align: center;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 4px 18px rgba(44,62,80,0.10);
+  font-family: 'Poppins', Arial, sans-serif;
+  margin-bottom: 32px;
+}
+.hero-small h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.hero-small p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .filters {
+    gap: 18px;
+  }
+}
+.filter-btn {
+  padding: 12px 28px;
+  border: 2px solid var(--primary);
+  background: #fff;
+  color: var(--primary);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.filter-btn:hover, .filter-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 32px;
+  margin-top: 36px;
+  justify-items: center;
+  padding: 0 16px;
+}
+
+@media (min-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+  }
+}
+
+/* NOVI KOMPAKTNI GRID LAYOUT */
+.products-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 8px;
+}
+
+/* Desktop - 4 kolone */
+@media (min-width: 1200px) {
+  .products-grid-compact {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}
+
+/* Tablet - 3 kolone */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .products-grid-compact {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Mobilni - 2 kolone */
+@media (max-width: 767px) {
+  .products-grid-compact {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Mali mobilni - 1 kolona */
+@media (max-width: 420px) {
+  .products-grid-compact {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* KOMPAKTNA KARTICA PROIZVODA */
+.product-card-compact {
+  display: block;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: 1px solid #e0f2f1;
+}
+
+.product-card-compact:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(46, 125, 50, 0.15);
+  border-color: #2e7d32;
+}
+
+.product-image-compact {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.product-image-compact img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.product-card-compact:hover .product-image-compact img {
+  transform: scale(1.05);
+}
+
+.stock-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stock-badge.in-stock {
+  background: rgba(96, 173, 94, 0.95);
+  color: #fff;
+}
+
+.stock-badge.out-of-stock {
+  background: rgba(229, 115, 115, 0.95);
+  color: #fff;
+}
+
+.product-info-compact {
+  padding: 12px 14px 16px;
+}
+
+.product-info-compact h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2e7d32;
+  margin: 0 0 6px 0;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-info-compact p {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* LOAD MORE DUGME */
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.load-more-btn {
+  padding: 14px 40px;
+  background: linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(46, 125, 50, 0.25);
+}
+
+.load-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(46, 125, 50, 0.35);
+}
+
+.pagination-info {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Responsive za kompaktne kartice */
+@media (max-width: 767px) {
+  .product-image-compact {
+    height: 130px;
+  }
+
+  .product-info-compact {
+    padding: 10px 12px 14px;
+  }
+
+  .product-info-compact h3 {
+    font-size: 0.85rem;
+  }
+
+  .product-info-compact p {
+    font-size: 0.75rem;
+    -webkit-line-clamp: 2;
+  }
+
+  .stock-badge {
+    font-size: 0.6rem;
+    padding: 3px 8px;
+  }
+
+  .load-more-btn {
+    padding: 12px 32px;
+    font-size: 0.9rem;
+  }
+}
+.card, .product-card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+  animation: fadeIn 1.2s;
+  max-width: 420px;
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card:hover, .product-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 40px rgba(44,62,80,0.18);
+}
+.card-img-top, .product-image img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background: #f9fbe7;
+}
+.card-body {
+  padding: 32px 28px 22px 28px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--primary);
+  text-align: center;
+}
+.card-text {
+  color: #555;
+  margin-bottom: 18px;
+  text-align: center;
+  min-height: 60px;
+}
+.price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  margin-bottom: 12px;
+}
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+.btn-primary:hover {
+  background: var(--primary-light);
+  transform: translateY(-2px) scale(1.04);
+}
+.out-of-stock {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(220, 53, 69, 0.9);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.no-products {
+  text-align: center;
+  padding: 50px 0;
+}
+.no-products h3 {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.no-products p {
+  color: #6c757d;
+}
+.card.product-card.tuja-card {
+  min-height: 260px;
+  max-width: 340px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.card.product-card.tuja-card .card-img-top {
+  height: 160px;
+}
+.card.product-card.tuja-card .card-body {
+  padding: 18px 14px 10px 14px;
+}
+.products-page {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+  .filters {
+    gap: 8px;
+  }
+  .filter-btn {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+  }
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 8px;
+  }
+  .card, .product-card {
+    max-width: 100%;
+    min-height: 420px;
+  }
+  .card-img-top, .product-image img {
+    height: 200px;
+  }
+  .card-body {
+    padding: 18px 16px 14px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-btn {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+  .products-grid {
+    gap: 20px;
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: none; }
+} 

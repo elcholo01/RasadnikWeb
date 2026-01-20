@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "home": "Početna",
+    "products": "Proizvodi",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "gallery": "Galerija"
+  },
+  "home": {
+    "title": "Dobrodošli u rasadnik Tilija",
+    "subtitle": "Pronađite savršeno bilje za vaš dom i vrt. Kvalitet, lepota i prirodnost u svakoj biljci.",
+    "viewProducts": "Pogledaj ponudu",
+    "whyChooseUs": "Zašto izabrati nas",
+    "provenQuality": "Proveren kvalitet",
+    "provenQualityDesc": "Višegodišnje iskustvo i zadovoljni kupci.",
+    "fastDelivery": "Brza isporuka",
+    "fastDeliveryDesc": "Dostava širom Srbije u najkraćem roku.",
+    "popularProducts": "Popularni proizvodi",
+    "tuja": "Tuja",
+    "tujaDesc": "Zimzeleni četinar, idealan za žive ograde i dekoraciju dvorišta.",
+    "katalpa": "Katalpa",
+    "katalpaDesc": "Ukrasno drvo sa velikim listovima i prelepim cvetovima.",
+    "lovor": "Lovor višnja",
+    "lovorDesc": "Zimzeleni žbun gustog sklopa, idealan za formiranje elegantnih živih ograda.",
+    "ctaTitle": "Spremni da unesete prirodu u vaš dom?",
+    "ctaSubtitle": "Pogledajte našu kompletnu ponudu ukrasnog bilja"
+  },
+  "about": {
+    "title": "O nama",
+    "subtitle": "Saznajte više o našoj misiji i vrednostima",
+    "ourStory": "Naša priča",
+    "story1": "Rasadnik Tilija je porodična firma koja se bavi prodajom ukrasnog bilja i cveća već više od 30 godina. Naša misija je da donesemo prirodu u vaše domove i pomognemo vam da stvorite lepe i zdrave prostore.",
+    "story2": "Počeli smo kao mali rasadnik u Pločici, a danas smo jedan od najpouzdanijih dobavljača ukrasnog bilja u Srbiji. Naš tim je tu da vam pomogne u odabiru savršenog bilja za vaš prostor.",
+    "ourValues": "Naše vrednosti",
+    "natural": "Prirodnost",
+    "naturalDesc": "Sve naše bilje je prirodno uzgajano bez hemikalija i pesticida.",
+    "quality": "Kvalitet",
+    "qualityDesc": "Pružamo samo najkvalitetnije bilje koje je pažljivo odabrano i održavano.",
+    "reliability": "Pouzdanost",
+    "reliabilityDesc": "Naši kupci su naša prioritet. Uvek tu da pomognemo i savetujemo.",
+    "sustainability": "Održivost",
+    "sustainabilityDesc": "Posvećeni smo zaštiti životne sredine i održivom poslovanju.",
+    "ourNumbers": "Naši brojevi",
+    "yearsExperience": "Godina iskustva",
+    "satisfiedCustomers": "Zadovoljnih kupaca",
+    "plantTypes": "Vrsta bilja",
+    "deliveryTime": "Rok dostave"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Tu smo da vam pomognemo i odgovorimo na sva vaša pitanja. Pišite nam ili nas pozovite!",
+    "information": "Informacije",
+    "address": "Bake Tuje 123",
+    "addressCity": "11000 Pločica, Srbija",
+    "sendMessage": "Pošaljite nam poruku",
+    "name": "Ime i prezime",
+    "email": "Email",
+    "phone": "Telefon",
+    "message": "Poruka",
+    "send": "Pošaljite poruku",
+    "nameRequired": "Polje ime i prezime je obavezno",
+    "emailRequired": "Polje email je obavezno",
+    "messageRequired": "Polje poruka je obavezno",
+    "success": "Poruka je uspešno poslata! Hvala na javljanju.",
+    "error": "Došlo je do greške pri slanju poruke. Pokušajte ponovo.",
+    "location": "Lokacija",
+    "locationDesc": "Naš rasadnik se nalazi u selu Pločica, blizu Kovina. Lako nas možete pronaći i doći kolima lokalnim putem."
+  },
+  "products": {
+    "title": "Naša ponuda",
+    "subtitle": "U našem rasadniku možete pronaći najkvalitetnije sadnice za vaše dvorište i vrt. Pogledajte izbor najtraženijih biljaka:",
+    "allCategories": "Sve kategorije",
+    "cetinari": "Četinari",
+    "liscari": "Lišćari",
+    "siblje": "Šiblje",
+    "zivaOgrada": "Živa ograda",
+    "flowers": "Cveće",
+    "inStock": "Na stanju",
+    "outOfStock": "Nema na stanju",
+    "price": "Cena",
+    "viewDetails": "Pogledaj detalje",
+    "showingAll": "Prikazuje se",
+    "showing": "Prikazano",
+    "plant": "biljka",
+    "plants": "biljaka",
+    "of": "od",
+    "inCategory": "u kategoriji",
+    "noPlantsInCategory": "Trenutno nema biljaka u ovoj kategoriji.",
+    "viewAll": "Pogledaj sve biljke",
+    "currency": "RSD",
+    "searchPlaceholder": "Pretraži biljke po nazivu ili opisu",
+    "loadMore": "Učitaj još",
+    "remaining": "preostalo",
+    "sortNewest": "Najnovije",
+    "sortOldest": "Najstarije",
+    "sortNameAsc": "Naziv A-Ž",
+    "sortNameDesc": "Naziv Ž-A"
+  },
+  "productDetails": {
+    "notFound": "Proizvod nije pronađen",
+    "notFoundDesc": "Proizvod koji tražite ne postoji ili je uklonjen.",
+    "backToProducts": "Nazad na proizvode",
+    "specifications": "Karakteristike",
+    "height": "Visina",
+    "sunlight": "Svetlost",
+    "watering": "Zalivanje",
+    "soil": "Zemljište",
+    "hardiness": "Otpornost na mraz",
+    "contactUs": "Kontaktirajte nas za porudžbinu",
+    "back": "Nazad",
+    "clickToEnlarge": "Kliknite za uvećanje",
+    "photos": "fotografija",
+    "clickToView": "kliknite za pregled"
+  },
+  "gallery": {
+    "title": "Galerija biljaka",
+    "subtitle": "Pogledajte slike biljaka iz naše ponude.",
+    "photos": "fotografija"
+  },
+  "footer": {
+    "description": "Vaš pouzdani partner za ukrasno bilje i cveće. Kvalitet i lepota u svakoj biljci.",
+    "quickLinks": "Brzi linkovi",
+    "contactInfo": "Kontakt informacije",
+    "rights": "Sva prava zadržana."
+  },
+  "productDescriptions": {
+    "1": {
+      "name": "Tuja Smaragd",
+      "description": "Tuja Smaragd je zimzeleni četinar, savršen za žive ograde i dekoraciju dvorišta. Otporna, laka za održavanje i brzo raste."
+    },
+    "2": {
+      "name": "Tisa",
+      "description": "Tisa (Taxus) je dugovečan četinar, odličan za formiranje oblika i žive ograde. Sporo raste, ali je izuzetno dekorativna."
+    },
+    "3": {
+      "name": "Crni bor",
+      "description": "Crni bor je lepo zimzeleno drvo sa karakterističnim tamno zelenim iglicama. Otporan i lepo se uklapa u različite pejzaže."
+    },
+    "4": {
+      "name": "Thuja Orientalis",
+      "description": "Thuja Orientalis je zimzeleni četinar, idealan za žive ograde i ukrašavanje dvorišta. Kompaktan i otporan."
+    },
+    "5": {
+      "name": "Plava smrča",
+      "description": "Plava smrča je prelepo zimzeleno drvo sa karakterističnim plavo-sivim iglicama. Odlična za dekorativne svrhe."
+    },
+    "6": {
+      "name": "Juniperus Horizontalis",
+      "description": "Juniperus horizontalis (polegli klek) je savršen pokrivač tla. Nizak i gust rast, idealan za prekrivanje tla, kamenjare i kosine."
+    },
+    "7": {
+      "name": "Katalpa",
+      "description": "Katalpa je ukrasno drvo sa velikim listovima i prelepim belim cvetovima. Pravi hlad i daje posebnu lepotu svakom dvorištu."
+    },
+    "8": {
+      "name": "Magnolija Grandiflora",
+      "description": "Magnolija Grandiflora je prelepo zimzeleno drvo sa velikim belim cvetovima i lepim mirisom. Prava ukrasnost svakog dvorišta."
+    },
+    "9": {
+      "name": "Lovor višnja",
+      "description": "Lovor višnja je zimzeleni žbun, idealan za guste, elegantne žive ograde. Otporna na mraz i gradske uslove."
+    },
+    "10": {
+      "name": "Fotinija Red Robin",
+      "description": "Fotinija Red Robin je zimzeleni žbun sa atraktivnim crvenim mladim izbojcima. Idealna za dekoraciju i formiranje žive ograde."
+    },
+    "11": {
+      "name": "Pennisetum alopecuroides",
+      "description": "Pennisetum alopecuroides je dekorativna trajnica sa prelepim cvastovima. Idealna za pejzažne dizajne i ukrašavanje dvorišta."
+    },
+    "12": {
+      "name": "Bambus",
+      "description": "Bambus je brzorastuća trava koja stvara prirodnu živu ogradu i daje egzotični pejzaž. Idealna za modernije dizajne."
+    },
+    "13": {
+      "name": "Hortenzija",
+      "description": "Hortenzija je prelep cvetni žbun sa velikim kuglastim cvetovima u različitim bojama. Idealna za ukrašavanje bašta i dvorišta."
+    },
+    "14": {
+      "name": "Bršljan (Hedera helix)",
+      "description": "Bršljan (Hedera helix) je zimzelena puzavica, idealna za prekrivanje ograda i zidova. Dekorativna cele godine, brz i gust rast."
+    },
+    "15": {
+      "name": "Lonicera Nitida",
+      "description": "Lonicera nitida je gusta i moderna zelena ograda. Savršen izbor za niske žive ograde i oblikovanje prostora."
+    },
+    "16": {
+      "name": "Heuchera",
+      "description": "Heuchera (Koralna zvona) donosi boju i eleganciju tokom cele godine. Idealan izbor za dekorativne bašte."
+    },
+    "17": {
+      "name": "Hibiskus",
+      "description": "Hibiskus je egzotična lepota za svaki prostor. Savršen izbor za dvorišta, terase i dekorativne bašte."
+    },
+    "18": {
+      "name": "Spirea",
+      "description": "Spirea nudi bogato cvetanje i laku negu. Idealan izbor za dekoraciju dvorišta."
+    }
+  }
+}
+

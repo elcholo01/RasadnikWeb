@@ -1,0 +1,40 @@
+# Ignore all system and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Ignore Python-related files
+**/__pycache__/
+*.py[cod]
+backend/.env
+backend/instance/
+
+# Ignore Flask temporary files and logs
+backend/*.log
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Ignore node_modules and build files for React
+frontend/node_modules/
+frontend/.env
+frontend/build/
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.tmp
+
+# Ignore OS-specific files
+*.~lock.*
+*.lock
+
+# Ignore init files
+*.ini
+
+# Ignore Claude AI config folder
+.claude/
+

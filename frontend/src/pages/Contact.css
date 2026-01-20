@@ -1,0 +1,186 @@
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.info-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.info-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.map-container {
+  margin-top: 50px;
+}
+
+.map-placeholder {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.map-content h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.map-content p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.map-info {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.map-info p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.map-info strong {
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 1.8rem;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .map-placeholder {
+    padding: 30px 20px;
+  }
+  
+  /* Form inputs smaller padding on mobile */
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 14px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 1.5rem;
+  }
+  
+  .info-item {
+    margin-bottom: 18px;
+  }
+  
+  .info-icon {
+    font-size: 1.8rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .info-item p {
+    font-size: 0.95rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+  
+  .form-group label {
+    font-size: 0.95rem;
+  }
+  
+  .map-placeholder {
+    padding: 24px 16px;
+  }
+  
+  .map-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .map-content p {
+    font-size: 1rem;
+  }
+} 

@@ -1,0 +1,248 @@
+/* Premium animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.home {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scaleIn 0.5s ease-out backwards;
+}
+
+.feature-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.feature-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.feature-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(46, 125, 50, 0.2);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: pulse 15s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.1) translate(-5%, -5%);
+  }
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.95;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-section .btn-primary {
+  background: white;
+  color: #2e7d32;
+  border-color: white;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.cta-section .btn-primary:hover {
+  background: #f8f9fa;
+  color: #2e7d32;
+  border-color: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    padding: 24px 18px;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-card {
+    padding: 20px 16px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .feature-card p {
+    font-size: 0.95rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Premium product cards responsive */
+.premium-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Featured card spans 2 columns on desktop */
+@media (min-width: 769px) {
+  .premium-product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .featured-product-card {
+    grid-column: span 2;
+    height: 450px !important;
+  }
+  
+  .standard-product-card {
+    height: 380px;
+  }
+}
+
+/* Tablet - all cards same size */
+@media (min-width: 600px) and (max-width: 768px) {
+  .premium-product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .featured-product-card,
+  .standard-product-card {
+    height: 340px !important;
+  }
+}
+
+/* Mobile - single column */
+@media (max-width: 599px) {
+  .premium-product-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 16px;
+  }
+  
+  .featured-product-card,
+  .standard-product-card {
+    height: 360px !important;
+  }
+  
+  .product-card-title {
+    font-size: 1.6rem !important;
+  }
+  
+  .product-card-text {
+    font-size: 0.95rem !important;
+  }
+} 

@@ -1,0 +1,133 @@
+/* Modern dropdown language switcher */
+.language-switcher-dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+
+.lang-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1.5px solid #e0e0e0;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.lang-dropdown-btn:hover {
+  border-color: #2e7d32;
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.15);
+  transform: translateY(-1px);
+}
+
+.globe-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.current-lang {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-arrow {
+  font-size: 0.7rem;
+  transition: transform 0.3s ease;
+  color: #666;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  min-width: 160px;
+  overflow: hidden;
+  z-index: 1000;
+  animation: slideDown 0.2s ease-out;
+  border: 1px solid #e0e0e0;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.lang-option:hover {
+  background: #f5f5f5;
+}
+
+.lang-option.active {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.lang-flag {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.lang-name {
+  flex: 1;
+}
+
+.check-icon {
+  color: #2e7d32;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .language-switcher-dropdown {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .lang-dropdown-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lang-dropdown-menu {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+

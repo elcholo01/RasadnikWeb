@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "gallery": "Gallery"
+  },
+  "home": {
+    "title": "Welcome to Tilija Nursery",
+    "subtitle": "Find the perfect plants for your home and garden. Quality, beauty and naturalness in every plant.",
+    "viewProducts": "View Products",
+    "whyChooseUs": "Why Choose Us",
+    "provenQuality": "Proven Quality",
+    "provenQualityDesc": "Years of experience and satisfied customers.",
+    "fastDelivery": "Fast Delivery",
+    "fastDeliveryDesc": "Delivery throughout Serbia in the shortest time.",
+    "popularProducts": "Popular Products",
+    "tuja": "Thuja",
+    "tujaDesc": "Evergreen conifer, ideal for hedges and yard decoration.",
+    "katalpa": "Catalpa",
+    "katalpaDesc": "Ornamental tree with large leaves and beautiful flowers.",
+    "lovor": "Cherry Laurel",
+    "lovorDesc": "Evergreen shrub with dense foliage, ideal for forming elegant hedges.",
+    "ctaTitle": "Ready to bring nature into your home?",
+    "ctaSubtitle": "View our complete range of ornamental plants"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn more about our mission and values",
+    "ourStory": "Our Story",
+    "story1": "Tilija Nursery is a family business that has been selling ornamental plants and flowers for more than 30 years. Our mission is to bring nature into your homes and help you create beautiful and healthy spaces.",
+    "story2": "We started as a small nursery in Pločica, and today we are one of the most reliable suppliers of ornamental plants in Serbia. Our team is here to help you choose the perfect plant for your space.",
+    "ourValues": "Our Values",
+    "natural": "Naturalness",
+    "naturalDesc": "All our plants are naturally grown without chemicals and pesticides.",
+    "quality": "Quality",
+    "qualityDesc": "We provide only the highest quality plants that are carefully selected and maintained.",
+    "reliability": "Reliability",
+    "reliabilityDesc": "Our customers are our priority. Always here to help and advise.",
+    "sustainability": "Sustainability",
+    "sustainabilityDesc": "We are committed to environmental protection and sustainable business.",
+    "ourNumbers": "Our Numbers",
+    "yearsExperience": "Years of Experience",
+    "satisfiedCustomers": "Satisfied Customers",
+    "plantTypes": "Plant Types",
+    "deliveryTime": "Delivery Time"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you and answer all your questions. Write to us or call us!",
+    "information": "Information",
+    "address": "Bake Tuje 123",
+    "addressCity": "11000 Pločica, Serbia",
+    "sendMessage": "Send Us a Message",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "nameRequired": "Name field is required",
+    "emailRequired": "Email field is required",
+    "messageRequired": "Message field is required",
+    "success": "Message sent successfully! Thank you for contacting us.",
+    "error": "An error occurred while sending the message. Please try again.",
+    "location": "Location",
+    "locationDesc": "Our nursery is located in the village of Pločica, near Kovin. You can easily find us and come by car on the local road."
+  },
+  "products": {
+    "title": "Our Offer",
+    "subtitle": "In our nursery you can find the highest quality seedlings for your yard and garden. View the selection of the most sought-after plants:",
+    "allCategories": "All Categories",
+    "cetinari": "Conifers",
+    "liscari": "Deciduous",
+    "siblje": "Shrubs",
+    "zivaOgrada": "Hedges",
+    "flowers": "Flowers",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "price": "Price",
+    "viewDetails": "View Details",
+    "showingAll": "Showing",
+    "showing": "Showing",
+    "plant": "plant",
+    "plants": "plants",
+    "of": "of",
+    "inCategory": "in category",
+    "noPlantsInCategory": "There are currently no plants in this category.",
+    "viewAll": "View All Plants",
+    "currency": "RSD",
+    "searchPlaceholder": "Search plants by name or description",
+    "loadMore": "Load more",
+    "remaining": "remaining",
+    "sortNewest": "Newest",
+    "sortOldest": "Oldest",
+    "sortNameAsc": "Name A-Z",
+    "sortNameDesc": "Name Z-A"
+  },
+  "productDetails": {
+    "notFound": "Product not found",
+    "notFoundDesc": "The product you are looking for does not exist or has been removed.",
+    "backToProducts": "Back to products",
+    "specifications": "Specifications",
+    "height": "Height",
+    "sunlight": "Sunlight",
+    "watering": "Watering",
+    "soil": "Soil",
+    "hardiness": "Frost resistance",
+    "contactUs": "Contact us to order",
+    "back": "Back",
+    "clickToEnlarge": "Click to enlarge",
+    "photos": "photos",
+    "clickToView": "click to view"
+  },
+  "gallery": {
+    "title": "Plant Gallery",
+    "subtitle": "View images of plants from our offer.",
+    "photos": "photos"
+  },
+  "footer": {
+    "description": "Your reliable partner for ornamental plants and flowers. Quality and beauty in every plant.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "rights": "All rights reserved."
+  },
+  "productDescriptions": {
+    "1": {
+      "name": "Thuja Smaragd",
+      "description": "Thuja Smaragd is an evergreen conifer, perfect for hedges and yard decoration. Resistant, easy to maintain and grows fast."
+    },
+    "2": {
+      "name": "Yew",
+      "description": "Yew (Taxus) is a long-lived conifer, excellent for shaping and hedges. Grows slowly but is extremely decorative."
+    },
+    "3": {
+      "name": "Black Pine",
+      "description": "Black Pine is a beautiful evergreen tree with characteristic dark green needles. Resistant and fits well into various landscapes."
+    },
+    "4": {
+      "name": "Thuja Orientalis",
+      "description": "Thuja Orientalis is an evergreen conifer, ideal for hedges and yard decoration. Compact and resistant."
+    },
+    "5": {
+      "name": "Blue Spruce",
+      "description": "Blue Spruce is a beautiful evergreen tree with characteristic blue-gray needles. Excellent for decorative purposes."
+    },
+    "6": {
+      "name": "Juniperus Horizontalis",
+      "description": "Juniperus horizontalis (creeping juniper) is a perfect ground cover. Low and dense growth, ideal for covering ground, rockeries and slopes."
+    },
+    "7": {
+      "name": "Catalpa",
+      "description": "Catalpa is an ornamental tree with large leaves and beautiful white flowers. Provides shade and adds special beauty to any yard."
+    },
+    "8": {
+      "name": "Magnolia Grandiflora",
+      "description": "Magnolia Grandiflora is a beautiful evergreen tree with large white flowers and beautiful fragrance. True ornament of any yard."
+    },
+    "9": {
+      "name": "Cherry Laurel",
+      "description": "Cherry Laurel is an evergreen shrub, ideal for dense, elegant hedges. Resistant to frost and urban conditions."
+    },
+    "10": {
+      "name": "Photinia Red Robin",
+      "description": "Photinia Red Robin is an evergreen shrub with attractive red young shoots. Ideal for decoration and forming hedges."
+    },
+    "11": {
+      "name": "Pennisetum alopecuroides",
+      "description": "Pennisetum alopecuroides is a decorative perennial with beautiful inflorescences. Ideal for landscape designs and yard decoration."
+    },
+    "12": {
+      "name": "Bamboo",
+      "description": "Bamboo is a fast-growing grass that creates a natural hedge and gives an exotic landscape. Ideal for modern designs."
+    },
+    "13": {
+      "name": "Hydrangea",
+      "description": "Hydrangea is a beautiful flowering shrub with large spherical flowers in various colors. Ideal for decorating gardens and yards."
+    },
+    "14": {
+      "name": "Ivy (Hedera helix)",
+      "description": "Ivy (Hedera helix) is an evergreen climber, ideal for covering fences and walls. Decorative all year round, fast and dense growth."
+    },
+    "15": {
+      "name": "Lonicera Nitida",
+      "description": "Lonicera nitida is a dense and modern green hedge. Perfect choice for low hedges and shaping spaces."
+    },
+    "16": {
+      "name": "Heuchera",
+      "description": "Heuchera (Coral Bells) brings color and elegance throughout the year. Ideal choice for decorative gardens."
+    },
+    "17": {
+      "name": "Hibiskus",
+      "description": "Hibiscus is exotic beauty for any space. Perfect choice for yards, terraces and decorative gardens."
+    },
+    "18": {
+      "name": "Spirea",
+      "description": "Spirea offers abundant flowering and easy care. Ideal choice for yard decoration."
+    }
+  }
+}
+
