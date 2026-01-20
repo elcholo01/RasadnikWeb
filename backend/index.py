@@ -4,25 +4,21 @@ from flask_jwt_extended import JWTManager
 from flask_pymongo import PyMongo
 
 import os
-import configparser
 
 from routes.user import users_blueprint
 from routes.poll import polls_blueprint
 from routes.contact import contact_blueprint, init_mail
 
-config = configparser.ConfigParser()
-config.read(os.path.abspath(os.path.join("config.ini")))
-
 app = Flask(__name__)
 
-app.config['DEBUG'] = True
-app.config['MONGO_URI'] = config['PROD']['DB_URI']
-app.config['JWT_SECRET_KEY'] = config['PROD']['JWT_SECRET']
+app.config['DEBUG'] = os.environ.get('DEBUG', 'False') == 'True'
+app.config['MONGO_URI'] = os.environ.get('DB_URI')
+app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET')
 
 # Email konfiguracija
-app.config['EMAIL_USER'] = config['PROD']['EMAIL_USER']
-app.config['EMAIL_PASSWORD'] = config['PROD']['EMAIL_PASSWORD']
-app.config['ADMIN_EMAIL'] = config['PROD']['ADMIN_EMAIL']
+app.config['EMAIL_USER'] = os.environ.get('EMAIL_USER')
+app.config['EMAIL_PASSWORD'] = os.environ.get('EMAIL_PASSWORD')
+app.config['ADMIN_EMAIL'] = os.environ.get('ADMIN_EMAIL')
 
 # Initialize PyMongo
 mongo = PyMongo()
