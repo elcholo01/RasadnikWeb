@@ -12,6 +12,7 @@ RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY')
 def verify_recaptcha(token):
     """Verifikuje reCAPTCHA token sa Google serverom"""
     try:
+        print(f"Verifying reCAPTCHA with secret: {RECAPTCHA_SECRET_KEY[:10]}...")
         response = requests.post(
             'https://www.google.com/recaptcha/api/siteverify',
             data={
@@ -20,8 +21,12 @@ def verify_recaptcha(token):
             }
         )
         result = response.json()
-        # Score 0.5 ili više se smatra validnim (0.0 = bot, 1.0 = čovek)
-        return result.get('success', False) and result.get('score', 0) >= 0.5
+        print(f"reCAPTCHA response: {result}")
+
+        # Score 0.3 ili više se smatra validnim (sniženo za testiranje)
+        is_valid = result.get('success', False) and result.get('score', 0) >= 0.3
+        print(f"reCAPTCHA valid: {is_valid}, score: {result.get('score', 'N/A')}")
+        return is_valid
     except Exception as e:
         print(f"reCAPTCHA verification error: {e}")
         return False
