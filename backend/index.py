@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_cors import CORS
 import os
 
@@ -6,8 +6,15 @@ from routes.contact import contact_blueprint, init_mail
 
 app = Flask(__name__)
 
-# CORS mora biti pre svega ostalog
-CORS(app, origins="*", methods=["POST", "GET", "PUT", "DELETE", "OPTIONS"], allow_headers=["Content-Type"])
+# CORS konfiguracija
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
 
 app.config['DEBUG'] = os.environ.get('DEBUG', 'False') == 'True'
 
