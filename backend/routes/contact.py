@@ -63,8 +63,11 @@ def contact():
         })
         
     except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
         print(f"Greška pri slanju email-a: {str(e)}")
+        print(f"Detalji: {error_details}")
         return jsonify({
-            'success': False, 
-            'message': 'Došlo je do greške pri slanju poruke. Pokušajte ponovo.'
+            'success': False,
+            'message': f'Greška: {str(e)}'
         }), 500
