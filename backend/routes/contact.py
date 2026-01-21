@@ -1,16 +1,43 @@
 from flask import Blueprint, request, jsonify
 import resend
 import os
+import requests
 
 contact_blueprint = Blueprint('contact', __name__)
 
 # Resend API key se učitava iz environment varijable
 resend.api_key = os.environ.get('RESEND_API_KEY')
+RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY')
+
+def verify_recaptcha(token):
+    """Verifikuje reCAPTCHA token sa Google serverom"""
+    try:
+        response = requests.post(
+            'https://www.google.com/recaptcha/api/siteverify',
+            data={
+                'secret': RECAPTCHA_SECRET_KEY,
+                'response': token
+            }
+        )
+        result = response.json()
+        # Score 0.5 ili više se smatra validnim (0.0 = bot, 1.0 = čovek)
+        return result.get('success', False) and result.get('score', 0) >= 0.5
+    except Exception as e:
+        print(f"reCAPTCHA verification error: {e}")
+        return False
 
 @contact_blueprint.route('/api/contact', methods=['POST'])
 def contact():
     try:
         data = request.get_json()
+
+        # Verifikacija reCAPTCHA
+        recaptcha_token = data.get('recaptchaToken')
+        if not recaptcha_token:
+            return jsonify({'success': False, 'message': 'reCAPTCHA verifikacija nije uspela'}), 400
+
+        if not verify_recaptcha(recaptcha_token):
+            return jsonify({'success': False, 'message': 'reCAPTCHA verifikacija nije uspela. Pokušajte ponovo.'}), 400
 
         # Validacija podataka
         required_fields = ['name', 'email', 'message']

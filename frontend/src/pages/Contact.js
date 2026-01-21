@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Contact.css';
+
+const RECAPTCHA_SITE_KEY = '6LcMH1IsAAAAANqBw0Qdqcg8zJ2Wq3HAZABNx-cd';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -11,6 +13,23 @@ const Contact = () => {
     message: ''
   });
   const [status, setStatus] = useState(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    // Load reCAPTCHA script
+    const script = document.createElement('script');
+    script.src = `https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_SITE_KEY}`;
+    script.async = true;
+    document.head.appendChild(script);
+
+    return () => {
+      // Cleanup
+      const scripts = document.querySelectorAll('script[src*="recaptcha"]');
+      scripts.forEach(s => s.remove());
+      const badge = document.querySelector('.grecaptcha-badge');
+      if (badge) badge.remove();
+    };
+  }, []);
 
   const handleChange = (e) => {
     setFormData({
@@ -22,11 +41,19 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus(null);
+    setIsSubmitting(true);
+
     try {
+      // Get reCAPTCHA token
+      const recaptchaToken = await window.grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'contact' });
+
       const response = await fetch('https://rasadnikweb.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          ...formData,
+          recaptchaToken
+        })
       });
       const data = await response.json();
       if (data.success) {
@@ -37,6 +64,8 @@ const Contact = () => {
       }
     } catch (err) {
       setStatus({ success: false, message: t('contact.error') });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -49,10 +78,10 @@ const Contact = () => {
         </div>
       </section>
       <section className="section" style={{
-        background: '#fff', 
-        borderRadius: 18, 
-        boxShadow: '0 8px 32px rgba(44,62,80,0.08)', 
-        maxWidth: 1100, 
+        background: '#fff',
+        borderRadius: 18,
+        boxShadow: '0 8px 32px rgba(44,62,80,0.08)',
+        maxWidth: 1100,
         margin: '0 auto 48px auto',
         padding: '48px 32px',
         border: '1px solid rgba(46, 125, 50, 0.1)'
@@ -74,11 +103,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form" style={{
-            flex: '1 1 440px', 
-            minWidth: 300, 
-            background: 'linear-gradient(135deg, #f9fbe7 0%, #f1f8e9 100%)', 
-            borderRadius: 16, 
-            boxShadow: '0 8px 24px rgba(46, 125, 50, 0.12)', 
+            flex: '1 1 440px',
+            minWidth: 300,
+            background: 'linear-gradient(135deg, #f9fbe7 0%, #f1f8e9 100%)',
+            borderRadius: 16,
+            boxShadow: '0 8px 24px rgba(46, 125, 50, 0.12)',
             padding: '40px 36px',
             border: '2px solid rgba(46, 125, 50, 0.15)'
           }}>
@@ -94,10 +123,10 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   style={{
-                    borderRadius: 10, 
-                    border: '2px solid #c8e6c9', 
-                    padding: '14px 16px', 
-                    fontSize: '1rem', 
+                    borderRadius: 10,
+                    border: '2px solid #c8e6c9',
+                    padding: '14px 16px',
+                    fontSize: '1rem',
                     width: '100%',
                     background: '#fff',
                     transition: 'border 0.3s',
@@ -118,10 +147,10 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   style={{
-                    borderRadius: 10, 
-                    border: '2px solid #c8e6c9', 
-                    padding: '14px 16px', 
-                    fontSize: '1rem', 
+                    borderRadius: 10,
+                    border: '2px solid #c8e6c9',
+                    padding: '14px 16px',
+                    fontSize: '1rem',
                     width: '100%',
                     background: '#fff',
                     transition: 'border 0.3s',
@@ -141,10 +170,10 @@ const Contact = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   style={{
-                    borderRadius: 10, 
-                    border: '2px solid #c8e6c9', 
-                    padding: '14px 16px', 
-                    fontSize: '1rem', 
+                    borderRadius: 10,
+                    border: '2px solid #c8e6c9',
+                    padding: '14px 16px',
+                    fontSize: '1rem',
                     width: '100%',
                     background: '#fff',
                     transition: 'border 0.3s',
@@ -165,10 +194,10 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   style={{
-                    borderRadius: 10, 
-                    border: '2px solid #c8e6c9', 
-                    padding: '14px 16px', 
-                    fontSize: '1rem', 
+                    borderRadius: 10,
+                    border: '2px solid #c8e6c9',
+                    padding: '14px 16px',
+                    fontSize: '1rem',
                     width: '100%',
                     background: '#fff',
                     transition: 'border 0.3s',
@@ -183,11 +212,11 @@ const Contact = () => {
               </div>
               {status && (
                 <div style={{
-                  marginBottom: 20, 
+                  marginBottom: 20,
                   padding: '12px 16px',
                   borderRadius: 8,
                   background: status.success ? '#e8f5e9' : '#ffebee',
-                  color: status.success ? '#2e7d32' : '#c62828', 
+                  color: status.success ? '#2e7d32' : '#c62828',
                   fontWeight: 600,
                   textAlign: 'center',
                   border: `2px solid ${status.success ? '#c8e6c9' : '#ef9a9a'}`
@@ -195,33 +224,38 @@ const Contact = () => {
                   {status.message}
                 </div>
               )}
-              <button 
-                type="submit" 
-                className="btn-primary" 
+              <button
+                type="submit"
+                className="btn-primary"
+                disabled={isSubmitting}
                 style={{
-                  width: '100%', 
+                  width: '100%',
                   marginTop: 12,
                   padding: '16px',
                   fontSize: '1.1rem',
                   fontWeight: 700,
                   borderRadius: 10,
-                  background: 'linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%)',
+                  background: isSubmitting
+                    ? '#9e9e9e'
+                    : 'linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%)',
                   border: 'none',
                   color: '#fff',
-                  cursor: 'pointer',
+                  cursor: isSubmitting ? 'not-allowed' : 'pointer',
                   transition: 'all 0.3s',
                   boxShadow: '0 4px 12px rgba(46, 125, 50, 0.25)'
                 }}
                 onMouseEnter={(e) => {
-                  e.target.style.transform = 'translateY(-2px)';
-                  e.target.style.boxShadow = '0 6px 20px rgba(46, 125, 50, 0.35)';
+                  if (!isSubmitting) {
+                    e.target.style.transform = 'translateY(-2px)';
+                    e.target.style.boxShadow = '0 6px 20px rgba(46, 125, 50, 0.35)';
+                  }
                 }}
                 onMouseLeave={(e) => {
                   e.target.style.transform = 'translateY(0)';
                   e.target.style.boxShadow = '0 4px 12px rgba(46, 125, 50, 0.25)';
                 }}
               >
-                {t('contact.send')}
+                {isSubmitting ? 'Slanje...' : t('contact.send')}
               </button>
             </form>
           </div>
@@ -247,4 +281,4 @@ const Contact = () => {
   );
 };
 
-export default Contact; 
+export default Contact;
