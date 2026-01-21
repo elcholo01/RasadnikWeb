@@ -6,6 +6,9 @@ from routes.contact import contact_blueprint, init_mail
 
 app = Flask(__name__)
 
+# CORS mora biti pre svega ostalog
+CORS(app, origins="*", methods=["POST", "GET", "PUT", "DELETE", "OPTIONS"], allow_headers=["Content-Type"])
+
 app.config['DEBUG'] = os.environ.get('DEBUG', 'False') == 'True'
 
 # Email konfiguracija
@@ -19,8 +22,6 @@ init_mail(app)
 @app.route('/')
 def hello_world():
     return 'Hello World'
-
-CORS(app, origins="*", methods=["POST", "GET", "PUT", "DELETE"])
 
 app.register_blueprint(contact_blueprint)
 
