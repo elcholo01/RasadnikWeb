@@ -9,6 +9,8 @@ app = Flask(__name__)
 # CORS konfiguracija - samo dozvoljeni domeni
 ALLOWED_ORIGINS = [
     "https://rasadnik-web-t2vb.vercel.app",
+    "https://rasadniktilija.rs",
+    "https://www.rasadniktilija.rs",
     "http://localhost:3000"  # za lokalni razvoj
 ]
 
