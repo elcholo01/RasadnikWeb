@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>🌿 Ukrasno Bilje</h3>
+            <h3>🌿 Sadnice</h3>
             <p>{t('footer.description')}</p>
           </div>
           

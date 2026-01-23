@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <Link to="/" className="navbar-brand">
           <span className="brand-icon">🌿</span>
-          Ukrasno Bilje
+          Sadnice
         </Link>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
