@@ -1,0 +1,9 @@
+# Robots.txt for rasadniktilija.rs
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rasadniktilija.rs/sitemap.xml
+
+# Crawl-delay (optional, be nice to Google)
+Crawl-delay: 1
