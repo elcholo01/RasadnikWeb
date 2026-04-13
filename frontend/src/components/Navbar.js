@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
-import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

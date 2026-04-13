@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import './ImageLightbox.css';
 
 const ImageLightbox = ({ images, initialIndex = 0, onClose, productName }) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
