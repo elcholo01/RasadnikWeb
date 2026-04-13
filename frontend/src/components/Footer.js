@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
@@ -17,10 +17,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4>{t('footer.quickLinks')}</h4>
             <ul>
-              <li><Link to="/" onClick={() => window.scrollTo(0,0)}>{t('nav.home')}</Link></li>
-              <li><Link to="/products" onClick={() => window.scrollTo(0,0)}>{t('nav.products')}</Link></li>
-              <li><Link to="/about" onClick={() => window.scrollTo(0,0)}>{t('nav.about')}</Link></li>
-              <li><Link to="/contact" onClick={() => window.scrollTo(0,0)}>{t('nav.contact')}</Link></li>
+              <li><Link href="/" onClick={() => window.scrollTo(0,0)}>{t('nav.home')}</Link></li>
+              <li><Link href="/products" onClick={() => window.scrollTo(0,0)}>{t('nav.products')}</Link></li>
+              <li><Link href="/about" onClick={() => window.scrollTo(0,0)}>{t('nav.about')}</Link></li>
+              <li><Link href="/contact" onClick={() => window.scrollTo(0,0)}>{t('nav.contact')}</Link></li>
             </ul>
           </div>
           

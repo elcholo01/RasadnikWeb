@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import './Navbar.css';
@@ -15,25 +15,25 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <Link to="/" className="navbar-brand">
+        <Link href="/" className="navbar-brand">
           <span className="brand-icon">🌿</span>
           Sadnice
         </Link>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-          <Link to="/" className="nav-link" onClick={() => setIsOpen(false)}>
+          <Link href="/" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.home')}
           </Link>
-          <Link to="/products" className="nav-link" onClick={() => setIsOpen(false)}>
+          <Link href="/products" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.products')}
           </Link>
-          <Link to="/about" className="nav-link" onClick={() => setIsOpen(false)}>
+          <Link href="/about" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.about')}
           </Link>
-          <Link to="/contact" className="nav-link" onClick={() => setIsOpen(false)}>
+          <Link href="/contact" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.contact')}
           </Link>
-          <Link to="/gallery" className="nav-link" onClick={() => setIsOpen(false)}>
+          <Link href="/gallery" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.gallery')}
           </Link>
           <LanguageSwitcher />

@@ -4,24 +4,20 @@ import translationSR from './locales/sr.json';
 import translationEN from './locales/en.json';
 
 const resources = {
-  sr: {
-    translation: translationSR
-  },
-  en: {
-    translation: translationEN
-  }
+  sr: { translation: translationSR },
+  en: { translation: translationEN }
 };
 
-i18n
-  .use(initReactI18next)
-  .init({
+// localStorage nije dostupan na serveru (SSR)
+const savedLang = typeof window !== 'undefined' ? localStorage.getItem('language') : null;
+
+if (!i18n.isInitialized) {
+  i18n.use(initReactI18next).init({
     resources,
-    lng: localStorage.getItem('language') || 'sr', // Default je srpski
+    lng: savedLang || 'sr',
     fallbackLng: 'sr',
-    interpolation: {
-      escapeValue: false
-    }
+    interpolation: { escapeValue: false }
   });
+}
 
 export default i18n;
-
