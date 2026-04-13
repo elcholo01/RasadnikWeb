@@ -74,7 +74,7 @@ const Contact = () => {
     <>
     <Helmet>
       <title>Kontakt – Rasadnik Tilija | Pozovite nas</title>
-      <meta name="description" content="Kontaktirajte Rasadnik Tilija za narudžbinu sadnica. Telefon: 063/86-11-662. Adresa: Utrinska 17, Kovin. Dostava širom Srbije." />
+      <meta name="description" content="Kontaktirajte Rasadnik Tilija za narudžbinu sadnica. Telefon: 063/86-11-662. Adresa: Miloša Crnjanskog 34, Pločica. Dostava širom Srbije." />
       <link rel="canonical" href="https://rasadniktilija.rs/contact" />
     </Helmet>
     <div className="contact-page" style={{background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', minHeight: '100vh'}}>
