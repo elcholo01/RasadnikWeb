@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import { products } from './data/productsData';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -12,6 +13,14 @@ import Gallery from './pages/Gallery';
 import Footer from './components/Footer';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://rasadnikweb.onrender.com';
+
+// Redirect /products/:id → /sadnice/:slug
+const ProductIdRedirect = () => {
+  const { id } = useParams();
+  const product = products.find(p => p.id === parseInt(id));
+  if (product) return <Navigate to={`/sadnice/${product.slug}`} replace />;
+  return <Navigate to="/products" replace />;
+};
 
 function App() {
   useEffect(() => {
@@ -32,7 +41,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/products/:id" element={<ProductDetails />} />
+              <Route path="/products/:id" element={<ProductIdRedirect />} />
+              <Route path="/sadnice/:slug" element={<ProductDetails />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/gallery" element={<Gallery />} />

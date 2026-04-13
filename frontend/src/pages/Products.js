@@ -257,7 +257,7 @@ const Products = () => {
               {visibleProducts.map(product => (
                 <Link
                   key={product.id}
-                  to={`/products/${product.id}`}
+                  to={`/sadnice/${product.slug}`}
                   className="product-card-compact"
                   onClick={() => handleProductClick(product.id)}
                 >

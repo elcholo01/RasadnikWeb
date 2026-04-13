@@ -5,12 +5,25 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "reactSnap": {
+    "source": "build",
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    },
+    "crawlSameOrigin": true,
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "devDependencies": {
+    "react-snap": "^1.23.0"
+  },
   "dependencies": {
     "bootstrap": "^5.3.7",
     "i18next": "^23.7.6",

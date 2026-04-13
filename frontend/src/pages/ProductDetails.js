@@ -7,7 +7,8 @@ import ImageLightbox from '../components/ImageLightbox';
 import './ProductDetails.css';
 
 const ProductDetails = () => {
-  const { id } = useParams();
+  const { slug, id } = useParams();
+  const idOrSlug = slug || id;
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -16,9 +17,9 @@ const ProductDetails = () => {
   // Scroll to top kada se stranica učita
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [id]);
+  }, [idOrSlug]);
 
-  const product = getProductById(id);
+  const product = getProductById(idOrSlug);
 
   // Ako proizvod nije pronađen
   if (!product) {
@@ -54,11 +55,11 @@ const ProductDetails = () => {
     <Helmet>
       <title>{product.name} – Rasadnik Tilija | Kupite sadnice</title>
       <meta name="description" content={`${product.name} - ${product.description.substring(0, 150)}${priceText}`} />
-      <link rel="canonical" href={`https://rasadniktilija.rs/products/${product.id}`} />
+      <link rel="canonical" href={`https://rasadniktilija.rs/sadnice/${product.slug}`} />
       <meta property="og:title" content={`${product.name} – Rasadnik Tilija`} />
-      <meta property="og:description" content={product.description.substring(0, 200)} />
+      <meta property="og:description" content={(product.richContent || product.description).substring(0, 200)} />
       <meta property="og:image" content={`https://rasadniktilija.rs${product.image}`} />
-      <meta property="og:url" content={`https://rasadniktilija.rs/products/${product.id}`} />
+      <meta property="og:url" content={`https://rasadniktilija.rs/sadnice/${product.slug}`} />
     </Helmet>
     <div className="product-details-page">
       {/* Breadcrumb navigacija */}
@@ -140,6 +141,11 @@ const ProductDetails = () => {
 
           <div className="product-description">
             <p>{t(`productDescriptions.${product.id}.description`) || product.description}</p>
+            {product.richContent && (
+              <p style={{ marginTop: '12px', color: '#444', fontSize: '0.97rem', lineHeight: 1.7 }}>
+                {product.richContent}
+              </p>
+            )}
           </div>
 
           {product.showPrice ? (
