@@ -233,8 +233,9 @@ export const products = [
     categories: ['liscari', 'ziva-ograda'],
     price: 400,
     showPrice: true,
-    image: '/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg',
+    image: '/images/fotinijanaslovna.jpeg',
     images: [
+      '/images/fotinijanaslovna.jpeg',
       '/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg',
       '/images/fotinijanastapu.jpeg',
       '/images/fotinijanastapu2.jpeg'
