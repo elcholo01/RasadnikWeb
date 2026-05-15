@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #f9fbe7 0%, #e0f2f1 100%);
   color: var(--dark);
   margin: 0;
