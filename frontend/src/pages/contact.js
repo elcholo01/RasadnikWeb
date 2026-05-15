@@ -54,8 +54,8 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Kontakt – Rasadnik Tilija | Pozovite nas</title>
-        <meta name="description" content="Kontaktirajte Rasadnik Tilija za narudzbinu sadnica. Telefon: 063 88 70 837. Adresa: Milosa Crnjanskog 34, Plocica. Dostava sirom Srbije." />
+        <title>Kontakt – Rasadnik Tilija | Naručite sadnice</title>
+        <meta name="description" content="Kontaktirajte Rasadnik Tilija za narudžbinu sadnica i upit o cenama. Telefon: 063 88 70 837. Adresa: Pločica. Dostava sadnica širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/contact" />
       </Head>

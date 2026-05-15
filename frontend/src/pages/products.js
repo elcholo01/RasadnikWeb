@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
@@ -106,8 +107,8 @@ const Products = () => {
   return (
     <>
       <Head>
-        <title>Proizvodi – Rasadnik Tilija | Sadnice, cetinari, liscari, perene</title>
-        <meta name="description" content="Pogledajte kompletnu ponudu sadnica rasadnika Tilija: cetinari, liscari, siblje, perene i ziva ograda. Kvalitetne sadnice po pristupacnim cenama uz dostavu." />
+        <title>Sadnice na prodaju – Rasadnik Tilija | Četinari, lišćari, perene, živa ograda</title>
+        <meta name="description" content="Kupite sadnice iz Rasadnika Tilija – četinari, lišćari, šiblje, perene i živa ograda. 40+ vrsta po povoljnim cenama. Poručite online uz dostavu na adresu širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/products" />
       </Head>
@@ -143,7 +144,7 @@ const Products = () => {
                 {visibleProducts.map(product => (
                   <Link key={product.id} href={`/sadnice/${product.slug}`} className="product-card-compact" onClick={handleProductClick}>
                     <div className="product-image-compact">
-                      <img src={product.image} alt={product.name} onError={(e) => { e.target.src = '/images/logo.png'; }} />
+                      <Image src={product.image} alt={product.name} fill style={{ objectFit: 'cover' }} sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 25vw" />
                       <span className={`stock-badge ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
                         {product.inStock ? t('products.inStock') : t('products.outOfStock')}
                       </span>

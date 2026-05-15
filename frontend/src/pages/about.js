@@ -7,8 +7,8 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>O nama – Rasadnik Tilija | 15+ godina iskustva</title>
-        <meta name="description" content="Rasadnik Tilija je porodicna firma iz Plocice sa vise od 15 godina iskustva u prodaji ukrasnog bilja i sadnica. Kvalitet, pouzdanost i prirodnost." />
+        <title>O nama – Rasadnik Tilija | Porodični rasadnik iz Pločice</title>
+        <meta name="description" content="Rasadnik Tilija je porodična firma iz Pločice sa 15+ godina iskustva u uzgoju i prodaji sadnica. Kvalitetne biljke, stručni savet i dostava širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/about" />
       </Head>

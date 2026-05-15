@@ -55,6 +55,7 @@
 
 .product-main-image {
   position: relative;
+  height: 400px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -67,9 +68,6 @@
 }
 
 .product-main-image img {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
   object-fit: cover;
   display: block;
 }
@@ -109,6 +107,7 @@
 }
 
 .thumbnail-btn {
+  position: relative;
   width: 70px;
   height: 70px;
   padding: 0;
@@ -393,8 +392,8 @@
     padding: 24px;
   }
 
-  .product-main-image img {
-    max-height: 400px;
+  .product-main-image {
+    height: 320px;
   }
 
   .product-info-section {
@@ -425,8 +424,8 @@
     padding: 16px;
   }
 
-  .product-main-image img {
-    max-height: 300px;
+  .product-main-image {
+    height: 260px;
   }
 
   .image-zoom-hint {

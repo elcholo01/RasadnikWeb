@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
@@ -18,12 +19,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Rasadnik Tilija – Prodaja sadnica i ukrasnog bilja</title>
-        <meta name="description" content="Rasadnik Tilija nudi širok asortiman kvalitetnih sadnica: tuja, katalpa, lovor višnja, fotinija, bambus i još mnogo toga. Kvalitet, lepota i pristupačne cene uz dostavu i sadnju širom Srbije." />
+        <title>Rasadnik Tilija – Kupite sadnice za živu ogradu i dvorište</title>
+        <meta name="description" content="Kupite kvalitetne sadnice iz Rasadnika Tilija – tuja, lovor višnja, katalpa, fotinija, perene i 40+ vrsta. Dostava i sadnja širom Srbije. Povoljne cene, stručni savet." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/" />
-        <meta property="og:title" content="Rasadnik Tilija – Prodaja sadnica i ukrasnog bilja" />
-        <meta property="og:description" content="Rasadnik Tilija nudi kvalitetne sadnice: tuja, lovor višnja, katalpa, fotinija i još mnogo toga. Dostava i sadnja širom Srbije." />
+        <meta property="og:title" content="Rasadnik Tilija – Kupite sadnice za živu ogradu i dvorište" />
+        <meta property="og:description" content="Kupite kvalitetne sadnice iz Rasadnika Tilija – tuja, lovor višnja, katalpa, fotinija, perene i 40+ vrsta. Dostava i sadnja širom Srbije." />
         <meta property="og:url" content="https://rasadniktilija.rs/" />
       </Head>
       <div className="home">
@@ -40,7 +41,7 @@ const Home = () => {
         }}>
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
           <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 18, padding: '48px 0 56px 0' }}>
-            <img src="/images/logo.png" alt="Logo Rasadnik Tilija" style={{ maxWidth: '120px', width: '100%', margin: '0 auto 18px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} />
+            <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={120} height={120} style={{ margin: '0 auto 18px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} priority />
             <h1 style={{ fontSize: '3.2rem', fontWeight: 700, letterSpacing: 1, marginBottom: 18, textShadow: '0 2px 12px rgba(0,0,0,0.18)' }}>{t('home.title')}</h1>
             <p style={{ fontWeight: 500, fontSize: '1.3rem', marginBottom: 32, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
             <Link href="/products" style={{
@@ -88,8 +89,9 @@ const Home = () => {
                   height: isDesktop ? '450px' : '380px', background: '#fff'
                 }}>
                 <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
-                  <img src="/images/tujavelika.jpeg" alt="Tuja Smaragd – sadnica za živu ogradu"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'tuja' ? 'scale(1.08)' : 'scale(1)', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }} />
+                  <Image src="/images/tujavelika.jpeg" alt="Tuja Smaragd – sadnica za živu ogradu" fill
+                    style={{ objectFit: 'cover', transform: hoveredCard === 'tuja' ? 'scale(1.08)' : 'scale(1)', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }}
+                    priority sizes="(max-width: 768px) 100vw, 66vw" />
                   <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '60%', background: 'linear-gradient(to top, rgba(46,125,50,0.95) 0%, rgba(46,125,50,0.7) 40%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32, color: 'white' }}>
                     <span style={{ fontSize: '0.85rem', fontWeight: 600, letterSpacing: 2, textTransform: 'uppercase', opacity: 0.9, marginBottom: 8 }}>Najpopularnije</span>
                     <h3 style={{ fontSize: isDesktop ? '2.2rem' : '1.8rem', fontWeight: 800, marginBottom: 12 }}>{t('home.tuja')}</h3>
@@ -107,7 +109,7 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'katalpa' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'katalpa' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <img src="/images/katalpa.jpg" alt="Katalpa sadnica" style={{ width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
+                  <Image src="/images/katalpa.jpg" alt="Katalpa sadnica – ukrasno drvo" fill style={{ objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -122,7 +124,7 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'lovor' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'lovor' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <img src="/images/lovorvisnja.jpeg" alt="Lovor višnja sadnica" style={{ width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
+                  <Image src="/images/lovorvisnja.jpeg" alt="Lovor višnja sadnica za živu ogradu" fill style={{ objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -137,7 +139,7 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'fotinija' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'fotinija' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <img src="/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg" alt="Fotinija Red Robin" style={{ width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
+                  <Image src="/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg" alt="Fotinija Red Robin sadnica" fill style={{ objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -152,7 +154,7 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'bambus' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'bambus' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <img src="/images/bambus.jpeg" alt="Bambus" style={{ width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
+                  <Image src="/images/bambus.jpeg" alt="Bambus sadnica za baštu" fill style={{ objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>

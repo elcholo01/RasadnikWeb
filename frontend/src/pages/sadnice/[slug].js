@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
@@ -59,6 +60,15 @@ const ProductDetails = ({ product }) => {
             "seller": { "@type": "Organization", "name": "Rasadnik Tilija" }
           } : undefined
         })}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://rasadniktilija.rs" },
+            { "@type": "ListItem", "position": 2, "name": "Sadnice", "item": "https://rasadniktilija.rs/products" },
+            { "@type": "ListItem", "position": 3, "name": product.name, "item": `https://rasadniktilija.rs/sadnice/${product.slug}` }
+          ]
+        })}} />
       </Head>
 
       <div className="product-details-page">
@@ -75,10 +85,13 @@ const ProductDetails = ({ product }) => {
           {/* Leva strana - galerija */}
           <div className="product-image-section">
             <div className="product-main-image" onClick={() => openLightbox(0)}>
-              <img
+              <Image
                 src={productImages[0]}
-                alt={product.name}
-                onError={(e) => { e.target.src = '/images/logo.png'; }}
+                alt={`${product.name} – sadnica, Rasadnik Tilija`}
+                fill
+                style={{ objectFit: 'cover' }}
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <span className={`stock-indicator ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
                 {product.inStock ? (t('products.inStock') || 'Na stanju') : (t('products.outOfStock') || 'Nema na stanju')}
@@ -102,7 +115,7 @@ const ProductDetails = ({ product }) => {
                     className={`thumbnail-btn ${index === 0 ? 'active' : ''}`}
                     onClick={() => openLightbox(index)}
                   >
-                    <img src={img} alt={`${product.name} - ${index + 1}`} onError={(e) => { e.target.src = '/images/logo.png'; }} />
+                    <Image src={img} alt={`${product.name} – fotografija ${index + 1}`} fill style={{ objectFit: 'cover' }} sizes="70px" />
                   </button>
                 ))}
               </div>

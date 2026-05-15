@@ -21,8 +21,8 @@ const Gallery = () => {
   return (
     <>
       <Head>
-        <title>Galerija – Rasadnik Tilija | Fotografije sadnica i rasadnika</title>
-        <meta name="description" content="Pogledajte fotografije iz rasadnika Tilija. Kvalitetne sadnice cetinara, liscara, siblja i perena u nasem rasadniku u Plocici." />
+        <title>Galerija – Rasadnik Tilija | Fotografije biljaka i rasadnika</title>
+        <meta name="description" content="Pogledajte fotografije biljaka iz Rasadnika Tilija u Pločici – četinari, lišćari, šiblje i perene. Proverite kvalitet sadnica pre kupovine." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/gallery" />
       </Head>
