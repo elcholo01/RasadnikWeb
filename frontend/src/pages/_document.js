@@ -6,12 +6,13 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
 
-        {/* Google Ads */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17913841051" />
+        {/* Google Analytics 4 + Google Ads */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JB3R13ED6" />
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
+          gtag('config', 'G-3JB3R13ED6');
           gtag('config', 'AW-17913841051');
         `}} />
 
