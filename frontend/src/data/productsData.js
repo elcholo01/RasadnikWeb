@@ -13,7 +13,9 @@ export const products = [
     image: '/images/tujavelika.jpeg',
     images: [
       '/images/tujavelika.jpeg',
-      '/images/tujasmaragd.jpg'
+      '/images/tujasmaragd.jpg',
+      '/images/tujakontejnerska.jpeg',
+      '/images/tuje.jpeg'
     ],
     description: 'Tuja Smaragd je zimzeleni četinar, savršen za žive ograde i dekoraciju dvorišta. Otporna, laka za održavanje i brzo raste.',
     richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.`,
@@ -34,6 +36,11 @@ export const products = [
     categories: ['cetinari', 'ziva-ograda'],
     price: 2000,
     image: '/images/tisa.jpeg',
+    images: [
+      '/images/tisa.jpeg',
+      '/images/taxus.jpeg',
+      '/images/taxusbaccata.jpeg'
+    ],
     description: 'Tisa (Taxus) je dugovečan četinar, odličan za formiranje oblika i žive ograde. Sporo raste, ali je izuzetno dekorativna.',
     richContent: `Tisa (Taxus baccata) je jedna od najdugovečnijih biljaka – živi i po nekoliko stotina godina. Odlično podnosi rezanje i oblikovanje, pa je popularna za formovane žive ograde i topijariju. Podnosi senku bolje od skoro svakog drugog četinara. Sadi se u proleće ili jesen, otporna je na mraz do -20°C. Rasadnik Tilija nudi tise svih visina uz mogućnost dostave i sadnje.`,
     inStock: true,
@@ -129,6 +136,10 @@ export const products = [
     categories: ['cetinari'],
     price: 2500,
     image: '/images/Bor na štapu cetinar.jpg',
+    images: [
+      '/images/Bor na štapu cetinar.jpg',
+      '/images/bornastapu.jpeg'
+    ],
     description: 'Bor na štapu je dekorativni četinar formiran na jednom stablu, idealan za male vrtove i kao akcenat u dvorištu. Elegantan i lak za održavanje.',
     richContent: `Bor na štapu je posebno oblikovan bor koji raste na jednom ravnom stablu sa okruglom krunom na vrhu – elegantna i jedinstvena dekoracija za svako dvorište ili terasu. Savršen je kao akcenat u bašti, uz ulaz ili kao element parkovske arhitekture. Otporan je na mraz i ne zahteva posebnu negu. Dostupan u Rasadniku Tilija uz dostavu i sadnju.`,
     inStock: true,
@@ -198,7 +209,10 @@ export const products = [
       '/images/lovor1.jpeg',
       '/images/lovor2.jpeg',
       '/images/lovor3.jpeg',
-      '/images/lovor4.jpeg'
+      '/images/lovor4.jpeg',
+      '/images/lovormali.jpeg',
+      '/images/lovorrazgranati.jpeg',
+      '/images/lovorvisok.jpeg'
     ],
     description: 'Lovor višnja je zimzeleni žbun, idealan za guste, elegantne žive ograde. Otporna na mraz i gradske uslove.',
     richContent: `Lovor višnja (Prunus laurocerasus) je najpopularnija biljka za guste, zimzelene žive ograde u Srbiji. Brzo raste – 30–50 cm godišnje – i lako se oblikuje rezanjem dva puta godišnje. Sadi se na rastojanju 50–80 cm za gustu ogradu, u proleće ili jesen. Otporna je na mraz do -20°C, gradske uslove, zagađenje i senku. Lovor višnja je odlična alternativa tuji kada se želi širi i gušći žbun sa sjajnim listovima. Rasadnik Tilija nudi lovor višnju svih visina – od 30 cm do 2 metra – uz dostavu i sadnju.`,
@@ -220,6 +234,11 @@ export const products = [
     price: 400,
     showPrice: true,
     image: '/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg',
+    images: [
+      '/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg',
+      '/images/fotinijanastapu.jpeg',
+      '/images/fotinijanastapu2.jpeg'
+    ],
     description: 'Fotinija Red Robin je zimzeleni žbun sa atraktivnim crvenim mladim izbojcima. Idealna za dekoraciju i formiranje žive ograde.',
     richContent: `Fotinija Red Robin (Photinia × fraseri 'Red Robin') prepoznatljiva je po vatreno crvenim mladim listovima koji se pojavljuju u proleće i jesen, dok stariji listovi ostaju sjajno tamnozeleni. Zimzelena je i idealna za živu ogradu visine 1–2 metra. Brzo raste i lako se oblikuje, otporna je na mraz do -15°C. Sadi se u proleće ili jesen. Rasadnik Tilija nudi fotiniju Red Robin uz dostavu i sadnju na celoj teritoriji Srbije.`,
     inStock: true,
@@ -781,7 +800,11 @@ export const products = [
       '/images/maslina1.jpeg',
       '/images/maslina2.jpeg',
       '/images/maslina3.jpeg',
-      '/images/maslina5.jpeg'
+      '/images/maslina5.jpeg',
+      '/images/novemasline1.jpeg',
+      '/images/novemasline2.jpeg',
+      '/images/novemasline3.jpeg',
+      '/images/novemasline4.jpeg'
     ],
     description: 'Maslina (Olea europaea) je zimzeleno mediteransko drvo sa srebrno-zelenim listovima. Dugovečna i dekorativna, idealna za dvorišta, terase i mediteranski stil uređenja.',
     richContent: `Maslina (Olea europaea) je mediteransko zimzeleno drvo sa karakterističnim srebrnasto-zelenim listovima i krivudavim starim deblom. Može živeti stotinama godina i postaje sve lepša sa godinama. Kod nas se uzgaja uglavnom kao dekorativna biljka u teglama ili zaštićenim dvorištima. Podnosi mraz do -10°C, traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu – cena na upit.`,
@@ -811,6 +834,77 @@ export const products = [
       watering: 'Redovno zalivanje',
       soil: 'Specijalni supstrat za bonsai',
       hardiness: 'Zavisi od vrste'
+    }
+  },
+  {
+    id: 41,
+    slug: 'lejlandi',
+    name: 'Lejlandi',
+    category: 'cetinari',
+    categories: ['cetinari', 'ziva-ograda'],
+    price: 600,
+    showPrice: true,
+    image: '/images/lejlandi.jpeg',
+    images: [
+      '/images/lejlandi.jpeg',
+      '/images/lejlandi1.jpeg'
+    ],
+    description: 'Lejlandi je najbrže rastući četinar za živu ogradu – raste i do 1 metar godišnje. Gust, zimzelen i lak za oblikovanje, idealan za brzu privatnost.',
+    richContent: `Lejlandi (Cupressus × leylandii) je hibridni četinar poznat kao najbrže rastuća biljka za živu ogradu – naraste i do 60–100 cm godišnje. Gust je i zimzelen, formira kompaktnu zidanu ogradu već posle nekoliko sezona. Idealan je za brzo zaklanjanje od pogleda, buke i vetra. Sadi se na rastojanju 60–80 cm u proleće ili jesen. Otporan je na mraz do -20°C i lako se oblikuje rezanjem jednom godišnje. Rasadnik Tilija nudi lejlandi sve visine uz dostavu i sadnju širom Srbije.`,
+    inStock: true,
+    details: {
+      height: 'Dostupne sve visine',
+      sunlight: 'Puno sunce do polusenka',
+      watering: 'Umereno zalivanje',
+      soil: 'Dobro drenirana zemlja',
+      hardiness: 'Otporan na mraz do -20°C'
+    }
+  },
+  {
+    id: 42,
+    slug: 'palma',
+    name: 'Palma',
+    category: 'liscari',
+    categories: ['liscari'],
+    price: 0,
+    showPrice: false,
+    image: '/images/palma.jpeg',
+    images: [
+      '/images/palma.jpeg',
+      '/images/palma1.jpeg'
+    ],
+    description: 'Palma je egzotična dekorativna biljka koja daje mediteranski šmek svakom dvorištu ili terasi. Dostupna u različitim visinama i vrstama.',
+    richContent: `Palma je najupečatljivija egzotična biljka za dvorišta i terase u Srbiji. Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu. Idealne su za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu u dobro oceditnu zemlju. Dostupne u različitim visinama – cena na upit.`,
+    inStock: true,
+    details: {
+      height: 'Dostupne sve visine',
+      sunlight: 'Puno sunce',
+      watering: 'Umereno zalivanje',
+      soil: 'Dobro drenirana, peskovita zemlja',
+      hardiness: 'Zavisi od vrste'
+    }
+  },
+  {
+    id: 43,
+    slug: 'japanski-javor',
+    name: 'Japanski javor',
+    category: 'liscari',
+    categories: ['liscari'],
+    price: 3500,
+    showPrice: true,
+    image: '/images/japanskijavor.jpeg',
+    images: [
+      '/images/japanskijavor.jpeg'
+    ],
+    description: 'Japanski javor je elegantno ukrasno drvo sa prelepim crvenim ili ljubičastim listovima koji menjaju boju tokom sezone. Pravo remek-delo svake bašte.',
+    richContent: `Japanski javor (Acer palmatum) je jedno od najatraktivnijih ukrasnih drveća – njegovi fino isečeni listovi u nijansama crvene, bordo, narandžaste i zelene boje ukrašavaju dvorište od proleća do jeseni. Sporo raste i naraste do 2–5 metara, idealan je kao soliter ili u kombinaciji sa zimzelenim biljkama. Traži zaštićeno mesto od jakog vetra, polusenku i blago kiselu, bogatu zemlju. Jesen donosi spektakularne crveno-narandžaste tonove. Dostupan u Rasadniku Tilija uz dostavu.`,
+    inStock: true,
+    details: {
+      height: '2-5 m',
+      sunlight: 'Polusenka',
+      watering: 'Redovno zalivanje',
+      soil: 'Blago kisela, bogata zemlja',
+      hardiness: 'Otporan na mraz do -20°C'
     }
   },
   {
