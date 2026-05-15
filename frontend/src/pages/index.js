@@ -96,9 +96,8 @@ const Home = () => {
                   height: isDesktop ? '450px' : '380px', background: '#fff'
                 }}>
                 <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
-                  <Image src="/images/tujavelika.jpeg" alt="Tuja Smaragd – sadnica za živu ogradu" fill
-                    style={{ objectFit: 'cover', transform: hoveredCard === 'tuja' ? 'scale(1.08)' : 'scale(1)', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }}
-                    sizes="(max-width: 768px) 100vw, 66vw" />
+                  <img src="/images/tuja-card.webp" alt="Tuja Smaragd – sadnica za živu ogradu" loading="eager" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'tuja' ? 'scale(1.08)' : 'scale(1)', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }} />
                   <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '60%', background: 'linear-gradient(to top, rgba(46,125,50,0.95) 0%, rgba(46,125,50,0.7) 40%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32, color: 'white' }}>
                     <span style={{ fontSize: '0.85rem', fontWeight: 600, letterSpacing: 2, textTransform: 'uppercase', opacity: 0.9, marginBottom: 8 }}>Najpopularnije</span>
                     <h3 style={{ fontSize: isDesktop ? '2.2rem' : '1.8rem', fontWeight: 800, marginBottom: 12 }}>{t('home.tuja')}</h3>
@@ -116,7 +115,8 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'katalpa' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'katalpa' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <Image src="/images/katalpa.jpg" alt="Katalpa sadnica – ukrasno drvo" fill style={{ objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  <img src="/images/katalpa-card.webp" alt="Katalpa sadnica – ukrasno drvo" loading="lazy" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -131,7 +131,8 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'lovor' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'lovor' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <Image src="/images/lovorvisnja.jpeg" alt="Lovor višnja sadnica za živu ogradu" fill style={{ objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  <img src="/images/lovor-card.webp" alt="Lovor višnja sadnica za živu ogradu" loading="lazy" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -146,7 +147,8 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'fotinija' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'fotinija' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <Image src="/images/fotinijanaslovna.jpeg" alt="Fotinija Red Robin sadnica" fill style={{ objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  <img src="/images/fotinija-card.webp" alt="Fotinija Red Robin sadnica" loading="lazy" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -161,7 +163,8 @@ const Home = () => {
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'bambus' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'bambus' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
                 <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
-                  <Image src="/images/bambus.jpeg" alt="Bambus sadnica za baštu" fill style={{ objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  <img src="/images/bambus-card.webp" alt="Bambus sadnica za baštu" loading="lazy" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
                 <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
