@@ -73,7 +73,7 @@ const Contact = () => {
               <h2 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 32, fontSize: '1.8rem' }}>{t('contact.information')}</h2>
               <div style={{ marginBottom: 24 }}>
                 <div style={{ fontSize: 40, marginBottom: 8 }}>📍</div>
-                <div style={{ color: '#234d20', fontSize: '1.05rem', lineHeight: 1.6 }}>{t('contact.address')}<br />{t('contact.addressCity')}</div>
+                <a href="https://maps.app.goo.gl/9jQQNMUU1meWtXk58" target="_blank" rel="noopener noreferrer" style={{ color: '#2e7d32', fontSize: '1.05rem', fontWeight: 600, textDecoration: 'underline', textDecorationColor: 'rgba(46,125,50,0.4)' }}>Lokacija</a>
               </div>
               <div style={{ marginBottom: 24 }}>
                 <div style={{ fontSize: 40, marginBottom: 8 }}>📞</div>
