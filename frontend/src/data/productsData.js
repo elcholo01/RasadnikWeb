@@ -812,6 +812,46 @@ export const products = [
       soil: 'Specijalni supstrat za bonsai',
       hardiness: 'Zavisi od vrste'
     }
+  },
+  {
+    id: 39,
+    slug: 'iberis',
+    name: 'Iberis',
+    category: 'perene',
+    categories: ['perene'],
+    price: 400,
+    image: '/images/iberis.jpg',
+    images: ['/images/iberis.jpg'],
+    description: 'Iberis je zimzelena perena koja u proleće eksplodira gustim belim cvetovima. Savršena za kamenjare, bordure i kao pokrivač tla.',
+    richContent: `Iberis sempervirens je niskorasta zimzelena perena visine 15–25 cm koja u aprilu i maju biva potpuno prekrivena gustim belim cvetovima, zbog čega se naziva i "snežna perena". Idealna je za ivičnjake, kamenjare, suve zidove i kao kontrast tamnijem lišću. Traži sunčano, dobro oceditno mesto i gotovo nikakvu negu posle ukorenjivanja. Otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: {
+      height: '15-25 cm',
+      sunlight: 'Puno sunce',
+      watering: 'Malo zalivanje',
+      soil: 'Dobro drenirana zemlja',
+      hardiness: 'Otporna na mraz do -25°C'
+    }
+  },
+  {
+    id: 40,
+    slug: 'gaura',
+    name: 'Gaura',
+    category: 'perene',
+    categories: ['perene'],
+    price: 400,
+    image: '/images/gaura.jpg',
+    images: ['/images/gaura.jpg'],
+    description: 'Gaura je elegantna perena sa nežnim belim i roze cvetovima koji lepršaju na vitkim stabljikama tokom celog leta. Savršena za naturalističke bašte.',
+    richContent: `Gaura lindheimeri je graciozna perena visine 60–120 cm sa dugačkim, vitkim stabljikama koje nose nežne belo-roze cvetove od juna do oktobra. Cvetovi podsećaju na leptire u letu – stoga se često naziva i "biljka leptir". Izuzetno je otporna na sušu i visoke temperature, traži puno sunca i dobro oceditnu zemlju. Gotovo ne zahteva negu i privlači pčele i leptire. Otporna na mraz do -20°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: {
+      height: '60-120 cm',
+      sunlight: 'Puno sunce',
+      watering: 'Malo zalivanje',
+      soil: 'Dobro drenirana zemlja',
+      hardiness: 'Otporna na mraz do -20°C'
+    }
   }
 ];
 
