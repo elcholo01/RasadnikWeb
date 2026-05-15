@@ -5,7 +5,7 @@ import ImageLightbox from '../components/ImageLightbox';
 
 const galleryImages = [
   '/images/projekti.jpeg', '/images/projekti2.jpeg', '/images/projekti3.jpeg',
-  '/images/projekti4.jpeg', '/images/projekti5.jpeg', '/images/projekti6.jpeg',
+  '/images/projekti4.jpeg', '/images/projekti6.jpeg',
   '/images/projekti7.jpeg', '/images/projekti8.jpeg', '/images/galerija.jpeg',
   '/images/72097.jpeg', '/images/68271.jpeg', '/images/72095.jpeg',
   '/images/IMG_4670.jpeg', '/images/IMG_4686.jpeg', '/images/IMG_5210.jpeg',
