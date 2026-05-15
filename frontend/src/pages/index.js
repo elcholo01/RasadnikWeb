@@ -34,18 +34,18 @@ const Home = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'relative',
-          minHeight: '350px',
+          minHeight: isDesktop ? '350px' : '240px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
         }}>
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
-          <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 18, padding: '48px 0 56px 0' }}>
-            <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={120} height={120} style={{ margin: '0 auto 18px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} priority />
-            <h1 style={{ fontSize: '3.2rem', fontWeight: 700, letterSpacing: 1, marginBottom: 18, textShadow: '0 2px 12px rgba(0,0,0,0.18)' }}>{t('home.title')}</h1>
-            <p style={{ fontWeight: 500, fontSize: '1.3rem', marginBottom: 32, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
+          <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: isDesktop ? 18 : 12, padding: isDesktop ? '48px 0 56px 0' : '24px 16px 28px 16px' }}>
+            <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={isDesktop ? 120 : 75} height={isDesktop ? 120 : 75} style={{ margin: '0 auto 10px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} priority />
+            <h1 style={{ fontSize: isDesktop ? '3.2rem' : '1.8rem', fontWeight: 700, letterSpacing: 1, marginBottom: isDesktop ? 18 : 10, textShadow: '0 2px 12px rgba(0,0,0,0.18)' }}>{t('home.title')}</h1>
+            <p style={{ fontWeight: 500, fontSize: isDesktop ? '1.3rem' : '1rem', marginBottom: isDesktop ? 32 : 16, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
             <Link href="/products" style={{
-              marginTop: 12, padding: '18px 48px', fontSize: '1.35rem', fontWeight: 700,
+              marginTop: isDesktop ? 12 : 4, padding: isDesktop ? '18px 48px' : '12px 28px', fontSize: isDesktop ? '1.35rem' : '1.05rem', fontWeight: 700,
               borderRadius: 30, boxShadow: '0 6px 24px rgba(44,62,80,0.18)', background: '#2e7d32',
               color: '#fff', letterSpacing: 1, border: 'none', display: 'inline-block', textDecoration: 'none'
             }}>
@@ -73,7 +73,7 @@ const Home = () => {
         {/* Popularni proizvodi */}
         <section className="section bg-light" style={{ overflow: 'hidden' }}>
           <div className="container">
-            <h2 className="section-title" style={{ fontSize: '2.5rem', marginBottom: 48 }}>{t('home.popularProducts')}</h2>
+            <h2 className="section-title" style={{ fontSize: isDesktop ? '2.5rem' : '1.6rem', marginBottom: isDesktop ? 48 : 24 }}>{t('home.popularProducts')}</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 32, maxWidth: 1400, margin: '0 auto' }}>
 
               {/* Tuja - featured */}
