@@ -24,6 +24,7 @@ const ProductDetails = ({ product }) => {
   const { t } = useTranslation();
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const categoryName = getCategoryName(product.category);
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
@@ -33,6 +34,16 @@ const ProductDetails = ({ product }) => {
   const openLightbox = (index) => {
     setLightboxIndex(index);
     setLightboxOpen(true);
+  };
+
+  const prevImage = (e) => {
+    e.stopPropagation();
+    setActiveIndex(i => (i - 1 + productImages.length) % productImages.length);
+  };
+
+  const nextImage = (e) => {
+    e.stopPropagation();
+    setActiveIndex(i => (i + 1) % productImages.length);
   };
 
   return (
@@ -84,15 +95,30 @@ const ProductDetails = ({ product }) => {
         <div className="product-details-container">
           {/* Leva strana - galerija */}
           <div className="product-image-section">
-            <div className="product-main-image" onClick={() => openLightbox(0)}>
+            <div className="product-main-image" onClick={() => openLightbox(activeIndex)}>
               <Image
-                src={productImages[0]}
+                src={productImages[activeIndex]}
                 alt={`${product.name} – sadnica, Rasadnik Tilija`}
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
+              {productImages.length > 1 && (
+                <>
+                  <button className="carousel-btn carousel-prev" onClick={prevImage} aria-label="Prethodna slika">&#8249;</button>
+                  <button className="carousel-btn carousel-next" onClick={nextImage} aria-label="Sledeća slika">&#8250;</button>
+                  <div className="carousel-dots">
+                    {productImages.map((_, i) => (
+                      <span
+                        key={i}
+                        className={`carousel-dot ${i === activeIndex ? 'active' : ''}`}
+                        onClick={(e) => { e.stopPropagation(); setActiveIndex(i); }}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
               <span className={`stock-indicator ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
                 {product.inStock ? (t('products.inStock') || 'Na stanju') : (t('products.outOfStock') || 'Nema na stanju')}
               </span>
@@ -112,8 +138,8 @@ const ProductDetails = ({ product }) => {
                 {productImages.map((img, index) => (
                   <button
                     key={index}
-                    className={`thumbnail-btn ${index === 0 ? 'active' : ''}`}
-                    onClick={() => openLightbox(index)}
+                    className={`thumbnail-btn ${index === activeIndex ? 'active' : ''}`}
+                    onClick={() => setActiveIndex(index)}
                   >
                     <Image src={img} alt={`${product.name} – fotografija ${index + 1}`} fill style={{ objectFit: 'cover' }} sizes="70px" />
                   </button>
@@ -123,7 +149,7 @@ const ProductDetails = ({ product }) => {
 
             {productImages.length > 1 && (
               <p className="gallery-hint">
-                {productImages.length} {t('productDetails.photos') || 'fotografija'} - {t('productDetails.clickToView') || 'kliknite za pregled'}
+                {activeIndex + 1} / {productImages.length} – {t('productDetails.clickToEnlarge') || 'kliknite za uvećanje'}
               </p>
             )}
           </div>

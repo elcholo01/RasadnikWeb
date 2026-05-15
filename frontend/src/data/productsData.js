@@ -13,7 +13,6 @@ export const products = [
     image: '/images/tujavelika.jpeg',
     images: [
       '/images/tujavelika.jpeg',
-      '/images/tujasmaragd.jpg',
       '/images/tujakontejnerska.jpeg',
       '/images/tuje.jpeg'
     ],
@@ -842,8 +841,8 @@ export const products = [
     name: 'Lejlandi',
     category: 'cetinari',
     categories: ['cetinari', 'ziva-ograda'],
-    price: 600,
-    showPrice: true,
+    price: 0,
+    showPrice: false,
     image: '/images/lejlandi.jpeg',
     images: [
       '/images/lejlandi.jpeg',
@@ -890,8 +889,8 @@ export const products = [
     name: 'Japanski javor',
     category: 'liscari',
     categories: ['liscari'],
-    price: 3500,
-    showPrice: true,
+    price: 0,
+    showPrice: false,
     image: '/images/japanskijavor.jpeg',
     images: [
       '/images/japanskijavor.jpeg'
