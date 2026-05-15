@@ -11,7 +11,7 @@ const blogPosts = [
     content: `
       <p>Jedna od prvih stvari koje većina vlasnika kuća u Srbiji želi je privatnost — brza, gusta i zelena živa ograda koja će odvojiti dvorište od ulice ili komšija. Ali koja biljka raste <strong>najbrže</strong>, a da pri tome izgleda lepo i ne zahteva previše nege?</p>
 
-      <p>U Rasadniku Tilija iz Pločice odgovaramo na ovo pitanje svakodnevno. Evo našeg iskrenog prikaza pet najbrže rastućih biljaka za živu ogradu koje su dostupne u Srbiji.</p>
+      <p>U našem Rasadniku odgovaramo na ovo pitanje svakodnevno. Evo našeg iskrenog prikaza pet najbrže rastućih biljaka za živu ogradu koje su dostupne u Srbiji.</p>
 
       <h2>Šta znači "brzo rastuća" ograda?</h2>
       <p>Brzinu rasta merimo u centimetrima godišnje, u normalnim uslovima — dobro navodnjavanje u prvoj godini, umereno đubrenje i sunčana ili polusunčana pozicija. Biljka koja raste 30 cm godišnje za 3-4 sezone daje solidnu, gledljivu ogradu. Ona koja raste 60-90 cm godišnje može da formira zid za svega 2 godine.</p>
@@ -44,6 +44,7 @@ const blogPosts = [
       <p><strong>Mana:</strong> vrste koje puze podzemnim stabljikama mogu da se prošire van željene zone.</p>
 
       <h2>Koja ograda je prava za vas?</h2>
+      <div class="table-wrapper">
       <table>
         <thead>
           <tr>
@@ -86,6 +87,7 @@ const blogPosts = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <h2>Kada saditi živu ogradu u Srbiji?</h2>
       <p>Optimalno vreme za sadnju je <strong>mart–april</strong> (proleće, pre jake vrućine) ili <strong>septembar–oktobar</strong> (jesen, dok je zemlja još topla). Zimzelene biljke kao tuja i lovor višnja mogu da se sade gotovo tokom cele godine, uz redovno zalivanje u prvim nedeljama.</p>

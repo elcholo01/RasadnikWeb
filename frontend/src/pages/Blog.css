@@ -209,14 +209,19 @@
   font-weight: 600;
 }
 
+.blog-article-content .table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 24px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+}
+
 .blog-article-content table {
   width: 100%;
+  min-width: 480px;
   border-collapse: collapse;
-  margin: 24px 0;
   font-size: 0.95rem;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
 }
 
 .blog-article-content th {
