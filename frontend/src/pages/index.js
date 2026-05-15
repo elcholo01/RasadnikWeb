@@ -30,15 +30,22 @@ const Home = () => {
       <div className="home">
         {/* Hero */}
         <section className="hero" style={{
-          backgroundImage: 'url(/images/hero-background.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
           position: 'relative',
+          overflow: 'hidden',
           minHeight: isDesktop ? '350px' : '240px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
         }}>
+          <Image
+            src="/images/hero-background.jpg"
+            alt=""
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            priority
+            quality={80}
+            sizes="100vw"
+          />
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
           <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: isDesktop ? 18 : 12, padding: isDesktop ? '48px 0 56px 0' : '24px 16px 28px 16px' }}>
             <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={isDesktop ? 120 : 75} height={isDesktop ? 120 : 75} style={{ margin: '0 auto 10px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} priority />
