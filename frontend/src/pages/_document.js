@@ -6,15 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
 
-        {/* Google Analytics 4 + Google Ads */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JB3R13ED6" />
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-3JB3R13ED6');
-          gtag('config', 'AW-17913841051');
-        `}} />
+        {/* Google Analytics 4 + Google Ads – loaded via next/script in _app.js */}
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -64,6 +56,15 @@ export default function Document() {
         })}} />
 
         {/* Google Fonts handled by next/font (self-hosted, no external request) */}
+
+        {/* LCP preload: hero image starts downloading before React loads */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero-background.webp"
+          imageSizes="100vw"
+          imageSrcSet="/images/hero-mobile.webp 640w, /images/hero-background.webp 1280w"
+        />
       </Head>
       <body>
         <Main />

@@ -37,14 +37,14 @@ const Home = () => {
           alignItems: 'center',
           justifyContent: 'center',
         }}>
-          <Image
-            src="/images/hero-background.jpg"
-            alt=""
-            fill
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
-            priority
-            quality={80}
+          <img
+            src="/images/hero-background.webp"
+            srcSet="/images/hero-mobile.webp 640w, /images/hero-background.webp 1280w"
             sizes="100vw"
+            alt=""
+            fetchPriority="high"
+            decoding="async"
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
           />
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
           <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: isDesktop ? 18 : 12, padding: isDesktop ? '48px 0 56px 0' : '24px 16px 28px 16px' }}>

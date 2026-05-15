@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Script from 'next/script';
 import { Poppins } from 'next/font/google';
 import '../i18n';
 import '../App.css';
@@ -29,12 +30,25 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
-    <div className={`App ${poppins.className}`}>
-      <Navbar />
-      <main>
-        <Component {...pageProps} />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-3JB3R13ED6"
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3JB3R13ED6');
+        gtag('config', 'AW-17913841051');
+      `}</Script>
+      <div className={`App ${poppins.className}`}>
+        <Navbar />
+        <main>
+          <Component {...pageProps} />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
