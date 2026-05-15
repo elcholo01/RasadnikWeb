@@ -10,6 +10,7 @@ import '../pages/ProductDetails.css';
 import '../pages/About.css';
 import '../pages/Contact.css';
 import '../pages/Gallery.css';
+import '../pages/Blog.css';
 import '../components/Navbar.css';
 import '../components/Footer.css';
 import '../components/ImageLightbox.css';

@@ -35,6 +35,9 @@ const Navbar = () => {
           <Link href="/gallery" className="nav-link" onClick={() => setIsOpen(false)}>
             {t('nav.gallery')}
           </Link>
+          <Link href="/blog" className="nav-link" onClick={() => setIsOpen(false)}>
+            Blog
+          </Link>
           <LanguageSwitcher />
         </div>
         
