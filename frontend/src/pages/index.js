@@ -119,9 +119,8 @@ const Home = () => {
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', marginBottom: 8 }}>{t('home.katalpa')}</h3>
-                  <p style={{ fontSize: '0.95rem', color: '#234d20', opacity: 0.85, lineHeight: 1.5 }}>{t('home.katalpaDesc')}</p>
+                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.katalpa')}</h3>
                 </div>
               </Link>
 
@@ -135,9 +134,8 @@ const Home = () => {
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', marginBottom: 8 }}>{t('home.lovor')}</h3>
-                  <p style={{ fontSize: '0.95rem', color: '#234d20', opacity: 0.85, lineHeight: 1.5 }}>{t('home.lovorDesc')}</p>
+                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.lovor')}</h3>
                 </div>
               </Link>
 
@@ -151,9 +149,8 @@ const Home = () => {
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', marginBottom: 8 }}>{t('home.fotinija')}</h3>
-                  <p style={{ fontSize: '0.95rem', color: '#234d20', opacity: 0.85, lineHeight: 1.5 }}>{t('home.fotinijaDesc')}</p>
+                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.fotinija')}</h3>
                 </div>
               </Link>
 
@@ -167,9 +164,8 @@ const Home = () => {
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
                   <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
                 </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', marginBottom: 8 }}>{t('home.bambus')}</h3>
-                  <p style={{ fontSize: '0.95rem', color: '#234d20', opacity: 0.85, lineHeight: 1.5 }}>{t('home.bambusDesc')}</p>
+                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.bambus')}</h3>
                 </div>
               </Link>
             </div>
