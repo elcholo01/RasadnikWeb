@@ -48,7 +48,7 @@ const Home = () => {
           />
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
           <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: isDesktop ? 18 : 12, padding: isDesktop ? '48px 0 56px 0' : '24px 16px 28px 16px' }}>
-            <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={isDesktop ? 120 : 75} height={isDesktop ? 120 : 75} style={{ margin: '0 auto 10px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} priority />
+            <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={isDesktop ? 120 : 75} height={isDesktop ? 120 : 75} style={{ margin: '0 auto 10px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} />
             <h1 style={{ fontSize: isDesktop ? '3.2rem' : '1.8rem', fontWeight: 700, letterSpacing: 1, marginBottom: isDesktop ? 18 : 10, textShadow: '0 2px 12px rgba(0,0,0,0.18)' }}>{t('home.title')}</h1>
             <p style={{ fontWeight: 500, fontSize: isDesktop ? '1.3rem' : '1rem', marginBottom: isDesktop ? 32 : 16, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
             <Link href="/products" style={{
@@ -66,12 +66,12 @@ const Home = () => {
           <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 48 }}>
             <div style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
               <div style={{ fontSize: 44, marginBottom: 12 }}>🏆</div>
-              <h3 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8 }}>{t('home.provenQuality')}</h3>
+              <h2 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8, fontSize: '1.25rem' }}>{t('home.provenQuality')}</h2>
               <p style={{ color: '#234d20' }}>{t('home.provenQualityDesc')}</p>
             </div>
             <div style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
               <div style={{ fontSize: 44, marginBottom: 12 }}>🚚</div>
-              <h3 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8 }}>{t('home.fastDelivery')}</h3>
+              <h2 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8, fontSize: '1.25rem' }}>{t('home.fastDelivery')}</h2>
               <p style={{ color: '#234d20' }}>{t('home.fastDeliveryDesc')}</p>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Home = () => {
                 <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <Image src="/images/tujavelika.jpeg" alt="Tuja Smaragd – sadnica za živu ogradu" fill
                     style={{ objectFit: 'cover', transform: hoveredCard === 'tuja' ? 'scale(1.08)' : 'scale(1)', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }}
-                    priority sizes="(max-width: 768px) 100vw, 66vw" />
+                    sizes="(max-width: 768px) 100vw, 66vw" />
                   <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '60%', background: 'linear-gradient(to top, rgba(46,125,50,0.95) 0%, rgba(46,125,50,0.7) 40%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32, color: 'white' }}>
                     <span style={{ fontSize: '0.85rem', fontWeight: 600, letterSpacing: 2, textTransform: 'uppercase', opacity: 0.9, marginBottom: 8 }}>Najpopularnije</span>
                     <h3 style={{ fontSize: isDesktop ? '2.2rem' : '1.8rem', fontWeight: 800, marginBottom: 12 }}>{t('home.tuja')}</h3>
