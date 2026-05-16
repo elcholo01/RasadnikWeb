@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Pratite nas</h4>
             <a
-              href="https://www.instagram.com/prodaja__sadnica?igsh=MWV1aHB6bzAxMWljdw%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/rasadnik_tilija?igsh=MWV1aHB6bzAxMWljdw%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="instagram-link"
