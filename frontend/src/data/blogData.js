@@ -1,5 +1,111 @@
 const blogPosts = [
   {
+    id: 2,
+    slug: 'tuja-smaragd-sadnja-i-nega',
+    title: 'Tuja Smaragd – Sve što treba da znate o sadnji i nezi',
+    excerpt: 'Tuja Smaragd je najpopularnija ogradna biljka u Srbiji. Saznajte kada i kako je saditi, koji razmak je optimalan, kako je negovati i zašto je toliko tražena — sve na jednom mestu.',
+    date: '2026-03-18',
+    readTime: '7 min',
+    category: 'Četinari',
+    image: '/images/tujavelika.jpeg',
+    content: `
+      <p>Ako ste ikada tražili savršenu biljku za živu ogradu, verovatno ste čuli za <strong>Tuju Smaragd</strong>. Uska, uvek zelena, pravilnog oblika — i gotovo bez potrebe za orezivanjem. Nije slučajno što je ovo najprodavanija biljka u našem rasadniku već godinama.</p>
+
+      <p>U ovom tekstu dajemo vam sve što treba da znate pre sadnje: kada saditi, koji razmak, kako negovati i koje greške da izbegnete.</p>
+
+      <h2>Zašto je Tuja Smaragd tako popularna?</h2>
+      <p>Tuja Smaragd (<em>Thuja occidentalis 'Smaragd'</em>) je kultivarna vrsta tuje koja se ističe po nekoliko ključnih osobina:</p>
+      <ul>
+        <li><strong>Uzak, piramidalni habitus</strong> — ne širi se u stranu, ostaje kompaktna čak i bez orezivanja</li>
+        <li><strong>Zimzelena</strong> — zadržava svetlozelenu boju tokom cele godine, uključujući i zimu</li>
+        <li><strong>Otporna na mraz</strong> — podnosi temperature do -30°C, savršena za srbijanske zime</li>
+        <li><strong>Dugovečna</strong> — živi 50–100 godina uz minimalno ulaganje</li>
+        <li><strong>Nema alergene polene</strong> — za razliku od nekih četinara, Smaragd nije poznat kao alergen</li>
+      </ul>
+
+      <h2>Kada saditi Tuju Smaragd?</h2>
+      <p>Tuja Smaragd se može saditi gotovo tokom cele godine, ali postoje dva idealna perioda:</p>
+      <ul>
+        <li><strong>Proleće (mart–april)</strong> — biljka ima celo vegetacijsko razdoblje ispred sebe da učvrsti koren pre zime. Ovo je naš prvi izbor.</li>
+        <li><strong>Jesen (septembar–oktobar)</strong> — zemlja je još topla, što podstiče razvoj korena. Biljka se dobro priprema za zimu.</li>
+      </ul>
+      <p>Sadnju leti (jul–avgust) treba izbegavati zbog visokih temperatura — biljka gubi vodu brže nego što je može primiti. Ako morate leti, obavezno navodnjavanje svakog drugog dana u prvim nedeljama.</p>
+
+      <h2>Koji razmak između tuja?</h2>
+      <p>Razmak zavisi od željenog efekta i visine biljke:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Željeni efekat</th>
+            <th>Razmak između biljaka</th>
+            <th>Vreme do pune ograde</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gusta, kompaktna ograda</td>
+            <td>40–50 cm</td>
+            <td>3–4 godine</td>
+          </tr>
+          <tr>
+            <td>Standardna ograda</td>
+            <td>50–60 cm</td>
+            <td>4–5 godina</td>
+          </tr>
+          <tr>
+            <td>Slobodnostojeće biljke</td>
+            <td>80–100 cm</td>
+            <td>–</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Za ogradu visine 150–200 cm, preporučujemo sadnju na <strong>50 cm razmaka</strong> sa sadnicama visine 80–100 cm. Za brži efekat, koristite krupnije sadnice (120–150 cm) i posadite ih na 40 cm.</p>
+
+      <h2>Kako saditi Tuju Smaragd — korak po korak</h2>
+
+      <h3>1. Priprema terena</h3>
+      <p>Tuja Smaragd se dobro snalazi na gotovo svim tipovima zemljišta, ali idealno je blago kiselo do neutralno tlo (pH 5,5–7). Izbegavajte mesta sa stajaćom vodom — korenov sistem ne podnosi dugotrajan zasoj.</p>
+
+      <h3>2. Kopanje rupe</h3>
+      <p>Iskopajte rupu <strong>dva puta širu i iste dubine</strong> kao saksija ili busen korena. Na dno dodajte malo komposta ili đubriva za četinare — ali ne previše, da ne biste "spalili" mladi koren.</p>
+
+      <h3>3. Sadnja</h3>
+      <p>Postavite biljku u rupu tako da vrh saksije bude u nivou okolnog tla — ne dublje. Zasipajte mešavinom iskopane zemlje i komposta, lagano sabijte oko stabla i formujte malo udubljenje za zadržavanje vode.</p>
+
+      <h3>4. Zalivanje odmah nakon sadnje</h3>
+      <p>Obilno zalijte odmah posle sadnje — bar 10 litara po biljci. Ovo je najvažniji korak. U prvim nedeljama zalivajte svakih 2–3 dana ako nema kiše.</p>
+
+      <h2>Nega Tuje Smaragd tokom prve godine</h2>
+      <p>Prva godina je ključna — koren se još nije učvrstio i biljka je osetljivija na sušu i mraz.</p>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno u periodu bez kiše, posebno leti. Zrele tuje su suhotnporne, ali mlade nisu.</li>
+        <li><strong>Malčovanje:</strong> preporučujemo sloj malča (kora bora, piljevina) debljine 5–8 cm oko stabla. Čuva vlagu i sprečava rast korova.</li>
+        <li><strong>Đubrenje:</strong> u proleće (april–maj) dodajte đubrivo za četinare prema uputstvu na pakovanju. Jesenas ne đubrite — podsticanje rasta pred zimu slabi biljku.</li>
+        <li><strong>Zaštita od mraza u prvoj zimi:</strong> mlade biljke možete zaštititi agrotekstilom ako su predviđene temperature ispod -15°C.</li>
+      </ul>
+
+      <h2>Da li tuju treba orezivati?</h2>
+      <p>To je jedna od njenih najvećih prednosti — Smaragd zadržava pravilni piramidalni oblik bez orezivanja. Ipak, ako želite gušću ogradu ili kontrolisanu visinu, orezivanje je moguće:</p>
+      <ul>
+        <li><strong>Kada:</strong> kraj marta/početak aprila (pre vegetacije) ili kraj avgusta/početak septembra</li>
+        <li><strong>Koliko:</strong> nikad u staro, tamno drvo — samo zeleni prirastak iz tekuće sezone</li>
+        <li><strong>Čime:</strong> šišarke za živice ili električne makaze za veće površine</li>
+      </ul>
+      <p>Ako ne orezujete, tuja može narasti i 4–5 metara. Za ogradu standardne visine (150–200 cm), blago šišanje jednom godišnje daje savršen rezultat.</p>
+
+      <h2>Koliko brzo raste Tuja Smaragd?</h2>
+      <p>U proseku <strong>20–35 cm godišnje</strong>, što je sporije od Lejlandija ili lovor višnje, ali dovoljno da za 4–5 sezona imate gustu, reprezentativnu ogradu. Brzina rasta zavisi od kvaliteta sadnice, navodnjavanja i đubrenja u prvim godinama.</p>
+
+      <p>Sadnica kupljena kao 80 cm visoka, za 5 godina bez orezivanja može dostići 180–200 cm.</p>
+
+      <h2>Gde kupiti Tuju Smaragd u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo Tuju Smaragd u više visina — od manjih sadnica za ekonomičnu sadnju, do krupnih primeraka za trenutni efekat. Vršimo dostavu sadnica širom Srbije.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> za cene i dostupnost, ili pogledajte stranicu <a href="/sadnice/tuja-smaragd">Tuja Smaragd</a> na našem sajtu.</p>
+    `,
+  },
+  {
     id: 1,
     slug: 'najbrza-ziva-ograda-srbija',
     title: 'Koja živa ograda je najbrža za rast u Srbiji?',
