@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
               <div style={{ marginBottom: 8 }}>
                 <a
-                  href="https://www.instagram.com/rasadnik_tilija?igsh=MWV1aHB6bzAxMWljdw%3D%3D&utm_source=qr"
+                  href="https://www.instagram.com/prodaja__sadnica?igsh=MWV1aHB6bzAxMWljdw%3D%3D&utm_source=qr"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: 10, background: 'linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)', color: '#fff', padding: '10px 20px', borderRadius: 30, fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}
