@@ -7,7 +7,7 @@ const blogPosts = [
     date: '2026-04-15',
     readTime: '6 min',
     category: 'Lišćari',
-    image: '/images/lovorvisnja.jpeg',
+    image: '/images/lovormarakana.PNG',
     content: `
       <p>Kada kupci dođu u naš rasadnik i pitaju „šta je dobro za živu ogradu koja brzo raste i lepo izgleda celu godinu?" — odgovor koji najčešće dajemo je <strong>lovor višnja</strong>. I to nije slučajno.</p>
 
