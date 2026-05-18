@@ -147,7 +147,7 @@ const blogPosts = [
     slug: 'tuja-smaragd-sadnja-i-nega',
     title: 'Tuja Smaragd – Sve što treba da znate o sadnji i nezi',
     excerpt: 'Tuja Smaragd je najpopularnija ogradna biljka u Srbiji. Saznajte kada i kako je saditi, koji razmak je optimalan, kako je negovati i zašto je toliko tražena — sve na jednom mestu.',
-    date: '2026-03-18',
+    date: '2026-05-16',
     readTime: '7 min',
     category: 'Četinari',
     image: '/images/tujavelika.jpeg',
