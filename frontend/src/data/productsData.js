@@ -213,7 +213,7 @@ export const products = [
     name: 'Lovor višnja',
     category: 'liscari',
     categories: ['liscari', 'ziva-ograda'],
-    price: 360,
+    price: 400,
     showPrice: true,
     image: '/images/lovorvisnja.jpeg',
     images: [
@@ -292,9 +292,13 @@ export const products = [
     name: 'Bambus',
     category: 'liscari',
     categories: ['liscari'],
-    price: 3500,
+    price: 2500,
     showPrice: true,
     image: '/images/bambus.jpeg',
+    sizes: [
+      { label: '1.5–2 m', price: 2500 },
+      { label: '2.5–3 m', price: 3500 },
+    ],
     description: 'Bambus je brzorastuća trava koja stvara prirodnu živu ogradu i daje egzotični pejzaž. Idealna za modernije dizajne.',
     richContent: `Bambus je najbrže rastuća biljka na svetu i idealna za formiranje privatne, prirodne žive ograde. Za dvorišta se preporučuju non-invazivne klastermske vrste (Fargesia) koje ne šire korenjem. Naraste do 3–5 metara i formira gustu zelenu zavesu. Zimi zadržava listove, ali može izgubiti deo lišća na jakim mrazevima. Rasadnik Tilija nudi bambus uz dostavu i sadnju.`,
     inStock: true,
