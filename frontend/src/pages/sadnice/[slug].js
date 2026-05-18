@@ -270,11 +270,10 @@ const ProductDetails = ({ product }) => {
               <Link href="/contact" className="contact-btn">
                 {t('productDetails.contactUs') || 'Kontaktirajte nas za narudžbinu'}
               </Link>
+              <button onClick={() => router.back()} className="back-btn">
+                ← {t('productDetails.back') || 'Nazad'}
+              </button>
             </div>
-
-            <button onClick={() => router.back()} className="back-btn">
-              ← {t('productDetails.back') || 'Nazad'}
-            </button>
           </div>
         </div>
 
