@@ -25,6 +25,7 @@ const ProductDetails = ({ product }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedSizeIdx, setSelectedSizeIdx] = useState(null);
 
   const categoryName = getCategoryName(product.category);
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
@@ -169,7 +170,39 @@ const ProductDetails = ({ product }) => {
               )}
             </div>
 
-            {product.showPrice ? (
+            {product.sizes ? (
+              <div className="product-size-selector">
+                <label htmlFor="size-select" className="size-selector-label">Odaberite visinu:</label>
+                <select
+                  id="size-select"
+                  className="size-select-dropdown"
+                  value={selectedSizeIdx ?? ''}
+                  onChange={e => setSelectedSizeIdx(e.target.value === '' ? null : Number(e.target.value))}
+                >
+                  <option value="">— Izaberite visinu —</option>
+                  {product.sizes.map((s, i) => (
+                    <option key={i} value={i}>
+                      {s.label}{s.price ? `  —  ${s.price.toLocaleString()} RSD` : '  —  na upit'}
+                    </option>
+                  ))}
+                </select>
+                <div className={`product-price-section${selectedSizeIdx !== null && !product.sizes[selectedSizeIdx].price ? ' price-on-request-section' : ''}`}>
+                  {selectedSizeIdx === null ? (
+                    <>
+                      <span className="product-price-label">Cena od</span>
+                      <span className="product-price-value">{product.price.toLocaleString()} RSD</span>
+                    </>
+                  ) : product.sizes[selectedSizeIdx].price ? (
+                    <>
+                      <span className="product-price-label">Cena</span>
+                      <span className="product-price-value">{product.sizes[selectedSizeIdx].price.toLocaleString()} RSD</span>
+                    </>
+                  ) : (
+                    <span className="product-price-value">Cena na upit</span>
+                  )}
+                </div>
+              </div>
+            ) : product.showPrice ? (
               <div className="product-price-section">
                 <span className="product-price-label">Cena od</span>
                 <span className="product-price-value">{product.price.toLocaleString()} RSD</span>
