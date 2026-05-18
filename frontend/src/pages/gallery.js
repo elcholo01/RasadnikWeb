@@ -10,7 +10,7 @@ const galleryImages = [
   '/images/72097.jpeg', '/images/68271.jpeg', '/images/72095.jpeg',
   '/images/IMG_4670.jpeg', '/images/IMG_4686.jpeg', '/images/IMG_5210.jpeg',
   '/images/72290.jpeg', '/images/72052.jpeg', '/images/IMG_4839.jpeg',
-  '/images/72299.jpeg', '/images/IMG_5327.jpeg', '/images/77219.jpeg',
+  '/images/72299.jpeg', '/images/77219.jpeg',
   '/images/72100.jpeg', '/images/WhatsApp Image 2025-12-26 at 13.00.03.jpeg',
   '/images/486679551_18465391054068689_5399905233392503403_n.jpg',
   '/images/588721729_18509882257068689_6717567260362003079_n.jpg',

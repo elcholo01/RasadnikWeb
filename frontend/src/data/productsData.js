@@ -205,9 +205,8 @@ export const products = [
     image: '/images/lovorvisnja.jpeg',
     images: [
       '/images/lovorvisnja.jpeg',
-      '/images/IMG_5327.jpeg',
       '/images/lovor1.jpeg',
-      '/images/lovor2.jpeg',
+      '/images/lovormarakana.PNG',
       '/images/lovor3.jpeg',
       '/images/lovor4.jpeg',
       '/images/lovormali.jpeg',
