@@ -2,7 +2,7 @@ const blogPosts = [
   {
     id: 3,
     slug: 'lovor-visnja-sadnja-i-nega',
-    title: 'Lovor Višnja – Zimzelena Ograda koja Raste Brzo i Izgleda Lepo Celu Godinu',
+    title: 'Lovor višnja – zimzelena ograda koja raste brzo i izgleda lepo celu godinu',
     excerpt: 'Lovor višnja je jedna od najtraženijih biljaka za živu ogradu u Srbiji — zimzelena, brzorastuća i otporna. Saznajte kada i kako je saditi, koji razmak je idealan i zašto je toliko popularna.',
     date: '2026-05-19',
     readTime: '6 min',
