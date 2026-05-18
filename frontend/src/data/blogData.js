@@ -1,5 +1,148 @@
 const blogPosts = [
   {
+    id: 3,
+    slug: 'lovor-visnja-sadnja-i-nega',
+    title: 'Lovor Višnja – Zimzelena Ograda koja Raste Brzo i Izgleda Lepo Celu Godinu',
+    excerpt: 'Lovor višnja je jedna od najtraženijih biljaka za živu ogradu u Srbiji — zimzelena, brzorastuća i otporna. Saznajte kada i kako je saditi, koji razmak je idealan i zašto je toliko popularna.',
+    date: '2026-04-15',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/lovorvisnja.jpeg',
+    content: `
+      <p>Kada kupci dođu u naš rasadnik i pitaju „šta je dobro za živu ogradu koja brzo raste i lepo izgleda celu godinu?" — odgovor koji najčešće dajemo je <strong>lovor višnja</strong>. I to nije slučajno.</p>
+
+      <p>Lovor višnja (<em>Prunus laurocerasus</em>) je zimzeleni žbun koji osvaja svakoga ko ga posadi: krupni, sjajni listovi, kompaktan rast, otpornost na hladnoću i suše, i sposobnost da za samo nekoliko godina napravi gustу, neprobojnu ogradu. U ovom tekstu ćemo vam objasniti sve što treba da znate pre sadnje.</p>
+
+      <h2>Zašto je lovor višnja tako popularna?</h2>
+      <p>Ova biljka ima niz prednosti koje je čine jednim od najprodavanijih žbunova za ogradu u Srbiji:</p>
+      <ul>
+        <li><strong>Zimzelena</strong> — zadržava zelene listove tokom cele godine, i leti i zimi</li>
+        <li><strong>Brz rast</strong> — u dobrim uslovima naraste i do 40–60 cm godišnje</li>
+        <li><strong>Gusta krošnja</strong> — formira čvrstu, neprobojnu ogradu koja efikasno skriva dvorište</li>
+        <li><strong>Otporna na hladnoću</strong> — podnosi mraz do -20°C bez oštećenja</li>
+        <li><strong>Niska održavanja</strong> — nije zahtevna po pitanju đubrenja i zalivanja kada se ukoreni</li>
+        <li><strong>Otporna na zasenu</strong> — raste dobro čak i u delimičnoj senci, što je retko kod ogradnih biljaka</li>
+        <li><strong>Bela cvetanja</strong> — u maju cveta belim, mirisnim cvetovima koji privlače pčele</li>
+      </ul>
+
+      <h2>Sorte lovor višnje — koja je prava za vas?</h2>
+      <p>Postoji više sorti lovor višnje, a svaka ima svoje karakteristike. Evo pregleda najčešćih:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Sorta</th>
+            <th>Visina</th>
+            <th>Rast</th>
+            <th>Primena</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Rotundifolia</strong></td>
+            <td>do 5 m</td>
+            <td>brz, do 60 cm/god</td>
+            <td>visoke ograde, zakloni</td>
+          </tr>
+          <tr>
+            <td><strong>Caucasica</strong></td>
+            <td>do 4 m</td>
+            <td>srednji, do 40 cm/god</td>
+            <td>standardne ograde</td>
+          </tr>
+          <tr>
+            <td><strong>Etna</strong></td>
+            <td>do 3 m</td>
+            <td>usporeniji</td>
+            <td>manje parcele, saksije</td>
+          </tr>
+          <tr>
+            <td><strong>Otto Luyken</strong></td>
+            <td>do 1 m</td>
+            <td>spor, kompaktan</td>
+            <td>niski pokrivači tla</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Za standardnu živu ogradu u Srbiji, najčešće preporučujemo sortu <strong>Rotundifolia</strong> ili <strong>Caucasica</strong> — lako se nabavljaju, brzo rastu i otporne su na naše klimatske uslove.</p>
+
+      <h2>Kada saditi lovor višnju?</h2>
+      <p>Lovor višnja se može saditi skoro cele godine, ali postoje dva idealna perioda:</p>
+      <ul>
+        <li><strong>Proleće (mart–april)</strong> — biljka ima ceo vegetativni period ispred sebe da razvije koren pre prve zime. Ovo je naš prvi izbor za one koji sade po prvi put.</li>
+        <li><strong>Jesen (septembar–oktobar)</strong> — zemlja je još topla od leta, što podstiče razvoj korena pre mirovanja tokom zime.</li>
+      </ul>
+      <p>Sadnju leti (jun–avgust) treba izbegavati ili planirati uz pojačano zalivanje, jer visoke temperature stresno deluju na biljku dok se ukorenjava.</p>
+
+      <h2>Koji razmak pri sadnji?</h2>
+      <p>Razmak između biljaka direktno utiče na to koliko brzo ćete dobiti gustу ogradu:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Željeni efekat</th>
+            <th>Razmak između biljaka</th>
+            <th>Vreme do pune ograde</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gusta, kompaktna ograda</td>
+            <td>50–60 cm</td>
+            <td>2–3 godine</td>
+          </tr>
+          <tr>
+            <td>Standardna ograda</td>
+            <td>70–80 cm</td>
+            <td>3–4 godine</td>
+          </tr>
+          <tr>
+            <td>Ekonomična sadnja</td>
+            <td>90–100 cm</td>
+            <td>4–5 godina</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Ako žurite sa obradom dvorišta, preporučujemo razmak od <strong>60 cm</strong> — biljke će se brže spojiti i napraviti neprobojni zaklon.</p>
+
+      <h2>Korak po korak: kako pravilno posaditi lovor višnju</h2>
+      <ol>
+        <li><strong>Odaberite mesto</strong> — lovor višnja podnosi puno sunce, ali i polusenku. Izbegavajte mesta sa stalnom vodom u tlu.</li>
+        <li><strong>Iskopajte rupu</strong> — duplo širu i jednako duboku kao saksija u kojoj je biljka kupljena.</li>
+        <li><strong>Obogatite zemlju</strong> — pomešajte izvađenu zemlju sa zrelim kompostom ili baštenskom zemljom u omeru 1:1.</li>
+        <li><strong>Postavite biljku</strong> — vrat korena (gde stablo prelazi u koren) treba da bude u nivou zemlje, ne dublje.</li>
+        <li><strong>Zalijte obilno</strong> — odmah nakon sadnje, dobro namočite zemlju oko korena.</li>
+        <li><strong>Mulčirajte</strong> — stavite sloj kore ili šljunka oko biljke (5–8 cm) da zadržite vlagu i sprečite korov.</li>
+      </ol>
+
+      <h2>Nega u prvoj godini</h2>
+      <p>Prva godina je ključna za ukorenjavanje. Evo šta treba raditi:</p>
+      <ul>
+        <li><strong>Zalivanje:</strong> U prvoj godini zalivajte jednom nedeljno (češće za vreme suše). Kad se ukoreni — jednom u 2–3 nedelje ili po potrebi.</li>
+        <li><strong>Đubrenje:</strong> U proleće dodajte đubrivo za zimzelene biljke ili universalno NPK đubrivo. Ponovite u junu.</li>
+        <li><strong>Zaštita zimi:</strong> Mlade biljke (prvu zimu) možete lagano zaštititi agrotekstilom ako se očekuju jaki mrazevi ispod -15°C.</li>
+      </ul>
+
+      <h2>Orezivanje lovor višnje</h2>
+      <p>Lovor višnja ne zahteva česta orezivanja, ali formativnim orezivanjem možete kontrolisati visinu i gustinu:</p>
+      <ul>
+        <li><strong>Vreme:</strong> Orezujte krajem aprila ili u avgustu — nikako u vreme aktivnog porasta jer biljka tada troši puno energije.</li>
+        <li><strong>Alat:</strong> Koristite sekator, a ne šišalice za živo zelenilo — šišalice seku listove na pola što daje ružan izgled. Sekator reže između listova i daje čistiji izgled.</li>
+        <li><strong>Koliko seći:</strong> Ne seci više od trećine biljke odjednom. Lovor višnja dobro podnosi jaku rez i brzo se regeneriše.</li>
+      </ul>
+
+      <h2>Koliko brzo raste lovor višnja?</h2>
+      <p>U proseku, zdrava lovor višnja naraste <strong>30–60 cm godišnje</strong>, zavisno od sorte, tipa tla i količine vode. Sadnica visine 80–100 cm može za 3–4 godine postati ograda od 2+ metra.</p>
+      <p>To je jedan od razloga zašto je toliko popularna — za relativno kratko vreme dobijate privatnost i zaštitu bez velikih ulaganja.</p>
+
+      <h2>Kupite lovor višnju u Rasadniku Tilija</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) uvek imamo na stanju lovor višnju u različitim visinama — od 40 cm do 150+ cm sadnica. Vršimo dostavu sadnica širom Srbije.</p>
+      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte <a href="/sadnice/lovor-visnja">stranicu lovor višnje</a> za aktuelne cene i raspoloživost.</p>
+    `,
+  },
+  {
     id: 2,
     slug: 'tuja-smaragd-sadnja-i-nega',
     title: 'Tuja Smaragd – Sve što treba da znate o sadnji i nezi',
