@@ -210,9 +210,6 @@ const Home = () => {
           <div className="container">
             <h2>{t('home.ctaTitle')}</h2>
             <p>{t('home.ctaSubtitle')}</p>
-            <p style={{ marginTop: 16, fontSize: '0.95rem', opacity: 0.8 }}>
-              📍 Rasadnik Tilija – Pločica, opština Kovin | Dostava u Kovin, Pančevo, Beograd i celu Srbiju
-            </p>
           </div>
         </section>
       </div>
