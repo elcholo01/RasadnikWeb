@@ -19,13 +19,41 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Rasadnik Tilija – Kupite sadnice za živu ogradu i dvorište</title>
-        <meta name="description" content="Kupite kvalitetne sadnice iz Rasadnika Tilija – tuja, lovor višnja, katalpa, fotinija, perene i 40+ vrsta. Dostava i sadnja širom Srbije. Povoljne cene, stručni savet." />
+        <title>Rasadnik Tilija – Sadnice u Kovinu | Živa ograda i ukrasno bilje</title>
+        <meta name="description" content="Rasadnik Tilija u Kovinu (Pločica) – tuja, lovor višnja, katalpa, fotinija, bambus i 40+ vrsta sadnica. Dostava u Kovin, Pančevo, Beograd i celu Srbiju. Povoljne cene, stručni savet." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/" />
-        <meta property="og:title" content="Rasadnik Tilija – Kupite sadnice za živu ogradu i dvorište" />
-        <meta property="og:description" content="Kupite kvalitetne sadnice iz Rasadnika Tilija – tuja, lovor višnja, katalpa, fotinija, perene i 40+ vrsta. Dostava i sadnja širom Srbije." />
+        <meta property="og:title" content="Rasadnik Tilija – Sadnice u Kovinu | Živa ograda i ukrasno bilje" />
+        <meta property="og:description" content="Rasadnik Tilija u Kovinu (Pločica) – tuja, lovor višnja, katalpa, fotinija, bambus i 40+ vrsta sadnica. Dostava u Kovin i celu Srbiju." />
         <meta property="og:url" content="https://rasadniktilija.rs/" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "GardenStore",
+          "name": "Rasadnik Tilija",
+          "url": "https://rasadniktilija.rs",
+          "telephone": "+381638870837",
+          "image": "https://rasadniktilija.rs/images/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Pločica",
+            "addressLocality": "Kovin",
+            "postalCode": "26220",
+            "addressCountry": "RS"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.7530,
+            "longitude": 20.9970
+          },
+          "areaServed": [
+            { "@type": "City", "name": "Kovin" },
+            { "@type": "City", "name": "Pančevo" },
+            { "@type": "City", "name": "Beograd" },
+            { "@type": "AdministrativeArea", "name": "Južnobanatski okrug" }
+          ],
+          "priceRange": "$$",
+          "openingHours": "Mo-Sa 07:00-18:00"
+        })}} />
       </Head>
       <div className="home">
         {/* Hero */}
@@ -182,6 +210,9 @@ const Home = () => {
           <div className="container">
             <h2>{t('home.ctaTitle')}</h2>
             <p>{t('home.ctaSubtitle')}</p>
+            <p style={{ marginTop: 16, fontSize: '0.95rem', opacity: 0.8 }}>
+              📍 Rasadnik Tilija – Pločica, opština Kovin | Dostava u Kovin, Pančevo, Beograd i celu Srbiju
+            </p>
           </div>
         </section>
       </div>
