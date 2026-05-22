@@ -820,8 +820,7 @@ export const products = [
       '/images/maslina5.jpeg',
       '/images/novemasline1.jpeg',
       '/images/novemasline2.jpeg',
-      '/images/novemasline3.jpeg',
-      '/images/novemasline4.jpeg'
+      '/images/novemasline3.jpeg'
     ],
     description: 'Maslina (Olea europaea) je zimzeleno mediteransko drvo sa srebrno-zelenim listovima. Dugovečna i dekorativna, idealna za dvorišta, terase i mediteranski stil uređenja.',
     richContent: `Maslina (Olea europaea) je mediteransko zimzeleno drvo sa karakterističnim srebrnasto-zelenim listovima i krivudavim starim deblom. Može živeti stotinama godina i postaje sve lepša sa godinama. Kod nas se uzgaja uglavnom kao dekorativna biljka u teglama ili zaštićenim dvorištima. Podnosi mraz do -10°C, traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu – cena na upit.`,
