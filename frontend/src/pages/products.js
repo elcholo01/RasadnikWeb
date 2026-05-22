@@ -41,7 +41,8 @@ const Products = () => {
     { id: 'cetinari', name: t('products.cetinari') },
     { id: 'liscari', name: t('products.liscari') },
     { id: 'siblje', name: t('products.siblje') },
-    { id: 'perene', name: t('products.perene') }
+    { id: 'perene', name: t('products.perene') },
+    { id: 'mediteranske', name: 'Mediteranske biljke' }
   ];
 
   const filteredProducts = products.filter(product => {
