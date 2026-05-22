@@ -1,5 +1,200 @@
 const blogPosts = [
   {
+    id: 4,
+    slug: 'fotinija-red-robin-sadnja-i-nega',
+    title: 'Fotinija Red Robin – sadnja, nega i oblikovanje: kompletan vodič za Srbiju',
+    excerpt: 'Fotinija Red Robin je zimzeleni žbun s vatreno crvenim listovima koji krasi baštu tokom cele godine. Saznajte kako je pravilno posaditi, negovati i oblikovati — od sadnje do rezidbe.',
+    date: '2026-05-22',
+    readTime: '8 min',
+    category: 'Lišćari',
+    image: '/images/fotinijanaslovna.jpeg',
+    content: `
+      <p>Kada u proleće iz rasadnika iznesemo nove sadnice fotinija i složimo ih u red, prolaznici uvek zastanu. Nije čudno — mladi listovi fotinija sijaju u narandžasto-crvenoj boji kao da gorе. Nijedna druga zimzelena biljka ne daje taj efekat vatre usred zelene bašte.</p>
+
+      <p><strong>Fotinija Red Robin</strong> (<em>Photinia × fraseri 'Red Robin'</em>) je jedna od najtražnijih biljaka za živu ogradu i dekoraciju dvorišta u Srbiji. Zimzelena je, relativno brzorastuća, otporna na mraz i ne zahteva mnogo nege. U ovom vodiču objasnićemo vam sve — od izbora mesta do pravilne rezidbe — da biste od nje dobili maksimum.</p>
+
+      <h2>Zašto fotinija Red Robin – šta je posebno kod ove biljke?</h2>
+      <p>Fotinija Red Robin se razlikuje od svih ostalih ogradnih biljaka po jednoj stvari: <strong>vatreno crvenim mladim listovima</strong> koji se pojavljuju dva puta godišnje — u proleće i u jesen, nakon rezidbe. Stariji listovi postaju tamnozeleni i sjajni, što stvara efektan kontrast.</p>
+      <ul>
+        <li><strong>Zimzelena</strong> — ne gubi listove zimi, dvorište ostaje zeleno tokom cele godine</li>
+        <li><strong>Dekorativna u svakom godišnjem dobu</strong> — crvena u proleće i jesen, tamnozelena leti i zimi</li>
+        <li><strong>Otporna na mraz</strong> — podnosi temperature do -15°C bez problema</li>
+        <li><strong>Brz rast</strong> — naraste 30–50 cm godišnje u dobrim uslovima</li>
+        <li><strong>Lako se oblikuje</strong> — odlično podnosi rezidbu i česta orezivanja</li>
+        <li><strong>Dostupna kao žbun i kao stablašica</strong> — može biti i niska ograda i ukrasno drvo</li>
+      </ul>
+      <p>Upravo ta kombinacija dekorativnosti i praktičnosti čini je jednom od najprodavanijih biljaka u našem rasadniku.</p>
+
+      <h2>Gde saditi fotiniju Red Robin – sunce, senka i pozicija</h2>
+      <p>Fotinija Red Robin razvija najintenzivniju crvenu boju listova na <strong>punom suncu</strong>. Može da raste i u polusenki, ali tada su crveni listovi manje upečatljivi, a rast sporiji.</p>
+      <ul>
+        <li><strong>Idealna pozicija:</strong> puno sunce ili blaga polusenka (4–6 sati direktnog sunca dnevno)</li>
+        <li><strong>Zaštita od vetra:</strong> jaki zimski vetrovi mogu da ošte mlade listove — birајте zaštićenije mesto ako je moguće</li>
+        <li><strong>Blizina zidova i ograda:</strong> fotinija dobro raste uz zidove koji reflektuju toplotu — ovo je posebno korisno u hladnijim krajevima Srbije</li>
+        <li><strong>Zemlja:</strong> preferira dobro drenirano, blago kiselo do neutralno zemljište (pH 5,5–7). Loše podnosi stajaću vodu oko korena</li>
+      </ul>
+
+      <h2>Kada je pravo vreme za sadnju fotinija?</h2>
+      <p>Fotinija Red Robin se može saditi gotovo tokom cele godine, ali postoje dva optimalna perioda:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Period sadnje</th><th>Prednosti</th><th>Na šta obratiti pažnju</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Proleće (mart–april)</strong></td>
+            <td>Biljka ulazi u vegetaciju, koren se brzo razvija</td>
+            <td>Pojačano zalivanje u prvim nedeljama</td>
+          </tr>
+          <tr>
+            <td><strong>Jesen (septembar–oktobar)</strong></td>
+            <td>Zemlja je topla, koren se razvija pre zime</td>
+            <td>Zaštita u prvoj zimi ako su sadnice male</td>
+          </tr>
+          <tr>
+            <td><strong>Leto (jun–avgust)</strong></td>
+            <td>Sadnice su dostupne, moguca je sadnja</td>
+            <td>Obavezno intenzivno zalivanje, zaseniti prvih nedelju dana</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Naša preporuka za početnike: <strong>jesen je zlatno vreme</strong> za sadnju fotinija. Zemlja zadržava toplotu od leta, a biljka ima cele zime da razvije koren bez stresa od letnjih vrućina.</p>
+
+      <h2>Kako posaditi fotiniju Red Robin – korak po korak</h2>
+
+      <h3>1. Priprema rupe</h3>
+      <p>Iskopajte rupu <strong>dva puta širu i iste dubine</strong> kao saksija sadnice. Na dno dodajte šaku komposta ili specijalnog đubriva za zimzelene biljke. Ne zasipajte dno debelim slojem — manje je više, koren treba da "traži" hranu i širi se.</p>
+
+      <h3>2. Postavljanje sadnice</h3>
+      <p>Izvadite sadnicu iz saksije i blago rastresite koren rukama ako je zbijen. Postavite je u rupu tako da je vrh saksije <strong>u nivou okolnog tla</strong> — ne dublje, ne pliće. Plitka sadnja je jedna od najčešćih grešaka.</p>
+
+      <h3>3. Zatrpavanje i sabijanje</h3>
+      <p>Zatrpajte mešavinom iskopane zemlje i komposta (odnos 2:1). Lagano sabijte stopalom oko stabljike i formirajte malo udubljenje koje će zadržavati vodu pri zalivanju.</p>
+
+      <h3>4. Prvo zalivanje</h3>
+      <p>Odmah nakon sadnje obilno zalijte — minimum <strong>10–15 litara po biljci</strong>. Voda treba da prodre do dna rupe i ovlaži sve korenje. Ovo je najvažniji korak pri sadnji — ne preskačite ga.</p>
+
+      <h3>5. Malčovanje</h3>
+      <p>Oko biljke rasporedite sloj malča (kora bora, kompost, lišće) debljine 5–8 cm. Malč čuva vlagu u zemlji, sprečava rast korova i štiti koren od mrazeva u prvoj zimi. Ostavite 10 cm prostora između malča i stabljike biljke.</p>
+
+      <h2>Nega fotinija Red Robin – zalivanje, đubrenje i zemlja</h2>
+      <p>Kada se fotinija jednom dobro ukoreni (obično posle prve godine), postaje relativno skromna biljka. Ali u prvoj godini, nega je ključna.</p>
+
+      <h3>Zalivanje</h3>
+      <ul>
+        <li><strong>Prva godina:</strong> zalivajte 1–2 puta nedeljno u sušnim periodima, posebno leti. Kontejnerske biljke se brže suše od onih u punoj zemlji.</li>
+        <li><strong>Odrasle biljke:</strong> zalivanje samo u dužim sušnim periodima (više od 3 nedelje bez kiše). Fotinija podnosi umerenu sušu kada se ukoreni.</li>
+        <li><strong>Preterano zalivanje je opasno:</strong> gljivične bolesti (pepelnica, mrka pegavost) napadaju biljke kojima "mokre noge stoje u vodi". Voda treba da otiče, ne da se zadržava.</li>
+      </ul>
+
+      <h3>Đubrenje</h3>
+      <ul>
+        <li><strong>Proleće (mart–april):</strong> đubrivo za zimzelene biljke ili opšte đubrivo bogato azotom — podstiče rast novih crvenih izbojaka</li>
+        <li><strong>Kasno leto (jul–avgust):</strong> đubrivo sa manje azota a više kalijuma — učvršćuje letnji prirast pre zime</li>
+        <li><strong>Jesen i zima:</strong> ne đubrite — podsticanje rasta pred mraz slabi biljku</li>
+      </ul>
+
+      <h2>Rezidba fotinija Red Robin – kada i kako se reže?</h2>
+      <p>Rezidba fotinija ima dvostruku svrhu: oblikovanje i podsticanje novih crvenih listova. Svaki put kada orežete fotiniju, ona odgovara novim vatreno crvenim izbojcima — ovo je njena najatraktivnija karakteristika.</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vreme rezidbe</th><th>Kada tačno</th><th>Cilj</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Prolećna rezidba</strong></td>
+            <td>April–maj, posle mraza</td>
+            <td>Oblikovanje, podsticanje prirasta</td>
+          </tr>
+          <tr>
+            <td><strong>Letnja rezidba</strong></td>
+            <td>Jun–jul</td>
+            <td>Kontrola oblika, drugi talas crvenih listova</td>
+          </tr>
+          <tr>
+            <td><strong>Izbegavati</strong></td>
+            <td>Posle avgusta</td>
+            <td>Novi izbojci ne stignu da očvrsnu pre mraza</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p><strong>Koliko orezivati?</strong> Nikada više od jedne trećine biljke odjednom. Koristite oštre, sterilne makaze ili motorne škare za živu ogradu. Tupim alatom pravite rane koje su ulazna tačka za bolesti.</p>
+
+      <h2>Fotinija kao živa ograda – razmak i broj sadnica</h2>
+      <p>Fotinija Red Robin je izvrsna biljka za formalnu živu ogradu visine 1–2 metra. Za gustu ogradu koristite <strong>manji razmak</strong>, za slobodniji rast — veći.</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Tip ograde</th><th>Razmak između biljaka</th><th>Visina sadnice</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gusta formalna ograda</td>
+            <td>50–60 cm</td>
+            <td>60–80 cm</td>
+          </tr>
+          <tr>
+            <td>Standardna ograda</td>
+            <td>70–80 cm</td>
+            <td>80–100 cm</td>
+          </tr>
+          <tr>
+            <td>Slobodnostojeći žbunovi</td>
+            <td>100–120 cm</td>
+            <td>Bilo koja visina</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Primer: za ogradu dužine 10 metara sa razmakom 60 cm, potrebno je oko <strong>17 sadnica</strong>. Uvek kupite 1–2 extra kao rezervu.</p>
+      <p>Fotinija narasle do 150–180 cm formira gustу, neprobojnu ogradu koja lepo izgleda i ne orezivana — ali sa redovnom rezidbom dvaput godišnje postaje pravo remek-delo vašeg dvorišta. Pogledajte naše <a href="/sadnice/fotinija-red-robin">sadnice fotinija u različitim visinama</a>.</p>
+
+      <h2>Fotinija na štapu (stablašica) – elegancija u bašti</h2>
+      <p>Pored klasičnog žbunja, fotinija se uzgaja i kao <strong>stablašica</strong> — biljka oblikovana na jednom ravnom stablu sa okruglom krunom na vrhu. Ovo je odličan izbor za:</p>
+      <ul>
+        <li>Male bašte gde nema mesta za široke žbunove</li>
+        <li>Terase i ulazne prostore kao par simetričnih biljaka</li>
+        <li>Parkove i veće uređene površine kao akcenatske tačke</li>
+        <li>Kombinovanje sa nižim perenim biljkama ispod krune</li>
+      </ul>
+      <p>Stablašica fotinija posebno je upečatljiva u proleće kada crvena kruna kontrastira s okolnim zelenim biljem. Nega je ista kao i za žbunove — redovnom rezidbom krune jednom do dva puta godišnje čuvate oblik.</p>
+
+      <h2>Najčešće greške pri uzgoju fotinija</h2>
+      <ul>
+        <li><strong>Sadnja na mokrom terenu:</strong> zemlja koja zadržava vodu dovodi do truljenja korena i gljivičnih bolesti. Popravite drenažu pre sadnje.</li>
+        <li><strong>Preskakanje zalivanja u prvoj godini:</strong> fotinija izgleda zdravo i onda odjednom uvene — ovo je najčešće zbog sušnog stresa u prvom letu. Pratite je dosledno.</li>
+        <li><strong>Rezidba posle avgusta:</strong> novi mladi listovi koje podstiče kasna rezidba nemaju vremena da očvrsnu, i mraz ih uništi. Poslednja rezidba treba biti do kraja jula.</li>
+        <li><strong>Preplitka ili preduboka sadnja:</strong> koren u prvom slučaju isplivava iz zemlje, u drugom se guši. Vrh saksije uvek mora biti tačno u nivou tla.</li>
+        <li><strong>Ignorisanje pepelnice:</strong> bela prašinava obloga na listovima signal je pepelnice. Tretiran fungicidom u ranoj fazi, problem se rešava lako. Zanemarena pepelnica može da uništi biljku.</li>
+      </ul>
+
+      <h2>Česta pitanja o fotiniji Red Robin</h2>
+
+      <h3>Koliko brzo raste fotinija Red Robin?</h3>
+      <p>U dobrim uslovima (puno sunce, dobra zemlja, redovno zalivanje u prvoj godini) fotinija Red Robin naraste <strong>30–50 cm godišnje</strong>. U prvoj godini rast je sporiji jer biljka usmerava energiju na razvoj korena.</p>
+
+      <h3>Može li fotinija da prezimi bez zaštite u Srbiji?</h3>
+      <p>Da. Fotinija Red Robin je otporna na mraz do -15°C, što je dovoljno za gotovo sve krajeve Srbije. Mlade sadnice u prvoj zimi možete dodatno zaštititi agrotekstilom ako se očekuju ekstremni mrazevi ispod -12°C.</p>
+
+      <h3>Zašto fotiniji listovi postaju smeđi?</h3>
+      <p>Smeđi listovi najčešće znače jedno od tri: <strong>prezasićenost vodom</strong> (loša drenaža), <strong>mraz oštećenje</strong> (naročito mladi prolećni listovi osetljivi su na kasne mrazeve) ili <strong>gljivična bolest</strong>. Proverite drenažu i po potrebi tretirajte fungicidom.</p>
+
+      <h3>Koliko sadnica treba za ogradu od 20 metara?</h3>
+      <p>Sa razmakom 60 cm, za 20 metara ograde potrebno je oko <strong>34 sadnice</strong>. Za gušću ogradu sa razmakom 50 cm — 41 sadnica. Uvek dodajte 10% kao rezervu.</p>
+
+      <h3>Da li fotinija cveta?</h3>
+      <p>Da — fotinija Red Robin cveta u <strong>aprilu i maju</strong> belim cvastovima nalik na cvast kruške. Cvetanje je diskretno u poređenju sa crvenim listovima, ali mirisno i korisno za pčele.</p>
+
+      <h2>Gde kupiti fotiniju Red Robin u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo fotiniju Red Robin u svim visinama — od malih kontejnerskih sadnica (40–60 cm) do krupnih biljaka (120–150 cm) spremnih za trenutni efekat. Dostavljamo sadnice širom Srbije i pružamo besplatan savet za svaki tip dvorišta.</p>
+      <p>Posetite stranicu <a href="/sadnice/fotinija-red-robin">fotinija Red Robin</a> da vidite trenutno stanje, ili nas kontaktirajte na <a href="tel:+381638870837">063 88 70 837</a> za individualni savet i cenovnik.</p>
+    `,
+  },
+  {
     id: 3,
     slug: 'lovor-visnja-sadnja-i-nega',
     title: 'Lovor višnja – zimzelena ograda koja raste brzo i izgleda lepo celu godinu',
