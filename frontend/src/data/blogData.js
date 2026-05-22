@@ -2,7 +2,7 @@ const blogPosts = [
   {
     id: 4,
     slug: 'fotinija-red-robin-sadnja-i-nega',
-    title: 'Fotinija Red Robin – sadnja, nega i oblikovanje: kompletan vodič za Srbiju',
+    title: 'Fotinija Red Robin – sadnja, nega i oblikovanje: kompletan vodič',
     excerpt: 'Fotinija Red Robin je zimzeleni žbun s vatreno crvenim listovima koji krasi baštu tokom cele godine. Saznajte kako je pravilno posaditi, negovati i oblikovati — od sadnje do rezidbe.',
     date: '2026-05-22',
     readTime: '8 min',
@@ -26,10 +26,10 @@ const blogPosts = [
       <p>Upravo ta kombinacija dekorativnosti i praktičnosti čini je jednom od najprodavanijih biljaka u našem rasadniku.</p>
 
       <h2>Gde saditi fotiniju Red Robin – sunce, senka i pozicija</h2>
-      <p>Fotinija Red Robin razvija najintenzivniju crvenu boju listova na <strong>punom suncu</strong>. Može da raste i u polusenki, ali tada su crveni listovi manje upečatljivi, a rast sporiji.</p>
+      <p>Fotinija Red Robin razvija najintenzivniju crvenu boju listova na <strong>punom suncu</strong>. Može da raste i u polusenku, ali tada su crveni listovi manje upečatljivi, a rast sporiji.</p>
       <ul>
         <li><strong>Idealna pozicija:</strong> puno sunce ili blaga polusenka (4–6 sati direktnog sunca dnevno)</li>
-        <li><strong>Zaštita od vetra:</strong> jaki zimski vetrovi mogu da ošte mlade listove — birајте zaštićenije mesto ako je moguće</li>
+        <li><strong>Zaštita od vetra:</strong> jaki zimski vetrovi mogu da oštete mlade listove — birajte zaštićenije mesto ako je moguće</li>
         <li><strong>Blizina zidova i ograda:</strong> fotinija dobro raste uz zidove koji reflektuju toplotu — ovo je posebno korisno u hladnijim krajevima Srbije</li>
         <li><strong>Zemlja:</strong> preferira dobro drenirano, blago kiselo do neutralno zemljište (pH 5,5–7). Loše podnosi stajaću vodu oko korena</li>
       </ul>
@@ -151,7 +151,7 @@ const blogPosts = [
       </table>
       </div>
       <p>Primer: za ogradu dužine 10 metara sa razmakom 60 cm, potrebno je oko <strong>17 sadnica</strong>. Uvek kupite 1–2 extra kao rezervu.</p>
-      <p>Fotinija narasle do 150–180 cm formira gustу, neprobojnu ogradu koja lepo izgleda i ne orezivana — ali sa redovnom rezidbom dvaput godišnje postaje pravo remek-delo vašeg dvorišta. Pogledajte naše <a href="/sadnice/fotinija-red-robin">sadnice fotinija u različitim visinama</a>.</p>
+      <p>Fotinija narasla do 150–180 cm formira gustu, neprobojnu ogradu koja lepo izgleda i ne orezivana — ali sa redovnom rezidbom dvaput godišnje postaje pravo remek-delo vašeg dvorišta. Pogledajte naše <a href="/sadnice/fotinija-red-robin">sadnice fotinija u različitim visinama</a>.</p>
 
       <h2>Fotinija na štapu (stablašica) – elegancija u bašti</h2>
       <p>Pored klasičnog žbunja, fotinija se uzgaja i kao <strong>stablašica</strong> — biljka oblikovana na jednom ravnom stablu sa okruglom krunom na vrhu. Ovo je odličan izbor za:</p>
