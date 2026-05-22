@@ -258,6 +258,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://rasadniktilija.rs/sadnice/bastenski-jorgovan</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://rasadniktilija.rs/sadnice/iberis</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

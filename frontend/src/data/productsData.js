@@ -809,8 +809,8 @@ export const products = [
     id: 37,
     slug: 'maslina',
     name: 'Maslina',
-    category: 'liscari',
-    categories: ['liscari'],
+    category: 'mediteranske',
+    categories: ['mediteranske'],
     price: 0,
     image: '/images/maslina1.jpeg',
     images: [
@@ -838,8 +838,8 @@ export const products = [
     id: 38,
     slug: 'bonsai',
     name: 'Bonsai',
-    category: 'liscari',
-    categories: ['liscari'],
+    category: 'mediteranske',
+    categories: ['mediteranske'],
     price: 0,
     image: '/images/Bonsai.jpeg',
     description: 'Bonsai je umetnost uzgoja minijaturnog drveća. Elegantan i jedinstven, savršen poklon i ukras za svaki enterijer ili terasu. Zahteva pažljivu negu i oblikovanje.',
@@ -881,8 +881,8 @@ export const products = [
     id: 42,
     slug: 'palma',
     name: 'Palma',
-    category: 'liscari',
-    categories: ['liscari'],
+    category: 'mediteranske',
+    categories: ['mediteranske'],
     price: 0,
     showPrice: false,
     image: '/images/palma.jpeg',
@@ -924,6 +924,28 @@ export const products = [
       hardiness: 'Otporan na mraz do -20°C'
     }
   },
+  {
+    id: 44,
+    slug: 'bastenski-jorgovan',
+    name: 'Baštenski jorgovan',
+    category: 'siblje',
+    categories: ['siblje'],
+    price: 0,
+    showPrice: false,
+    image: '/images/bastenskijorgovan.jpeg',
+    images: ['/images/bastenskijorgovan.jpeg'],
+    description: 'Baštenski jorgovan (Syringa) je omiljeni ukrasni žbun sa prelepim mirisnim cvetovima u ljubičastoj, beloj ili roze boji. Cveta u proleće i krase svako dvorište.',
+    richContent: `Baštenski jorgovan (Syringa vulgaris) je jedan od najmirisнijih ukrasnih žbunova koji cveta u aprilu i maju. Grozdovi cvetova u ljubičastoj, beloj ili roze boji ispunjavaju baštu prelepim mirisom. Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz do -25°C i dugovečan – može živeti decenijama. Sadi se u jesen ili rano proleće na osunčanom mestu u neutralnu do blago alkalnu zemlju. Rasadnik Tilija nudi baštenski jorgovan uz dostavu – cena na upit.`,
+    inStock: true,
+    details: {
+      height: 'Dostupne sve visine',
+      sunlight: 'Puno sunce',
+      watering: 'Umereno zalivanje',
+      soil: 'Neutralna do blago alkalna zemlja',
+      hardiness: 'Veoma otporan na mraz do -25°C'
+    }
+  },
+
   {
     id: 39,
     slug: 'iberis',
@@ -972,7 +994,8 @@ export const categories = [
   { id: 'cetinari', nameKey: 'products.cetinari', name: 'Četinari' },
   { id: 'liscari', nameKey: 'products.liscari', name: 'Lišćari' },
   { id: 'siblje', nameKey: 'products.siblje', name: 'Šiblje' },
-  { id: 'perene', nameKey: 'products.perene', name: 'Perene' }
+  { id: 'perene', nameKey: 'products.perene', name: 'Perene' },
+  { id: 'mediteranske', nameKey: 'products.mediteranske', name: 'Mediteranske biljke' }
 ];
 
 // Helper funkcija za pronalaženje proizvoda po ID-u ili slug-u
