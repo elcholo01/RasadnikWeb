@@ -141,14 +141,17 @@ const Home = () => {
               <Link href="/sadnice/katalpa"
                 onMouseEnter={() => setHoveredCard('katalpa')}
                 onMouseLeave={() => setHoveredCard(null)}
-                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'katalpa' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'katalpa' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
-                <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
+                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'katalpa' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'katalpa' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <img src="/images/katalpa-card.webp" alt="Katalpa sadnica – ukrasno drvo" loading="lazy" decoding="async"
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
-                  <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
-                </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.katalpa')}</h3>
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'katalpa' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s', opacity: hoveredCard === 'katalpa' ? 0.85 : 1 }} />
+                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '65%', background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '24px 24px 28px', color: 'white' }}>
+                    <h3 style={{ fontSize: '1.55rem', fontWeight: 800, margin: '0 0 8px 0', lineHeight: 1.2 }}>{t('home.katalpa')}</h3>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.88, lineHeight: 1.5, margin: '0 0 12px 0' }}>Ukrasno drvo sa ogromnim listovima i belim cvetovima. Brzorastuće, daje sjajan hlad.</p>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.9rem', fontWeight: 600, color: '#a5d6a7' }}>
+                      <span>Pogledaj detalje</span><span>→</span>
+                    </div>
+                  </div>
                 </div>
               </Link>
 
@@ -156,14 +159,17 @@ const Home = () => {
               <Link href="/sadnice/lovor-visnja"
                 onMouseEnter={() => setHoveredCard('lovor')}
                 onMouseLeave={() => setHoveredCard(null)}
-                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'lovor' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'lovor' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
-                <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
+                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'lovor' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'lovor' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <img src="/images/lovor-card.webp" alt="Lovor višnja sadnica za živu ogradu" loading="lazy" decoding="async"
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
-                  <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
-                </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.lovor')}</h3>
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'lovor' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s', opacity: hoveredCard === 'lovor' ? 0.85 : 1 }} />
+                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '65%', background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '24px 24px 28px', color: 'white' }}>
+                    <h3 style={{ fontSize: '1.55rem', fontWeight: 800, margin: '0 0 8px 0', lineHeight: 1.2 }}>{t('home.lovor')}</h3>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.88, lineHeight: 1.5, margin: '0 0 12px 0' }}>Zimzelena živa ograda, brzorastuća i otporna na mraz. Savršena za privatnost.</p>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.9rem', fontWeight: 600, color: '#a5d6a7' }}>
+                      <span>Pogledaj detalje</span><span>→</span>
+                    </div>
+                  </div>
                 </div>
               </Link>
 
@@ -171,14 +177,17 @@ const Home = () => {
               <Link href="/sadnice/fotinija-red-robin"
                 onMouseEnter={() => setHoveredCard('fotinija')}
                 onMouseLeave={() => setHoveredCard(null)}
-                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'fotinija' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'fotinija' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
-                <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
+                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'fotinija' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'fotinija' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <img src="/images/fotinija-card.webp" alt="Fotinija Red Robin sadnica" loading="lazy" decoding="async"
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
-                  <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
-                </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.fotinija')}</h3>
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'fotinija' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s', opacity: hoveredCard === 'fotinija' ? 0.85 : 1 }} />
+                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '65%', background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '24px 24px 28px', color: 'white' }}>
+                    <h3 style={{ fontSize: '1.55rem', fontWeight: 800, margin: '0 0 8px 0', lineHeight: 1.2 }}>{t('home.fotinija')}</h3>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.88, lineHeight: 1.5, margin: '0 0 12px 0' }}>Zimzeleni žbun sa vatreno crvenim mladim listovima. Upečatljiva tokom cele godine.</p>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.9rem', fontWeight: 600, color: '#a5d6a7' }}>
+                      <span>Pogledaj detalje</span><span>→</span>
+                    </div>
+                  </div>
                 </div>
               </Link>
 
@@ -186,14 +195,17 @@ const Home = () => {
               <Link href="/sadnice/bambus"
                 onMouseEnter={() => setHoveredCard('bambus')}
                 onMouseLeave={() => setHoveredCard(null)}
-                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'bambus' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'bambus' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#fff' }}>
-                <div style={{ position: 'relative', width: '100%', height: '70%', overflow: 'hidden' }}>
+                style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'bambus' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'bambus' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <img src="/images/bambus-card.webp" alt="Bambus sadnica za baštu" loading="lazy" decoding="async"
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s' }} />
-                  <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(255,255,255,0.95)', padding: '8px 16px', borderRadius: 999, fontSize: '0.8rem', fontWeight: 700, color: '#2e7d32' }}>Na stanju</div>
-                </div>
-                <div style={{ padding: 24, height: '30%', display: 'flex', alignItems: 'center' }}>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#2e7d32', margin: 0 }}>{t('home.bambus')}</h3>
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', transform: hoveredCard === 'bambus' ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.6s', opacity: hoveredCard === 'bambus' ? 0.85 : 1 }} />
+                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '65%', background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '24px 24px 28px', color: 'white' }}>
+                    <h3 style={{ fontSize: '1.55rem', fontWeight: 800, margin: '0 0 8px 0', lineHeight: 1.2 }}>{t('home.bambus')}</h3>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.88, lineHeight: 1.5, margin: '0 0 12px 0' }}>Brzorastuća prirodna živa ograda sa egzotičnim izgledom. Idealan za privatnost.</p>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.9rem', fontWeight: 600, color: '#a5d6a7' }}>
+                      <span>Pogledaj detalje</span><span>→</span>
+                    </div>
+                  </div>
                 </div>
               </Link>
             </div>
