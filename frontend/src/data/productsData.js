@@ -925,16 +925,19 @@ export const products = [
   },
   {
     id: 44,
-    slug: 'bastenski-jorgovan',
-    name: 'Baštenski jorgovan',
+    slug: 'indijski-jorgovan',
+    name: 'Indijski jorgovan',
     category: 'siblje',
     categories: ['siblje'],
     price: 0,
     showPrice: false,
     image: '/images/bastenskijorgovan.jpeg',
-    images: ['/images/bastenskijorgovan.jpeg'],
-    description: 'Baštenski jorgovan (Syringa) je omiljeni ukrasni žbun sa prelepim mirisnim cvetovima u ljubičastoj, beloj ili roze boji. Cveta u proleće i krase svako dvorište.',
-    richContent: `Baštenski jorgovan (Syringa vulgaris) je jedan od najmirisнijih ukrasnih žbunova koji cveta u aprilu i maju. Grozdovi cvetova u ljubičastoj, beloj ili roze boji ispunjavaju baštu prelepim mirisom. Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz do -25°C i dugovečan – može živeti decenijama. Sadi se u jesen ili rano proleće na osunčanom mestu u neutralnu do blago alkalnu zemlju. Rasadnik Tilija nudi baštenski jorgovan uz dostavu – cena na upit.`,
+    images: [
+      '/images/bastenskijorgovan.jpeg',
+      '/images/indijskijorgovan.jpeg'
+    ],
+    description: 'Indijski jorgovan je raskošni ukrasni žbun sa prelepim mirisnim cvetovima. Cveta u proleće i krasi svako dvorište svojom bojom i mirisom.',
+    richContent: `Indijski jorgovan je jedan od najlepših ukrasnih žbunova koji cveta u aprilu i maju. Grozdovi cvetova ispunjavaju baštu prelepim mirisom. Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz i dugovečan – može živeti decenijama. Sadi se u jesen ili rano proleće na osunčanom mestu. Rasadnik Tilija nudi indijski jorgovan uz dostavu – cena na upit.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -942,6 +945,28 @@ export const products = [
       watering: 'Umereno zalivanje',
       soil: 'Neutralna do blago alkalna zemlja',
       hardiness: 'Veoma otporan na mraz do -25°C'
+    }
+  },
+
+  {
+    id: 45,
+    slug: 'japanska-tresnja',
+    name: 'Japanska trešnja',
+    category: 'liscari',
+    categories: ['liscari'],
+    price: 0,
+    showPrice: false,
+    image: '/images/IMG_1786.HEIC',
+    images: ['/images/IMG_1786.HEIC'],
+    description: 'Japanska trešnja (Prunus) je prelepo ukrasno drvo poznato po raskošnom cvetanju u proleće. Bela ili roze boja cvetova daje bajkovit izgled svakom dvorištu.',
+    richContent: `Japanska trešnja (Prunus serrulata) je jedno od najatraktivnijih ukrasnih drveća – njeni raskošni cvetovi u beloj ili roze boji transformišu dvorište svake godine u proleće. Cveta pre nego što se listovi razviju, što joj daje posebno upečatljiv izgled. Naraste do 5–8 metara i idealna je kao soliter u dvorištu. Sadi se u proleće ili jesen na osunčanom, zaštićenom mestu u plodnu, dobro oceditnu zemlju. Rasadnik Tilija nudi japansku trešnju uz dostavu – cena na upit.`,
+    inStock: true,
+    details: {
+      height: 'Dostupne sve visine',
+      sunlight: 'Puno sunce',
+      watering: 'Redovno zalivanje',
+      soil: 'Plodna, dobro drenirana zemlja',
+      hardiness: 'Otporna na mraz do -20°C'
     }
   },
 

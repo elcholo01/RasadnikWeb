@@ -258,7 +258,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rasadniktilija.rs/sadnice/bastenski-jorgovan</loc>
+    <loc>https://rasadniktilija.rs/sadnice/indijski-jorgovan</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rasadniktilija.rs/sadnice/japanska-tresnja</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
