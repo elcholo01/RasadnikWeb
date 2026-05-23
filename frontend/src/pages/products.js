@@ -42,7 +42,8 @@ const Products = () => {
     { id: 'liscari', name: t('products.liscari') },
     { id: 'siblje', name: t('products.siblje') },
     { id: 'perene', name: t('products.perene') },
-    { id: 'mediteranske', name: 'Mediteranske biljke' }
+    { id: 'mediteranske', name: 'Mediteranske biljke' },
+    { id: 'zemlja-i-malc', name: 'Zemlja i malč' }
   ];
 
   const filteredProducts = products.filter(product => {

@@ -991,6 +991,70 @@ export const products = [
     }
   },
   {
+    id: 46,
+    slug: 'crveni-malc',
+    name: 'Crveni malč',
+    category: 'zemlja-i-malc',
+    categories: ['zemlja-i-malc'],
+    price: 850,
+    showPrice: true,
+    image: '/images/mulchred.webp',
+    images: ['/images/mulchred.webp'],
+    description: 'Crveni dekorativni malč od drvne kore. Ukrašava baštu upečatljivom bojom, čuva vlagu u zemlji, sprečava rast korova i štiti koren biljaka. Džak od 60 litara.',
+    richContent: `Crveni dekorativni malč je idealan za uređenje bašte i parkova — vivid crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone. Pored dekorativne uloge, malč obavlja i niz praktičnih funkcija: čuva vlagu u zemlji (smanjuje potrebu za zalivanjem do 30%), sprečava rast korova i štiti koren biljaka od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja: 5–8 cm. Jedan džak od 60 litara pokriva površinu od 0,75–1,2 m². Rasadnik Tilija nudi crveni malč po ceni 850 din/džak.`,
+    inStock: true,
+    details: {
+      height: 'Pakovanje: džak od 60 l',
+      sunlight: 'Za sve pozicije',
+      watering: 'Smanjuje potrošnju vode',
+      soil: 'Pogodno za sve tipove tla',
+      hardiness: 'Dekorativno i funkcionalno'
+    }
+  },
+  {
+    id: 47,
+    slug: 'malc-borova-kora',
+    name: 'Malč borova kora',
+    category: 'zemlja-i-malc',
+    categories: ['zemlja-i-malc'],
+    price: 850,
+    showPrice: true,
+    image: '/images/malcborovakora.jpg',
+    images: ['/images/malcborovakora.jpg'],
+    description: 'Prirodni malč od borove kore. Blago zakiseljuje zemlju — idealan za četinare, ruže, hortenzije i borovnice. Čuva vlagu i sprečava korov. Džak od 60 litara.',
+    richContent: `Malč od borove kore je prirodni produkt koji blago zakiseljuje zemljište — što ga čini savršenim izborom za biljke koje vole kiselu sredinu: četinare, tuje, hortenzije, ruže, borovnice i rododendrone. Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom. Preporučena debljina sloja: 6–8 cm. Jedan džak od 60 litara pokriva površinu od 0,75–1 m². Dostupan u Rasadniku Tilija po ceni 850 din/džak.`,
+    inStock: true,
+    details: {
+      height: 'Pakovanje: džak od 60 l',
+      sunlight: 'Za sve pozicije',
+      watering: 'Smanjuje potrošnju vode',
+      soil: 'Blago zakiseljuje zemlju',
+      hardiness: 'Prirodno đubrenje'
+    }
+  },
+  {
+    id: 48,
+    slug: 'humus',
+    name: 'Humus',
+    category: 'zemlja-i-malc',
+    categories: ['zemlja-i-malc'],
+    price: 800,
+    showPrice: true,
+    image: '/images/humus.png',
+    images: ['/images/humus.png'],
+    description: 'Kvalitetan humus za obogaćivanje tla. Poboljšava strukturu zemljišta, povećava plodnost i podstiče zdrav razvoj korena. Idealan pri sadnji i prihrani biljaka. Džak od 50 kg.',
+    richContent: `Humus je prirodno organsko đubrivo koje nastaje razgradnjom biljnih i životinjskih materija. Dodavanjem humusa u tlo dramatično se poboljšava njegova struktura — zemlja postaje rastresitija, bolje zadržava vlagu i lakše propušta vazduh do korena. Idealan je za pripremu tla pre sadnje, kao i za prihranu već uspostavljenih biljaka. Posebno se preporučuje za sadnju drveća, žbunova, živih ograda i perenih biljaka. Jedan džak od 50 kg dovoljan je za pripremu površine od 3–5 m². Rasadnik Tilija nudi humus po ceni 800 din/džak.`,
+    inStock: true,
+    details: {
+      height: 'Pakovanje: džak od 50 kg',
+      sunlight: 'Za sve biljke',
+      watering: 'Poboljšava zadržavanje vlage',
+      soil: 'Obogaćuje i rahli tlo',
+      hardiness: 'Prirodno organsko đubrivo'
+    }
+  },
+
+  {
     id: 40,
     slug: 'gaura',
     name: 'Gaura',
@@ -1019,7 +1083,8 @@ export const categories = [
   { id: 'liscari', nameKey: 'products.liscari', name: 'Lišćari' },
   { id: 'siblje', nameKey: 'products.siblje', name: 'Šiblje' },
   { id: 'perene', nameKey: 'products.perene', name: 'Perene' },
-  { id: 'mediteranske', nameKey: 'products.mediteranske', name: 'Mediteranske biljke' }
+  { id: 'mediteranske', nameKey: 'products.mediteranske', name: 'Mediteranske biljke' },
+  { id: 'zemlja-i-malc', nameKey: 'products.zemljaIMalc', name: 'Zemlja i malč' }
 ];
 
 // Helper funkcija za pronalaženje proizvoda po ID-u ili slug-u
