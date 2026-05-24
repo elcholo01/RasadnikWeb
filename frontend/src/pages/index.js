@@ -20,11 +20,11 @@ const Home = () => {
     <>
       <Head>
         <title>Rasadnik Tilija – Sadnice u Kovinu | Živa ograda i ukrasno bilje</title>
-        <meta name="description" content="Rasadnik Tilija u Kovinu (Pločica) – tuja, lovor višnja, katalpa, fotinija, bambus i 40+ vrsta sadnica. Dostava u Kovin, Pančevo, Beograd i celu Srbiju. Povoljne cene, stručni savet." />
+        <meta name="description" content="Rasadnik Tilija u Pločici kod Kovina nudi sadnice najboljeg kvaliteta – tuja, lovor višnja, katalpa, fotinija, bambus i preko 300 vrsta drugih biljaka. Usluga sadnje i dostave za celu Srbiju." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/" />
         <meta property="og:title" content="Rasadnik Tilija – Sadnice u Kovinu | Živa ograda i ukrasno bilje" />
-        <meta property="og:description" content="Rasadnik Tilija u Kovinu (Pločica) – tuja, lovor višnja, katalpa, fotinija, bambus i 40+ vrsta sadnica. Dostava u Kovin i celu Srbiju." />
+        <meta property="og:description" content="Rasadnik Tilija u Pločici kod Kovina nudi sadnice najboljeg kvaliteta – tuja, lovor višnja, katalpa, fotinija, bambus i preko 300 vrsta drugih biljaka. Usluga sadnje i dostave za celu Srbiju." />
         <meta property="og:url" content="https://rasadniktilija.rs/" />
         <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
         <meta property="og:image:width" content="1200" />
