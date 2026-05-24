@@ -26,9 +26,9 @@ export const products = [
     ],
     images: [
       '/images/tujavelika.jpeg',
-      '/images/tujakontejnerska.jpeg',
+      '/images/tujavelika_stara.jpeg',
       '/images/tuje.jpeg',
-      '/images/tujavelika_stara.jpeg'
+      '/images/tujakontejnerska.jpeg'
     ],
     description: 'Tuja Smaragd je zimzeleni četinar, savršen za žive ograde i dekoraciju dvorišta. Otporna, laka za održavanje i brzo raste.',
     richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.`,
@@ -218,11 +218,11 @@ export const products = [
     image: '/images/lovorvisnja.jpeg',
     images: [
       '/images/lovorvisnja.jpeg',
-      '/images/lovor1.jpeg',
       '/images/lovormarakana.PNG',
+      '/images/lovormali.jpeg',
+      '/images/lovor1.jpeg',
       '/images/lovor3.jpeg',
       '/images/lovor4.jpeg',
-      '/images/lovormali.jpeg',
       '/images/lovorrazgranati.jpeg',
       '/images/lovorvisok.jpeg'
     ],
