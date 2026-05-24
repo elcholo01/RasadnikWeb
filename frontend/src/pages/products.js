@@ -154,9 +154,11 @@ const Products = () => {
                     <div className="product-info-compact">
                       <h3>{product.name}</h3>
                       <p>{product.description}</p>
-                      {product.showPrice
-                        ? <div className="product-price-badge">od {product.price.toLocaleString()} RSD</div>
-                        : <div className="product-price-badge price-on-request">Cena na upit</div>
+                      {product.sizes && product.sizes.length > 0
+                        ? <div className="product-price-badge">{product.sizes[0].price.toLocaleString()} RSD</div>
+                        : product.showPrice
+                          ? <div className="product-price-badge">od {product.price.toLocaleString()} RSD</div>
+                          : <div className="product-price-badge price-on-request">Cena na upit</div>
                       }
                     </div>
                   </Link>

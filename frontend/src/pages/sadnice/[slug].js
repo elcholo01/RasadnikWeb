@@ -25,7 +25,9 @@ const ProductDetails = ({ product }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [selectedSizeIdx, setSelectedSizeIdx] = useState(null);
+  const [selectedSizeIdx, setSelectedSizeIdx] = useState(
+    product.sizes && product.sizes.length === 1 ? 0 : null
+  );
 
   const categoryName = getCategoryName(product.category);
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
@@ -172,14 +174,14 @@ const ProductDetails = ({ product }) => {
 
             {product.sizes ? (
               <div className="product-size-selector">
-                <label htmlFor="size-select" className="size-selector-label">Odaberite visinu:</label>
+                <label htmlFor="size-select" className="size-selector-label">{product.sizeLabel || 'Odaberite visinu:'}</label>
                 <select
                   id="size-select"
                   className="size-select-dropdown"
                   value={selectedSizeIdx ?? ''}
                   onChange={e => setSelectedSizeIdx(e.target.value === '' ? null : Number(e.target.value))}
                 >
-                  <option value="">— Izaberite visinu —</option>
+                  {product.sizes.length > 1 && <option value="">— Izaberite —</option>}
                   {product.sizes.map((s, i) => (
                     <option key={i} value={i}>
                       {s.label}{s.price ? `  —  ${s.price.toLocaleString()} RSD` : '  —  na upit'}
