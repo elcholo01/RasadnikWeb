@@ -993,7 +993,7 @@ export const products = [
   {
     id: 46,
     slug: 'crveni-malc',
-    name: 'Crveni malč',
+    name: 'Malč crveni',
     category: 'zemlja-i-malc',
     categories: ['zemlja-i-malc'],
     price: 850,

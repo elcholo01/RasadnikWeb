@@ -23,9 +23,7 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="sr_RS" />
         <meta property="og:site_name" content="Rasadnik Tilija" />
-        <meta property="og:image" content="https://rasadniktilija.rs/images/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://rasadniktilija.rs/images/logo.png" />
 
         {/* Schema.org Local Business */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

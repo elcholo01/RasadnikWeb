@@ -59,6 +59,7 @@ const ProductDetails = ({ product }) => {
         <meta property="og:title" content={`${product.name} – Rasadnik Tilija`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:image" content={`https://rasadniktilija.rs${product.image}`} />
+        <meta name="twitter:image" content={`https://rasadniktilija.rs${product.image}`} />
         <meta property="og:url" content={`https://rasadniktilija.rs/sadnice/${product.slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
