@@ -69,7 +69,13 @@ export default function AIDizajnModal({ onClose }) {
         body: formData,
       });
 
-      const data = await response.json();
+      let data;
+      const contentType = response.headers.get('content-type');
+      if (contentType && contentType.includes('application/json')) {
+        data = await response.json();
+      } else {
+        throw new Error('Backend servis nije dostupan. Pokušajte za par minuta.');
+      }
 
       if (!response.ok) throw new Error(data.error || 'Greška pri generisanju');
       setResultUrl(data.imageUrl);
