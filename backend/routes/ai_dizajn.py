@@ -2,8 +2,25 @@ from flask import Blueprint, request, jsonify
 from openai import OpenAI
 import os
 import io
+import threading
+from datetime import date
 
 ai_dizajn_blueprint = Blueprint('ai_dizajn', __name__)
+
+DAILY_LIMIT = 2
+_store = {}
+_lock = threading.Lock()
+
+def _check_limit(ip):
+    today = str(date.today())
+    with _lock:
+        counts = _store.get(ip, {})
+        counts = {k: v for k, v in counts.items() if k == today}
+        if counts.get(today, 0) >= DAILY_LIMIT:
+            return False
+        counts[today] = counts.get(today, 0) + 1
+        _store[ip] = counts
+    return True
 
 PROMPT = (
     "Transform this yard into a professional landscape design. "
@@ -18,6 +35,10 @@ def generate_design():
     api_key = os.getenv('OPENAI_API_KEY', '')
     if not api_key:
         return jsonify({'error': 'API key nije konfigurisan'}), 500
+
+    ip = request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip()
+    if not _check_limit(ip):
+        return jsonify({'error': 'Dnevni limit dostignut. Pokušajte sutra.'}), 429
 
     if 'image' not in request.files:
         return jsonify({'error': 'Nema slike'}), 400

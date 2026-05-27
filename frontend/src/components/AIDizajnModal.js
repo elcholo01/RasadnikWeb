@@ -1,6 +1,23 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://rasadnikweb.onrender.com';
+const DAILY_LIMIT = 2;
+
+const getUsage = () => {
+  try {
+    const stored = JSON.parse(localStorage.getItem('aiDizajnUsage') || '{}');
+    const today = new Date().toDateString();
+    if (stored.date !== today) return { date: today, count: 0 };
+    return stored;
+  } catch {
+    return { date: new Date().toDateString(), count: 0 };
+  }
+};
+
+const incrementUsage = () => {
+  const usage = getUsage();
+  localStorage.setItem('aiDizajnUsage', JSON.stringify({ ...usage, count: usage.count + 1 }));
+};
 
 const compressImage = (file) =>
   new Promise((resolve) => {
@@ -28,7 +45,15 @@ export default function AIDizajnModal({ onClose }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
+  const [usageCount, setUsageCount] = useState(0);
   const fileInputRef = useRef(null);
+
+  useEffect(() => {
+    setUsageCount(getUsage().count);
+  }, []);
+
+  const remaining = DAILY_LIMIT - usageCount;
+  const limitReached = remaining <= 0;
 
   const handleFile = useCallback((file) => {
     if (!file || !file.type.startsWith('image/')) {
@@ -55,7 +80,7 @@ export default function AIDizajnModal({ onClose }) {
   );
 
   const handleGenerate = async () => {
-    if (!selectedFile) return;
+    if (!selectedFile || limitReached) return;
     setLoading(true);
     setError(null);
 
@@ -77,7 +102,14 @@ export default function AIDizajnModal({ onClose }) {
         throw new Error('Backend servis nije dostupan. Pokušajte za par minuta.');
       }
 
+      if (response.status === 429) {
+        throw new Error('Dnevni limit je dostignut. Pokušajte sutra.');
+      }
+
       if (!response.ok) throw new Error(data.error || 'Greška pri generisanju');
+
+      incrementUsage();
+      setUsageCount((c) => c + 1);
       setResultUrl(data.imageUrl);
     } catch (err) {
       setError(err.message || 'Došlo je do greške. Pokušajte ponovo.');
@@ -96,68 +128,73 @@ export default function AIDizajnModal({ onClose }) {
   return (
     <div className="ai-overlay" onClick={onClose}>
       <div className="ai-modal" onClick={(e) => e.stopPropagation()}>
-        <button className="ai-close" onClick={onClose} aria-label="Zatvori">
-          ×
-        </button>
+        <button className="ai-close" onClick={onClose} aria-label="Zatvori">×</button>
 
         <div className="ai-header">
           <span className="ai-header-icon">🌿</span>
           <h2>AI Dizajn Dvorišta</h2>
           <p>Pošaljite fotografiju vašeg dvorišta i dobijte idejno rešenje uređenja</p>
+          <div className="ai-usage-badge">
+            {limitReached
+              ? '⛔ Dnevni limit iskorišćen — pokušajte sutra'
+              : `Preostalo danas: ${remaining}/${DAILY_LIMIT}`}
+          </div>
         </div>
 
         {!resultUrl ? (
           <div className="ai-body">
-            <div
-              className={`ai-dropzone${isDragging ? ' dragging' : ''}${previewUrl ? ' has-image' : ''}`}
-              onClick={() => fileInputRef.current?.click()}
-              onDrop={handleDrop}
-              onDragOver={(e) => {
-                e.preventDefault();
-                setIsDragging(true);
-              }}
-              onDragLeave={() => setIsDragging(false)}
-            >
-              {previewUrl ? (
-                <img src={previewUrl} alt="Odabrana slika dvorišta" className="ai-preview" />
-              ) : (
-                <div className="ai-placeholder">
-                  <span className="ai-placeholder-icon">📷</span>
-                  <strong>Kliknite ili prevucite sliku ovde</strong>
-                  <span>JPG, PNG, WEBP</span>
+            {limitReached ? (
+              <div className="ai-limit-box">
+                <div style={{ fontSize: 48, marginBottom: 12 }}>⏰</div>
+                <strong>Iskoristili ste oba generisanja za danas</strong>
+                <p>Dnevni limit se resetuje u ponoć. Sutra možete ponovo da probate!</p>
+              </div>
+            ) : (
+              <>
+                <div
+                  className={`ai-dropzone${isDragging ? ' dragging' : ''}${previewUrl ? ' has-image' : ''}`}
+                  onClick={() => fileInputRef.current?.click()}
+                  onDrop={handleDrop}
+                  onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
+                  onDragLeave={() => setIsDragging(false)}
+                >
+                  {previewUrl ? (
+                    <img src={previewUrl} alt="Odabrana slika dvorišta" className="ai-preview" />
+                  ) : (
+                    <div className="ai-placeholder">
+                      <span className="ai-placeholder-icon">📷</span>
+                      <strong>Kliknite ili prevucite sliku ovde</strong>
+                      <span>JPG, PNG, WEBP</span>
+                    </div>
+                  )}
                 </div>
-              )}
-            </div>
 
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              style={{ display: 'none' }}
-              onChange={(e) => handleFile(e.target.files[0])}
-            />
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/*"
+                  style={{ display: 'none' }}
+                  onChange={(e) => handleFile(e.target.files[0])}
+                />
 
-            {error && <div className="ai-error">{error}</div>}
+                {error && <div className="ai-error">{error}</div>}
 
-            <button
-              className="ai-btn-generate"
-              onClick={handleGenerate}
-              disabled={!selectedFile || loading}
-            >
-              {loading ? (
-                <>
-                  <span className="ai-spin" />
-                  Generisanje (30–60 sek)...
-                </>
-              ) : (
-                'Generiši dizajn ✨'
-              )}
-            </button>
+                <button
+                  className="ai-btn-generate"
+                  onClick={handleGenerate}
+                  disabled={!selectedFile || loading}
+                >
+                  {loading ? (
+                    <><span className="ai-spin" />Generisanje (30–60 sek)...</>
+                  ) : (
+                    'Generiši dizajn ✨'
+                  )}
+                </button>
 
-            {loading && (
-              <p className="ai-loading-text">
-                AI analizira vaše dvorište i kreira idejno rešenje...
-              </p>
+                {loading && (
+                  <p className="ai-loading-text">AI analizira vaše dvorište i kreira idejno rešenje...</p>
+                )}
+              </>
             )}
           </div>
         ) : (
@@ -174,18 +211,14 @@ export default function AIDizajnModal({ onClose }) {
               </div>
             </div>
             <div className="ai-result-actions">
-              <a
-                href={resultUrl}
-                download="dvoriste-dizajn.jpg"
-                className="ai-btn-download"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={resultUrl} download="dvoriste-dizajn.jpg" className="ai-btn-download" target="_blank" rel="noreferrer">
                 Preuzmi sliku
               </a>
-              <button className="ai-btn-retry" onClick={reset}>
-                Nova slika
-              </button>
+              {remaining > 1 && (
+                <button className="ai-btn-retry" onClick={reset}>
+                  Nova slika ({remaining - 1} preostalo)
+                </button>
+              )}
             </div>
           </div>
         )}
