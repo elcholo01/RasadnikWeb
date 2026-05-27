@@ -79,6 +79,15 @@ export default function AIDizajnModal({ onClose }) {
     [handleFile]
   );
 
+  const getRecaptchaToken = () =>
+    new Promise((resolve) => {
+      const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+      if (!siteKey || !window.grecaptcha) { resolve(null); return; }
+      window.grecaptcha.ready(() => {
+        window.grecaptcha.execute(siteKey, { action: 'ai_dizajn' }).then(resolve);
+      });
+    });
+
   const handleGenerate = async () => {
     if (!selectedFile || limitReached) return;
     setLoading(true);
@@ -88,6 +97,9 @@ export default function AIDizajnModal({ onClose }) {
       const compressed = await compressImage(selectedFile);
       const formData = new FormData();
       formData.append('image', compressed);
+
+      const recaptchaToken = await getRecaptchaToken();
+      if (recaptchaToken) formData.append('recaptcha_token', recaptchaToken);
 
       const response = await fetch(`${BACKEND_URL}/api/ai-dizajn`, {
         method: 'POST',

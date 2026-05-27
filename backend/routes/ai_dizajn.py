@@ -3,6 +3,7 @@ from openai import OpenAI
 import os
 import io
 import threading
+import requests as http_requests
 from datetime import date
 
 ai_dizajn_blueprint = Blueprint('ai_dizajn', __name__)
@@ -22,6 +23,22 @@ def _check_limit(ip):
         _store[ip] = counts
     return True
 
+def _verify_recaptcha(token):
+    secret = os.getenv('RECAPTCHA_SECRET_KEY', '')
+    if not secret or not token:
+        return True  # ako nije konfigurisano, propusti
+    try:
+        r = http_requests.post(
+            'https://www.google.com/recaptcha/api/siteverify',
+            data={'secret': secret, 'response': token},
+            timeout=5,
+        )
+        result = r.json()
+        return result.get('success') and result.get('score', 0) >= 0.5
+    except Exception:
+        return True  # ako Google nije dostupan, propusti
+
+
 PROMPT = (
     "Transform this yard into a professional landscape design. "
     "Add decorative plants, flowers, trimmed hedges, stone pathways, "
@@ -35,6 +52,10 @@ def generate_design():
     api_key = os.getenv('OPENAI_API_KEY', '')
     if not api_key:
         return jsonify({'error': 'API key nije konfigurisan'}), 500
+
+    recaptcha_token = request.form.get('recaptcha_token', '')
+    if not _verify_recaptcha(recaptcha_token):
+        return jsonify({'error': 'Verifikacija nije uspela. Osvežite stranicu i pokušajte ponovo.'}), 403
 
     ip = request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip()
     if not _check_limit(ip):

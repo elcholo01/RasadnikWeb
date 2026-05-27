@@ -215,6 +215,8 @@
   50%        { box-shadow: 0 6px 32px rgba(46,125,50,0.7), 0 0 0 10px rgba(46,125,50,0.12); }
 }
 
+.grecaptcha-badge { visibility: hidden !important; }
+
 @media (max-width: 600px) {
   .ai-modal     { border-radius: 16px; }
   .ai-header    { padding: 26px 18px 18px; }
