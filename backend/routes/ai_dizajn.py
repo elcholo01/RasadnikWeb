@@ -40,10 +40,13 @@ def _verify_recaptcha(token):
 
 
 PROMPT = (
-    "Transform this yard into a professional landscape design. "
-    "Add decorative plants, flowers, trimmed hedges, stone pathways, "
-    "ornamental trees and lush vegetation. Keep the same perspective and layout. "
-    "Photorealistic, high quality photography."
+    "This is a real yard photo. Keep all existing elements exactly as they are: "
+    "paving, pergola, buildings, vehicles, fences, walls, and all structures. "
+    "Only add garden plants in the empty soil areas along walls and fences: "
+    "tall thuja trees as privacy screen, lavender, ornamental shrubs and grasses. "
+    "Add warm ground spotlights illuminating the plants from below. "
+    "Result should look like a professional landscaper tastefully improved the yard. "
+    "Photorealistic DSLR photo, identical camera angle and perspective as the original."
 )
 
 
