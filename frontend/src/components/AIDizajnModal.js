@@ -1,5 +1,4 @@
 import React, { useState, useRef, useCallback } from 'react';
-import './AIDizajnModal.css';
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://rasadnikweb.onrender.com';
 
