@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
+const AIDizajnModal = dynamic(() => import('../components/AIDizajnModal'), { ssr: false });
+
 const Home = () => {
   const { t } = useTranslation();
   const [hoveredCard, setHoveredCard] = useState(null);
   const [isDesktop, setIsDesktop] = useState(false);
+  const [showAI, setShowAI] = useState(false);
 
   useEffect(() => {
     setIsDesktop(window.innerWidth > 768);
@@ -229,6 +233,12 @@ const Home = () => {
           </div>
         </section>
       </div>
+
+      <button className="ai-fab" onClick={() => setShowAI(true)} aria-label="AI Dizajn Dvorišta">
+        🌿 AI Dizajn Dvorišta
+      </button>
+
+      {showAI && <AIDizajnModal onClose={() => setShowAI(false)} />}
     </>
   );
 };

@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 
 from routes.contact import contact_blueprint
+from routes.ai_dizajn import ai_dizajn_blueprint
 
 app = Flask(__name__)
 
@@ -34,6 +35,7 @@ def health():
     return 'OK'
 
 app.register_blueprint(contact_blueprint)
+app.register_blueprint(ai_dizajn_blueprint)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5000)
