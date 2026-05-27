@@ -146,11 +146,9 @@ export default function AIDizajnModal({ onClose }) {
           <span className="ai-header-icon">🌿</span>
           <h2>AI Dizajn Dvorišta</h2>
           <p>Pošaljite fotografiju vašeg dvorišta i dobijte idejno rešenje uređenja</p>
-          <div className="ai-usage-badge">
-            {limitReached
-              ? '⛔ Dnevni limit iskorišćen — pokušajte sutra'
-              : `Preostalo danas: ${remaining}/${DAILY_LIMIT}`}
-          </div>
+          {limitReached && (
+            <div className="ai-usage-badge">⛔ Dnevni limit iskorišćen — pokušajte sutra</div>
+          )}
         </div>
 
         {!resultUrl ? (
