@@ -40,15 +40,17 @@ def _verify_recaptcha(token):
 
 
 PROMPT = (
-    "This is a real yard photo. Do not change the paving, pergola, car, buildings, walls, fences or any structure. "
-    "Only fill the empty soil areas with professional landscaping: "
-    "a row of tall thuja trees along the back wall, lavender and low shrubs along garden edges, "
-    "a small natural rock pond with a gentle waterfall in one corner if space allows, "
-    "a Japanese maple or flowering tree as a focal point, "
-    "warm recessed LED ground spotlights illuminating the plants from below. "
-    "The result must look like a realistic dusk photograph of the same yard after professional landscaping. "
-    "Identical camera angle, same perspective, same paving and structures — only the plants and lights are new. "
-    "Photorealistic photo, natural colors, no artificial renders."
+    "This is a real yard photo. Do NOT change: the brick paving, pergola frame, car, buildings, "
+    "red tile roof, white balustrade wall, iron gate, fences, or any existing structure. "
+    "The sky must remain bright blue as in the original — do not darken it. "
+    "Only add plants in the empty soil areas: tall thuja trees along the back wall, "
+    "lavender and low round shrubs along the garden edge, a small natural rock waterfall pond in one corner, "
+    "a Japanese maple as a focal point with warm spotlight. "
+    "Add warm yellow LED ground spotlights shining upward onto the plants. "
+    "Time of day: early evening blue hour — sky is still bright blue with clouds, "
+    "natural daylight is present, warm LED lights are just turning on. "
+    "The result must look like a real photo of the same yard with plants professionally added. "
+    "Same camera angle and perspective. Photorealistic, vibrant natural colors."
 )
 
 
