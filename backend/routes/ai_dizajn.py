@@ -40,13 +40,24 @@ def _verify_recaptcha(token):
 
 
 PROMPT = (
-    "This is a real yard photo. Keep all existing elements exactly as they are: "
-    "paving, pergola, buildings, vehicles, fences, walls, and all structures. "
-    "Only add garden plants in the empty soil areas along walls and fences: "
-    "tall thuja trees as privacy screen, lavender, ornamental shrubs and grasses. "
-    "Add warm ground spotlights illuminating the plants from below. "
-    "Result should look like a professional landscaper tastefully improved the yard. "
-    "Photorealistic DSLR photo, identical camera angle and perspective as the original."
+    "Transform this backyard into a professionally designed luxury outdoor space while preserving "
+    "the original layout, architecture, walls, pathways, pergola, and camera perspective from the uploaded image. "
+    "Create a realistic high-end landscape design with a balanced combination of decorative plants, trees, shrubs, "
+    "flowers, natural stone elements, and ambient outdoor lighting. Add elegant greenery, layered planting beds, "
+    "premium textures, and a refined modern garden aesthetic. "
+    "Prioritize the use of these plants whenever they fit naturally into the design: "
+    "Thuja Emerald / Green Giant, Cherry Laurel (Prunus Laurocerasus), Photinia Red Robin, "
+    "Leyland Cypress, Bamboo. "
+    "Use them for: privacy hedges, vertical green accents, modern layered landscaping, "
+    "Mediterranean-inspired compositions, elegant evergreen structure throughout the garden. "
+    "Enhance the space with: decorative plants and ornamental grasses, evergreen privacy trees, "
+    "flower accents and sculpted shrubs, natural stone pathways or edging, "
+    "water feature or fountain if suitable, warm LED landscape lighting, "
+    "clean and harmonious composition, realistic shadows, textures, and depth. "
+    "Lighting: cinematic golden hour or evening atmosphere, soft warm ambient lights, inviting premium mood. "
+    "Important: preserve the realistic proportions of the property, maintain the original structure and dimensions, "
+    "photorealistic architectural visualization quality, ultra detailed landscaping, "
+    "natural colors and realistic materials, high-end exterior design render."
 )
 
 
