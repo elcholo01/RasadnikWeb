@@ -13,6 +13,9 @@ _store = {}
 _lock = threading.Lock()
 
 def _check_limit(ip):
+    bypass = set(os.getenv('BYPASS_IPS', '').split(','))
+    if ip in bypass:
+        return True
     today = str(date.today())
     with _lock:
         counts = _store.get(ip, {})
