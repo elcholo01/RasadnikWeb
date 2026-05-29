@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request as flask_request
 from flask_cors import CORS
 import os
 
@@ -19,7 +19,7 @@ CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}}, supports_credentials=
 
 @app.after_request
 def after_request(response):
-    origin = response.headers.get('Origin')
+    origin = flask_request.headers.get('Origin')
     if origin in ALLOWED_ORIGINS:
         response.headers['Access-Control-Allow-Origin'] = origin
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
