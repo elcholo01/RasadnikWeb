@@ -73,7 +73,24 @@ def _analyze_yard(client, image_bytes):
         return None
 
 def _build_prompt(yard_description):
-    return "Treba mi ideja za uređenje mog dvorišta, da li možeš da mi napraviš novu sliku sa idejnim rešenjem"
+    base = (
+        "Create a professional landscape design for this yard photo. "
+        "Keep all existing structures exactly as they are: paving, pergola, "
+        "buildings, walls, fences, and vehicles. "
+        "Use these specific plants in the design: "
+        "Thuja Emerald or Thuja Green Giant as privacy hedge along the back wall, "
+        "Cherry Laurel (Prunus Laurocerasus) as dense shrub groupings, "
+        "Photinia Red Robin for red-tipped accent shrubs, "
+        "Leyland Cypress as tall vertical accents, "
+        "Bamboo in corners or along fences. "
+        "Add warm LED ground spotlights illuminating the plants from below. "
+        "Early evening atmosphere, sky still bright blue. "
+        "The result must look like a realistic photo of this exact yard "
+        "after professional landscaping. Same camera angle. Photorealistic."
+    )
+    if yard_description:
+        return f"This yard contains: {yard_description}. {base}"
+    return base
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
