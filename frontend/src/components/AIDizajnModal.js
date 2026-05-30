@@ -101,7 +101,7 @@ export default function AIDizajnModal({ onClose }) {
       const recaptchaToken = await getRecaptchaToken();
       if (recaptchaToken) formData.append('recaptcha_token', recaptchaToken);
 
-      const response = await fetch(`${BACKEND_URL}/api/ai-dizajn`, {
+      const response = await fetch(`/api/ai-dizajn`, {
         method: 'POST',
         body: formData,
       });
