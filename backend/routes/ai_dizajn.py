@@ -86,7 +86,7 @@ def generate_design():
         image_file.name = 'image.jpg'
 
         response = client.images.edit(
-            model='gpt-image-1',
+            model='gpt-image-2',
             image=image_file,
             prompt=PROMPT,
             size='1024x1024',
@@ -103,4 +103,4 @@ def generate_design():
         error_msg = str(e)
         if 'insufficient_quota' in error_msg or 'billing' in error_msg.lower():
             return jsonify({'error': 'Nema kredita. Dodajte kredit na OpenAI nalog.'}), 402
-        return jsonify({'error': 'Greška pri generisanju. Pokušajte ponovo.'}), 500
+        return jsonify({'error': f'Greška: {error_msg}'}), 500
