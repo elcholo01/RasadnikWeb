@@ -1,4 +1,4 @@
-from flask import Flask, request as flask_request
+from flask import Flask
 from flask_cors import CORS
 import os
 
@@ -7,24 +7,14 @@ from routes.ai_dizajn import ai_dizajn_blueprint
 
 app = Flask(__name__)
 
-# CORS konfiguracija - samo dozvoljeni domeni
 ALLOWED_ORIGINS = [
     "https://rasadnik-web-t2vb.vercel.app",
     "https://rasadniktilija.rs",
     "https://www.rasadniktilija.rs",
-    "http://localhost:3000"  # za lokalni razvoj
+    "http://localhost:3000"
 ]
 
-CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}}, supports_credentials=True)
-
-@app.after_request
-def after_request(response):
-    origin = flask_request.headers.get('Origin')
-    if origin in ALLOWED_ORIGINS:
-        response.headers['Access-Control-Allow-Origin'] = origin
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+CORS(app, origins=ALLOWED_ORIGINS)
 
 @app.route('/')
 def hello_world():
