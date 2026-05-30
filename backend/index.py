@@ -14,7 +14,7 @@ ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
 
-CORS(app, origins=ALLOWED_ORIGINS)
+CORS(app, origins="*")
 
 @app.route('/')
 def hello_world():
