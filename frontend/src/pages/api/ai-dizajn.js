@@ -1,6 +1,3 @@
-import FormData from 'form-data';
-import fetch from 'node-fetch';
-
 export const config = {
   api: { bodyParser: false },
 };
@@ -17,11 +14,9 @@ export default async function handler(req, res) {
     for await (const chunk of req) chunks.push(chunk);
     const body = Buffer.concat(chunks);
 
-    const contentType = req.headers['content-type'] || '';
-
     const backendRes = await fetch(`${BACKEND_URL}/api/ai-dizajn`, {
       method: 'POST',
-      headers: { 'content-type': contentType },
+      headers: { 'content-type': req.headers['content-type'] || '' },
       body,
     });
 
