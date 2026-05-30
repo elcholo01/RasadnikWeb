@@ -2,6 +2,7 @@ from flask import Blueprint, request, jsonify
 from openai import OpenAI
 import os
 import io
+import base64
 import threading
 import requests as http_requests
 from datetime import date
@@ -29,7 +30,7 @@ def _check_limit(ip):
 def _verify_recaptcha(token):
     secret = os.getenv('RECAPTCHA_SECRET_KEY', '')
     if not secret or not token:
-        return True  # ako nije konfigurisano, propusti
+        return True
     try:
         r = http_requests.post(
             'https://www.google.com/recaptcha/api/siteverify',
@@ -39,22 +40,62 @@ def _verify_recaptcha(token):
         result = r.json()
         return result.get('success') and result.get('score', 0) >= 0.5
     except Exception:
-        return True  # ako Google nije dostupan, propusti
+        return True
 
+def _analyze_yard(client, image_bytes):
+    b64 = base64.b64encode(image_bytes).decode('utf-8')
+    try:
+        response = client.chat.completions.create(
+            model='gpt-4o',
+            messages=[{
+                'role': 'user',
+                'content': [
+                    {
+                        'type': 'image_url',
+                        'image_url': {'url': f'data:image/jpeg;base64,{b64}'}
+                    },
+                    {
+                        'type': 'text',
+                        'text': (
+                            'Describe this yard photo precisely. List each element: '
+                            'paving (material, color, pattern), pergola or structures (material, color), '
+                            'vehicles (make, color), walls and fences (style, color), '
+                            'buildings and roofs (style, color), sky and lighting conditions, '
+                            'any existing plants or trees. Be specific and factual. Keep it under 150 words.'
+                        )
+                    }
+                ]
+            }],
+            max_tokens=200
+        )
+        return response.choices[0].message.content
+    except Exception:
+        return None
 
-PROMPT = (
-    "This is a real yard photo. Do NOT change: the brick paving, pergola frame, car, buildings, "
-    "red tile roof, white balustrade wall, iron gate, fences, or any existing structure. "
-    "The sky must remain bright blue as in the original — do not darken it. "
-    "Only add plants in the empty soil areas: tall thuja trees along the back wall, "
-    "lavender and low round shrubs along the garden edge, a small natural rock waterfall pond in one corner, "
-    "a Japanese maple as a focal point with warm spotlight. "
-    "Add warm yellow LED ground spotlights shining upward onto the plants. "
-    "Time of day: early evening blue hour — sky is still bright blue with clouds, "
-    "natural daylight is present, warm LED lights are just turning on. "
-    "The result must look like a real photo of the same yard with plants professionally added. "
-    "Same camera angle and perspective. Photorealistic, vibrant natural colors."
-)
+def _build_prompt(yard_description):
+    if yard_description:
+        return (
+            f"This yard contains: {yard_description}. "
+            "Do NOT change any of these existing elements — preserve them exactly as they are. "
+            "Only add professional landscaping in the empty soil areas: "
+            "tall thuja trees along the back wall for privacy, lavender and low round shrubs along garden edges, "
+            "a small natural rock waterfall pond in one corner, a Japanese maple as a focal point. "
+            "Add warm yellow LED ground spotlights illuminating the plants from below. "
+            "Time of day: early evening blue hour — sky remains bright blue with clouds, "
+            "natural daylight still present, warm LED lights just turning on. "
+            "The result must look like a real photo of this exact yard after professional landscaping. "
+            "Same camera angle, same perspective. Photorealistic, vibrant natural colors."
+        )
+    return (
+        "This is a real yard photo. Do NOT change: paving, pergola, car, buildings, "
+        "roof, walls, fences, sky or any existing structure. "
+        "Only add plants in empty soil areas: tall thuja trees along the back wall, "
+        "lavender and low shrubs along edges, a small natural rock waterfall pond, "
+        "a Japanese maple as focal point. "
+        "Add warm yellow LED ground spotlights on the plants. "
+        "Early evening blue hour — bright blue sky, warm LED lights just turning on. "
+        "Photorealistic, same camera angle, vibrant natural colors."
+    )
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
@@ -82,13 +123,17 @@ def generate_design():
         client = OpenAI(api_key=api_key)
 
         image_bytes = file.read()
+
+        yard_description = _analyze_yard(client, image_bytes)
+        prompt = _build_prompt(yard_description)
+
         image_file = io.BytesIO(image_bytes)
         image_file.name = 'image.jpg'
 
         response = client.images.edit(
             model='gpt-image-2',
             image=image_file,
-            prompt=PROMPT,
+            prompt=prompt,
             size='1024x1024',
             quality='medium',
             n=1,
