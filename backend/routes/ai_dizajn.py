@@ -73,29 +73,7 @@ def _analyze_yard(client, image_bytes):
         return None
 
 def _build_prompt(yard_description):
-    if yard_description:
-        return (
-            f"This yard contains: {yard_description}. "
-            "Do NOT change any of these existing elements — preserve them exactly as they are. "
-            "Only add professional landscaping in the empty soil areas: "
-            "tall thuja trees along the back wall for privacy, lavender and low round shrubs along garden edges, "
-            "a small natural rock waterfall pond in one corner, a Japanese maple as a focal point. "
-            "Add warm yellow LED ground spotlights illuminating the plants from below. "
-            "Time of day: early evening blue hour — sky remains bright blue with clouds, "
-            "natural daylight still present, warm LED lights just turning on. "
-            "The result must look like a real photo of this exact yard after professional landscaping. "
-            "Same camera angle, same perspective. Photorealistic, vibrant natural colors."
-        )
-    return (
-        "This is a real yard photo. Do NOT change: paving, pergola, car, buildings, "
-        "roof, walls, fences, sky or any existing structure. "
-        "Only add plants in empty soil areas: tall thuja trees along the back wall, "
-        "lavender and low shrubs along edges, a small natural rock waterfall pond, "
-        "a Japanese maple as focal point. "
-        "Add warm yellow LED ground spotlights on the plants. "
-        "Early evening blue hour — bright blue sky, warm LED lights just turning on. "
-        "Photorealistic, same camera angle, vibrant natural colors."
-    )
+    return "Treba mi ideja za uređenje mog dvorišta, da li možeš da mi napraviš novu sliku sa idejnim rešenjem"
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
