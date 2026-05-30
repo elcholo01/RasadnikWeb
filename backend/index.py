@@ -1,5 +1,4 @@
-from flask import Flask
-from flask_cors import CORS
+from flask import Flask, request
 import os
 
 from routes.contact import contact_blueprint
@@ -14,7 +13,30 @@ ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
 
-CORS(app, origins="*")
+@app.after_request
+def add_cors(response):
+    origin = request.headers.get('Origin', '')
+    if origin in ALLOWED_ORIGINS:
+        response.headers['Access-Control-Allow-Origin'] = origin
+    else:
+        response.headers['Access-Control-Allow-Origin'] = ALLOWED_ORIGINS[1]
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    response.headers['Access-Control-Max-Age'] = '3600'
+    return response
+
+@app.before_request
+def handle_preflight():
+    if request.method == 'OPTIONS':
+        origin = request.headers.get('Origin', '')
+        allowed = origin if origin in ALLOWED_ORIGINS else ALLOWED_ORIGINS[1]
+        resp = app.make_response('')
+        resp.status_code = 204
+        resp.headers['Access-Control-Allow-Origin'] = allowed
+        resp.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+        resp.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+        resp.headers['Access-Control-Max-Age'] = '3600'
+        return resp
 
 @app.route('/')
 def hello_world():
