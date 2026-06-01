@@ -1,6 +1,5 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://rasadnikweb.onrender.com';
 const DAILY_LIMIT = 2;
 
 const getUsage = () => {
@@ -42,15 +41,23 @@ export default function AIDizajnModal({ onClose }) {
   const [selectedFile, setSelectedFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
   const [resultUrl, setResultUrl] = useState(null);
+  const [plantsUsed, setPlantsUsed] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
   const [usageCount, setUsageCount] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
   const fileInputRef = useRef(null);
 
   useEffect(() => {
     setUsageCount(getUsage().count);
   }, []);
+
+  useEffect(() => {
+    const handleKey = (e) => { if (e.key === 'Escape') setLightboxOpen(false); };
+    if (lightboxOpen) window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [lightboxOpen]);
 
   const remaining = DAILY_LIMIT - usageCount;
   const limitReached = remaining <= 0;
@@ -67,6 +74,7 @@ export default function AIDizajnModal({ onClose }) {
     setSelectedFile(file);
     setPreviewUrl(URL.createObjectURL(file));
     setResultUrl(null);
+    setPlantsUsed([]);
     setError(null);
   }, []);
 
@@ -123,6 +131,7 @@ export default function AIDizajnModal({ onClose }) {
       incrementUsage();
       setUsageCount((c) => c + 1);
       setResultUrl(data.imageUrl);
+      setPlantsUsed(data.plantsUsed || []);
     } catch (err) {
       setError(err.message || 'Došlo je do greške. Pokušajte ponovo.');
     } finally {
@@ -134,105 +143,151 @@ export default function AIDizajnModal({ onClose }) {
     setSelectedFile(null);
     setPreviewUrl(null);
     setResultUrl(null);
+    setPlantsUsed([]);
     setError(null);
   };
 
   return (
-    <div className="ai-overlay" onClick={onClose}>
-      <div className="ai-modal" onClick={(e) => e.stopPropagation()}>
-        <button className="ai-close" onClick={onClose} aria-label="Zatvori">×</button>
-
-        <div className="ai-header">
-          <span className="ai-header-icon">🌿</span>
-          <h2>AI Dizajn Dvorišta</h2>
-          <p>Pošaljite fotografiju vašeg dvorišta i dobijte idejno rešenje uređenja</p>
-          {limitReached && (
-            <div className="ai-usage-badge">⛔ Dnevni limit iskorišćen — pokušajte sutra</div>
-          )}
+    <>
+      {lightboxOpen && (
+        <div className="ai-lightbox" onClick={() => setLightboxOpen(false)}>
+          <button className="ai-lightbox-close" onClick={() => setLightboxOpen(false)}>×</button>
+          <img
+            src={resultUrl}
+            alt="AI dizajn dvorišta - uvećano"
+            className="ai-lightbox-img"
+            onClick={(e) => e.stopPropagation()}
+          />
         </div>
+      )}
 
-        {!resultUrl ? (
-          <div className="ai-body">
-            {limitReached ? (
-              <div className="ai-limit-box">
-                <div style={{ fontSize: 48, marginBottom: 12 }}>⏰</div>
-                <strong>Iskoristili ste oba generisanja za danas</strong>
-                <p>Dnevni limit se resetuje u ponoć. Sutra možete ponovo da probate!</p>
-              </div>
-            ) : (
-              <>
-                <div
-                  className={`ai-dropzone${isDragging ? ' dragging' : ''}${previewUrl ? ' has-image' : ''}`}
-                  onClick={() => fileInputRef.current?.click()}
-                  onDrop={handleDrop}
-                  onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
-                  onDragLeave={() => setIsDragging(false)}
-                >
-                  {previewUrl ? (
-                    <img src={previewUrl} alt="Odabrana slika dvorišta" className="ai-preview" />
-                  ) : (
-                    <div className="ai-placeholder">
-                      <span className="ai-placeholder-icon">📷</span>
-                      <strong>Kliknite ili prevucite sliku ovde</strong>
-                      <span>JPG, PNG, WEBP</span>
-                    </div>
-                  )}
-                </div>
+      <div className="ai-overlay" onClick={onClose}>
+        <div className="ai-modal" onClick={(e) => e.stopPropagation()}>
+          <button className="ai-close" onClick={onClose} aria-label="Zatvori">×</button>
 
-                <input
-                  ref={fileInputRef}
-                  type="file"
-                  accept="image/*"
-                  style={{ display: 'none' }}
-                  onChange={(e) => handleFile(e.target.files[0])}
-                />
-
-                {error && <div className="ai-error">{error}</div>}
-
-                <button
-                  className="ai-btn-generate"
-                  onClick={handleGenerate}
-                  disabled={!selectedFile || loading}
-                >
-                  {loading ? (
-                    <><span className="ai-spin" />Generisanje (30–60 sek)...</>
-                  ) : (
-                    'Generiši dizajn ✨'
-                  )}
-                </button>
-
-                {loading && (
-                  <p className="ai-loading-text">AI analizira vaše dvorište i kreira idejno rešenje...</p>
-                )}
-              </>
+          <div className="ai-header">
+            <span className="ai-header-icon">🌿</span>
+            <h2>AI Dizajn Dvorišta</h2>
+            <p>Pošaljite fotografiju vašeg dvorišta i dobijte idejno rešenje uređenja</p>
+            {limitReached && (
+              <div className="ai-usage-badge">⛔ Dnevni limit iskorišćen — pokušajte sutra</div>
             )}
           </div>
-        ) : (
-          <div className="ai-result">
-            <div className="ai-before-after">
-              <div className="ai-side">
-                <span className="ai-side-label">Pre</span>
-                <img src={previewUrl} alt="Originalno dvorište" />
-              </div>
-              <div className="ai-arrow">→</div>
-              <div className="ai-side">
-                <span className="ai-side-label">Idejno rešenje</span>
-                <img src={resultUrl} alt="AI dizajn dvorišta" />
-              </div>
-            </div>
-            <div className="ai-result-actions">
-              <a href={resultUrl} download="dvoriste-dizajn.jpg" className="ai-btn-download" target="_blank" rel="noreferrer">
-                Preuzmi sliku
-              </a>
-              {remaining > 1 && (
-                <button className="ai-btn-retry" onClick={reset}>
-                  Nova slika ({remaining - 1} preostalo)
-                </button>
+
+          {!resultUrl ? (
+            <div className="ai-body">
+              {limitReached ? (
+                <div className="ai-limit-box">
+                  <div style={{ fontSize: 48, marginBottom: 12 }}>⏰</div>
+                  <strong>Iskoristili ste oba generisanja za danas</strong>
+                  <p>Dnevni limit se resetuje u ponoć. Sutra možete ponovo da probate!</p>
+                </div>
+              ) : (
+                <>
+                  <div
+                    className={`ai-dropzone${isDragging ? ' dragging' : ''}${previewUrl ? ' has-image' : ''}`}
+                    onClick={() => fileInputRef.current?.click()}
+                    onDrop={handleDrop}
+                    onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
+                    onDragLeave={() => setIsDragging(false)}
+                  >
+                    {previewUrl ? (
+                      <img src={previewUrl} alt="Odabrana slika dvorišta" className="ai-preview" />
+                    ) : (
+                      <div className="ai-placeholder">
+                        <span className="ai-placeholder-icon">📷</span>
+                        <strong>Kliknite ili prevucite sliku ovde</strong>
+                        <span>JPG, PNG, WEBP</span>
+                      </div>
+                    )}
+                  </div>
+
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="image/*"
+                    style={{ display: 'none' }}
+                    onChange={(e) => handleFile(e.target.files[0])}
+                  />
+
+                  {error && <div className="ai-error">{error}</div>}
+
+                  <button
+                    className="ai-btn-generate"
+                    onClick={handleGenerate}
+                    disabled={!selectedFile || loading}
+                  >
+                    {loading ? (
+                      <><span className="ai-spin" />Generisanje (30–60 sek)...</>
+                    ) : (
+                      'Generiši dizajn ✨'
+                    )}
+                  </button>
+
+                  {loading && (
+                    <p className="ai-loading-text">AI analizira vaše dvorište i kreira idejno rešenje...</p>
+                  )}
+                </>
               )}
             </div>
-          </div>
-        )}
+          ) : (
+            <div className="ai-result">
+              <div className="ai-before-after">
+                <div className="ai-side">
+                  <span className="ai-side-label">Pre</span>
+                  <img src={previewUrl} alt="Originalno dvorište" />
+                </div>
+                <div className="ai-arrow">→</div>
+                <div className="ai-side">
+                  <span className="ai-side-label">Idejno rešenje</span>
+                  <img
+                    src={resultUrl}
+                    alt="AI dizajn dvorišta"
+                    className="ai-result-img-clickable"
+                    onClick={() => setLightboxOpen(true)}
+                    title="Kliknite za uvećanje"
+                  />
+                  <span className="ai-zoom-hint">🔍 Kliknite za uvećanje</span>
+                </div>
+              </div>
+
+              {plantsUsed.length > 0 && (
+                <div className="ai-plants-box">
+                  <div className="ai-plants-title">🌱 Biljke korišćene u dizajnu</div>
+                  <div className="ai-plants-list">
+                    {plantsUsed.map((plant, i) => (
+                      <a
+                        key={i}
+                        href="/products"
+                        className="ai-plant-tag"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {plant}
+                      </a>
+                    ))}
+                  </div>
+                  <p className="ai-plants-note">
+                    Sve ove biljke možete pronaći u našem rasadniku →{' '}
+                    <a href="/products" target="_blank" rel="noreferrer">Pogledajte ponudu</a>
+                  </p>
+                </div>
+              )}
+
+              <div className="ai-result-actions">
+                <a href={resultUrl} download="dvoriste-dizajn.png" className="ai-btn-download" target="_blank" rel="noreferrer">
+                  Preuzmi sliku
+                </a>
+                {remaining > 1 && (
+                  <button className="ai-btn-retry" onClick={reset}>
+                    Nova slika ({remaining - 1} preostalo)
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -217,6 +217,79 @@
 
 .grecaptcha-badge { visibility: hidden !important; }
 
+/* Lightbox */
+.ai-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  cursor: zoom-out;
+  animation: aiOverlayIn 0.18s ease;
+}
+.ai-lightbox-img {
+  max-width: 95vw;
+  max-height: 92vh;
+  border-radius: 10px;
+  object-fit: contain;
+  cursor: default;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+}
+.ai-lightbox-close {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.ai-lightbox-close:hover { background: rgba(255,255,255,0.28); }
+
+.ai-result-img-clickable {
+  cursor: zoom-in;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ai-result-img-clickable:hover { transform: scale(1.02); box-shadow: 0 8px 28px rgba(0,0,0,0.22); }
+.ai-zoom-hint { font-size: 0.75rem; color: #2e7d32; opacity: 0.7; text-align: center; margin-top: 4px; }
+
+/* Plants box */
+.ai-plants-box {
+  background: #f1f8e9;
+  border: 1px solid #c5e1a5;
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+.ai-plants-title { font-size: 0.9rem; font-weight: 700; color: #2e7d32; margin-bottom: 12px; }
+.ai-plants-list { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.ai-plant-tag {
+  background: #fff;
+  color: #2e7d32;
+  border: 1.5px solid #a5d6a7;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.ai-plant-tag:hover { background: #e8f5e9; border-color: #2e7d32; text-decoration: none; }
+.ai-plants-note { font-size: 0.82rem; color: #558b2f; margin: 0; }
+.ai-plants-note a { color: #2e7d32; font-weight: 700; text-decoration: underline; }
+
 @media (max-width: 600px) {
   .ai-modal     { border-radius: 16px; }
   .ai-header    { padding: 26px 18px 18px; }

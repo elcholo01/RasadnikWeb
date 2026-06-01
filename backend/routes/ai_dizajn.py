@@ -66,7 +66,8 @@ The prompt you generate must:
 
 Return ONLY valid JSON:
 {
-  "image_prompt": "your detailed prompt here"
+  "image_prompt": "your detailed prompt here",
+  "plants_used": ["Plant Name 1", "Plant Name 2", "Plant Name 3"]
 }"""
 
 FALLBACK_PROMPT = (
@@ -119,9 +120,9 @@ def _generate_prompt_with_vision(client, image_bytes):
             ]
         )
         result = json.loads(response.choices[0].message.content)
-        return result.get('image_prompt')
+        return result.get('image_prompt'), result.get('plants_used', [])
     except Exception:
-        return None
+        return None, []
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
@@ -149,9 +150,10 @@ def generate_design():
         client = OpenAI(api_key=api_key)
         image_bytes = file.read()
 
-        prompt = _generate_prompt_with_vision(client, image_bytes)
+        prompt, plants_used = _generate_prompt_with_vision(client, image_bytes)
         if not prompt:
             prompt = FALLBACK_PROMPT
+            plants_used = []
 
         image_file = io.BytesIO(image_bytes)
         image_file.name = 'image.jpg'
@@ -167,7 +169,7 @@ def generate_design():
 
         image_base64 = response.data[0].b64_json
         data_url = f"data:image/png;base64,{image_base64}"
-        return jsonify({'imageUrl': data_url})
+        return jsonify({'imageUrl': data_url, 'plantsUsed': plants_used})
 
     except Exception as e:
         error_msg = str(e)
