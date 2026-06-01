@@ -3,6 +3,7 @@ from openai import OpenAI
 import os
 import io
 import base64
+import json
 import threading
 import requests as http_requests
 from datetime import date
@@ -42,56 +43,85 @@ def _verify_recaptcha(token):
     except Exception:
         return True
 
-def _analyze_yard(client, image_bytes):
+
+VISION_SYSTEM_PROMPT = """You are an expert landscape architect and photographer.
+
+Analyze this yard photo and generate a detailed image generation prompt
+that visualizes the same yard beautifully landscaped.
+
+The prompt you generate must:
+- Preserve ALL existing structures exactly as they are: walls, fences, gates,
+  driveways, carports, buildings, vehicles, paving — exact same positions and appearance
+- Add appropriate plants, trees, hedges, lawn, and flowers in all bare soil areas
+- Match the existing architectural style of the property
+- Include layered planting: tall privacy plants at back, medium shrubs in middle,
+  low ground cover and flowers at edges
+- Add warm LED ground spotlights illuminating plants from below
+- Early evening atmosphere: sky still bright blue, warm lights just turning on
+- Prefer these plants when they fit naturally: Thuja, Cherry Laurel, Photinia Red Robin,
+  Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood, Roses
+- Add a natural water feature if space allows
+- Be photorealistic — result must look like a real photo of this yard after landscaping
+- Keep the exact same camera angle, perspective, and proportions
+
+Return ONLY valid JSON:
+{
+  "image_prompt": "your detailed prompt here"
+}"""
+
+FALLBACK_PROMPT = (
+    "Create a professional landscape design for this yard photo. "
+    "PRESERVE: Keep every existing element exactly as it is — all surfaces, structures, buildings, "
+    "objects, and the sky. Do not remove or replace anything already in the photo. "
+    "ADD: Fill all bare soil and unplanted areas with beautiful layered landscaping suited "
+    "to the style, scale, and character of this specific yard: "
+    "tall plants for privacy and structure, medium shrubs for volume and color, "
+    "low ground cover and flowers at the edges, climbing plants where walls or structures allow. "
+    "Add a natural water feature if the space allows. "
+    "Add warm LED ground spotlights illuminating the plants from below. "
+    "Preferred plants when they fit: Thuja, Cherry Laurel, Photinia Red Robin, "
+    "Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood, Roses. "
+    "Lighting: early evening, sky still bright blue, warm lights just switched on. "
+    "The result must look like a real photograph of this exact yard after professional landscaping. "
+    "Keep the original camera angle, perspective, and proportions. Photorealistic, vibrant, high quality."
+)
+
+
+def _generate_prompt_with_vision(client, image_bytes):
     b64 = base64.b64encode(image_bytes).decode('utf-8')
     try:
         response = client.chat.completions.create(
             model='gpt-4o',
-            messages=[{
-                'role': 'user',
-                'content': [
-                    {
-                        'type': 'image_url',
-                        'image_url': {'url': f'data:image/jpeg;base64,{b64}'}
-                    },
-                    {
-                        'type': 'text',
-                        'text': (
-                            'Describe this yard photo precisely. List each element: '
-                            'paving (material, color, pattern), pergola or structures (material, color), '
-                            'vehicles (make, color), walls and fences (style, color), '
-                            'buildings and roofs (style, color), sky and lighting conditions, '
-                            'any existing plants or trees. Be specific and factual. Keep it under 150 words.'
-                        )
-                    }
-                ]
-            }],
-            max_tokens=200
+            max_tokens=1000,
+            temperature=0.4,
+            response_format={'type': 'json_object'},
+            messages=[
+                {
+                    'role': 'system',
+                    'content': VISION_SYSTEM_PROMPT
+                },
+                {
+                    'role': 'user',
+                    'content': [
+                        {
+                            'type': 'image_url',
+                            'image_url': {
+                                'url': f'data:image/jpeg;base64,{b64}',
+                                'detail': 'high'
+                            }
+                        },
+                        {
+                            'type': 'text',
+                            'text': 'Analyze this yard and generate the image prompt.'
+                        }
+                    ]
+                }
+            ]
         )
-        return response.choices[0].message.content
+        result = json.loads(response.choices[0].message.content)
+        return result.get('image_prompt')
     except Exception:
         return None
-
-def _build_prompt(yard_description):
-    yard_context = f"This yard contains: {yard_description}. " if yard_description else ""
-    return (
-        f"{yard_context}"
-        "Create a professional landscape design for this yard photo. "
-        "PRESERVE: Keep every existing element exactly as it is — all surfaces, structures, buildings, "
-        "objects, and the sky. Do not remove or replace anything already in the photo. "
-        "ADD: Fill all bare soil and unplanted areas with beautiful layered landscaping suited "
-        "to the style, scale, and character of this specific yard: "
-        "tall plants for privacy and structure, medium shrubs for volume and color, "
-        "low ground cover and flowers at the edges, climbing plants where walls or structures allow. "
-        "Add a natural water feature if the space allows. "
-        "Add warm LED ground spotlights illuminating the plants from below. "
-        "Choose whatever plants create the most beautiful and natural result for this yard. "
-        "Preferred plants when they fit: Thuja, Cherry Laurel, Photinia Red Robin, "
-        "Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood, Roses. "
-        "Lighting: early evening, sky still bright blue, warm artificial lights just switched on. "
-        "The result must look like a real photograph of this exact yard after professional landscaping. "
-        "Keep the original camera angle, perspective, and proportions. Photorealistic, vibrant, high quality."
-    )
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
@@ -117,11 +147,11 @@ def generate_design():
 
     try:
         client = OpenAI(api_key=api_key)
-
         image_bytes = file.read()
 
-        yard_description = _analyze_yard(client, image_bytes)
-        prompt = _build_prompt(yard_description)
+        prompt = _generate_prompt_with_vision(client, image_bytes)
+        if not prompt:
+            prompt = FALLBACK_PROMPT
 
         image_file = io.BytesIO(image_bytes)
         image_file.name = 'image.jpg'
@@ -137,7 +167,6 @@ def generate_design():
 
         image_base64 = response.data[0].b64_json
         data_url = f"data:image/png;base64,{image_base64}"
-
         return jsonify({'imageUrl': data_url})
 
     except Exception as e:
