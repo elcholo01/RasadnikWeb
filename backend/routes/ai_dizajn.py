@@ -67,8 +67,10 @@ The prompt you generate must:
 Return ONLY valid JSON:
 {
   "image_prompt": "your detailed prompt here",
-  "plants_used": ["Plant Name 1", "Plant Name 2", "Plant Name 3"]
-}"""
+  "plants_used": ["Srpski naziv 1", "Srpski naziv 2", "Srpski naziv 3"]
+}
+
+Write plant names in Serbian in plants_used (e.g. "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Lejlandi", "Lavanda", "Japanski Javor", "Šimšir", "Ukrasne trave", "Puzavice")."""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "
