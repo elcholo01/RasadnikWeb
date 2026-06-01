@@ -73,24 +73,26 @@ def _analyze_yard(client, image_bytes):
         return None
 
 def _build_prompt(yard_description):
-    base = (
-        "Create a professional landscape design for this yard photo. "
-        "Keep all existing structures exactly as they are: paving, pergola, "
-        "buildings, walls, fences, and vehicles. "
-        "Use these specific plants in the design: "
-        "Thuja Emerald or Thuja Green Giant as privacy hedge along the back wall, "
-        "Cherry Laurel (Prunus Laurocerasus) as dense shrub groupings, "
-        "Photinia Red Robin for red-tipped accent shrubs, "
-        "Leyland Cypress as tall vertical accents, "
-        "Bamboo in corners or along fences. "
-        "Add warm LED ground spotlights illuminating the plants from below. "
-        "Early evening atmosphere, sky still bright blue. "
-        "The result must look like a realistic photo of this exact yard "
-        "after professional landscaping. Same camera angle. Photorealistic."
+    yard_context = f"This yard contains: {yard_description}. " if yard_description else ""
+    return (
+        f"{yard_context}"
+        "Transform this into a professionally landscaped yard. "
+        "PRESERVE exactly: all paving, pergola, buildings, walls, fences, vehicles, and sky color. "
+        "ADD layered planting beds in all empty soil areas: "
+        "tall privacy plants along the back wall and fences, "
+        "medium decorative shrubs in the middle layer, "
+        "low ground cover and flowers at the edges. "
+        "Choose the best plants for this specific yard — whatever fits the space, style and scale naturally. "
+        "When suitable, prefer: Thuja, Cherry Laurel, Photinia Red Robin, Leyland Cypress, Bamboo. "
+        "Also use freely: ornamental grasses, lavender, Japanese maple, roses, boxwood, "
+        "seasonal flowers, climbing plants on pergola — whatever creates the most beautiful result. "
+        "Add a natural rock water feature or small pond if space allows. "
+        "Add warm yellow LED ground spotlights illuminating plants from below. "
+        "Time: early evening blue hour — sky still bright blue with clouds, "
+        "natural daylight present, warm lights just turning on. "
+        "Result must look like a real photograph of this exact yard after professional landscaping. "
+        "Identical camera angle and perspective. Photorealistic, vibrant, high quality."
     )
-    if yard_description:
-        return f"This yard contains: {yard_description}. {base}"
-    return base
 
 
 @ai_dizajn_blueprint.route('/api/ai-dizajn', methods=['POST'])
