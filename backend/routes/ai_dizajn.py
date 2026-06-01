@@ -70,7 +70,8 @@ Return ONLY valid JSON:
   "plants_used": ["Srpski naziv 1", "Srpski naziv 2", "Srpski naziv 3"]
 }
 
-Write plant names in Serbian in plants_used (e.g. "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Lejlandi", "Lavanda", "Japanski Javor", "Šimšir", "Ukrasne trave", "Puzavice")."""
+Write plant names in Serbian in plants_used (e.g. "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Lejlandi", "Lavanda", "Japanski Javor", "Šimšir", "Puzavice").
+For ornamental grasses, always name the specific variety — never write "Ukrasne trave" generically (e.g. "Pennisetum Ice Dance", "Miscanthus Silver Feather", "Festuca Glauca", "Carex Evergold", "Stipa Tenuissima")."""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "
