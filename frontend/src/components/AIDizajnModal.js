@@ -59,8 +59,9 @@ export default function AIDizajnModal({ onClose }) {
     return () => window.removeEventListener('keydown', handleKey);
   }, [lightboxOpen]);
 
-  const remaining = DAILY_LIMIT - usageCount;
-  const limitReached = remaining <= 0;
+  const bypassLimit = process.env.NEXT_PUBLIC_BYPASS_FRONTEND_LIMIT === 'true';
+  const remaining = bypassLimit ? 99 : DAILY_LIMIT - usageCount;
+  const limitReached = !bypassLimit && remaining <= 0;
 
   const handleFile = useCallback((file) => {
     if (!file || !file.type.startsWith('image/')) {
