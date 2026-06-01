@@ -71,7 +71,8 @@ Return ONLY valid JSON:
 }
 
 Write plant names in Serbian in plants_used (e.g. "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Lejlandi", "Lavanda", "Japanski Javor", "Šimšir", "Puzavice").
-For ornamental grasses, always name the specific variety — never write "Ukrasne trave" generically (e.g. "Pennisetum Ice Dance", "Miscanthus Silver Feather", "Festuca Glauca", "Carex Evergold", "Stipa Tenuissima")."""
+For ornamental grasses, always name the exact specific variety — never write "Ukrasne trave" generically.
+Preferred ornamental grasses from the nursery catalog: "Pennisetum alopecuroides", "Carex morrowi Ice Dance", "Festuca glauca", "Ophiopogon japonicus". Use these when they fit the yard style."""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "

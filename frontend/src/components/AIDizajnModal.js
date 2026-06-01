@@ -9,6 +9,10 @@ const PLANT_CATALOG = [
   { keywords: ['fotinija', 'photinia'], slug: 'fotinija-red-robin', name: 'Fotinija Red Robin' },
   { keywords: ['bambus', 'bamboo', 'fargesia'], slug: 'bambus', name: 'Bambus' },
   { keywords: ['lejland', 'leyland', 'lejlandi'], slug: 'lejlandi', name: 'Lejlandi' },
+  { keywords: ['pennisetum'], slug: 'pennisetum-alopecuroides', name: 'Pennisetum alopecuroides' },
+  { keywords: ['carex', 'ice dance'], slug: 'carex-morrowi-ice-dance', name: 'Carex morrowi Ice Dance' },
+  { keywords: ['festuca'], slug: 'festuca-glauca', name: 'Festuca glauca' },
+  { keywords: ['ophiopogon'], slug: 'ophiopogon-japonicus', name: 'Ophiopogon japonicus' },
 ];
 
 function findPlantSlug(name) {
