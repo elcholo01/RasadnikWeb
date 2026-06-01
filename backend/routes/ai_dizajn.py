@@ -152,10 +152,8 @@ def generate_design():
         client = OpenAI(api_key=api_key)
         image_bytes = file.read()
 
-        prompt, plants_used = _generate_prompt_with_vision(client, image_bytes)
-        if not prompt:
-            prompt = FALLBACK_PROMPT
-            plants_used = []
+        prompt = "Treba mi ideja za uređenje mog dvorišta, da li možeš da mi napraviš novu sliku sa idejnim rešenjem"
+        plants_used = []
 
         image_file = io.BytesIO(image_bytes)
         image_file.name = 'image.jpg'
