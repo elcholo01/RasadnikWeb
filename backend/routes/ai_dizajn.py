@@ -59,7 +59,7 @@ The prompt you generate must:
 - Add warm LED ground spotlights illuminating plants from below
 - Early evening atmosphere: sky still bright blue, warm lights just turning on
 - Prefer these plants when they fit naturally: Thuja, Cherry Laurel, Photinia Red Robin,
-  Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood, Roses
+  Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood
 - Add a natural water feature if space allows
 - Be photorealistic — result must look like a real photo of this yard after landscaping
 - Keep the exact same camera angle, perspective, and proportions
@@ -83,7 +83,7 @@ FALLBACK_PROMPT = (
     "Add a natural water feature if the space allows. "
     "Add warm LED ground spotlights illuminating the plants from below. "
     "Preferred plants when they fit: Thuja, Cherry Laurel, Photinia Red Robin, "
-    "Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood, Roses. "
+    "Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood. "
     "Lighting: early evening, sky still bright blue, warm lights just switched on. "
     "The result must look like a real photograph of this exact yard after professional landscaping. "
     "Keep the original camera angle, perspective, and proportions. Photorealistic, vibrant, high quality."
