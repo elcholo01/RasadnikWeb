@@ -130,13 +130,15 @@ VISION_SYSTEM_PROMPT = """You are an expert landscape architect and photographer
 Analyze this yard photo and generate a detailed image generation prompt
 that visualizes the same yard beautifully landscaped.
 
-The prompt you generate must:
+The image_prompt you generate must:
 - Preserve ALL existing structures exactly as they are: walls, fences, gates,
   driveways, carports, buildings, vehicles, paving — exact same positions and appearance
-- Add plants ONLY from the NURSERY PLANT LIST below — do not invent or use other plants
+- Add plants ONLY from the NURSERY PLANT LIST below — do not use any other plants
 - Match the existing architectural style of the property
-- Include layered planting: tall privacy plants at back, medium shrubs in middle,
-  low ground cover and flowers at edges
+- Describe planting in three explicit zones, naming EVERY species used:
+    BACKGROUND: [list exact species here, e.g. "tall Leyland Cypress and Blue Spruce"]
+    MIDDLE: [list exact species here, e.g. "Photinia Red Robin and Hydrangea"]
+    FOREGROUND: [list exact species here, e.g. "Ajuga reptans ground cover and Iberis flowers"]
 - Add warm LED ground spotlights illuminating plants from below
 - Early evening atmosphere: sky still bright blue, warm lights just turning on
 - Do NOT add any water features, fountains, or ponds
