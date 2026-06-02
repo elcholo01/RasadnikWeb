@@ -69,8 +69,6 @@ export default function BlogPost({ post, relatedPosts }) {
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://rasadniktilija.rs/blog/${post.slug}`} />
         <meta property="og:image" content={`https://rasadniktilija.rs${post.image}`} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={`https://rasadniktilija.rs${post.image}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />

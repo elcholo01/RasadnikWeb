@@ -27,13 +27,14 @@ const Home = () => {
         <meta name="description" content="Rasadnik Tilija u Pločici kod Kovina nudi sadnice najboljeg kvaliteta – tuja, lovor višnja, katalpa, fotinija, bambus i preko 300 vrsta drugih biljaka. Usluga sadnje i dostave za celu Srbiju." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/" />
-        <meta property="og:title" content="Rasadnik Tilija – Sadnice u Kovinu | Živa ograda i ukrasno bilje" />
+        <meta property="og:title" content="Rasadnik Tilija - Prodaja Sadnica" />
         <meta property="og:description" content="Rasadnik Tilija u Pločici kod Kovina nudi sadnice najboljeg kvaliteta – tuja, lovor višnja, katalpa, fotinija, bambus i preko 300 vrsta drugih biljaka. Usluga sadnje i dostave za celu Srbiju." />
         <meta property="og:url" content="https://rasadniktilija.rs/" />
-        <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="twitter:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/logo.png" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/logo.png" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "GardenStore",
