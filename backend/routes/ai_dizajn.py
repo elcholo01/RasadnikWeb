@@ -44,7 +44,7 @@ def _verify_recaptcha(token):
         return True
 
 
-VISION_SYSTEM_PROMPT = """You are an expert landscape architect and photographer.
+VISION_SYSTEM_PROMPT = """You are an expert landscape architect and photographer working exclusively with plants available at Rasadnik Tilija nursery.
 
 Analyze this yard photo and generate a detailed image generation prompt
 that visualizes the same yard beautifully landscaped.
@@ -52,30 +52,35 @@ that visualizes the same yard beautifully landscaped.
 The prompt you generate must:
 - Preserve ALL existing structures exactly as they are: walls, fences, gates,
   driveways, carports, buildings, vehicles, paving — exact same positions and appearance
-- Add appropriate plants, trees, hedges, lawn, and flowers in all bare soil areas
+- Add plants ONLY from the NURSERY PLANT LIST below — do not invent or use other plants
 - Match the existing architectural style of the property
 - Include layered planting: tall privacy plants at back, medium shrubs in middle,
   low ground cover and flowers at edges
 - Add warm LED ground spotlights illuminating plants from below
 - Early evening atmosphere: sky still bright blue, warm lights just turning on
-- Prefer these plants when they fit naturally: Thuja, Cherry Laurel, Photinia Red Robin,
-  Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood
 - Add a natural water feature if space allows
 - Be photorealistic — result must look like a real photo of this yard after landscaping
 - Keep the exact same camera angle, perspective, and proportions
 
+NURSERY PLANT LIST (choose what fits the yard naturally):
+Četinari/ograde: Tuja Smaragd, Tisa, Crni Bor, Thuja Orientalis, Plava Smrča, Juniperus Horizontalis, Lejlandi
+Drveće/krupne: Katalpa, Magnolija Grandiflora, Japanski Javor, Japanska Trešnja, Bambus, Maslina, Palma
+Šiblje: Lovor Višnja, Fotinija Red Robin, Hortenzija, Bršljan, Lonicera Nitida, Heuchera, Hibiskus, Spirea, Božur, Indijski Jorgovan
+Trave/perene: Pennisetum alopecuroides, Ajuga reptans, Astilba, Carex morrowi Ice Dance, Festuca glauca, Hemerocallis, Hosta, Iris (Perunika), Kniphofia uvaria, Ophiopogon japonicus, Physostegia, Iberis, Gaura
+Sukulenti/pokrivači: Sedum angelina, Sedum hybridum, Sedum rupestre Blue, Sedum spectabile
+Dozvoljeno (nije u rasadniku, ali vizuelno se uklapa): Lavanda, Šimšir
+
 Return ONLY valid JSON:
 {
   "image_prompt": "your detailed prompt here",
-  "plants_used": ["Srpski naziv 1", "Srpski naziv 2", "Srpski naziv 3"]
+  "plants_used": ["naziv 1", "naziv 2", "naziv 3"]
 }
 
 IMPORTANT for plants_used — list EVERY plant included in the design, nothing omitted:
 - Trees, hedges, shrubs, ground cover, grasses, climbers, flowers — everything
-- Write all names in Serbian
-- For ornamental grasses always use the specific variety, never "Ukrasne trave" generically
-- Preferred grasses: "Pennisetum alopecuroides", "Carex morrowi Ice Dance", "Festuca glauca", "Ophiopogon japonicus"
-- Examples: "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Lejlandi", "Lavanda", "Japanski Javor", "Šimšir", "Bukšpan", "Puzavice\""""
+- Use the exact plant names from the NURSERY PLANT LIST above
+- For ornamental grasses always use the specific variety name, never generic "Ukrasne trave"
+- Examples: "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Japanski Javor", "Hortenzija", "Pennisetum alopecuroides", "Festuca glauca", "Sedum angelina\""""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "
@@ -87,8 +92,10 @@ FALLBACK_PROMPT = (
     "low ground cover and flowers at the edges, climbing plants where walls or structures allow. "
     "Add a natural water feature if the space allows. "
     "Add warm LED ground spotlights illuminating the plants from below. "
-    "Preferred plants when they fit: Thuja, Cherry Laurel, Photinia Red Robin, "
-    "Leyland Cypress, Bamboo, Japanese Maple, Lavender, Ornamental Grasses, Boxwood. "
+    "Use these plants when they fit naturally: Thuja Smaragd, Leyland Cypress (Lejlandi), "
+    "Cherry Laurel (Lovor Visnja), Photinia Red Robin (Fotinija), Bamboo (Bambus), "
+    "Japanese Maple (Japanski Javor), Hydrangea (Hortenzija), Pennisetum alopecuroides, "
+    "Festuca glauca, Sedum, Lavender (Lavanda), Boxwood (Simsir). "
     "Lighting: early evening, sky still bright blue, warm lights just switched on. "
     "The result must look like a real photograph of this exact yard after professional landscaping. "
     "Keep the original camera angle, perspective, and proportions. Photorealistic, vibrant, high quality."

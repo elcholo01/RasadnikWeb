@@ -4,15 +4,53 @@ const DAILY_LIMIT = 2;
 
 // Plant name keywords → product slug on /sadnice/
 const PLANT_CATALOG = [
+  // Četinari
   { keywords: ['tuja', 'thuja'], slug: 'tuja-smaragd', name: 'Tuja Smaragd' },
-  { keywords: ['lovor', 'višnja', 'visnja', 'laurel', 'prunus'], slug: 'lovor-visnja', name: 'Lovor Višnja' },
-  { keywords: ['fotinija', 'photinia'], slug: 'fotinija-red-robin', name: 'Fotinija Red Robin' },
+  { keywords: ['tisa', 'taxus'], slug: 'tisa', name: 'Tisa' },
+  { keywords: ['crni bor', 'pinus nigra'], slug: 'crni-bor', name: 'Crni Bor' },
+  { keywords: ['thuja orientalis', 'platycladus'], slug: 'thuja-orientalis', name: 'Thuja Orientalis' },
+  { keywords: ['plava smrča', 'plava smrca', 'picea pungens'], slug: 'plava-smrca', name: 'Plava Smrča' },
+  { keywords: ['juniperus'], slug: 'juniperus-horizontalis', name: 'Juniperus Horizontalis' },
+  { keywords: ['lejland', 'leyland', 'lejlandi', 'cupressocyparis'], slug: 'lejlandi', name: 'Lejlandi' },
+  // Drveće/lišćari
+  { keywords: ['katalpa', 'catalpa'], slug: 'katalpa', name: 'Katalpa' },
+  { keywords: ['magnolija', 'magnolia'], slug: 'magnolija-grandiflora', name: 'Magnolija Grandiflora' },
+  { keywords: ['japanski javor', 'acer palmatum'], slug: 'japanski-javor', name: 'Japanski Javor' },
+  { keywords: ['japanska trešnja', 'japanska tresnja', 'prunus serrulata'], slug: 'japanska-tresnja', name: 'Japanska Trešnja' },
   { keywords: ['bambus', 'bamboo', 'fargesia'], slug: 'bambus', name: 'Bambus' },
-  { keywords: ['lejland', 'leyland', 'lejlandi'], slug: 'lejlandi', name: 'Lejlandi' },
+  { keywords: ['maslina', 'olea', 'olive'], slug: 'maslina', name: 'Maslina' },
+  { keywords: ['palma', 'palm', 'trachycarpus'], slug: 'palma', name: 'Palma' },
+  // Šiblje
+  { keywords: ['lovor višnja', 'lovor visnja', 'lovor', 'cherry laurel', 'prunus laurocerasus'], slug: 'lovor-visnja', name: 'Lovor Višnja' },
+  { keywords: ['fotinija', 'photinia', 'red robin'], slug: 'fotinija-red-robin', name: 'Fotinija Red Robin' },
+  { keywords: ['hortenzija', 'hydrangea'], slug: 'hortenzija', name: 'Hortenzija' },
+  { keywords: ['bršljan', 'brsljan', 'hedera', 'ivy'], slug: 'brsljan', name: 'Bršljan' },
+  { keywords: ['lonicera'], slug: 'lonicera-nitida', name: 'Lonicera Nitida' },
+  { keywords: ['heuchera'], slug: 'heuchera', name: 'Heuchera' },
+  { keywords: ['hibiskus', 'hibiscus'], slug: 'hibiskus', name: 'Hibiskus' },
+  { keywords: ['spirea', 'spiraea'], slug: 'spirea', name: 'Spirea' },
+  { keywords: ['božur', 'bozur', 'paeonia', 'peony'], slug: 'bozur', name: 'Božur' },
+  { keywords: ['indijski jorgovan', 'lagerstroemia'], slug: 'indijski-jorgovan', name: 'Indijski Jorgovan' },
+  // Trave i perene
   { keywords: ['pennisetum'], slug: 'pennisetum-alopecuroides', name: 'Pennisetum alopecuroides' },
+  { keywords: ['ajuga', 'reptans'], slug: 'ajuga-reptans', name: 'Ajuga reptans' },
+  { keywords: ['astilba', 'astilbe'], slug: 'astilba', name: 'Astilba' },
   { keywords: ['carex', 'ice dance'], slug: 'carex-morrowi-ice-dance', name: 'Carex morrowi Ice Dance' },
   { keywords: ['festuca'], slug: 'festuca-glauca', name: 'Festuca glauca' },
-  { keywords: ['ophiopogon'], slug: 'ophiopogon-japonicus', name: 'Ophiopogon japonicus' },
+  { keywords: ['hemerocallis', 'daylily'], slug: 'hemerocallis', name: 'Hemerocallis' },
+  { keywords: ['hosta', 'funkia'], slug: 'hosta', name: 'Hosta' },
+  { keywords: ['iris', 'perunika'], slug: 'iris-perunika', name: 'Iris (Perunika)' },
+  { keywords: ['kniphofia'], slug: 'kniphofia-uvaria', name: 'Kniphofia uvaria' },
+  { keywords: ['ophiopogon', 'mondo grass'], slug: 'ophiopogon-japonicus', name: 'Ophiopogon japonicus' },
+  { keywords: ['physostegia'], slug: 'physostegia-alba', name: 'Physostegia' },
+  { keywords: ['iberis'], slug: 'iberis', name: 'Iberis' },
+  { keywords: ['gaura'], slug: 'gaura', name: 'Gaura' },
+  // Sukulenti/pokrivači
+  { keywords: ['sedum angelina'], slug: 'sedum-angelina', name: 'Sedum angelina' },
+  { keywords: ['sedum hybridum', 'sedum hybrid'], slug: 'sedum-hybridum', name: 'Sedum hybridum' },
+  { keywords: ['sedum rupestre', 'rupestre blue'], slug: 'sedum-rupestre-blue', name: 'Sedum rupestre Blue' },
+  { keywords: ['sedum spectabile', 'sedum s. watson', 'sedum watson'], slug: 'sedum-spectabile', name: 'Sedum spectabile' },
+  { keywords: ['sedum'], slug: 'sedum-angelina', name: 'Sedum' },
 ];
 
 function findPlantSlug(name) {
