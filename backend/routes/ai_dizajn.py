@@ -44,6 +44,87 @@ def _verify_recaptcha(token):
         return True
 
 
+# Canonical Serbian name → English/Latin terms to search in the image_prompt text.
+# Order matters: more specific entries must come before generic ones (e.g. sedum varieties before 'sedum').
+NURSERY_PLANTS = [
+    # Četinari — specific before generic 'thuja'
+    ('Thuja Orientalis',        ['thuja orientalis', 'platycladus']),
+    ('Tuja Smaragd',            ['tuja smaragd', 'thuja smaragd', 'thuja occidentalis', 'smaragd']),
+    ('Tisa',                    ['taxus', 'yew']),
+    ('Crni Bor',                ['pinus nigra', 'black pine', 'austrian pine', 'crni bor']),
+    ('Plava Smrča',             ['picea pungens', 'blue spruce', 'colorado spruce', 'plava smrca', 'plava smrča']),
+    ('Juniperus Horizontalis',  ['juniperus horizontalis', 'creeping juniper', 'spreading juniper', 'juniperus']),
+    ('Lejlandi',                ['leyland cypress', 'cupressocyparis', 'leylandii']),
+    # Drveće
+    ('Katalpa',                 ['catalpa']),
+    ('Magnolija Grandiflora',   ['magnolia grandiflora', 'southern magnolia', 'magnolia']),
+    ('Japanski Javor',          ['acer palmatum', 'japanese maple']),
+    ('Japanska Trešnja',        ['prunus serrulata', 'japanese cherry', 'ornamental cherry', 'cherry blossom tree']),
+    ('Bambus',                  ['bamboo', 'fargesia', 'phyllostachys']),
+    ('Maslina',                 ['olive tree', 'olea europaea', 'olea']),
+    ('Palma',                   ['palm tree', 'trachycarpus', 'palma']),
+    # Šiblje
+    ('Lovor Višnja',            ['cherry laurel', 'prunus laurocerasus', 'laurocerasus']),
+    ('Fotinija Red Robin',      ['photinia red robin', 'photinia', 'red robin']),
+    ('Hortenzija',              ['hydrangea', 'hortenzija']),
+    ('Bršljan',                 ['hedera helix', 'hedera', 'english ivy', 'climbing ivy']),
+    ('Lonicera Nitida',         ['lonicera nitida', 'lonicera']),
+    ('Heuchera',                ['heuchera', 'coral bells']),
+    ('Hibiskus',                ['hibiscus syriacus', 'rose of sharon', 'hibiscus']),
+    ('Spirea',                  ['spiraea', 'spirea']),
+    ('Božur',                   ['paeonia', 'peony']),
+    ('Indijski Jorgovan',       ['lagerstroemia', 'crape myrtle', 'crepe myrtle']),
+    # Trave i perene — specific before generic
+    ('Pennisetum alopecuroides',['pennisetum alopecuroides', 'pennisetum', 'fountain grass']),
+    ('Carex morrowi Ice Dance', ['carex morrowi', 'ice dance carex', 'carex ice dance', 'japanese sedge', 'carex']),
+    ('Festuca glauca',          ['festuca glauca', 'blue fescue', 'festuca']),
+    ('Ophiopogon japonicus',    ['ophiopogon japonicus', 'ophiopogon', 'mondo grass']),
+    ('Ajuga reptans',           ['ajuga reptans', 'ajuga', 'bugleweed', 'carpet bugle']),
+    ('Astilba',                 ['astilbe', 'astilba']),
+    ('Hemerocallis',            ['hemerocallis', 'daylily', 'day lily']),
+    ('Hosta',                   ['hosta', 'plantain lily']),
+    ('Iris (Perunika)',         ['iris sibirica', 'bearded iris', 'siberian iris', 'iris']),
+    ('Kniphofia uvaria',        ['kniphofia', 'red hot poker', 'torch lily']),
+    ('Physostegia',             ['physostegia', 'obedient plant']),
+    ('Iberis',                  ['iberis', 'candytuft']),
+    ('Gaura',                   ['gaura', 'oenothera lindheimeri']),
+    # Sukulenti — specific before generic 'sedum'
+    ('Sedum angelina',          ['sedum angelina']),
+    ('Sedum hybridum',          ['sedum hybridum']),
+    ('Sedum rupestre Blue',     ['sedum rupestre', 'blue stonecrop', 'rupestre']),
+    ('Sedum spectabile',        ['sedum spectabile', 'showy stonecrop']),
+    ('Sedum',                   ['sedum']),  # catch-all — added only if no specific variety matched
+    # Dozvoljeno extras
+    ('Lavanda',                 ['lavender', 'lavandula', 'lavanda']),
+    ('Šimšir',                  ['boxwood', 'buxus sempervirens', 'buxus']),
+]
+
+_SEDUM_SPECIFIC = {'Sedum angelina', 'Sedum hybridum', 'Sedum rupestre Blue', 'Sedum spectabile'}
+
+
+def _extract_plants_from_prompt(prompt_text):
+    """Parse image_prompt text and return every nursery plant found in it."""
+    lower = prompt_text.lower()
+    found = []
+    found_set = set()
+
+    for canonical, terms in NURSERY_PLANTS:
+        if canonical == 'Sedum':
+            continue  # handled after the loop
+        for term in terms:
+            if term in lower:
+                if canonical not in found_set:
+                    found.append(canonical)
+                    found_set.add(canonical)
+                break
+
+    # Add generic Sedum catch-all only when no specific variety was found
+    if not found_set.intersection(_SEDUM_SPECIFIC) and 'sedum' in lower:
+        found.append('Sedum')
+
+    return found
+
+
 VISION_SYSTEM_PROMPT = """You are an expert landscape architect and photographer working exclusively with plants available at Rasadnik Tilija nursery.
 
 Analyze this yard photo and generate a detailed image generation prompt
@@ -70,19 +151,13 @@ Trave/perene: Pennisetum alopecuroides, Ajuga reptans, Astilba, Carex morrowi Ic
 Sukulenti/pokrivači: Sedum angelina, Sedum hybridum, Sedum rupestre Blue, Sedum spectabile
 Dozvoljeno (nije u rasadniku, ali vizuelno se uklapa): Lavanda, Šimšir
 
-Return ONLY valid JSON:
+Return ONLY valid JSON with these two fields:
 {
   "image_prompt": "your detailed prompt here",
-  "plants_used": ["naziv 1", "naziv 2", "naziv 3"]
+  "plants_used": []
 }
 
-CRITICAL — after writing image_prompt, scan it word by word and extract EVERY plant name mentioned into plants_used:
-- Read your own image_prompt text — every plant species you wrote there must appear in plants_used
-- Do not rely on memory; derive plants_used directly from what is written in image_prompt
-- Trees, hedges, shrubs, conifers, ground cover, grasses, climbers, flowers — everything counts
-- Use the exact plant names from the NURSERY PLANT LIST above
-- For ornamental grasses always use the specific variety name, never generic "Ukrasne trave"
-- If you wrote "Blue Spruce" in the prompt, add "Plava Smrča"; if you wrote "Hydrangea", add "Hortenzija"; etc.\""""
+plants_used can be left empty — the server will extract it automatically from image_prompt."""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "
@@ -93,10 +168,9 @@ FALLBACK_PROMPT = (
     "tall plants for privacy and structure, medium shrubs for volume and color, "
     "low ground cover and flowers at the edges, climbing plants where walls or structures allow. "
     "Add warm LED ground spotlights illuminating the plants from below. "
-    "Use these plants when they fit naturally: Thuja Smaragd, Leyland Cypress (Lejlandi), "
-    "Cherry Laurel (Lovor Visnja), Photinia Red Robin (Fotinija), Bamboo (Bambus), "
-    "Japanese Maple (Japanski Javor), Hydrangea (Hortenzija), Pennisetum alopecuroides, "
-    "Festuca glauca, Sedum, Lavender (Lavanda), Boxwood (Simsir). "
+    "Use these plants when they fit naturally: Thuja Smaragd, Leyland Cypress, "
+    "Cherry Laurel, Photinia Red Robin, Bamboo, Japanese Maple, Hydrangea, "
+    "Pennisetum alopecuroides, Festuca glauca, Sedum, Lavender, Boxwood. "
     "Lighting: early evening, sky still bright blue, warm lights just switched on. "
     "The result must look like a real photograph of this exact yard after professional landscaping. "
     "Keep the original camera angle, perspective, and proportions. Photorealistic, vibrant, high quality."
@@ -135,7 +209,10 @@ def _generate_prompt_with_vision(client, image_bytes):
             ]
         )
         result = json.loads(response.choices[0].message.content)
-        return result.get('image_prompt'), result.get('plants_used', [])
+        image_prompt = result.get('image_prompt', '')
+        # Server-side extraction: reliable, never misses a plant written in the prompt
+        plants_used = _extract_plants_from_prompt(image_prompt)
+        return image_prompt, plants_used
     except Exception:
         return None, []
 
@@ -168,7 +245,7 @@ def generate_design():
         prompt, plants_used = _generate_prompt_with_vision(client, image_bytes)
         if not prompt:
             prompt = FALLBACK_PROMPT
-            plants_used = []
+            plants_used = _extract_plants_from_prompt(FALLBACK_PROMPT)
 
         image_file = io.BytesIO(image_bytes)
         image_file.name = 'image.jpg'
