@@ -5,10 +5,10 @@ const DAILY_LIMIT = 2;
 // Plant name keywords → product slug on /sadnice/
 const PLANT_CATALOG = [
   // Četinari
-  { keywords: ['tuja', 'thuja'], slug: 'tuja-smaragd', name: 'Tuja Smaragd' },
+  { keywords: ['thuja orientalis', 'platycladus'], slug: 'thuja-orientalis', name: 'Thuja Orientalis' },
+  { keywords: ['tuja', 'thuja smaragd', 'thuja occidentalis'], slug: 'tuja-smaragd', name: 'Tuja Smaragd' },
   { keywords: ['tisa', 'taxus'], slug: 'tisa', name: 'Tisa' },
   { keywords: ['crni bor', 'pinus nigra'], slug: 'crni-bor', name: 'Crni Bor' },
-  { keywords: ['thuja orientalis', 'platycladus'], slug: 'thuja-orientalis', name: 'Thuja Orientalis' },
   { keywords: ['plava smrča', 'plava smrca', 'picea pungens'], slug: 'plava-smrca', name: 'Plava Smrča' },
   { keywords: ['juniperus'], slug: 'juniperus-horizontalis', name: 'Juniperus Horizontalis' },
   { keywords: ['lejland', 'leyland', 'lejlandi', 'cupressocyparis'], slug: 'lejlandi', name: 'Lejlandi' },
@@ -19,7 +19,7 @@ const PLANT_CATALOG = [
   { keywords: ['japanska trešnja', 'japanska tresnja', 'prunus serrulata'], slug: 'japanska-tresnja', name: 'Japanska Trešnja' },
   { keywords: ['bambus', 'bamboo', 'fargesia'], slug: 'bambus', name: 'Bambus' },
   { keywords: ['maslina', 'olea', 'olive'], slug: 'maslina', name: 'Maslina' },
-  { keywords: ['palma', 'palm', 'trachycarpus'], slug: 'palma', name: 'Palma' },
+  { keywords: ['palma', 'trachycarpus'], slug: 'palma', name: 'Palma' },
   // Šiblje
   { keywords: ['lovor višnja', 'lovor visnja', 'lovor', 'cherry laurel', 'prunus laurocerasus'], slug: 'lovor-visnja', name: 'Lovor Višnja' },
   { keywords: ['fotinija', 'photinia', 'red robin'], slug: 'fotinija-red-robin', name: 'Fotinija Red Robin' },
