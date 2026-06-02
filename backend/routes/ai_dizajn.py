@@ -58,7 +58,7 @@ The prompt you generate must:
   low ground cover and flowers at edges
 - Add warm LED ground spotlights illuminating plants from below
 - Early evening atmosphere: sky still bright blue, warm lights just turning on
-- Add a natural water feature if space allows
+- Do NOT add any water features, fountains, or ponds
 - Be photorealistic — result must look like a real photo of this yard after landscaping
 - Keep the exact same camera angle, perspective, and proportions
 
@@ -92,7 +92,6 @@ FALLBACK_PROMPT = (
     "to the style, scale, and character of this specific yard: "
     "tall plants for privacy and structure, medium shrubs for volume and color, "
     "low ground cover and flowers at the edges, climbing plants where walls or structures allow. "
-    "Add a natural water feature if the space allows. "
     "Add warm LED ground spotlights illuminating the plants from below. "
     "Use these plants when they fit naturally: Thuja Smaragd, Leyland Cypress (Lejlandi), "
     "Cherry Laurel (Lovor Visnja), Photinia Red Robin (Fotinija), Bamboo (Bambus), "
