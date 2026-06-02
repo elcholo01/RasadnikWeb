@@ -309,6 +309,88 @@
   text-decoration: underline;
 }
 
+/* Related posts */
+.blog-related {
+  max-width: 780px;
+  margin: 36px auto 0;
+}
+
+.blog-related-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1b5e20;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e8f5e9;
+}
+
+.blog-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.blog-related-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(44,62,80,0.09);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.22s, box-shadow 0.22s;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(46,125,50,0.16);
+}
+
+.blog-related-img {
+  height: 130px;
+  overflow: hidden;
+}
+
+.blog-related-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.blog-related-card:hover .blog-related-img img {
+  transform: scale(1.05);
+}
+
+.blog-related-body {
+  padding: 14px 16px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-related-body .blog-category {
+  position: static;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+}
+
+.blog-related-body h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 10px;
+  line-height: 1.4;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .blog-hero-title { font-size: 2rem; }
@@ -322,4 +404,11 @@
   .blog-article-content th, .blog-article-content td { padding: 9px 10px; }
   .blog-article-cta { margin: 0 20px 28px; padding: 24px 16px; }
   .blog-back { padding: 0 20px; }
+  .blog-related-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .blog-related-img { height: 100px; }
+  .blog-related-body h3 { font-size: 0.82rem; }
+}
+
+@media (max-width: 480px) {
+  .blog-related-grid { grid-template-columns: 1fr; }
 }
