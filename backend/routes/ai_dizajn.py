@@ -76,11 +76,13 @@ Return ONLY valid JSON:
   "plants_used": ["naziv 1", "naziv 2", "naziv 3"]
 }
 
-IMPORTANT for plants_used — list EVERY plant included in the design, nothing omitted:
-- Trees, hedges, shrubs, ground cover, grasses, climbers, flowers — everything
+CRITICAL — after writing image_prompt, scan it word by word and extract EVERY plant name mentioned into plants_used:
+- Read your own image_prompt text — every plant species you wrote there must appear in plants_used
+- Do not rely on memory; derive plants_used directly from what is written in image_prompt
+- Trees, hedges, shrubs, conifers, ground cover, grasses, climbers, flowers — everything counts
 - Use the exact plant names from the NURSERY PLANT LIST above
 - For ornamental grasses always use the specific variety name, never generic "Ukrasne trave"
-- Examples: "Tuja Smaragd", "Lovor Višnja", "Fotinija Red Robin", "Bambus", "Japanski Javor", "Hortenzija", "Pennisetum alopecuroides", "Festuca glauca", "Sedum angelina\""""
+- If you wrote "Blue Spruce" in the prompt, add "Plava Smrča"; if you wrote "Hydrangea", add "Hortenzija"; etc.\""""
 
 FALLBACK_PROMPT = (
     "Create a professional landscape design for this yard photo. "
