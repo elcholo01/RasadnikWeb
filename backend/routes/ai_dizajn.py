@@ -67,7 +67,7 @@ NURSERY_PLANTS = [
     ('Lovor Višnja',            ['cherry laurel', 'prunus laurocerasus', 'laurocerasus']),
     ('Fotinija Red Robin',      ['photinia red robin', 'photinia', 'red robin']),
     ('Hortenzija',              ['hydrangea', 'hortenzija']),
-    ('Bršljan',                 ['hedera helix', 'hedera', 'english ivy', 'climbing ivy']),
+    ('Bršljan',                 ['hedera helix', 'hedera', 'english ivy', 'climbing ivy', ' ivy']),
     ('Lonicera Nitida',         ['lonicera nitida', 'lonicera']),
     ('Heuchera',                ['heuchera', 'coral bells']),
     ('Hibiskus',                ['hibiscus syriacus', 'rose of sharon', 'hibiscus']),
@@ -135,10 +135,11 @@ The image_prompt you generate must:
   driveways, carports, buildings, vehicles, paving — exact same positions and appearance
 - Add plants ONLY from the NURSERY PLANT LIST below — do not use any other plants
 - Match the existing architectural style of the property
-- Describe planting in three explicit zones, naming EVERY species used:
-    BACKGROUND: [list exact species here, e.g. "tall Leyland Cypress and Blue Spruce"]
-    MIDDLE: [list exact species here, e.g. "Photinia Red Robin and Hydrangea"]
-    FOREGROUND: [list exact species here, e.g. "Ajuga reptans ground cover and Iberis flowers"]
+- Describe planting in four explicit zones, naming EVERY species by its exact English or Latin name:
+    BACKGROUND: [e.g. "tall Leyland Cypress and Colorado Blue Spruce"]
+    MIDDLE: [e.g. "Photinia Red Robin and Hydrangea"]
+    FOREGROUND: [e.g. "Ajuga reptans ground cover, Iberis candytuft, Lavender"]
+    WALLS/CLIMBERS: [e.g. "Hedera helix ivy climbing the walls" — write "none" only if truly no climbers]
 - Add warm LED ground spotlights illuminating plants from below
 - Early evening atmosphere: sky still bright blue, warm lights just turning on
 - Do NOT add any water features, fountains, or ponds
