@@ -20,6 +20,7 @@ import '../components/FloatingLeaves.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '700'], display: 'swap' });
 
@@ -57,6 +58,7 @@ export default function App({ Component, pageProps }) {
         </main>
         <Footer />
         <BackToTop />
+        <WhatsAppButton />
       </div>
     </>
   );

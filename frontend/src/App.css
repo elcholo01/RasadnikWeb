@@ -1,5 +1,77 @@
 /* Modern UI/UX stilovi */
 
+/* ── WhatsApp button ────────────────────────────────────────── */
+.wa-btn {
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+  z-index: 900;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wa-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(37, 211, 102, 0.45);
+  animation: wa-pulse 2.2s ease-out infinite;
+}
+
+.wa-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
+}
+
+.wa-tooltip {
+  position: absolute;
+  left: 68px;
+  white-space: nowrap;
+  background: #075e54;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+
+.wa-btn:hover .wa-tooltip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes wa-pulse {
+  0%   { transform: scale(1);   opacity: 0.55; }
+  100% { transform: scale(1.75); opacity: 0; }
+}
+
+@media (max-width: 480px) {
+  .wa-btn {
+    bottom: 20px;
+    left: 16px;
+    width: 50px;
+    height: 50px;
+  }
+  .wa-tooltip { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-btn::before { animation: none; }
+}
+
 /* ── Back to top ────────────────────────────────────────────── */
 .back-to-top {
   position: fixed;
