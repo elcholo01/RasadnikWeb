@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import blogPosts from '../../data/blogData';
+import ReadingProgress from '../../components/ReadingProgress';
 
 export async function getStaticPaths() {
   return {
@@ -59,6 +60,7 @@ export default function BlogPost({ post, relatedPosts }) {
 
   return (
     <>
+      <ReadingProgress />
       <Head>
         <title>{post.title} – Rasadnik Tilija</title>
         <meta name="description" content={post.excerpt} />
