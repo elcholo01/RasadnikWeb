@@ -1,5 +1,3 @@
-import './FloatingLeaves.css';
-
 // fall = vreme pada (s), swing = vreme ljuljanja (s), size = px
 const LEAVES = [
   { id: 1,  left: '4%',  delay: 0,    fall: 8,   swing: 3.2, size: 13, color: 'rgba(76,175,80,0.75)'   },

@@ -16,6 +16,7 @@ import '../components/Footer.css';
 import '../components/ImageLightbox.css';
 import '../components/LanguageSwitcher.css';
 import '../components/AIDizajnModal.css';
+import '../components/FloatingLeaves.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
