@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -14,6 +14,18 @@ const Home = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
   useScrollReveal();
   const [isDesktop, setIsDesktop] = useState(false);
+  const heroImgRef = useRef(null);
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const onScroll = () => {
+      if (heroImgRef.current) {
+        heroImgRef.current.style.transform = `translateY(${window.scrollY * 0.35}px)`;
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   const [showAI, setShowAI] = useState(false);
 
   useEffect(() => {
@@ -78,13 +90,14 @@ const Home = () => {
           justifyContent: 'center',
         }}>
           <img
+            ref={heroImgRef}
             src="/images/hero-background.webp"
             srcSet="/images/hero-mobile.webp 640w, /images/hero-background.webp 1280w"
             sizes="100vw"
             alt=""
             fetchPriority="high"
             decoding="async"
-            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+            style={{ position: 'absolute', top: '-15%', left: 0, width: '100%', height: '130%', objectFit: 'cover', objectPosition: 'center', willChange: 'transform' }}
           />
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.45)', zIndex: 1 }} />
           <FloatingLeaves />

@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { Poppins } from 'next/font/google';
 import '../i18n';
@@ -27,6 +28,22 @@ const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '700'], dis
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://rasadnikweb.onrender.com';
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+  const [fading, setFading] = useState(false);
+
+  useEffect(() => {
+    const handleStart = () => setFading(true);
+    const handleDone = () => setFading(false);
+    router.events.on('routeChangeStart', handleStart);
+    router.events.on('routeChangeComplete', handleDone);
+    router.events.on('routeChangeError', handleDone);
+    return () => {
+      router.events.off('routeChangeStart', handleStart);
+      router.events.off('routeChangeComplete', handleDone);
+      router.events.off('routeChangeError', handleDone);
+    };
+  }, [router.events]);
+
   useEffect(() => {
     const keepAlive = () => fetch(`${BACKEND_URL}/health`).catch(() => {});
     keepAlive();
@@ -53,7 +70,7 @@ export default function App({ Component, pageProps }) {
       `}</Script>
       <div className={`App ${poppins.className}`}>
         <Navbar />
-        <main>
+        <main className={fading ? 'page-exit' : 'page-enter'}>
           <Component {...pageProps} />
         </main>
         <Footer />
