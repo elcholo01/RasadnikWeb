@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import blogPosts from '../../data/blogData';
 
 export default function Blog() {
@@ -54,7 +55,13 @@ export default function Blog() {
               {blogPosts.map(post => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
                   <div className="blog-card-image">
-                    <img src={post.image} alt={post.title} loading="lazy" />
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1100px) 50vw, 380px"
+                    />
                     <span className="blog-category">{post.category}</span>
                   </div>
                   <div className="blog-card-body">
