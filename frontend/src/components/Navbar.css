@@ -8,6 +8,14 @@
   padding: 18px 0;
   border-radius: 0 0 18px 18px;
   font-family: 'Poppins', Arial, sans-serif;
+  transition: background 0.35s ease, box-shadow 0.35s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 4px 28px rgba(46, 125, 50, 0.14);
 }
 
 .navbar .container {
@@ -63,6 +71,14 @@
 }
 
 .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--primary);
+}
+
+.nav-link.active::after {
   width: 100%;
 }
 
