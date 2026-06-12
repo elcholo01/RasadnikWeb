@@ -1,5 +1,213 @@
 const blogPosts = [
   {
+    id: 6,
+    slug: 'maslina-uzgoj-sadnja-prezimljavanje-srbija',
+    title: 'Maslina u Srbiji – uzgoj, sadnja i prezimljavanje: kompletan vodič',
+    excerpt: 'Može li maslina da preživi srpsku zimu? Koje sorte su najotpornije na mraz? Sve o uzgoju maslina u Srbiji — sadnja, nega, prezimljavanje u saksiji i na otvorenom, i gde kupiti zdrave sadnice.',
+    date: '2026-06-13',
+    readTime: '9 min',
+    category: 'Voćke i egzotično',
+    image: '/images/maslina1.jpeg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'fotinija-red-robin-sadnja-i-nega', 'najbrza-ziva-ograda-srbija'],
+    faq: [
+      {
+        q: 'Može li maslina da prezimi u Srbiji?',
+        a: 'Da — uz pravu sortu i zaštitu. Otporne sorte poput Leccino i Maurino podnose mraz do -12°C pa čak i do -15°C kada su u punoj zemlji i dobro ukorenjene. U Vojvodini i centralnoj Srbiji uz agrotekstil i malčovanje uspešno prezimljuju više od deset godina. Mlade biljke u prvoj i drugoj godini su osetljivije i preporučuje se unošenje u zaštićen prostor ili temeljno malčovanje korena.'
+      },
+      {
+        q: 'Koje sorte masline su najpogodnije za uzgoj u Srbiji?',
+        a: 'Najotpornije sorte za srpske uslove su Leccino (do -12°C, odlična za Srbiju), Maurino (do -12°C, samoplodna), Pendolino (do -10°C, dobra za oprašivanje) i Frantoio (do -10°C, visok prinos ulja). Izbegavajte mediteranske sorte poput Picual ili Arbequina — previše su osetljive na mraz za naše uslove.'
+      },
+      {
+        q: 'Kada saditi maslinu u Srbiji?',
+        a: 'Optimalno vreme za sadnju masline u Srbiji je proleće — od aprila do maja, kada nema više opasnosti od mraza. Jesenji termin (oktobar) je rizičniji jer mlade sadnice ne stignu da se dovoljno ukorene pre zime. Kontejnerske biljke mogu se saditi tokom cele sezone uz intenzivno zalivanje leti.'
+      },
+      {
+        q: 'Da li maslina daje plodove u Srbiji?',
+        a: 'Da — u toplijim krajevima Srbije (Vojvodina, Posavina, okolina Beograda) odrasle masline redovno daju plodove. Plodovi sazrevaju od oktobra do decembra. Prinos je manji nego u Mediteranu, ali kvalitet ulja je izuzetan. Za plodove je obično potrebna još jedna sorta za oprašivanje, ili biraju samoplodne sorte poput Maurino.'
+      },
+      {
+        q: 'Kako prezimiti maslinu u saksiji?',
+        a: 'Maslinu u saksiji pred zimu (od novembra) unesite u svetao, hladniji prostor — garažu sa prozorom, ostakljenu terasu ili zimsku baštu. Temperatura od 0°C do +8°C je idealna za mirovanje. Zalivajte jednom mesečno — tek toliko da zemlja ne bude potpuno suha. Nikako je ne ostavljajte u mrazevima ispod -5°C ako je u saksiji.'
+      },
+      {
+        q: 'Koliko brzo raste maslina?',
+        a: 'Maslina u Srbiji naraste 20–40 cm godišnje, zavisno od uslova. Sporo je rastuća u poređenju s ogradnim biljkama, ali izuzetno dugovečna — živi stotinama godina. Sadnice iz rasadnika obično su visine 60–120 cm i već imaju formiranu krošnju.'
+      },
+    ],
+    content: `
+      <p>Pre deset godina, sadnja masline u Srbiji zvučala je kao egzotičan eksperiment. Danas — masline rastu u dvorištima u Novom Sadu, Beogradu, pa čak i u Šumadiji. <strong>Topla leta i sve blaže zime</strong> otvorile su vrata Mediteranu na našim parcelama, a maslina je postala jedna od najtraženih biljaka u rasadnicima širom Srbije.</p>
+
+      <p>Ali pre nego što kupite sadnicu, morate znati odgovor na ključno pitanje: <strong>koja sorta podnosi srpsku zimu, kako je posaditi i kako prezimleti?</strong> Ovaj vodič daje vam sve odgovore — bez romantizovanja i bez preskakanja loših vesti.</p>
+
+      <h2>Može li maslina zaista da raste u Srbiji?</h2>
+      <p>Kratak odgovor: <strong>da — uz pravu sortu i uz minimalnu zaštitu</strong>.</p>
+      <p>Maslina (<em>Olea europaea</em>) je prirodno mediteranska biljka, ali postoje sorte koje su razvijale otpornost na mraz u planinskim oblastima Italije i Španije. Te sorte podnose temperature do <strong>-12°C pa i -15°C</strong> kada su:</p>
+      <ul>
+        <li>dobro ukorenjene (3+ godine u punoj zemlji),</li>
+        <li>zaštićene malčom oko korena,</li>
+        <li>zasađene na zaklonjenoj poziciji od hladnih severnih vetrova,</li>
+        <li>i kada mraz traje kratko, bez dužeg perioda ispod -8°C.</li>
+      </ul>
+      <p>U Vojvodini, Posavini i Beogradu masline uspešno prezimljuju u otvorenom više od deset godina. U hladnijim krajevima Srbije (planinska područja, Šumadija) preporučuje se zaštita agrotekstilom ili uzgoj u saksiji.</p>
+
+      <h2>Koje sorte maslina su pogodne za Srbiju?</h2>
+      <p>Izbor sorte je <strong>najvažnija odluka</strong> pri kupovini masline. Pogrešna sorta znači gubitak u prvoj oštrijoj zimi.</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Sorta</th><th>Otpornost na mraz</th><th>Plodnost</th><th>Napomena</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Leccino</strong></td>
+            <td>do -12°C / -15°C*</td>
+            <td>Visoka</td>
+            <td>Najpopularnija sorta za Srbiju, odlična za ulje</td>
+          </tr>
+          <tr>
+            <td><strong>Maurino</strong></td>
+            <td>do -12°C</td>
+            <td>Visoka, samoplodna</td>
+            <td>Ne treba joj oprašivač — idealna za jedno stablo</td>
+          </tr>
+          <tr>
+            <td><strong>Pendolino</strong></td>
+            <td>do -10°C</td>
+            <td>Srednja</td>
+            <td>Dobra kao oprašivač za Leccino i Frantoio</td>
+          </tr>
+          <tr>
+            <td><strong>Frantoio</strong></td>
+            <td>do -10°C</td>
+            <td>Visoka</td>
+            <td>Izvanredno ulje, ali osetljivija od Leccino</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p>*Otpornost do -15°C važi za dobro ukorenjene, odrasle biljke u punoj zemlji uz zaštitu korena malčom. Mlade sadnice su osetljivije.</p>
+      <p><strong>Izbegavajte</strong> sorte Arbequina, Picual, Koroneiki i ostale mediteranske sorte — lepe su u katalogu, ali ne podnose srpske zime.</p>
+
+      <h2>Gde saditi maslinu — pozicija je ključna</h2>
+      <p>Maslina je biljka sunca — bez njega nema ni prirasta ni plodova. Ali pozicija ne utiče samo na rast, već i na preživljavanje zime.</p>
+      <ul>
+        <li><strong>Puno sunce:</strong> minimum 6–8 sati direktnog sunca dnevno. Južni ili jugozapadni deo dvorišta je idealan.</li>
+        <li><strong>Zaklonjenost od vetra:</strong> hladni severni i severoistočni vetrovi (košava u Vojvodini) oštećuju biljku više od same temperature. Posadite je uz zid, ogradu ili u ugao koji blokira vetar.</li>
+        <li><strong>Odlična drenaža:</strong> maslina ne podnosi stajaću vodu. Ako imate teško, glinasto tlo — popravite ga mešavinom šljunka i peska pre sadnje. Koren u vodi = trulost i sigurna smrt biljke.</li>
+        <li><strong>Blizina zida:</strong> zid koji apsorbuje sunčevu toplotu i oslobađa je noću stvara mikroklimu nekoliko stepeni topliju od okoline — ovo može biti razlika između preživljavanja i propadanja u oštroj zimi.</li>
+      </ul>
+
+      <h2>Kada i kako posaditi maslinu</h2>
+
+      <h3>Pravo vreme za sadnju</h3>
+      <p><strong>Proleće (april–maj)</strong> je optimalni termin za sadnju masline u Srbiji. Biljka ima ceo topli period ispred sebe da razvije koren pre prve zime. Jesenji termin (oktobar) je rizičniji — mlade sadnice nemaju dovoljno vremena da se ukorene.</p>
+      <p>Kontejnerske sadnice, kakve nudimo u rasadniku, mogu se saditi tokom cele sezone — ali leti je neophodno intenzivno zalivanje prvih mesec dana.</p>
+
+      <h3>Korak po korak: sadnja masline</h3>
+      <ol>
+        <li><strong>Priprema rupe:</strong> iskopajte rupu duplo širu od saksije i jednako duboku. Na dno stavite sloj drenažnog materijala (šljunak, lom cigle) debljine 10 cm ako je tlo teže.</li>
+        <li><strong>Zemlja:</strong> pomešajte izvađenu zemlju sa peskom i kompostom u omeru 2:1:1. Maslina voli lagano, propusno i blago alkalno tlo (pH 6,5–8).</li>
+        <li><strong>Postavljanje sadnice:</strong> vrat korena mora biti u nivou tla — ne dublje. Duboka sadnja guši koren i uzrokuje bolesti.</li>
+        <li><strong>Prvo zalivanje:</strong> odmah obilno zalijte — 15–20 litara. Voda mora prodreti do dna rupe i okvašiti sve korenje.</li>
+        <li><strong>Malčovanje:</strong> rasporedite sloj kore bora ili šljunka (5–8 cm) oko stabla. Malč drži vlagu leti i štiti koren od mraza zimi — ne preskačite ovaj korak.</li>
+      </ol>
+
+      <h2>Nega masline — zalivanje i đubrenje</h2>
+
+      <h3>Zalivanje</h3>
+      <p>Maslina je sušootporna biljka — ali samo kada se jednom dobro ukoreni. U prvoj i drugoj godini nega je ključna:</p>
+      <ul>
+        <li><strong>Prva 1–2 godine:</strong> zalivajte jednom nedeljno u sušnim periodima, dva puta nedeljno u vrelom letu (iznad 35°C). Proverite vlagu prstom — zemlja u dubini od 5 cm ne sme biti potpuno suha.</li>
+        <li><strong>Odrasle biljke:</strong> zalivanje jednom u 2–3 nedelje u sušnim letima. Maslina podnosi sušu bolje od gotovo svake druge voćke.</li>
+        <li><strong>Zalivanje na bazi korena:</strong> izbegavajte kvašenje lišća — mokri listovi privlače gljivice.</li>
+      </ul>
+
+      <h3>Đubrenje</h3>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Period</th><th>Vrsta đubriva</th><th>Cilj</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mart–april</td>
+            <td>NPK bogat azotom (20-10-10 ili slično)</td>
+            <td>Podsticanje prirasta i listanja</td>
+          </tr>
+          <tr>
+            <td>Jun</td>
+            <td>Uravnoteženo NPK (10-10-10)</td>
+            <td>Podrška cvetanju i formiranju plodova</td>
+          </tr>
+          <tr>
+            <td>Avgust</td>
+            <td>Đubrivo bogato kalijumom (10-5-20)</td>
+            <td>Učvršćivanje plodova i priprema za zimu</td>
+          </tr>
+          <tr>
+            <td>Septembar–mart</td>
+            <td>Bez đubrenja</td>
+            <td>Biljka mora ući u zimski mir bez novog prirasta</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Prezimljavanje masline u Srbiji — kako zaštititi biljku</h2>
+      <p>Ovo je najkritičniji deo uzgoja masline u Srbiji. Dobra zaštita u prvim godinama je razlika između uspeha i gubitka biljke.</p>
+
+      <h3>Maslina u punoj zemlji (odrasla biljka)</h3>
+      <ul>
+        <li><strong>Malčovanje korena:</strong> od novembra rasporedite sloj malča (kora bora, suvo lišće) debljine 10–15 cm u prečniku 1 metar oko stabla. Ovo čuva toplotu tla i sprečava zamrzavanje korena.</li>
+        <li><strong>Agrotekstil za krošnju:</strong> u prvoj i drugoj godini obmotajte krošnju agrotekstilom kada se najavljuju temperature ispod -8°C. Odrasle biljke otpornih sorti (Leccino, Maurino) ne treba obmotavati.</li>
+        <li><strong>Ne zalijevajte pred mraz:</strong> vlažna zemlja zamrzne dublje i teže oštećuje koren. Pre prvog mraza zalijte obilno, a zatim obustavite zalivanje do proleća.</li>
+        <li><strong>Ne orezujte u jesen:</strong> rezidbom podsičete novi prirast koji mraz lako uništava. Rezidba je isključivo prolećni posao (april–maj).</li>
+      </ul>
+
+      <h3>Maslina u saksiji — zimovanje u zatvorenom</h3>
+      <p>Saksija ne pruža nikakvu izolaciju od mraza — pri -5°C spolja, zemlja u saksiji može biti -5°C i pri korenu. Zato je obavezno unošenje u zaštićen prostor:</p>
+      <ul>
+        <li><strong>Gde:</strong> svetla garaža, ostakljena terasa, zimska bašta ili svetao hodnik. Temperatura 0°C–+8°C je idealna.</li>
+        <li><strong>Kada uneti:</strong> od novembra, pre prvih mrazeva. Iznesite je napolje tek u aprilu kada prođu kasni mrazevi.</li>
+        <li><strong>Zalivanje:</strong> jednom mesečno, samo toliko da zemlja ne bude sasvim suva. Previše vode zimi = truljenje korena.</li>
+        <li><strong>Svetlo:</strong> maslina u zimovanju treba svetlost — prozor koji ne prima direktno sunce je dovoljan, ali mrak ne podnosi dobro.</li>
+      </ul>
+
+      <h2>Rezidba masline</h2>
+      <p>Maslina se reže <strong>jednom godišnje, u proleće (april–maj)</strong>, kada mineju kasni mrazevi. Cilj rezidbe je:</p>
+      <ul>
+        <li>provetrenost krošnje (maslina cveta i donosi plodove na mladim, jednogodišnjim granama),</li>
+        <li>uklanjanje suvih, bolesnih i ukrštenih grana,</li>
+        <li>oblikovanje krošnje u željeni oblik (loptast, čašast, ili slobodan).</li>
+      </ul>
+      <p>Nikada ne secirajte više od <strong>jedne trećine biljke</strong> odjednom. Maslina sporo zaceljuje rane — veće rane premazujte sredstvima za zaštitu rezova.</p>
+
+      <h2>Da li maslina daje plodove u Srbiji?</h2>
+      <p>Da — ali uz određene uslove. <strong>Plodovi se mogu očekivati od 4. do 5. godine</strong>, u toplijim krajevima Srbije (Vojvodina, Posavina, okolina Beograda i Niša). Sazrevaju od oktobra do decembra.</p>
+      <p>Za dobar prinos plodova potrebno je:</p>
+      <ul>
+        <li><strong>Dve kompatibilne sorte</strong> za ukršteno oprašivanje (na primer, Leccino + Pendolino ili Leccino + Maurino). Ako imate mesta samo za jednu biljku — biraju samoplodnu sortu Maurino.</li>
+        <li><strong>Dovoljno sunca</strong> — bez 6+ sati sunca, maslina raste ali ne donosi plodove.</li>
+        <li><strong>Proleća bez kasnih mrazeva</strong> u aprilu — mraz u vreme cvetanja uništava rod.</li>
+      </ul>
+      <p>Prinos u Srbiji neće biti mediteranski, ali 5–15 kg plodova po stablu je realno od odrasle biljke u dobrim godinama.</p>
+
+      <h2>Najčešće greške pri uzgoju masline u Srbiji</h2>
+      <ul>
+        <li><strong>Pogrešna sorta:</strong> mediteranske sorte (Arbequina, Picual) propadnu pri prvoj oštrijoj zimi. Uvek pitajte prodavca o otpornosti sorte na mraz.</li>
+        <li><strong>Sadnja na mokrom terenu:</strong> koren masline ne podnosi vodu — odmah propada od truljenja. Drenaža je conditio sine qua non.</li>
+        <li><strong>Ostaviti saksiju napolju zimi:</strong> čak i otporne sorte u saksiji stradaju ispod -5°C — saksija ne štiti koren kao puna zemlja.</li>
+        <li><strong>Preobilno zalivanje:</strong> maslina je biljka suše. Više ludi vlaga nego suša — manje je više.</li>
+        <li><strong>Đubrenje u jesen:</strong> azot u jesen tera novi prirast koji mraz uništava. Đubrite samo do avgusta.</li>
+      </ul>
+
+      <h2>Gde kupiti maslinu u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo sadnice masline u kontejnerima — sorte Leccino i Maurino, testirane za srpske uslove. Sadnice su visine 60–120 cm, sa formiranom krošnjom, pogodne za sadnju odmah. Vršimo dostavu sadnica širom Srbije.</p>
+      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili posetite stranicu <a href="/sadnice/maslina">masline u našem rasadniku</a> za aktuelnu ponudu i cene.</p>
+    `,
+  },
+  {
     id: 5,
     slug: 'hortenzija-nega-rezidba-cvetanje',
     title: 'Hortenzija – zašto ne cveta i kako to popraviti: kompletan vodič',
