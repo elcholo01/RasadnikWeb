@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { useTranslation } from 'react-i18next';
+import CountUp from '../components/CountUp';
 
 const About = () => {
   const { t } = useTranslation();
@@ -55,10 +56,10 @@ const About = () => {
           <div className="container">
             <h2 className="section-title">{t('about.ourNumbers')}</h2>
             <div className="stats-grid">
-              <div className="stat-card"><div className="stat-number">15+</div><div className="stat-label">{t('about.yearsExperience')}</div></div>
-              <div className="stat-card"><div className="stat-number">1000+</div><div className="stat-label">{t('about.satisfiedCustomers')}</div></div>
-              <div className="stat-card"><div className="stat-number">500+</div><div className="stat-label">{t('about.plantTypes')}</div></div>
-              <div className="stat-card"><div className="stat-number">24h</div><div className="stat-label">{t('about.deliveryTime')}</div></div>
+              <div className="stat-card"><div className="stat-number"><CountUp target={30} suffix="+" /></div><div className="stat-label">{t('about.yearsExperience')}</div></div>
+              <div className="stat-card"><div className="stat-number"><CountUp target={1000} suffix="+" duration={2500} /></div><div className="stat-label">{t('about.satisfiedCustomers')}</div></div>
+              <div className="stat-card"><div className="stat-number"><CountUp target={500} suffix="+" duration={2200} /></div><div className="stat-label">{t('about.plantTypes')}</div></div>
+              <div className="stat-card"><div className="stat-number"><CountUp target={24} suffix="h" /></div><div className="stat-label">{t('about.deliveryTime')}</div></div>
             </div>
           </div>
         </section>
