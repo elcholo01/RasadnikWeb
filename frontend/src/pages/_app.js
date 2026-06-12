@@ -19,6 +19,7 @@ import '../components/AIDizajnModal.css';
 import '../components/FloatingLeaves.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import BackToTop from '../components/BackToTop';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '700'], display: 'swap' });
 
@@ -55,6 +56,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </main>
         <Footer />
+        <BackToTop />
       </div>
     </>
   );
