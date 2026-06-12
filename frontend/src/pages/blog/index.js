@@ -2,8 +2,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import blogPosts from '../../data/blogData';
+import useScrollReveal from '../../hooks/useScrollReveal';
 
 export default function Blog() {
+  useScrollReveal();
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -53,7 +55,7 @@ export default function Blog() {
           <div className="container">
             <div className="blog-grid">
               {blogPosts.map(post => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
+                <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card reveal">
                   <div className="blog-card-image">
                     <Image
                       src={post.image}

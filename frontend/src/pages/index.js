@@ -4,12 +4,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const AIDizajnModal = dynamic(() => import('../components/AIDizajnModal'), { ssr: false });
 
 const Home = () => {
   const { t } = useTranslation();
   const [hoveredCard, setHoveredCard] = useState(null);
+  useScrollReveal();
   const [isDesktop, setIsDesktop] = useState(false);
   const [showAI, setShowAI] = useState(false);
 
@@ -101,12 +103,12 @@ const Home = () => {
         {/* Zašto izabrati nas */}
         <section className="section" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', marginTop: 0 }}>
           <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 48 }}>
-            <div style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
+            <div className="reveal" style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
               <div style={{ fontSize: 44, marginBottom: 12 }}>🏆</div>
               <h2 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8, fontSize: '1.25rem' }}>{t('home.provenQuality')}</h2>
               <p style={{ color: '#234d20' }}>{t('home.provenQualityDesc')}</p>
             </div>
-            <div style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
+            <div className="reveal" style={{ textAlign: 'center', flex: '1 1 220px', minWidth: 180 }}>
               <div style={{ fontSize: 44, marginBottom: 12 }}>🚚</div>
               <h2 style={{ color: '#2e7d32', fontWeight: 700, marginBottom: 8, fontSize: '1.25rem' }}>{t('home.fastDelivery')}</h2>
               <p style={{ color: '#234d20' }}>{t('home.fastDeliveryDesc')}</p>
@@ -122,6 +124,7 @@ const Home = () => {
 
               {/* Tuja - featured */}
               <Link href="/sadnice/tuja-smaragd"
+                className="reveal"
                 onMouseEnter={() => setHoveredCard('tuja')}
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{
@@ -148,6 +151,7 @@ const Home = () => {
 
               {/* Katalpa */}
               <Link href="/sadnice/katalpa"
+                className="reveal"
                 onMouseEnter={() => setHoveredCard('katalpa')}
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'katalpa' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'katalpa' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
@@ -166,6 +170,7 @@ const Home = () => {
 
               {/* Lovor višnja */}
               <Link href="/sadnice/lovor-visnja"
+                className="reveal"
                 onMouseEnter={() => setHoveredCard('lovor')}
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'lovor' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'lovor' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
@@ -184,6 +189,7 @@ const Home = () => {
 
               {/* Fotinija */}
               <Link href="/sadnice/fotinija-red-robin"
+                className="reveal"
                 onMouseEnter={() => setHoveredCard('fotinija')}
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'fotinija' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'fotinija' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
@@ -202,6 +208,7 @@ const Home = () => {
 
               {/* Bambus */}
               <Link href="/sadnice/bambus"
+                className="reveal"
                 onMouseEnter={() => setHoveredCard('bambus')}
                 onMouseLeave={() => setHoveredCard(null)}
                 style={{ position: 'relative', borderRadius: 24, overflow: 'hidden', boxShadow: hoveredCard === 'bambus' ? '0 16px 48px rgba(46,125,50,0.25)' : '0 8px 32px rgba(44,62,80,0.12)', transform: hoveredCard === 'bambus' ? 'translateY(-8px)' : 'translateY(0)', transition: 'all 0.4s', textDecoration: 'none', cursor: 'pointer', height: '380px', background: '#1a1a1a' }}>
@@ -219,7 +226,7 @@ const Home = () => {
               </Link>
             </div>
 
-            <div style={{ textAlign: 'center', marginTop: 48 }}>
+            <div className="reveal" style={{ textAlign: 'center', marginTop: 48 }}>
               <Link href="/products" style={{ display: 'inline-block', padding: '16px 48px', background: 'linear-gradient(135deg, #2e7d32 0%, #60ad5e 100%)', color: 'white', borderRadius: 999, fontSize: '1.1rem', fontWeight: 700, textDecoration: 'none', boxShadow: '0 8px 24px rgba(46,125,50,0.25)' }}>
                 Pogledaj sve proizvode
               </Link>
