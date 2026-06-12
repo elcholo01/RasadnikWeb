@@ -1,0 +1,51 @@
+.leaves-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.leaf-fall-wrap {
+  position: absolute;
+  top: -40px;
+  will-change: transform;
+  animation: leaf-drop linear infinite;
+}
+
+.leaf-sway-wrap {
+  will-change: transform;
+  animation: leaf-sway ease-in-out infinite alternate;
+}
+
+.leaf-shape {
+  border-radius: 50% 0 50% 0;
+  will-change: transform;
+  animation: leaf-rotate linear infinite;
+}
+
+@keyframes leaf-drop {
+  0%   { transform: translateY(-40px); opacity: 0; }
+  8%   { opacity: 1; }
+  90%  { opacity: 0.75; }
+  100% { transform: translateY(110vh);  opacity: 0; }
+}
+
+@keyframes leaf-sway {
+  0%   { transform: translateX(-28px); }
+  100% { transform: translateX(28px); }
+}
+
+@keyframes leaf-rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leaf-fall-wrap,
+  .leaf-sway-wrap,
+  .leaf-shape {
+    animation: none !important;
+    opacity: 0 !important;
+  }
+}
