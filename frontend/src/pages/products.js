@@ -156,6 +156,7 @@ const Products = () => {
                       <span className={`stock-badge ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
                         {product.inStock ? t('products.inStock') : t('products.outOfStock')}
                       </span>
+                      <div className="card-overlay">Pogledaj detalje →</div>
                     </div>
                     <div className="product-info-compact">
                       <h3>{product.name}</h3>
