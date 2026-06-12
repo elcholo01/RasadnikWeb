@@ -113,6 +113,12 @@ const Products = () => {
         <meta name="description" content="Kupite sadnice iz Rasadnika Tilija – četinari, lišćari, šiblje, perene i živa ograda. 40+ vrsta po povoljnim cenama. Poručite online uz dostavu na adresu širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/products" />
+        <meta property="og:title" content="Sadnice na prodaju – Rasadnik Tilija | Četinari, lišćari, perene, živa ograda" />
+        <meta property="og:description" content="Kupite sadnice iz Rasadnika Tilija – četinari, lišćari, šiblje, perene i živa ograda. 40+ vrsta po povoljnim cenama. Poručite online uz dostavu na adresu širom Srbije." />
+        <meta property="og:url" content="https://rasadniktilija.rs/products" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
       </Head>
       <div className="products-page" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', minHeight: '100vh', paddingTop: '32px', paddingBottom: '48px' }}>
 

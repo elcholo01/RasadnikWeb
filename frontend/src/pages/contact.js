@@ -58,6 +58,12 @@ const Contact = () => {
         <meta name="description" content="Kontaktirajte Rasadnik Tilija za narudžbinu sadnica i upit o cenama. Telefon: 063 88 70 837. Adresa: Pločica. Dostava sadnica širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/contact" />
+        <meta property="og:title" content="Kontakt – Rasadnik Tilija" />
+        <meta property="og:description" content="Kontaktirajte Rasadnik Tilija za narudžbinu sadnica i upit o cenama. Telefon: 063 88 70 837. Dostava sadnica širom Srbije." />
+        <meta property="og:url" content="https://rasadniktilija.rs/contact" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/logo.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/logo.png" />
       </Head>
       <div className="contact-page" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', minHeight: '100vh' }}>
         <section className="hero-small">

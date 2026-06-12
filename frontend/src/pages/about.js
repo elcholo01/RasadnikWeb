@@ -11,6 +11,12 @@ const About = () => {
         <meta name="description" content="Rasadnik Tilija je porodična firma iz Pločice sa 15+ godina iskustva u uzgoju i prodaji sadnica. Kvalitetne biljke, stručni savet i dostava širom Srbije." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/about" />
+        <meta property="og:title" content="O nama – Rasadnik Tilija" />
+        <meta property="og:description" content="Rasadnik Tilija je porodična firma iz Pločice sa 15+ godina iskustva u uzgoju i prodaji sadnica. Kvalitetne biljke, stručni savet i dostava širom Srbije." />
+        <meta property="og:url" content="https://rasadniktilija.rs/about" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/logo.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/logo.png" />
       </Head>
       <div className="about-page" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', minHeight: '100vh' }}>
         <section className="hero-small">

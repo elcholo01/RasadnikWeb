@@ -28,6 +28,12 @@ const Gallery = () => {
         <meta name="description" content="Pogledajte fotografije biljaka iz Rasadnika Tilija u Pločici – četinari, lišćari, šiblje i perene. Proverite kvalitet sadnica pre kupovine." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://rasadniktilija.rs/gallery" />
+        <meta property="og:title" content="Galerija – Rasadnik Tilija | Fotografije biljaka i rasadnika" />
+        <meta property="og:description" content="Pogledajte fotografije biljaka iz Rasadnika Tilija u Pločici – četinari, lišćari, šiblje i perene. Proverite kvalitet sadnica pre kupovine." />
+        <meta property="og:url" content="https://rasadniktilija.rs/gallery" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
       </Head>
       <div className="gallery-page">
         <section className="gallery-section">
