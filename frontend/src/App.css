@@ -2,7 +2,7 @@
 
 /* ── Page transitions ───────────────────────────────────────── */
 .page-enter {
-  animation: page-fade-in 0.28s ease forwards;
+  animation: page-fade-in 0.3s ease;
 }
 .page-exit {
   opacity: 0;
@@ -10,8 +10,8 @@
   pointer-events: none;
 }
 @keyframes page-fade-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 @media (prefers-reduced-motion: reduce) {
   .page-enter, .page-exit { animation: none; transition: none; opacity: 1; }
