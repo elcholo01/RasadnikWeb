@@ -39,6 +39,11 @@ export default function Blog() {
         <meta property="og:description" content="Stručni saveti o sadnicama, živim ogradama i ukrasnom bilju iz Rasadnika Tilija." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://rasadniktilija.rs/blog" />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="720" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       </Head>
