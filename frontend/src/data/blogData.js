@@ -2,7 +2,7 @@ const blogPosts = [
   {
     id: 7,
     slug: 'perene-za-bastu-srbija',
-    title: 'Perene (trajnice) za baštu – posadite jednom, uživajte godinama: kompletan vodič',
+    title: 'Perene za baštu – posadite jednom, uživajte godinama: kompletan vodič',
     excerpt: 'Posadite jednom – uživajte decenijama. Perene su biljke koje prezimljuju i vraćaju se svake sezone sve bujnije. Saznajte koje trajnice odabrati za sunce, senku i suva mesta u srpskim baštama, kada ih saditi i kako kombinovati za cvetanje od maja do oktobra.',
     date: '2026-06-30',
     readTime: '10 min',
