@@ -1,5 +1,261 @@
 const blogPosts = [
   {
+    id: 7,
+    slug: 'perene-za-bastu-srbija',
+    title: 'Perene (trajnice) za baštu – posadite jednom, uživajte godinama: kompletan vodič',
+    excerpt: 'Posadite jednom – uživajte decenijama. Perene su biljke koje prezimljuju i vraćaju se svake sezone sve bujnije. Saznajte koje trajnice odabrati za sunce, senku i suva mesta u srpskim baštama, kada ih saditi i kako kombinovati za cvetanje od maja do oktobra.',
+    date: '2026-06-30',
+    readTime: '10 min',
+    category: 'Perene',
+    image: '/images/heuchera1.jpeg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'najbrza-ziva-ograda-srbija'],
+    faq: [
+      {
+        q: 'Šta su perene (trajnice)?',
+        a: 'Perene su višegodišnje biljke čiji nadzemni deo u jesen ugine ili vene, ali koren ostaje živ ispod tla tokom zime i biljka se ponovo budi svake sezone. Posade se jednom i vraćaju godinama — obično postajući sve veće i bujnije sa svakom sezonom. Primeri su: Sedum, Hosta, Iris (perunika), Hemerocalis, Astilba i Heuchera.'
+      },
+      {
+        q: 'Koje perene su najotpornije na mraz u Srbiji?',
+        a: 'Gotovo sve perene koje se prodaju u srpskim rasadnicima su otporne na srpske zime. Najtvrđe su: Sedum (do -30°C), Hosta (do -30°C), Iris/perunika (do -25°C), Hemerocalis (do -25°C), Astilba (do -25°C) i Festuca glauca (do -30°C). Koren ostaje siguran ispod tla čak i u najtežim zimama.'
+      },
+      {
+        q: 'Kada saditi perene u Srbiji?',
+        a: 'Dva optimalna termina: proleće (mart–maj) kada biljka ima celu sezonu za razvoj korena i cvetanje iste godine, ili jesen (septembar–oktobar) kada je zemlja još topla od leta što omogućava razvoj korena pre mirovanja. Jesenji rok je posebno preporučljiv — biljka posađena u jesen je u proleće već ukorenjena i odmah kreće snažno u rast.'
+      },
+      {
+        q: 'Koje perene mogu da rastu u senci ili polusenci?',
+        a: 'Za senkovite uslove postoje odlične perene: Hosta je kruna senkovitih biljaka — dekorativni krupni listovi u senci cvetaju decenijama. Astilba cveta i u polusenki uz dovoljno vlage. Carex morrowi "Ice Dance" (ukrasna trava) raste lepo u senci. Heuchera preferiše polusincu. Izbegavajte Sedum, Iris i Festuca glauca u senci — bez sunca ne cvetaju.'
+      },
+      {
+        q: 'Koje perene cvetaju najduže tokom sezone?',
+        a: 'Hemerocalis (dnevni lalan) cveta od juna do septembra — gotovo tri meseca neprekidno, što ga čini prvakom u trajanju cvetanja. Sedum cveta od jula do oktobra i dekorativne glavice ostaju zimi. Za neprekidno cvetanje od maja do oktobra, kombinujte: Iris (maj–jun) + Hemerocalis (jun–sep) + Sedum (jul–okt) + Physostegia (avg–okt).'
+      },
+      {
+        q: 'Da li perene treba deliti i kako?',
+        a: 'Da — svake 3 do 5 godina preporučuje se deljenje busena perena. Biljka se iskopa u proleće ili jesen, koren se podeli na 2–4 dela lopaticom ili nožem, i svaki deo posadi posebno. Deljenje biljku podmlađuje i čini bujnijim cvetanje, a vi dobijate besplatne nove sadnice. Hosta, Sedum, Hemerocalis i Iris se odlično dele.'
+      },
+    ],
+    content: `
+      <p>Svake godine kupujete jednogodišnje biljke, sadite ih, a u septembru sve propadne. Sledeće godine — sve iznova. Postoji bolji put: <strong>perene</strong> ili trajnice — biljke koje se posade jednom, a vraćaju se svake sezone, sve veće i bujnije sa svakim prolećem.</p>
+
+      <p>U srpskim baštama, perene su <strong>jedna od najpametnijih dugoročnih investicija</strong>. Razvijaju moćan koren koji nadživi i najtežu srpsku zimu, svake sezone šire se i cvetaju sve raskošnije — a vaš ulog ostaje isti: jednom posađeno. Ovaj vodič daje vam sve što treba da znate: šta su perene, koje su najpogodnije za srpske uslove, i kako ih posaditi, negovati i kombinovati za baštu koja cveta od maja do oktobra.</p>
+
+      <h2>Šta su perene (trajnice) i po čemu se razlikuju od jednogodišnjih?</h2>
+      <p>Perene (lat. <em>perennis</em> = višegodišnji) su biljke čiji nadzemni deo u jesen ugine ili vene, ali <strong>koren ostaje živ ispod tla tokom zime</strong> i biljka se ponovo budi svake sezone. Za razliku od jednogodišnjih koje treba obnavljati svake godine, perene se posade jednom i vraćaju godinama — često postajući sve veće i bujnije sa svakom sezonom.</p>
+
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Tip biljke</th><th>Životni ciklus</th><th>Ulaganje</th><th>Primer</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Anuel (jednogodišnja)</strong></td>
+            <td>1 sezona, pa propada</td>
+            <td>Kupujete svake godine</td>
+            <td>Nevena, Petunia</td>
+          </tr>
+          <tr>
+            <td><strong>Bienel (dvogodišnja)</strong></td>
+            <td>Cveta 2. godinu, pa propada</td>
+            <td>Sadite svake 2 godine</td>
+            <td>Digitalis, Verbascum</td>
+          </tr>
+          <tr>
+            <td><strong>Perena (trajnica)</strong></td>
+            <td>3+ godina (često 10–30+)</td>
+            <td>Sadite jednom</td>
+            <td>Sedum, Hosta, Iris</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Zašto birati perene za srpsku baštu?</h2>
+      <ul>
+        <li><strong>Ekonomičnost:</strong> posadite jednom — nema godišnjih troškova obnavljanja</li>
+        <li><strong>Sve bolje sa godinama:</strong> perene se svake sezone šire i cvetaju sve bujnije, a ne slabije</li>
+        <li><strong>Manje nege:</strong> kada se jednom ukorene, mnoge perene podnose sušu bez ikakvog zalivanja</li>
+        <li><strong>Otpornost na mraz:</strong> koren ostaje siguran ispod tla i u najtežim srpskim zimama</li>
+        <li><strong>Raznolikost:</strong> postoje perene za svaki ugao — puno sunce, duboka senka, suvo tlo, vlažno tlo, visoke, niske, cvetne, dekorativne listom</li>
+        <li><strong>Besplatno množenje:</strong> svake 3–5 godina podelio koren i posadi na više mesta — dobijate nove biljke bez ikakvih troškova</li>
+      </ul>
+
+      <h2>Najpopularnije perene za srpske bašte</h2>
+
+      <h3>1. Sedum (Dudnik) – za suva, sunčana mesta</h3>
+      <p>Sedum je <strong>najotpornija perena za srpske uslove</strong> — podnosi sušu, jako sunce, siromašno tlo i mraz do -30°C bez ikakve zaštite. Mesnate, sočne listove koji zadržavaju vodu, a od jula do oktobra cveta u roze, crvenoj i žutoj boji. Idealalan za one koji ne žele da brinu o zalivanju.</p>
+      <ul>
+        <li><strong>Visina:</strong> 5–60 cm (zavisno od sorte)</li>
+        <li><strong>Cvetanje:</strong> jul–oktobar (jedno od najdužih)</li>
+        <li><strong>Pozicija:</strong> puno sunce, suvo do umereno vlažno, propusno tlo</li>
+        <li><strong>Idealno za:</strong> kamenite vrtove, suve padine, zelenи krov, rubove bordura</li>
+      </ul>
+      <p>Najpopularnije sorte: <em>Sedum spectabile</em> (visoka, roze cvast, najtražena), <em>Sedum hybridum</em> (niska, žuto-zelena pokrivač tla), <em>Sedum Angelina</em> (zlatnožuta, intenzivna boja tokom cele sezone).</p>
+
+      <h3>2. Hosta – kruna perena za senku</h3>
+      <p>Ako imate senkovit ugao u dvorištu koji ne znate čime da popunite — <strong>hosta je odgovor</strong>. Nijedno lišće u bašti ne može se meriti sa hostinim krupnim, nabranim listovima u nijansama zelene, sivo-plave, zlatne i šarene. Cveta diskretno belim ili ljubičastim cvastima u julu, ali njena prava vrednost je u listu koji traje od proleća do mraza.</p>
+      <ul>
+        <li><strong>Visina:</strong> 20–80 cm (prečnik busena do 100 cm)</li>
+        <li><strong>Cvetanje:</strong> jul–avgust (dekorativnost je prevashodno u listu)</li>
+        <li><strong>Pozicija:</strong> delimična do puna senka, vlažno i bogato humusom tlo</li>
+        <li><strong>Idealno za:</strong> ispod drveća, uz fasade bez sunca, vlažni kutci bašte</li>
+      </ul>
+      <p>Hosta je <strong>najtražnija perena za senku u Srbiji</strong>. Jednom zasađena, živi decenijama uz minimalno ulaganje i postaje sve veća. Posle 5–7 godina jedan busen može biti i pola metra u prečniku.</p>
+
+      <h3>3. Iris (Perunika) – simbol srpske bašte</h3>
+      <p>Perunika je gotovo simbol srpske bašte i kulture. Ogromni, raskošni cvetovi u ljubičastoj, beloj, plavoj, žutoj i šarenoj boji u maju i junu privlače sve poglede. Izuzetno je otporna na sušu i mraz — i gotovo bez potrebe za negom.</p>
+      <ul>
+        <li><strong>Visina:</strong> 40–90 cm</li>
+        <li><strong>Cvetanje:</strong> maj–jun</li>
+        <li><strong>Pozicija:</strong> puno sunce, dobro drenirano tlo, toleriše sušu</li>
+        <li><strong>Idealno za:</strong> bordure, uz puteve, između greda, skupno u masama</li>
+      </ul>
+      <p>Iris se svake 3–4 godine mora podeliti — iskopajte rizome, podelite i posadite u više mesta. Umnožićete se bez ikakvih troškova, a biljka će ponovo cvasti obilno.</p>
+
+      <h3>4. Hemerocalis (Dnevni lalan) – prvak u trajanju cvetanja</h3>
+      <p>Hemerocalis ili dnevni lalan cveta od juna do septembra u narandžastoj, žutoj, crvenoj ili bledožutoj boji — <strong>gotovo tri meseca neprekidno</strong>, što ga čini prvakom u trajanju cvetanja od svih perena. Naziv dolazi od grčkih reči "dan" i "lepo" — svaki cvet živi jedan dan, ali biljka konstantno otvara nove tokom čitavog leta.</p>
+      <ul>
+        <li><strong>Visina:</strong> 40–80 cm</li>
+        <li><strong>Cvetanje:</strong> jun–septembar (najduže od svih perena)</li>
+        <li><strong>Pozicija:</strong> puno sunce do polusenka, tolerantna na razne tipove tla</li>
+        <li><strong>Idealno za:</strong> bordure, mase, uz zidove i ograde</li>
+      </ul>
+
+      <h3>5. Astilba – lepota za vlažne i senkovite kutke</h3>
+      <p>Astilba je neobična lepota srpskih bašti — perušasta, perjasta cvast u beloj, roze, crvenoj ili ljubičastoj boji, iznad finog, papratastog lišća. Jedna od retkih perena koja cveta obilno i u senci, pod uslovom da ima dovoljno vlage.</p>
+      <ul>
+        <li><strong>Visina:</strong> 30–90 cm</li>
+        <li><strong>Cvetanje:</strong> jun–avgust</li>
+        <li><strong>Pozicija:</strong> polusenka do senka, vlažno tlo (idealna uz ribnjake i potoke)</li>
+        <li><strong>Idealno za:</strong> vlažni kutci bašte, uz vodu, u kombinaciji s hostom</li>
+      </ul>
+
+      <h3>6. Heuchera – boja u senci tokom cele sezone</h3>
+      <p>Heuchera donosi nešto retko u svetu perena: <strong>dekorativno lišće tokom cele vegetativne sezone</strong> — od proleća do mraza. Listovi su u nijansama od tamnocrvene i ljubičaste, do zlatnozelene i šarene, što čini da bašta izgleda lepo čak i kada ništa ne cveta.</p>
+      <ul>
+        <li><strong>Visina:</strong> 20–45 cm</li>
+        <li><strong>Cvetanje:</strong> maj–jul (sitni zvončići, ali dekorativnost je u listu)</li>
+        <li><strong>Pozicija:</strong> polusenka (idealno), toleriše puno sunce uz više vlage</li>
+        <li><strong>Idealno za:</strong> senkovite bordure, kontejneri, kombinacije s hostinim i astilbom</li>
+      </ul>
+
+      <h3>7. Physostegia – cveta kada sve ostalo prestaje</h3>
+      <p>Physostegia alba i roze sorte su perena sa šiljatim klasovima cvetova koji podsećaju na šalviju ili dragun. Cveta kasno — od avgusta do oktobra — kada je većina bašte već izbledela. Upravo zbog toga je dragocena u svakoj kombinaciji.</p>
+      <ul>
+        <li><strong>Visina:</strong> 60–90 cm</li>
+        <li><strong>Cvetanje:</strong> avgust–oktobar</li>
+        <li><strong>Pozicija:</strong> puno sunce do polusenka, vlažnije tlo</li>
+        <li><strong>Idealno za:</strong> pozadina bordure, kasno cvetanje, rezano cveće</li>
+      </ul>
+
+      <h3>8. Ukrasne trave – tekstura i pokret koji traje i zimi</h3>
+      <p>Ukrasne trave su posebna kategorija perena — one ne cvetaju spektakularno, ali daju <strong>teksturu, pokret i zimski dekor</strong> koji cvetne perene ne mogu. Čak i pod snegom izgledaju lepo.</p>
+      <ul>
+        <li><strong>Festuca glauca</strong> (Plava trava) — srebrnoplavi jastučasti kertovi, 20–35 cm, puno sunce, suvo tlo. Savršena za kamenite vrtove.</li>
+        <li><strong>Carex morrowi 'Ice Dance'</strong> — šarene belo-zelene trake, 20–30 cm, polusenka. Jedna od retkih ukrasnih trava koje podnose senku.</li>
+        <li><strong>Pennisetum</strong> — nežne, perunaste cvasti od jula, 40–80 cm, puno sunce. Elegantan pokret na vetru.</li>
+      </ul>
+
+      <h2>Perene prema uslovima rasta – brzi pregled</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Perena</th><th>Sunce / Senka</th><th>Vlaga tla</th><th>Visina</th><th>Cvetanje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Sedum</strong></td><td>Puno sunce</td><td>Suvo</td><td>5–60 cm</td><td>Jul–okt</td></tr>
+          <tr><td><strong>Hosta</strong></td><td>Polusenka / senka</td><td>Vlažno</td><td>20–80 cm</td><td>Jul–avg</td></tr>
+          <tr><td><strong>Iris (perunika)</strong></td><td>Puno sunce</td><td>Umereno / suvo</td><td>40–90 cm</td><td>Maj–jun</td></tr>
+          <tr><td><strong>Hemerocalis</strong></td><td>Sunce / polusenka</td><td>Umereno</td><td>40–80 cm</td><td>Jun–sep</td></tr>
+          <tr><td><strong>Astilba</strong></td><td>Polusenka / senka</td><td>Vlažno</td><td>30–90 cm</td><td>Jun–avg</td></tr>
+          <tr><td><strong>Heuchera</strong></td><td>Polusenka</td><td>Umereno</td><td>20–45 cm</td><td>Maj–jul</td></tr>
+          <tr><td><strong>Physostegia</strong></td><td>Sunce / polusenka</td><td>Vlažno</td><td>60–90 cm</td><td>Avg–okt</td></tr>
+          <tr><td><strong>Festuca glauca</strong></td><td>Puno sunce</td><td>Suvo</td><td>20–35 cm</td><td>–</td></tr>
+          <tr><td><strong>Carex 'Ice Dance'</strong></td><td>Polusenka / senka</td><td>Umereno</td><td>20–30 cm</td><td>–</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kada saditi perene?</h2>
+      <p>Perene se mogu saditi gotovo tokom cele sezone, ali postoje dva optimalna termina:</p>
+      <ul>
+        <li><strong>Proleće (mart–maj)</strong> — biljka ima celu sezonu ispred sebe da razvije koren i procveta iste godine. Idealno za kupovinu prvih sadnica.</li>
+        <li><strong>Jesen (septembar–oktobar)</strong> — <strong>zlatno vreme za perene</strong>. Zemlja je još topla od leta što podstiče razvoj korena pre zimskog mirovanja. Biljka posađena u jesen, u proleće je već ukorenjena i odmah kreće snažno u rast.</li>
+      </ul>
+      <p><strong>Izbegavajte</strong> sadnju po jakoj letnjo vrućini (jul–avgust) — stres od vrućine usporava ukorenjavanje. Ako morate leti, zasenite biljku prvih nedelju dana i zalivajte svakodnevno.</p>
+
+      <h2>Kako posaditi perene – korak po korak</h2>
+      <ol>
+        <li><strong>Odaberite pravo mesto</strong> — proverite koji deo bašte prima sunce, a koji je u senci. Greška u izboru mesta je najčešći razlog neuspeha.</li>
+        <li><strong>Pripremite tlo</strong> — iskopajte na 30–40 cm dubine i pomešajte sa kompostom ili baštenskom zemljom. Dobra drenaža je obavezna za sve perene osim onih za vlažno tlo (Astilba, Hosta).</li>
+        <li><strong>Iskopajte rupu</strong> — duplo širu i jednako duboku kao saksija sadnice.</li>
+        <li><strong>Postavite biljku</strong> — vrh saksije mora biti tačno u nivou okolnog tla, ne dublje.</li>
+        <li><strong>Zatrpajte i sabijte</strong> — koristite mešavinu iskopane zemlje i komposta (odnos 2:1).</li>
+        <li><strong>Zalijte obilno</strong> — odmah posle sadnje 5–10 litara po biljci.</li>
+        <li><strong>Malčujte</strong> — sloj malča od 5–8 cm oko biljke zadržava vlagu i suzbija korov.</li>
+      </ol>
+
+      <h2>Nega perena – šta treba a šta ne</h2>
+
+      <h3>Zalivanje</h3>
+      <p>Prva sezona je najkritičnija — perene grade koren i potrebna im je redovna vlaga. Od druge i treće sezone, većina perena podnosi umerenu sušu bez ikakvog zalivanja (izuzev Astilbe i Hoste).</p>
+      <ul>
+        <li><strong>Prva sezona:</strong> jednom nedeljno u sušnim periodima</li>
+        <li><strong>Od druge sezone:</strong> samo u dužim sušnim periodima (više od 2–3 nedelje bez kiše)</li>
+        <li><strong>Hosta i Astilba:</strong> zahtevaju stalnu vlagu tla — ne smete ih prepustiti suši</li>
+        <li><strong>Sedum i Iris:</strong> tolerišu duge sušne periode bez ikakve nege</li>
+      </ul>
+
+      <h3>Đubrenje</h3>
+      <ul>
+        <li><strong>Proleće (mart–april):</strong> lagano đubrivo za cvetnice ili opšte NPK. Sloj komposta oko biljke je dovoljan za skromne zahteve perena.</li>
+        <li><strong>Jesen:</strong> ne đubrite — azot u jesen podstiče prirast koji mraz uništava.</li>
+      </ul>
+
+      <h3>Rezidba i čišćenje</h3>
+      <ul>
+        <li><strong>Jesen:</strong> suhe stabljike možete ostaviti tokom zime — dekorativne su pod snegom i daju stanište korisnim insektima.</li>
+        <li><strong>Proleće (mart):</strong> uklonite suhe stabljike iz prošle sezone pre nego što biljka krene u novi rast.</li>
+        <li><strong>Deljenje busena:</strong> svake 3–5 godina podelio koren perene i posadi na više mesta — biljka se podmlađuje, a vi dobijate besplatne sadnice.</li>
+      </ul>
+
+      <h2>Kombinacije perena za baštu koja cveta od maja do oktobra</h2>
+      <p>Ključ privlačne bašte je kombinovanje biljaka tako da uvek nešto cveta. Rasporedite cvetanje prema kalendaru:</p>
+
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Period</th><th>Perene koje cvetaju</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Maj – jun</td><td>Iris (perunika)</td></tr>
+          <tr><td>Jun – jul</td><td>Astilba, Heuchera, Hosta</td></tr>
+          <tr><td>Jun – sep</td><td>Hemerocalis (najduže cvetanje)</td></tr>
+          <tr><td>Jul – okt</td><td>Sedum</td></tr>
+          <tr><td>Avg – okt</td><td>Physostegia (cveta kada sve ostalo prestane)</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <p><strong>Primer za sunčanu borduru:</strong> Sedum Angelina (niski prednji red, cela sezona dekorativna) + Iris (srednji red, cveta u maju) + Hemerocalis (cveta celo leto) + Physostegia (pozadina, cveta u jesen).</p>
+      <p><strong>Primer za senkovit kutak:</strong> Carex 'Ice Dance' (stalni dekor, i zimi) + Hosta (dekorativni listovi, polusenka–senka) + Astilba (cveta u polusenki, jun–avg).</p>
+
+      <h2>Najčešće greške pri uzgoju perena</h2>
+      <ul>
+        <li><strong>Pogrešno mesto:</strong> Hosta na punom suncu žuti i pali. Sedum u senci ne cveta i propada. Uvek proverite zahteve za svetlom pre sadnje.</li>
+        <li><strong>Preobilno zalivanje Seduma i Irisa:</strong> ove biljke vole suho tlo — previše vlage uzrokuje truljenje korena.</li>
+        <li><strong>Đubrenje u jesen:</strong> azot podstiče mladi prirast koji mraz uništava. Đubrite isključivo u proleće i rano leto.</li>
+        <li><strong>Previše gusto:</strong> perene se šire sa godinama — ostavite im prostor. Hosta naraste na 80+ cm prečnika; prezbijene biljke su podložnije bolestima.</li>
+        <li><strong>Rezidba u jesen:</strong> suhe stabljike ostavljajte do proleća — štite koren i dekorativne su pod snegom. Secirajte ih tek u martu.</li>
+      </ul>
+
+      <h2>Gde kupiti perene u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo širok asortiman perena u kontejnerima — Sedum, Hosta, Iris, Hemerocalis, Astilba, Heuchera, Physostegia, Stachys, ukrasne trave i mnoge druge. Sve biljke su odabrane i testirane za srpske klimatske uslove i pogodne su za sadnju odmah.</p>
+      <p>Vršimo dostavu sadnica širom Srbije i pružamo besplatan savet za svaki tip dvorišta i tipa tla. Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili posetite stranicu <a href="/products">naših proizvoda</a> za aktuelni asortiman i cene.</p>
+    `,
+  },
+  {
     id: 6,
     slug: 'maslina-uzgoj-sadnja-prezimljavanje-srbija',
     title: 'Maslina u Srbiji – uzgoj, sadnja i prezimljavanje: kompletan vodič',
