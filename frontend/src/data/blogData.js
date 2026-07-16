@@ -1,5 +1,108 @@
 const blogPosts = [
   {
+    id: 8,
+    slug: 'lejlandi-sadnja-i-nega',
+    title: 'Lejlandi – najbrža živa ograda u Srbiji: sadnja, nega i orezivanje',
+    excerpt: 'Lejlandi je apsolutni šampion brzine rasta – i do 100 cm godišnje. Saznajte kada i kako ga saditi, koji razmak je optimalan za gustu ogradu, kako ga orezivati i na šta paziti da vam ne preraste dvorište.',
+    date: '2026-07-16',
+    readTime: '8 min',
+    category: 'Četinari',
+    image: '/images/lejlandi1.jpeg',
+    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'tuja-smaragd-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Koliko brzo raste Lejlandi?',
+        a: 'Lejlandi je najbrže rastuća biljka za živu ogradu u Srbiji – 60 do 100 cm godišnje, u idealnim uslovima i više. To je gotovo duplo brže od tuje Smaragd (20–35 cm/god) i brže od lovor višnje (40–60 cm/god).'
+      },
+      {
+        q: 'Na kom razmaku saditi Lejlandi za gustu ogradu?',
+        a: 'Za brzu, gustu ogradu sadite na 60 cm razmaka – puna ograda za 2 do 3 godine. Za standardnu živu ogradu dovoljan je razmak od 70–80 cm. Za slobodnostojeće vetrobrane – 100–150 cm.'
+      },
+      {
+        q: 'Da li Lejlandi podnosi srpske zime?',
+        a: 'Da, otporan je na mraz do -20°C, što pokriva sve klimatske zone u Srbiji. Mladim sadnicama se u prvoj zimi preporučuje malčovanje korena radi dodatne zaštite.'
+      },
+      {
+        q: 'Kada i kako orezivati Lejlandi?',
+        a: 'Orezujte 1–2 puta godišnje – krajem marta i po potrebi krajem avgusta – i to samo zeleni deo tekuće sezone. Važno: Lejlandi se, za razliku od nekih drugih četinara, ne obnavlja iz golog, starog drveta – ako ga zapustite i orežete duboko u smeđi deo, tu će ostati trajno ćelavo mesto.'
+      },
+      {
+        q: 'Da li Lejlandi može da preraste dvorište i postane problem?',
+        a: 'Može, ako se ne oreže godinama – po tome je poznat u inostranstvu, gde je zapušten narastao i po 10–15 m i izazivao sporove sa susedima. Rešenje je jednostavno: orezujte ga 1–2 puta godišnje od druge godine sadnje i držite ga na željenoj visini – tada je potpuno bezbedan i lak za održavanje izbor.'
+      },
+      {
+        q: 'Koliko sadnica Lejlandija je potrebno za ogradu od 10 metara?',
+        a: 'Sa razmakom od 70 cm, za 10 metara potrebno je oko 15 sadnica. Sa gušćim razmakom od 60 cm – oko 17–18 sadnica. Uvek kupite 1–2 rezervne.'
+      },
+    ],
+    content: `
+      <p>Ako želite živu ogradu koja će za samo dve do tri godine napraviti gust, neproziran zid od zelenila, teško da postoji brža opcija od <strong>Lejlandija</strong>. Ovaj hibridni čempres (<em>× Cuprocyparis leylandii</em>) je apsolutni šampion brzine rasta među ogradnim biljkama u Srbiji — i do 100 cm godišnje.</p>
+
+      <p>U ovom vodiču objašnjavamo kada i kako saditi Lejlandi, koji razmak je optimalan, kako ga negovati i orezivati — i na šta obavezno paziti da vam ne "pobegne" i preraste dvorište.</p>
+
+      <h2>Zašto izabrati Lejlandi?</h2>
+      <ul>
+        <li><strong>Najbrži rast</strong> — 60–100 cm godišnje, gotovo duplo brže od tuje Smaragd</li>
+        <li><strong>Gust i zimzelen</strong> — tamnozelena boja tokom cele godine, potpuno neproziran zaklon</li>
+        <li><strong>Odličan vetrobran</strong> — gusta krošnja prigušuje buku i štiti dvorište od vetra</li>
+        <li><strong>Otporan na mraz</strong> — podnosi temperature do -20°C</li>
+      </ul>
+
+      <h2>Kada saditi Lejlandi?</h2>
+      <ul>
+        <li><strong>Proleće (mart–april)</strong> — biljka kreće u snažan rast već iste sezone</li>
+        <li><strong>Jesen (septembar–oktobar)</strong> — zemlja je još topla, koren se razvija pre zime</li>
+      </ul>
+      <p>Sadnju po velikoj letnjoj vrućini (jul–avgust) izbegavajte. Ako morate saditi leti, obavezno zalivajte svaki drugi dan u prvim nedeljama.</p>
+
+      <h2>Koji razmak između sadnica Lejlandija?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Željeni efekat</th><th>Razmak između biljaka</th><th>Vreme do pune ograde</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Brza, gusta ograda</td><td>60 cm</td><td>2–3 godine</td></tr>
+          <tr><td>Standardna živa ograda</td><td>70–80 cm</td><td>3 godine</td></tr>
+          <tr><td>Vetrobran / slobodnostojeće</td><td>100–150 cm</td><td>–</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kako saditi Lejlandi — korak po korak</h2>
+      <h3>1. Priprema terena</h3>
+      <p>Lejlandi voli duboko, dobro drenirano zemljište. Izbegavajte mesta sa stajaćom vodom — koren ne podnosi dugotrajnu vlagu.</p>
+      <h3>2. Kopanje rupe</h3>
+      <p>Iskopajte rupu <strong>dva puta širu i iste dubine</strong> kao busen korena. Na dno dodajte kompost ili đubrivo za četinare.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite biljku tako da vrh busena bude u nivou okolnog tla. Zasipajte mešavinom iskopane zemlje i komposta, pa lagano sabijte oko stabla.</p>
+      <h3>4. Zalivanje odmah nakon sadnje</h3>
+      <p>Obilno zalijte odmah posle sadnje — bar 10–15 litara po biljci. Zbog brzog rasta, Lejlandi u prvoj godini troši više vode od sporijih četinara — zalivajte redovno u periodu bez kiše.</p>
+
+      <h2>Nega Lejlandija tokom prve godine</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno, posebno leti — brz rast znači i veću potrošnju vode.</li>
+        <li><strong>Malčovanje:</strong> sloj malča debljine 5–8 cm oko stabla čuva vlagu i štiti mlad koren u prvoj zimi.</li>
+        <li><strong>Đubrenje:</strong> u proleće dodajte đubrivo za četinare prema uputstvu, kako biste podržali intenzivan rast.</li>
+      </ul>
+
+      <h2>Orezivanje — najvažniji deo nege Lejlandija</h2>
+      <p>Zbog brzine rasta, orezivanje kod Lejlandija nije opciono kao kod tuje — ono je obavezno ako želite ogradu pod kontrolom.</p>
+      <ul>
+        <li><strong>Kada:</strong> krajem marta/početkom aprila, i po potrebi ponovo krajem avgusta</li>
+        <li><strong>Koliko:</strong> isključivo zeleni prirastak tekuće sezone</li>
+        <li><strong>Pažnja:</strong> nikad ne sečite duboko u golo, smeđe drvo — Lejlandi, za razliku od nekih drugih četinara, ne obnavlja iglice iz starog drveta, pa tu ostaje trajno ćelavo mesto</li>
+      </ul>
+
+      <h2>Da li Lejlandi zaista može da postane problem?</h2>
+      <p>Da, ali samo ako se zapusti. Lejlandi je u inostranstvu poznat po tome što je, zapušten i neorezivan godinama, znao da naraste 10–15 metara i izazove sporove sa susedima. Dobra vest je da se to lako izbegava: dovoljno je da ga orezujete jednom do dvaput godišnje počev od druge sezone sadnje. Uz redovno održavanje, Lejlandi ostaje uredna, gusta i potpuno bezbedna živa ograda željene visine — a upravo zato što raste tako brzo, greške u obliku se i najbrže isprave.</p>
+
+      <h2>Cena i gde kupiti Lejlandi u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo Lejlandi u svim visinama — od mlađih sadnica za ekonomičnu sadnju, do krupnijih primeraka za brz efekat. Cena zavisi od visine sadnice — javite nam se za ponudu. Vršimo dostavu sadnica širom Srbije.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte stranicu <a href="/sadnice/lejlandi">Lejlandi</a> na našem sajtu.</p>
+    `,
+  },
+  {
     id: 7,
     slug: 'perene-za-bastu-srbija',
     title: 'Perene za baštu – posadite jednom, uživajte godinama: kompletan vodič',
@@ -657,7 +760,7 @@ const blogPosts = [
     readTime: '8 min',
     category: 'Lišćari',
     image: '/images/fotinijanaslovna.jpeg',
-    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'lovor-visnja-sadnja-i-nega', 'najbrza-ziva-ograda-srbija'],
+    relatedSlugs: ['lejlandi-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega', 'najbrza-ziva-ograda-srbija'],
     faq: [
       {
         q: 'Koliko brzo raste fotinija Red Robin?',
@@ -847,7 +950,7 @@ const blogPosts = [
     readTime: '6 min',
     category: 'Lišćari',
     image: '/images/lovormarakana.PNG',
-    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'fotinija-red-robin-sadnja-i-nega', 'tuja-smaragd-sadnja-i-nega'],
+    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'lejlandi-sadnja-i-nega', 'tuja-smaragd-sadnja-i-nega'],
     faq: [
       {
         q: 'Koliko brzo raste lovor višnja?',
@@ -955,7 +1058,7 @@ const blogPosts = [
     readTime: '7 min',
     category: 'Četinari',
     image: '/images/tujavelika.jpeg',
-    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega'],
+    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega', 'lejlandi-sadnja-i-nega'],
     faq: [
       {
         q: 'Koliko brzo raste Tuja Smaragd?',
@@ -1050,7 +1153,7 @@ const blogPosts = [
     readTime: '6 min',
     category: 'Živa ograda',
     image: '/images/blog-lejlandi.webp',
-    relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega'],
+    relatedSlugs: ['lejlandi-sadnja-i-nega', 'tuja-smaragd-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega'],
     faq: [
       {
         q: 'Koja živa ograda najbrže raste u Srbiji?',
