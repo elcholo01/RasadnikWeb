@@ -32,7 +32,8 @@ const ProductDetails = ({ product }) => {
   const categoryName = getCategoryName(product.category);
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
   const priceText = product.showPrice ? ` | Cena od ${product.price.toLocaleString()} RSD` : '';
-  const metaDesc = `${product.name} - ${product.description.substring(0, 130)}${priceText}`;
+  const metaDesc = product.metaDescription || `${product.name} - ${product.description.substring(0, 130)}${priceText}`;
+  const pageTitle = product.seoTitle || `${product.name} – Rasadnik Tilija | Kupite sadnice`;
 
   const openLightbox = (index) => {
     setLightboxIndex(index);
@@ -52,11 +53,11 @@ const ProductDetails = ({ product }) => {
   return (
     <>
       <Head>
-        <title>{product.name} – Rasadnik Tilija | Kupite sadnice</title>
+        <title>{pageTitle}</title>
         <meta name="description" content={metaDesc} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={`https://rasadniktilija.rs/sadnice/${product.slug}`} />
-        <meta property="og:title" content={`${product.name} – Rasadnik Tilija`} />
+        <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:image" content={`https://rasadniktilija.rs${product.image}`} />
         <meta name="twitter:image" content={`https://rasadniktilija.rs${product.image}`} />

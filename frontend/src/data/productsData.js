@@ -175,6 +175,8 @@ export const products = [
     price: 4000,
     showPrice: true,
     image: '/images/katalpa.jpg',
+    seoTitle: 'Katalpa – sadnica za hlad u dvorištu, cena od 4.000 RSD',
+    metaDescription: 'Katalpa – brzorastuće ukrasno drvo sa krupnim listovima i mirisnim belim cvetovima, savršeno za hlad. Cena od 4.000 RSD, dostava širom Srbije.',
     description: 'Katalpa je ukrasno drvo sa velikim listovima i prelepim belim cvetovima. Pravi hlad i daje posebnu lepotu svakom dvorištu.',
     richContent: `Katalpa (Catalpa bignonioides) je impresivno ukrasno drvo sa ogromnim srceolikim listovima i bujnim belim cvetovima koji mirišu u junu. Brzorastuće drvo – do 50 cm godišnje – koje naraste do 15 metara i pruža sjajan hlad. Postoji i katalpa na štapu (forma pendula) kao prelepa dekoracija za manja dvorišta. Sadi se u proleće na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu svih veličina uz dostavu i sadnju.`,
     inStock: true,

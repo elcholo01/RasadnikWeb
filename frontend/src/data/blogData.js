@@ -944,8 +944,8 @@ const blogPosts = [
   {
     id: 3,
     slug: 'lovor-visnja-sadnja-i-nega',
-    title: 'Lovor višnja – zimzelena ograda koja raste brzo i izgleda lepo celu godinu',
-    excerpt: 'Lovor višnja je jedna od najtraženijih biljaka za živu ogradu u Srbiji — zimzelena, brzorastuća i otporna. Saznajte kada i kako je saditi, koji razmak je idealan i zašto je toliko popularna.',
+    title: 'Lovor Višnja – sadnja, nega i brzina rasta: kompletan vodič',
+    excerpt: 'Lovor višnja raste i do 60 cm godišnje i ostaje zimzelena cele godine. Saznajte kada je saditi, koji razmak koristiti i kako je negovati za gustu, zdravu ogradu.',
     date: '2026-05-19',
     readTime: '6 min',
     category: 'Lišćari',
