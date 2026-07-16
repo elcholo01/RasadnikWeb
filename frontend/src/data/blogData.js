@@ -31,12 +31,12 @@ const blogPosts = [
         a: 'Može, ako se ne oreže godinama – po tome je poznat u inostranstvu, gde je zapušten narastao i po 10–15 m i izazivao sporove sa susedima. Rešenje je jednostavno: orezujte ga 1–2 puta godišnje od druge godine sadnje i držite ga na željenoj visini – tada je potpuno bezbedan i lak za održavanje izbor.'
       },
       {
-        q: 'Koliko sadnica Lejlandija je potrebno za ogradu od 10 metara?',
+        q: 'Koliko sadnica Lejlanda je potrebno za ogradu od 10 metara?',
         a: 'Sa razmakom od 70 cm, za 10 metara potrebno je oko 15 sadnica. Sa gušćim razmakom od 60 cm – oko 17–18 sadnica. Uvek kupite 1–2 rezervne.'
       },
     ],
     content: `
-      <p>Ako želite živu ogradu koja će za samo dve do tri godine napraviti gust, neproziran zid od zelenila, teško da postoji brža opcija od <strong>Lejlandija</strong>. Ovaj hibridni čempres (<em>× Cuprocyparis leylandii</em>) je apsolutni šampion brzine rasta među ogradnim biljkama u Srbiji — i do 100 cm godišnje.</p>
+      <p>Ako želite živu ogradu koja će za samo dve do tri godine napraviti gust, neproziran zid od zelenila, teško da postoji brža opcija od <strong>Lejlanda</strong>. Ovaj hibridni čempres (<em>× Cuprocyparis leylandii</em>) je apsolutni šampion brzine rasta među ogradnim biljkama u Srbiji — i do 100 cm godišnje.</p>
 
       <p>U ovom vodiču objašnjavamo kada i kako saditi Lejlandi, koji razmak je optimalan, kako ga negovati i orezivati — i na šta obavezno paziti da vam ne "pobegne" i preraste dvorište.</p>
 
@@ -55,7 +55,7 @@ const blogPosts = [
       </ul>
       <p>Sadnju po velikoj letnjoj vrućini (jul–avgust) izbegavajte. Ako morate saditi leti, obavezno zalivajte svaki drugi dan u prvim nedeljama.</p>
 
-      <h2>Koji razmak između sadnica Lejlandija?</h2>
+      <h2>Koji razmak između sadnica Lejlanda?</h2>
       <div class="table-wrapper">
       <table>
         <thead>
@@ -79,15 +79,15 @@ const blogPosts = [
       <h3>4. Zalivanje odmah nakon sadnje</h3>
       <p>Obilno zalijte odmah posle sadnje — bar 10–15 litara po biljci. Zbog brzog rasta, Lejlandi u prvoj godini troši više vode od sporijih četinara — zalivajte redovno u periodu bez kiše.</p>
 
-      <h2>Nega Lejlandija tokom prve godine</h2>
+      <h2>Nega Lejlanda tokom prve godine</h2>
       <ul>
         <li><strong>Zalivanje:</strong> redovno, posebno leti — brz rast znači i veću potrošnju vode.</li>
         <li><strong>Malčovanje:</strong> sloj malča debljine 5–8 cm oko stabla čuva vlagu i štiti mlad koren u prvoj zimi.</li>
         <li><strong>Đubrenje:</strong> u proleće dodajte đubrivo za četinare prema uputstvu, kako biste podržali intenzivan rast.</li>
       </ul>
 
-      <h2>Orezivanje — najvažniji deo nege Lejlandija</h2>
-      <p>Zbog brzine rasta, orezivanje kod Lejlandija nije opciono kao kod tuje — ono je obavezno ako želite ogradu pod kontrolom.</p>
+      <h2>Orezivanje — najvažniji deo nege Lejlanda</h2>
+      <p>Zbog brzine rasta, orezivanje kod Lejlanda nije opciono kao kod tuje — ono je obavezno ako želite ogradu pod kontrolom.</p>
       <ul>
         <li><strong>Kada:</strong> krajem marta/početkom aprila, i po potrebi ponovo krajem avgusta</li>
         <li><strong>Koliko:</strong> isključivo zeleni prirastak tekuće sezone</li>
