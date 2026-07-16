@@ -7,7 +7,7 @@ const blogPosts = [
     date: '2026-07-16',
     readTime: '8 min',
     category: 'Četinari',
-    image: '/images/lejlandi1.jpeg',
+    image: '/images/lejlandinew.jpeg',
     relatedSlugs: ['najbrza-ziva-ograda-srbija', 'tuja-smaragd-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega'],
     faq: [
       {

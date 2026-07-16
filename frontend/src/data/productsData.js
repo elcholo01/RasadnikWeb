@@ -860,8 +860,9 @@ export const products = [
     categories: ['cetinari', 'ziva-ograda'],
     price: 0,
     showPrice: false,
-    image: '/images/lejlandi.jpeg',
+    image: '/images/lejlandinew.jpeg',
     images: [
+      '/images/lejlandinew.jpeg',
       '/images/lejlandi.jpeg',
       '/images/lejlandi1.jpeg'
     ],
@@ -1075,6 +1076,27 @@ export const products = [
       watering: 'Malo zalivanje',
       soil: 'Dobro drenirana zemlja',
       hardiness: 'Otporna na mraz do -20°C'
+    }
+  },
+  {
+    id: 49,
+    slug: 'italijanski-cempres',
+    name: 'Italijanski čempres',
+    category: 'mediteranske',
+    categories: ['mediteranske', 'cetinari'],
+    price: 0,
+    showPrice: false,
+    image: '/images/italijanskicempres.jpeg',
+    images: ['/images/italijanskicempres.jpeg'],
+    description: 'Italijanski čempres je vitka, uska zimzelena biljka koja unosi mediteranski šmek u svaki vrt. Idealan za aleje, ulaze i vertikalne akcente u dvorištu.',
+    richContent: `Italijanski čempres (Cupressus sempervirens) je klasična mediteranska biljka prepoznatljiva po uskom, strogo vertikalnom, stubastom obliku i tamnozelenoj, gustoj krošnji. Vekovima se koristi u toskanskim i mediteranskim vrtovima kao akcenat pored ulaza, duž aleja i staza, ili kao elegantan vertikalni element u kompoziciji dvorišta. Voli puno sunca i dobro drenirano, čak i suvo zemljište — ne podnosi stajaću vodu. Otporan je na sušu i vrućinu, a uz zaštićen položaj dobro podnosi i srpske zime. Sadi se u proleće ili jesen, uz umereno zalivanje u prvoj godini dok se ne ukoreni. Rasadnik Tilija nudi italijanski čempres u više visina uz dostavu i sadnju širom Srbije.`,
+    inStock: true,
+    details: {
+      height: 'Dostupne sve visine',
+      sunlight: 'Puno sunce',
+      watering: 'Malo zalivanje',
+      soil: 'Dobro drenirana zemlja',
+      hardiness: 'Otporan na mraz do -15°C'
     }
   }
 ];
