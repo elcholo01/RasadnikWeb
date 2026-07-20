@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build && next-sitemap",
     "start": "next start",
-    "ping": "node scripts/ping-indexing.js"
+    "ping": "node scripts/ping-indexing.js",
+    "merchant-feed": "node scripts/generate-merchant-feed.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
