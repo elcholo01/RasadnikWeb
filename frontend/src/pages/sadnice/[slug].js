@@ -32,7 +32,8 @@ const ProductDetails = ({ product }) => {
   const categoryName = getCategoryName(product.category);
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
   const priceText = product.showPrice ? ` | Cena od ${product.price.toLocaleString()} RSD` : '';
-  const metaDesc = product.metaDescription || `${product.name} - ${product.description.substring(0, 130)}${priceText}`;
+  const descAlreadyHasName = product.description.toLowerCase().startsWith(product.name.toLowerCase());
+  const metaDesc = product.metaDescription || `${descAlreadyHasName ? '' : product.name + ' - '}${product.description.substring(0, 150)}${priceText}`;
   const pageTitle = product.seoTitle || `${product.name} – Rasadnik Tilija | Kupite sadnice`;
 
   const openLightbox = (index) => {
