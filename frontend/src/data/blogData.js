@@ -1,5 +1,99 @@
 const blogPosts = [
   {
+    id: 9,
+    slug: 'katalpa-sadnja-i-nega',
+    title: 'Katalpa – brzorastuće drvo za hlad u dvorištu: sadnja i nega',
+    excerpt: 'Katalpa je brzorastuće ukrasno drvo sa ogromnim listovima i mirisnim belim cvetovima – savršeno za hlad u dvorištu. Saznajte kada i kako je saditi i šta je katalpa na štapu za manja dvorišta.',
+    date: '2026-07-21',
+    readTime: '7 min',
+    category: 'Lišćari',
+    image: '/images/katalpa.jpg',
+    relatedSlugs: ['perene-za-bastu-srbija', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'hortenzija-nega-rezidba-cvetanje'],
+    faq: [
+      {
+        q: 'Koliko brzo raste katalpa?',
+        a: 'Katalpa je brzorastuće drvo – naraste do 50 cm godišnje i vremenom dostiže i do 15 metara visine. Već posle nekoliko sezona pravi gust hlad zahvaljujući ogromnim srcolikim listovima.'
+      },
+      {
+        q: 'Kada saditi katalpu?',
+        a: 'Najbolje je saditi u proleće (mart–april), kada biljka ima celu vegetacijsku sezonu da se ukoreni pre zime. Rana jesen (septembar–početak oktobra) je takođe moguća, uz pažljivije zalivanje pred hladne mesece.'
+      },
+      {
+        q: 'Da li katalpa podnosi mraz u Srbiji?',
+        a: 'Da, otporna je na mraz do -15°C, što pokriva veći deo Srbije. U regionima sa oštrijim kontinentalnim zimama (severna Vojvodina) preporučuje se malčovanje korena mladih sadnica u prve dve zime.'
+      },
+      {
+        q: 'Koliko prostora treba katalpi?',
+        a: 'Standardna katalpa naraste do 15 metara visine sa širokom krošnjom, pa joj treba najmanje 5–6 metara razmaka od kuće, ograde i drugog drveća. Za manja dvorišta postoji katalpa na štapu (forma pendula) sa kompaktnom, kupolastom krošnjom od svega 2–3 metra.'
+      },
+      {
+        q: 'Šta je katalpa na štapu?',
+        a: 'To je kalemljena forma (Catalpa bignonioides "Nana") koja raste kao mali, uredan "kišobran" na jednom stablu, bez bujnog rasta u visinu. Idealna je kao soliter za manja dvorišta, terase i ulaze, gde standardna katalpa ne bi imala dovoljno prostora.'
+      },
+      {
+        q: 'Koliko košta sadnica katalpe?',
+        a: 'U Rasadniku Tilija cena katalpe počinje od 4.000 RSD, u zavisnosti od veličine i forme sadnice (standardna ili na štapu).'
+      },
+    ],
+    content: `
+      <p>Ako tražite drvo koje će za par godina napraviti gust hlad i privući poglede krupnim, srcolikim lišćem i mirisnim belim cvetovima, <strong>katalpa</strong> je jedan od najboljih izbora za srpske bašte i dvorišta. Brzo raste, nezahtevna je za negu, a postoji i u minijaturnoj formi za manja dvorišta i terase.</p>
+
+      <p>U ovom vodiču objašnjavamo kako izgleda katalpa, kada i kako je saditi, koliko prostora joj treba i po čemu se razlikuje katalpa na štapu.</p>
+
+      <h2>Šta je katalpa i zašto je posaditi?</h2>
+      <ul>
+        <li><strong>Ogromni srcoliki listovi</strong> — jedni od najkrupnijih među ukrasnim drvećem, prave gust hlad već posle par sezona</li>
+        <li><strong>Mirisni beli cvetovi</strong> — bujno cveta u junu, cvetovi u grozdovima podsećaju na kestenove, beli sa žuto-ljubičastim mrljama u grlu</li>
+        <li><strong>Brz rast</strong> — do 50 cm godišnje, brzo pravi senku i vizuelni efekat</li>
+        <li><strong>Nezahtevna</strong> — dobro podnosi gradske uslove, zagađenje i različite tipove zemljišta</li>
+      </ul>
+
+      <h2>Kada saditi katalpu?</h2>
+      <ul>
+        <li><strong>Proleće (mart–april)</strong> — najbolji izbor, biljka ima celu sezonu da se ukoreni pre zime</li>
+        <li><strong>Rana jesen (septembar–početak oktobra)</strong> — moguća, uz pažljivije zalivanje pred hladne mesece</li>
+      </ul>
+      <p>Sadnju po velikoj letnjoj vrućini izbegavajte — mlada katalpa u tom periodu teško nadoknađuje gubitak vlage.</p>
+
+      <h2>Koliko prostora treba katalpi?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Forma</th><th>Visina / širina krošnje</th><th>Potreban prostor</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Standardna katalpa</td><td>do 15 m</td><td>najmanje 5–6 m od objekata i ograde</td></tr>
+          <tr><td>Katalpa na štapu (pendula)</td><td>2–3 m, kupolasta krošnja</td><td>manja dvorišta, terase, uz stazu</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kako saditi katalpu — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Katalpa voli puno sunca, mada podnosi i blagu polusenku. Za standardnu formu ostavite dovoljno prostora da se krošnja slobodno razvije — ne sadite je uz zid ili blizu instalacija.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu i iste dubine kao busen korena. Katalpa voli plodnu, vlažnu zemlju — dodajte kompost ili zrelo stajsko đubrivo na dno rupe.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu tako da vrh busena bude u nivou okolnog tla. Zasipajte mešavinom iskopane zemlje i komposta, pa lagano sabijte oko stabla.</p>
+      <h3>4. Zalivanje odmah nakon sadnje</h3>
+      <p>Obilno zalijte odmah posle sadnje — bar 15–20 litara po biljci, s obzirom na veličinu lišća i potrebu za vlagom.</p>
+
+      <h2>Nega katalpe</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno, posebno prve dve godine i tokom leta — katalpa ne voli suvo tlo i brzo pokazuje stres na listovima</li>
+        <li><strong>Rezidba:</strong> minimalna, samo uklanjanje suvih ili oštećenih grana krajem zime, pre kretanja vegetacije</li>
+        <li><strong>Đubrenje:</strong> u proleće dodajte đubrivo za lišćare kako biste podržali brz rast</li>
+      </ul>
+
+      <h2>Katalpa na štapu — rešenje za manja dvorišta</h2>
+      <p>Ako volite izgled katalpe ali nemate prostora za drvo od 15 metara, rešenje je <strong>katalpa na štapu</strong> — kalemljena forma koja raste kao uredan, kompaktan "kišobran" na jednom pravom stablu, bez bujnog rasta u visinu. Savršena je kao soliter pored ulaza, na terasi ili u manjem dvorištu, gde daje isti dekorativni efekat krupnog lišća bez potrebe za velikim prostorom.</p>
+
+      <h2>Gde kupiti katalpu u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo katalpu u standardnoj i formi na štapu, cena od 4.000 RSD u zavisnosti od veličine. Vršimo dostavu i sadnju na terenu širom Srbije.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte stranicu <a href="/sadnice/katalpa">Katalpa</a> na našem sajtu.</p>
+    `,
+  },
+  {
     id: 8,
     slug: 'lejlandi-sadnja-i-nega',
     title: 'Lejlandi – najbrža živa ograda u Srbiji: sadnja, nega i orezivanje',
@@ -111,7 +205,7 @@ const blogPosts = [
     readTime: '10 min',
     category: 'Perene',
     image: '/images/heuchera1.jpeg',
-    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'najbrza-ziva-ograda-srbija'],
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'katalpa-sadnja-i-nega'],
     faq: [
       {
         q: 'Šta su perene (trajnice)?',
@@ -367,7 +461,7 @@ const blogPosts = [
     readTime: '9 min',
     category: 'Voćke i egzotično',
     image: '/images/maslina1.jpeg',
-    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'fotinija-red-robin-sadnja-i-nega', 'najbrza-ziva-ograda-srbija'],
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'katalpa-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega'],
     faq: [
       {
         q: 'Može li maslina da prezimi u Srbiji?',
@@ -575,7 +669,7 @@ const blogPosts = [
     readTime: '8 min',
     category: 'Šiblje',
     image: '/images/hortenzija.jpeg',
-    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega'],
+    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'katalpa-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega'],
     faq: [
       {
         q: 'Zašto hortenzija ne cveta?',
