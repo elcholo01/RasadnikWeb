@@ -221,52 +221,53 @@ const ProductDetails = ({ product }) => {
             {product.details && (
               <div className="product-specifications">
                 <h3>{t('productDetails.specifications') || 'Karakteristike'}</h3>
-                <div className="specs-grid">
-                  {product.details.height && (
-                    <div className="spec-item">
-                      <span className="spec-icon">📏</span>
-                      <div className="spec-content">
-                        <span className="spec-label">{t('productDetails.height') || 'Visina'}</span>
-                        <span className="spec-value">{product.details.height}</span>
-                      </div>
-                    </div>
-                  )}
-                  {product.details.sunlight && (
-                    <div className="spec-item">
-                      <span className="spec-icon">☀️</span>
-                      <div className="spec-content">
-                        <span className="spec-label">{t('productDetails.sunlight') || 'Svetlost'}</span>
-                        <span className="spec-value">{product.details.sunlight}</span>
-                      </div>
-                    </div>
-                  )}
-                  {product.details.watering && (
-                    <div className="spec-item">
-                      <span className="spec-icon">💧</span>
-                      <div className="spec-content">
-                        <span className="spec-label">{t('productDetails.watering') || 'Zalivanje'}</span>
-                        <span className="spec-value">{product.details.watering}</span>
-                      </div>
-                    </div>
-                  )}
-                  {product.details.soil && (
-                    <div className="spec-item">
-                      <span className="spec-icon">🌱</span>
-                      <div className="spec-content">
-                        <span className="spec-label">{t('productDetails.soil') || 'Zemljište'}</span>
-                        <span className="spec-value">{product.details.soil}</span>
-                      </div>
-                    </div>
-                  )}
-                  {product.details.hardiness && (
-                    <div className="spec-item">
-                      <span className="spec-icon">❄️</span>
-                      <div className="spec-content">
-                        <span className="spec-label">{t('productDetails.hardiness') || 'Otpornost'}</span>
-                        <span className="spec-value">{product.details.hardiness}</span>
-                      </div>
-                    </div>
-                  )}
+                <div className="specs-table-wrapper">
+                  <table className="specs-table">
+                    <tbody>
+                      {product.details.height && (
+                        <tr>
+                          <th>{t('productDetails.height') || 'Visina'}</th>
+                          <td>{product.details.height}</td>
+                        </tr>
+                      )}
+                      {product.details.growthRate && (
+                        <tr>
+                          <th>{t('productDetails.growthRate') || 'Brzina rasta'}</th>
+                          <td>{product.details.growthRate}</td>
+                        </tr>
+                      )}
+                      {product.details.spacing && (
+                        <tr>
+                          <th>{t('productDetails.spacing') || 'Razmak sadnje'}</th>
+                          <td>{product.details.spacing}</td>
+                        </tr>
+                      )}
+                      {product.details.sunlight && (
+                        <tr>
+                          <th>{t('productDetails.sunlight') || 'Svetlost'}</th>
+                          <td>{product.details.sunlight}</td>
+                        </tr>
+                      )}
+                      {product.details.watering && (
+                        <tr>
+                          <th>{t('productDetails.watering') || 'Zalivanje'}</th>
+                          <td>{product.details.watering}</td>
+                        </tr>
+                      )}
+                      {product.details.soil && (
+                        <tr>
+                          <th>{t('productDetails.soil') || 'Zemljište'}</th>
+                          <td>{product.details.soil}</td>
+                        </tr>
+                      )}
+                      {product.details.hardiness && (
+                        <tr>
+                          <th>{t('productDetails.hardiness') || 'Otpornost'}</th>
+                          <td>{product.details.hardiness}</td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
                 </div>
               </div>
             )}

@@ -39,6 +39,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
+      growthRate: '20–35 cm godišnje',
+      spacing: '40–80 cm (zavisno od željene gustine)',
       sunlight: 'Sunce do polusenka',
       watering: 'Umereno zalivanje',
       soil: 'Dobro drenirana zemlja',
@@ -248,6 +250,8 @@ Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra vi
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
+      growthRate: '40–60 cm godišnje',
+      spacing: '50–80 cm',
       sunlight: 'Sunce do senka',
       watering: 'Umereno zalivanje',
       soil: 'Različiti tipovi zemljišta',
@@ -278,6 +282,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
+      growthRate: '30–50 cm godišnje',
+      spacing: '60 cm za gustu ogradu',
       sunlight: 'Sunce do polusenka',
       watering: 'Umereno zalivanje',
       soil: 'Dobro drenirana zemlja',
@@ -920,6 +926,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
+      growthRate: '60–100 cm godišnje',
+      spacing: '60–80 cm',
       sunlight: 'Puno sunce do polusenka',
       watering: 'Umereno zalivanje',
       soil: 'Dobro drenirana zemlja',
