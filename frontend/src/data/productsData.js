@@ -471,14 +471,20 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     showPrice: true,
     image: '/images/hibiskus.jpeg',
     description: 'Egzotična lepotica sa krupnim, upečatljivim cvetovima koja cveta od jula do oktobra. Brzo raste, lako se održava i podjednako dobro uspeva u bašti i u saksiji na terasi.',
-    richContent: `Hibiscus syriacus je otporan listopadni žbun čiji krupni cvetovi krase dvorište sve do jeseni. Naraste do 2–3 metra, a rezidbom se lako oblikuje i u malo drvo. Najbolje uspeva na osunčanom, zaštićenom mestu, posađen u proleće. Podnosi mraz do -10°C. U Rasadniku Tilija dostupan je uz dostavu i sadnju na terenu.`,
+    richContent: `Hibiscus syriacus je otporan listopadni žbun čiji krupni cvetovi krase dvorište sve do jeseni. Naraste do 2–3 metra, a rezidbom se lako oblikuje i u malo drvo. Najbolje uspeva na osunčanom, zaštićenom mestu, posađen u proleće. Podnosi mraz do -20°C — mnogo je otporniji nego što se obično misli. U Rasadniku Tilija dostupan je uz dostavu i sadnju na terenu.`,
+    relatedBlogSlug: 'hibiskus-zasto-ne-cveta-nega',
+    productFaq: [
+      { q: 'Zašto hibiskus gubi pupoljke pre cvetanja?', a: 'Najčešće zbog neredovnog zalivanja, naglih promena temperature ili premalo sunca. Redovna nega i stabilna, sunčana pozicija to rešavaju.' },
+      { q: 'Da li hibiskus podnosi mraz u Srbiji?', a: 'Da — otporan je do -20°C, što pokriva veći deo Srbije bez posebne zaštite.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, sadimo hibiskus na vašoj lokaciji širom Srbije.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
       sunlight: 'Puno sunce',
       watering: 'Redovno zalivanje',
       soil: 'Plodna, dobro drenirana zemlja',
-      hardiness: 'Otporna na mraz do -10°C'
+      hardiness: 'Otporna na mraz do -20°C'
     }
   },
   {

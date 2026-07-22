@@ -1,5 +1,120 @@
 const blogPosts = [
   {
+    id: 10,
+    slug: 'hibiskus-zasto-ne-cveta-nega',
+    title: 'Hibiskus – zašto gubi pupoljke i ne cveta: kompletan vodič',
+    excerpt: 'Hibiskus gubi pupoljke pre cvetanja? Kriv je gotovo uvek stres — neredovno zalivanje, nagle promene temperature ili premalo sunca. Saznajte pravi uzrok, kada rezati, koliko sunca i vode treba, i da li podnosi srpske zime.',
+    date: '2026-07-23',
+    readTime: '8 min',
+    category: 'Šiblje',
+    image: '/images/hibiskus.jpeg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'katalpa-sadnja-i-nega', 'perene-za-bastu-srbija'],
+    faq: [
+      {
+        q: 'Zašto hibiskus gubi pupoljke pre nego što procvetaju?',
+        a: 'Najčešći uzrok je stres izazvan naglim promenama — neredovno zalivanje (i suša i preterano vlaženje podjednako štete), nagle promene temperature, presađivanje ili pomeranje biljke, kao i nedostatak sunca. Prekomerno azotno đubrivo takođe podstiče lišće na štetu cvetova. Rešenje je redovno, ujednačeno zalivanje i stabilna, sunčana pozicija.'
+      },
+      {
+        q: 'Zašto hibiskusu kasno liste u proleće — da li je uginuo?',
+        a: 'Ne brinite — hibiskus je jedna od poslednjih baštenskih biljaka koja kreće u vegetaciju, često tek u maju ili čak početkom juna, kada je sve ostalo već odavno olistalo. To je normalno za vrstu, ne znak da je biljka uginula. Pre nego što odlučite da je izvadite, savijte tanju granu — ako je savitljiva i zelena ispod kore, biljka je živa.'
+      },
+      {
+        q: 'Kada se reže hibiskus i da li rezidba utiče na cvetanje?',
+        a: 'Za razliku od hortenzije, hibiskus cveta na novom drvetu (tekućoj sezoni rasta), pa rezidba krajem zime ili ranog proleća (februar–mart) ne uništava pupoljke — naprotiv, podstiče bujniji rast i više cvetova. Slobodno orežite do trećine dužine grana pre kretanja vegetacije.'
+      },
+      {
+        q: 'Da li hibiskus podnosi mraz u Srbiji?',
+        a: 'Da, i to bolje nego što se obično misli — Hibiscus syriacus podnosi mraz do oko -20°C, što pokriva veći deo Srbije bez posebne zaštite. Mladu sadnicu u prvoj zimi ipak zaštitite malčom oko korena.'
+      },
+      {
+        q: 'Koliko sunca i vode treba hibiskusu za obilno cvetanje?',
+        a: 'Hibiskusu treba minimum 5–6 sati direktnog sunca dnevno — u senci raste, ali slabo ili nikako ne cveta. Zalivanje treba da bude umereno i redovno: ni suvo, ni stalno mokro tlo — oba ekstrema izazivaju opadanje pupoljaka.'
+      },
+      {
+        q: 'Kada cveta hibiskus?',
+        a: 'Hibiscus syriacus cveta od jula do oktobra, sa vrhuncem u avgustu — kada većina drugih žbunova u bašti već završava sezonu cvetanja.'
+      }
+    ],
+    content: `
+      <p>Hibiskus je jedna od najupečatljivijih baštenskih biljaka — krupni, egzotični cvetovi koji se otvaraju od jula do oktobra, baš kada većina drugih žbunova završava sezonu. Ali mnogi vlasnici primete isti problem: <strong>pupoljci se formiraju, ali otpadaju pre nego što se otvore, ili ih uopšte nema</strong>.</p>
+
+      <p>Dobra vest je da je uzrok skoro uvek isti i lako se ispravlja: <strong>stres izazvan naglim promenama</strong>. U ovom vodiču objašnjavamo zašto hibiskus gubi pupoljke, zašto kasno liste u proleće (i zašto to nije razlog za brigu), kada ga rezati i koliko zaista podnosi srpsku zimu.</p>
+
+      <h2>Zašto hibiskus gubi pupoljke — pravi razlozi</h2>
+
+      <h3>1. Neredovno zalivanje (najčešći razlog)</h3>
+      <p>Hibiskus je izuzetno osetljiv na promene u dostupnosti vode. I dugi period suše i iznenadno prelivanje posle njega izazivaju isti odgovor — biljka "žrtvuje" pupoljke da bi sačuvala energiju.</p>
+      <p><strong>Rešenje:</strong> zalivajte redovno i ujednačeno, posebno tokom cvetanja (jul–oktobar). Malč oko korena pomaže da zemlja ne presuši između zalivanja.</p>
+
+      <h3>2. Nagle promene temperature</h3>
+      <p>Topli dani praćeni hladnim noćima, ili nagli talas vrućine, mogu izazvati stres koji rezultira otpadanjem pupoljaka nekoliko dana kasnije.</p>
+      <p><strong>Rešenje:</strong> ovo je van vaše kontrole, ali stabilizovanjem zalivanja i pozicije (zaštićeno od jakog vetra) smanjujete ukupan stres na biljku.</p>
+
+      <h3>3. Premalo sunca</h3>
+      <p>Hibiskus posađen u senci ili polusenci retko cveta obilno, čak i kad je inače zdrav. Manje svetlosti znači manje energije za formiranje i održavanje pupoljaka.</p>
+      <p><strong>Rešenje:</strong> sadite na mestu sa najmanje 5–6 sati direktnog sunca dnevno.</p>
+
+      <h3>4. Presađivanje ili premeštanje biljke</h3>
+      <p>Ako ste nedavno presadili hibiskus ili ga preneli iz saksije u zemlju, gubitak pupoljaka te sezone je uobičajen — biljka usmerava energiju na oporavak korena, ne na cvetanje.</p>
+      <p><strong>Rešenje:</strong> strpljenje. Sledeće sezone, kad se koren stabilizuje, cvetanje se vraća u punom obimu.</p>
+
+      <h3>5. Previše azotnog đubriva</h3>
+      <p>Isti princip kao kod hortenzije — azot podstiče bujan rast lišća na račun cvetova.</p>
+      <p><strong>Rešenje:</strong> koristite đubrivo sa nižim udelom azota, a višim fosforom i kalijumom, koje podstiče cvetanje umesto samo lišća.</p>
+
+      <h2>Zašto hibiskusu kasno liste u proleće — nema razloga za brigu</h2>
+      <p>Ovo je jedan od najčešćih razloga za paniku kod vlasnika hibiskusa: dok sve ostalo u bašti već olista, hibiskus i dalje izgleda kao gole grančice. To je potpuno normalno — <strong>hibiskus je jedna od poslednjih biljaka koja kreće u vegetaciju</strong>, često tek u maju ili čak početkom juna.</p>
+      <p>Pre nego što zaključite da je biljka uginula, savijte tanju granu — ako je savitljiva i ispod kore je zelena, hibiskus je živ i samo čeka svoje vreme.</p>
+
+      <h2>Rezidba hibiskusa — kada i kako</h2>
+      <p>Za razliku od hortenzije macrophylla koja cveta na starom drvetu (pa rezidba uništava pupoljke), <strong>hibiskus cveta na novom drvetu</strong> — na izbojcima tekuće sezone. To znači da rezidba ne samo da ne šteti cvetanju, nego ga podstiče.</p>
+      <ul>
+        <li><strong>Kada:</strong> krajem zime ili ranog proleća (februar–mart), pre kretanja vegetacije</li>
+        <li><strong>Koliko:</strong> slobodno skratite grane i do trećine dužine — podstiče gušći rast i više cvetnih pupoljaka</li>
+        <li><strong>Oblikovanje:</strong> rezidbom se hibiskus može formirati i kao malo drvo na jednom stablu, ne samo kao žbun</li>
+      </ul>
+
+      <h2>Sunce i zalivanje za obilno cvetanje</h2>
+      <ul>
+        <li><strong>Sunce:</strong> minimum 5–6 sati direktne svetlosti dnevno; više sunca = više cvetova</li>
+        <li><strong>Zalivanje:</strong> redovno i umereno tokom cele sezone rasta, posebno u periodu cvetanja (jul–oktobar). Izbegavajte i sušu i stajaću vodu</li>
+        <li><strong>Malč:</strong> sloj od 5–8 cm oko korena stabilizuje vlagu i smanjuje stres od naglih promena</li>
+      </ul>
+
+      <h2>Da li hibiskus podnosi srpske zime?</h2>
+      <p>Da, i to znatno bolje nego što većina ljudi misli. Hibiscus syriacus podnosi mraz do oko <strong>-20°C</strong>, što pokriva gotovo celu teritoriju Srbije bez posebne zaštite. Mladu sadnicu u prvoj zimi ipak zaštitite malčom oko korena dok se dobro ne ukoreni.</p>
+
+      <h2>Sadnja hibiskusa — gde i kada</h2>
+      <p><strong>Pozicija:</strong> puno sunca, zaštićeno od jakog vetra.</p>
+      <p><strong>Zemlja:</strong> plodna, dobro drenirana — ne podnosi stajaću vodu na korenu.</p>
+      <p><strong>Vreme sadnje:</strong> proleće, kada prođu poslednji mrazevi.</p>
+      <p>Hibiskus podjednako dobro uspeva posađen direktno u zemlju ili u većoj saksiji na terasi — samo u saksiji zahteva češće zalivanje jer se zemlja brže suši.</p>
+
+      <h2>Česta pitanja o hibiskusu</h2>
+
+      <h3>Zašto hibiskus gubi pupoljke pre nego što procvetaju?</h3>
+      <p>Najčešće zbog stresa — neredovnog zalivanja, naglih promena temperature, premalo sunca ili nedavnog presađivanja. Stabilna nega i sunčana pozicija to rešavaju.</p>
+
+      <h3>Zašto hibiskusu kasno liste u proleće?</h3>
+      <p>To je normalno — hibiskus je jedna od poslednjih biljaka koja kreće u vegetaciju, često tek u maju. Nije znak da je uginuo.</p>
+
+      <h3>Kada se reže hibiskus?</h3>
+      <p>Krajem zime ili ranog proleća (februar–mart), pre kretanja vegetacije. Cveta na novom drvetu, pa rezidba podstiče, a ne uništava cvetanje.</p>
+
+      <h3>Da li hibiskus podnosi mraz u Srbiji?</h3>
+      <p>Da — otporan je do oko -20°C, što pokriva veći deo Srbije bez posebne zaštite.</p>
+
+      <h3>Koliko sunca i vode treba hibiskusu?</h3>
+      <p>Najmanje 5–6 sati direktnog sunca dnevno i redovno, umereno zalivanje — bez suše i bez stajaće vode.</p>
+
+      <h3>Kada cveta hibiskus?</h3>
+      <p>Od jula do oktobra, sa vrhuncem u avgustu.</p>
+
+      <h2>Gde kupiti hibiskus u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo hibiskus spreman za sadnju u dvorište ili saksiju. Pogledajte <a href="/sadnice/hibiskus">stranicu hibiskusa</a> za aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 9,
     slug: 'katalpa-sadnja-i-nega',
     title: 'Katalpa – brzorastuće drvo za hlad u dvorištu: sadnja i nega',
@@ -8,7 +123,7 @@ const blogPosts = [
     readTime: '7 min',
     category: 'Lišćari',
     image: '/images/katalpa.jpg',
-    relatedSlugs: ['perene-za-bastu-srbija', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'hortenzija-nega-rezidba-cvetanje'],
+    relatedSlugs: ['perene-za-bastu-srbija', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'hibiskus-zasto-ne-cveta-nega'],
     faq: [
       {
         q: 'Koliko brzo raste katalpa?',
@@ -205,7 +320,7 @@ const blogPosts = [
     readTime: '10 min',
     category: 'Perene',
     image: '/images/heuchera1.jpeg',
-    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'katalpa-sadnja-i-nega'],
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'hibiskus-zasto-ne-cveta-nega'],
     faq: [
       {
         q: 'Šta su perene (trajnice)?',
@@ -669,7 +784,7 @@ const blogPosts = [
     readTime: '8 min',
     category: 'Šiblje',
     image: '/images/hortenzija.jpeg',
-    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'katalpa-sadnja-i-nega', 'lovor-visnja-sadnja-i-nega'],
+    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'katalpa-sadnja-i-nega', 'hibiskus-zasto-ne-cveta-nega'],
     faq: [
       {
         q: 'Zašto hortenzija ne cveta?',
