@@ -168,11 +168,11 @@ const ProductDetails = ({ product }) => {
 
             <div className="product-description">
               <p>{product.description}</p>
-              {product.richContent && (
-                <p style={{ marginTop: '12px', color: '#444', fontSize: '0.97rem', lineHeight: 1.7 }}>
-                  {product.richContent}
+              {product.richContent && product.richContent.split('\n\n').map((paragraph, i) => (
+                <p key={i} style={{ marginTop: '12px', color: '#444', fontSize: '0.97rem', lineHeight: 1.7 }}>
+                  {paragraph}
                 </p>
-              )}
+              ))}
             </div>
 
             {product.sizes ? (

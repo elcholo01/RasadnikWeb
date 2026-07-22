@@ -33,7 +33,9 @@ export const products = [
     seoTitle: 'Tuja Smaragd – sadnice za živu ogradu, cena od 300 RSD',
     metaDescription: 'Tuja Smaragd – zimzeleni četinar za gustu, urednu živu ogradu. Sadnice svih visina, cena od 300 RSD. Dostava i sadnja širom Srbije.',
     description: 'Tuja Smaragd je zimzeleni četinar, savršen za žive ograde i dekoraciju dvorišta. Otporna, laka za održavanje i brzo raste.',
-    richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.`,
+    richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.
+
+Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od manjih kontejnerskih sadnica (0,5–0,7 m) pogodnih za budžetsku sadnju i strpljivo čekanje rasta, do velikih primeraka (i preko 2,5 m) za trenutan efekat guste ograde odmah nakon sadnje. Naručivanje ide jednostavno telefonom ili preko kontakt forme — dogovaramo količinu, termin i, po želji, organizujemo i sadnju na terenu, bilo gde u Srbiji.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -240,7 +242,9 @@ export const products = [
     seoTitle: 'Lovor Višnja – žbun za živu ogradu, cena od 400 RSD',
     metaDescription: 'Lovor višnja – gust zimzeleni žbun za elegantnu živu ogradu, otporan na mraz i gradske uslove. Cena od 400 RSD, dostava širom Srbije.',
     description: 'Lovor višnja je zimzeleni žbun, idealan za guste, elegantne žive ograde. Otporna na mraz i gradske uslove.',
-    richContent: `Lovor višnja (Prunus laurocerasus) je najpopularnija biljka za guste, zimzelene žive ograde u Srbiji. Brzo raste – 30–50 cm godišnje – i lako se oblikuje rezanjem dva puta godišnje. Sadi se na rastojanju 50–80 cm za gustu ogradu, u proleće ili jesen. Otporna je na mraz do -20°C, gradske uslove, zagađenje i senku. Lovor višnja je odlična alternativa tuji kada se želi širi i gušći žbun sa sjajnim listovima. Rasadnik Tilija nudi lovor višnju svih visina – od 30 cm do 2 metra – uz dostavu i sadnju.`,
+    richContent: `Lovor višnja (Prunus laurocerasus) je najpopularnija biljka za guste, zimzelene žive ograde u Srbiji. Brzo raste – 30–50 cm godišnje – i lako se oblikuje rezanjem dva puta godišnje. Sadi se na rastojanju 50–80 cm za gustu ogradu, u proleće ili jesen. Otporna je na mraz do -20°C, gradske uslove, zagađenje i senku. Lovor višnja je odlična alternativa tuji kada se želi širi i gušći žbun sa sjajnim listovima. Rasadnik Tilija nudi lovor višnju svih visina – od 30 cm do 2 metra – uz dostavu i sadnju.
+
+Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra visine, što vam omogućava da birate između budžetske opcije za strpljiviju sadnju ili krupnijih primeraka za brz efekat guste žive ograde. Za narudžbinu nas kontaktirajte telefonom ili preko forme na sajtu — dogovaramo količinu prema dužini vaše ograde, termin sadnje i dostavu bilo gde u Srbiji, uz mogućnost profesionalne sadnje na terenu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -268,7 +272,9 @@ export const products = [
     seoTitle: 'Fotinija Red Robin – žbun za živu ogradu, cena od 400 RSD',
     metaDescription: 'Fotinija Red Robin – zimzeleni žbun sa vatreno crvenim mladim listovima, idealan za živu ogradu. Cena od 400 RSD, dostava širom Srbije.',
     description: 'Fotinija Red Robin je zimzeleni žbun sa atraktivnim crvenim mladim izbojcima. Idealna za dekoraciju i formiranje žive ograde.',
-    richContent: `Fotinija Red Robin (Photinia × fraseri 'Red Robin') prepoznatljiva je po vatreno crvenim mladim listovima koji se pojavljuju u proleće i jesen, dok stariji listovi ostaju sjajno tamnozeleni. Zimzelena je i idealna za živu ogradu visine 1–2 metra. Brzo raste i lako se oblikuje, otporna je na mraz do -15°C. Sadi se u proleće ili jesen. Rasadnik Tilija nudi fotiniju Red Robin uz dostavu i sadnju na celoj teritoriji Srbije.`,
+    richContent: `Fotinija Red Robin (Photinia × fraseri 'Red Robin') prepoznatljiva je po vatreno crvenim mladim listovima koji se pojavljuju u proleće i jesen, dok stariji listovi ostaju sjajno tamnozeleni. Zimzelena je i idealna za živu ogradu visine 1–2 metra. Brzo raste i lako se oblikuje, otporna je na mraz do -15°C. Sadi se u proleće ili jesen. Rasadnik Tilija nudi fotiniju Red Robin uz dostavu i sadnju na celoj teritoriji Srbije.
+
+Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu. Cena zavisi od visine sadnice — javite nam se za trenutnu ponudu i dostupnost. Naručivanje je jednostavno preko telefona ili kontakt forme, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -908,7 +914,9 @@ export const products = [
     seoTitle: 'Lejlandi – najbrža sadnica za živu ogradu, cena na upit',
     metaDescription: 'Lejlandi – najbrže rastući četinar za živu ogradu, i do 100 cm godišnje. Gust, zimzelen zid za brzu privatnost. Cena na upit, dostava širom Srbije.',
     description: 'Lejlandi je najbrže rastući četinar za živu ogradu – raste i do 1 metar godišnje. Gust, zimzelen i lak za oblikovanje, idealan za brzu privatnost.',
-    richContent: `Lejlandi (Cupressus × leylandii) je hibridni četinar poznat kao najbrže rastuća biljka za živu ogradu – naraste i do 60–100 cm godišnje. Gust je i zimzelen, formira kompaktnu zidanu ogradu već posle nekoliko sezona. Idealan je za brzo zaklanjanje od pogleda, buke i vetra. Sadi se na rastojanju 60–80 cm u proleće ili jesen. Otporan je na mraz do -20°C i lako se oblikuje rezanjem jednom godišnje. Rasadnik Tilija nudi lejlandi sve visine uz dostavu i sadnju širom Srbije.`,
+    richContent: `Lejlandi (Cupressus × leylandii) je hibridni četinar poznat kao najbrže rastuća biljka za živu ogradu – naraste i do 60–100 cm godišnje. Gust je i zimzelen, formira kompaktnu zidanu ogradu već posle nekoliko sezona. Idealan je za brzo zaklanjanje od pogleda, buke i vetra. Sadi se na rastojanju 60–80 cm u proleće ili jesen. Otporan je na mraz do -20°C i lako se oblikuje rezanjem jednom godišnje. Rasadnik Tilija nudi lejlandi sve visine uz dostavu i sadnju širom Srbije.
+
+Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih za ekonomičniju sadnju i praćenje brzog rasta, do krupnijih primeraka za gotovo trenutnu privatnost. Cena zavisi od visine sadnice, javite nam se za ponudu. Naručivanje ide jednostavno telefonom ili preko kontakt forme na sajtu, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
