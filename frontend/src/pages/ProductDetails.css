@@ -399,6 +399,123 @@
   color: #333;
 }
 
+/* Trust badges */
+.trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: #f0f7f0;
+  border: 1px solid #e8f5e9;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.trust-badge-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* FAQ akordeon */
+.product-faq {
+  margin-top: 28px;
+}
+
+.product-faq h3,
+.product-related-article h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2e7d32;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e8f5e9;
+}
+
+.product-faq-item {
+  border-bottom: 1px solid #eee;
+}
+
+.product-faq-item:last-child {
+  border-bottom: none;
+}
+
+.product-faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 4px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+}
+
+.product-faq-item.open .product-faq-question {
+  color: #2e7d32;
+}
+
+.product-faq-toggle {
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.product-faq-answer {
+  margin: 0 0 16px 0;
+  padding: 0 4px;
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* Povezani članak */
+.product-related-article {
+  margin-top: 28px;
+}
+
+.related-article-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #f0f7f0 0%, #e8f5e9 100%);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.related-article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.15);
+}
+
+.related-article-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #1b1b1b;
+}
+
+.related-article-cta {
+  font-size: 0.85rem;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
 /* Actions */
 .product-actions {
   margin-top: 28px;

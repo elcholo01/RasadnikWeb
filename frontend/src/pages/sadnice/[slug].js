@@ -5,7 +5,17 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
 import { products, getCategoryName } from '../../data/productsData';
+import blogPosts from '../../data/blogData';
 import ImageLightbox from '../../components/ImageLightbox';
+
+// Opšti FAQ o procesu naručivanja — prikazuje se kad proizvod nema
+// sopstveni, ručno napisan productFaq. Namerno ne sadrži tvrdnje o
+// samoj biljci, samo tačne, iste informacije o poručivanju za sve.
+const DEFAULT_ORDER_FAQ = [
+  { q: 'Kako mogu da naručim sadnice?', a: 'Pozovite nas na 063 88 70 837 ili pošaljite upit preko kontakt forme na sajtu — dogovaramo količinu, cenu i termin preuzimanja ili dostave.' },
+  { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo sadnice širom Srbije i, po dogovoru, vršimo profesionalnu sadnju na vašoj lokaciji.' },
+  { q: 'Da li mogu lično da posetim rasadnik i izaberem sadnice?', a: 'Naravno — nalazimo se u Pločici kod Kovina. Kontaktirajte nas da dogovorimo termin posete.' },
+];
 
 // SSG: generiši HTML za svaki proizvod pri build-u
 export async function getStaticPaths() {
@@ -28,8 +38,11 @@ const ProductDetails = ({ product }) => {
   const [selectedSizeIdx, setSelectedSizeIdx] = useState(
     product.sizes && product.sizes.length === 1 ? 0 : null
   );
+  const [openFaqIdx, setOpenFaqIdx] = useState(null);
 
   const categoryName = getCategoryName(product.category);
+  const relatedPost = product.relatedBlogSlug ? blogPosts.find(p => p.slug === product.relatedBlogSlug) : null;
+  const faq = product.productFaq || DEFAULT_ORDER_FAQ;
   const productImages = product.images && product.images.length > 0 ? product.images : [product.image];
   const priceText = product.showPrice ? ` | Cena od ${product.price.toLocaleString()} RSD` : '';
   const descAlreadyHasName = product.description.toLowerCase().startsWith(product.name.toLowerCase());
@@ -85,6 +98,15 @@ const ProductDetails = ({ product }) => {
             { "@type": "ListItem", "position": 2, "name": "Sadnice", "item": "https://rasadniktilija.rs/products" },
             { "@type": "ListItem", "position": 3, "name": product.name, "item": `https://rasadniktilija.rs/sadnice/${product.slug}` }
           ]
+        })}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": faq.map(item => ({
+            "@type": "Question",
+            "name": item.q,
+            "acceptedAnswer": { "@type": "Answer", "text": item.a }
+          }))
         })}} />
       </Head>
 
@@ -218,6 +240,21 @@ const ProductDetails = ({ product }) => {
               </div>
             )}
 
+            <div className="trust-badges">
+              <div className="trust-badge">
+                <span className="trust-badge-icon">🚚</span>
+                <span>Dostava širom Srbije</span>
+              </div>
+              <div className="trust-badge">
+                <span className="trust-badge-icon">🌱</span>
+                <span>Usluga sadnje na terenu</span>
+              </div>
+              <div className="trust-badge">
+                <span className="trust-badge-icon">📞</span>
+                <span>Brz odgovor na upit</span>
+              </div>
+            </div>
+
             {product.details && (
               <div className="product-specifications">
                 <h3>{t('productDetails.specifications') || 'Karakteristike'}</h3>
@@ -269,6 +306,35 @@ const ProductDetails = ({ product }) => {
                     </tbody>
                   </table>
                 </div>
+              </div>
+            )}
+
+            <div className="product-faq">
+              <h3>Najčešća pitanja o kupovini</h3>
+              {faq.map((item, i) => (
+                <div key={i} className={`product-faq-item ${openFaqIdx === i ? 'open' : ''}`}>
+                  <button
+                    className="product-faq-question"
+                    onClick={() => setOpenFaqIdx(openFaqIdx === i ? null : i)}
+                    aria-expanded={openFaqIdx === i}
+                  >
+                    <span>{item.q}</span>
+                    <span className="product-faq-toggle">{openFaqIdx === i ? '−' : '+'}</span>
+                  </button>
+                  {openFaqIdx === i && (
+                    <p className="product-faq-answer">{item.a}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {relatedPost && (
+              <div className="product-related-article">
+                <h3>Detaljan vodič za sadnju i negu</h3>
+                <Link href={`/blog/${relatedPost.slug}`} className="related-article-card">
+                  <span className="related-article-title">{relatedPost.title}</span>
+                  <span className="related-article-cta">Pročitajte kompletan vodič →</span>
+                </Link>
               </div>
             )}
 

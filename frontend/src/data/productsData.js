@@ -36,6 +36,12 @@ export const products = [
     richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.
 
 Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od manjih kontejnerskih sadnica (0,5–0,7 m) pogodnih za budžetsku sadnju i strpljivo čekanje rasta, do velikih primeraka (i preko 2,5 m) za trenutan efekat guste ograde odmah nakon sadnje. Naručivanje ide jednostavno telefonom ili preko kontakt forme — dogovaramo količinu, termin i, po želji, organizujemo i sadnju na terenu, bilo gde u Srbiji.`,
+    relatedBlogSlug: 'tuja-smaragd-sadnja-i-nega',
+    productFaq: [
+      { q: 'Koje veličine tuje smaragd su dostupne?', a: 'Nudimo tuju smaragd od manjih kontejnerskih sadnica (0,5–0,7 m) do velikih formiranih primeraka (2,7–3 m i više). Cena raste sa visinom — pogledajte tabelu cena iznad ili nas kontaktirajte za tačnu ponudu.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo tuje širom Srbije i, po dogovoru, vršimo i profesionalnu sadnju na vašoj lokaciji.' },
+      { q: 'Koliki je minimalni broj sadnica za porudžbinu?', a: 'Nema minimuma — prodajemo pojedinačne sadnice, ali i kompletne žive ograde od nekoliko stotina komada.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -191,6 +197,12 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     metaDescription: 'Katalpa – brzorastuće ukrasno drvo sa krupnim listovima i mirisnim belim cvetovima, savršeno za hlad. Cena od 4.000 RSD, dostava širom Srbije.',
     description: 'Katalpa je ukrasno drvo sa velikim listovima i prelepim belim cvetovima. Pravi hlad i daje posebnu lepotu svakom dvorištu.',
     richContent: `Katalpa (Catalpa bignonioides) je impresivno ukrasno drvo sa ogromnim srceolikim listovima i bujnim belim cvetovima koji mirišu u junu. Brzorastuće drvo – do 50 cm godišnje – koje naraste do 15 metara i pruža sjajan hlad. Postoji i katalpa na štapu (forma pendula) kao prelepa dekoracija za manja dvorišta. Sadi se u proleće na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu svih veličina uz dostavu i sadnju.`,
+    relatedBlogSlug: 'katalpa-sadnja-i-nega',
+    productFaq: [
+      { q: 'Koje forme katalpe su dostupne?', a: 'Nudimo standardnu katalpu (drvo do 15 m) i katalpu na štapu (formu pendula) sa kompaktnom, kupolastom krošnjom za manja dvorišta.' },
+      { q: 'Kolika je cena katalpe?', a: 'Cena počinje od 4.000 RSD, u zavisnosti od veličine i forme sadnice.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, sadimo katalpu na vašoj lokaciji širom Srbije.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -247,6 +259,12 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     richContent: `Lovor višnja (Prunus laurocerasus) je najpopularnija biljka za guste, zimzelene žive ograde u Srbiji. Brzo raste – 30–50 cm godišnje – i lako se oblikuje rezanjem dva puta godišnje. Sadi se na rastojanju 50–80 cm za gustu ogradu, u proleće ili jesen. Otporna je na mraz do -20°C, gradske uslove, zagađenje i senku. Lovor višnja je odlična alternativa tuji kada se želi širi i gušći žbun sa sjajnim listovima. Rasadnik Tilija nudi lovor višnju svih visina – od 30 cm do 2 metra – uz dostavu i sadnju.
 
 Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra visine, što vam omogućava da birate između budžetske opcije za strpljiviju sadnju ili krupnijih primeraka za brz efekat guste žive ograde. Za narudžbinu nas kontaktirajte telefonom ili preko forme na sajtu — dogovaramo količinu prema dužini vaše ograde, termin sadnje i dostavu bilo gde u Srbiji, uz mogućnost profesionalne sadnje na terenu.`,
+    relatedBlogSlug: 'lovor-visnja-sadnja-i-nega',
+    productFaq: [
+      { q: 'Koje veličine lovor višnje su dostupne?', a: 'Sadnice su dostupne od 30 cm do 2 metra visine, u zavisnosti od trenutne ponude u rasadniku.' },
+      { q: 'Da li vršite dostavu i sadnju širom Srbije?', a: 'Da, organizujemo dostavu i, po želji, sadnju na terenu na bilo kojoj lokaciji u Srbiji.' },
+      { q: 'Kako da naručim veću količinu za kompletnu živu ogradu?', a: 'Pozovite nas ili pošaljite upit preko kontakt forme sa dužinom vaše ograde — predložićemo tačan broj sadnica i cenu.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -279,6 +297,12 @@ Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra vi
     richContent: `Fotinija Red Robin (Photinia × fraseri 'Red Robin') prepoznatljiva je po vatreno crvenim mladim listovima koji se pojavljuju u proleće i jesen, dok stariji listovi ostaju sjajno tamnozeleni. Zimzelena je i idealna za živu ogradu visine 1–2 metra. Brzo raste i lako se oblikuje, otporna je na mraz do -15°C. Sadi se u proleće ili jesen. Rasadnik Tilija nudi fotiniju Red Robin uz dostavu i sadnju na celoj teritoriji Srbije.
 
 Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu. Cena zavisi od visine sadnice — javite nam se za trenutnu ponudu i dostupnost. Naručivanje je jednostavno preko telefona ili kontakt forme, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
+    relatedBlogSlug: 'fotinija-red-robin-sadnja-i-nega',
+    productFaq: [
+      { q: 'Koje veličine fotinije Red Robin su dostupne?', a: 'Nudimo sadnice u više veličina, u zavisnosti od trenutne ponude — javite nam se za tačnu dostupnost i cenu.' },
+      { q: 'Da li nudite i fotiniju na štapu (soliter formu)?', a: 'Da, pored standardne žbunaste forme za živu ogradu, dostupna je i fotinija na štapu kao efektan soliter za dvorište.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, sadimo fotiniju na vašoj lokaciji širom Srbije.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -317,6 +341,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 12,
     slug: 'bambus',
+    relatedBlogSlug: 'najbrza-ziva-ograda-srbija',
     name: 'Bambus',
     category: 'liscari',
     categories: ['liscari'],
@@ -341,6 +366,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 13,
     slug: 'hortenzija',
+    relatedBlogSlug: 'hortenzija-nega-rezidba-cvetanje',
     name: 'Hortenzija',
     category: 'siblje',
     categories: ['siblje'],
@@ -509,6 +535,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 21,
     slug: 'ajuga-reptans',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Ajuga reptans',
     category: 'perene',
     categories: ['perene'],
@@ -529,6 +556,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 22,
     slug: 'astilba',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Astilba',
     category: 'perene',
     categories: ['perene'],
@@ -553,6 +581,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 23,
     slug: 'carex-morrowi-ice-dance',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Carex morrowi \'Ice Dance\'',
     category: 'perene',
     categories: ['perene'],
@@ -573,6 +602,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 24,
     slug: 'festuca-glauca',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Festuca glauca',
     category: 'perene',
     categories: ['perene'],
@@ -593,6 +623,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 25,
     slug: 'hemerocallis',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Hemerocallis',
     category: 'perene',
     categories: ['perene'],
@@ -613,6 +644,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 26,
     slug: 'hosta',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Hosta',
     category: 'perene',
     categories: ['perene'],
@@ -637,6 +669,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 27,
     slug: 'iris-perunika',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Iris (Perunika)',
     category: 'perene',
     categories: ['perene'],
@@ -657,6 +690,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 28,
     slug: 'kniphofia-uvaria',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Kniphofia uvaria',
     category: 'perene',
     categories: ['perene'],
@@ -677,6 +711,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 29,
     slug: 'ophiopogon-japonicus',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Ophiopogon japonicus',
     category: 'perene',
     categories: ['perene'],
@@ -697,6 +732,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 30,
     slug: 'physostegia-alba',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Physostegia alba',
     category: 'perene',
     categories: ['perene'],
@@ -721,6 +757,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 31,
     slug: 'sedum-angelina',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Sedum angelina',
     category: 'perene',
     categories: ['perene'],
@@ -745,6 +782,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 32,
     slug: 'sedum-hybridum',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Sedum hybridum',
     category: 'perene',
     categories: ['perene'],
@@ -769,6 +807,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 33,
     slug: 'sedum-rupestre-blue',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Sedum rupestre \'Blue\'',
     category: 'perene',
     categories: ['perene'],
@@ -789,6 +828,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 34,
     slug: 'sedum-s-watson',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Sedum S. Watson',
     category: 'perene',
     categories: ['perene'],
@@ -813,6 +853,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 35,
     slug: 'sedum-spectabile',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Sedum spectabile',
     category: 'perene',
     categories: ['perene'],
@@ -833,6 +874,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 36,
     slug: 'stachys-lanata',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Stachys lanata',
     category: 'perene',
     categories: ['perene'],
@@ -859,6 +901,7 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
   {
     id: 37,
     slug: 'maslina',
+    relatedBlogSlug: 'maslina-uzgoj-sadnja-prezimljavanje-srbija',
     name: 'Maslina',
     category: 'mediteranske',
     categories: ['mediteranske'],
@@ -923,6 +966,12 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     richContent: `Lejlandi (Cupressus × leylandii) je hibridni četinar poznat kao najbrže rastuća biljka za živu ogradu – naraste i do 60–100 cm godišnje. Gust je i zimzelen, formira kompaktnu zidanu ogradu već posle nekoliko sezona. Idealan je za brzo zaklanjanje od pogleda, buke i vetra. Sadi se na rastojanju 60–80 cm u proleće ili jesen. Otporan je na mraz do -20°C i lako se oblikuje rezanjem jednom godišnje. Rasadnik Tilija nudi lejlandi sve visine uz dostavu i sadnju širom Srbije.
 
 Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih za ekonomičniju sadnju i praćenje brzog rasta, do krupnijih primeraka za gotovo trenutnu privatnost. Cena zavisi od visine sadnice, javite nam se za ponudu. Naručivanje ide jednostavno telefonom ili preko kontakt forme na sajtu, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
+    relatedBlogSlug: 'lejlandi-sadnja-i-nega',
+    productFaq: [
+      { q: 'Koje veličine lejlandija su dostupne?', a: 'Nudimo lejlandi u više visina, od mlađih sadnica do krupnijih primeraka za brz efekat. Cena zavisi od visine — javite nam se za ponudu.' },
+      { q: 'Koliko sadnica mi treba za moju ogradu?', a: 'Zavisi od željene gustine — pošaljite nam dužinu ograde i predložićemo tačan broj sadnica i razmak.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, vršimo sadnju na terenu širom Srbije.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1031,6 +1080,7 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
   {
     id: 39,
     slug: 'iberis',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Iberis',
     category: 'perene',
     categories: ['perene'],
@@ -1119,6 +1169,7 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
   {
     id: 40,
     slug: 'gaura',
+    relatedBlogSlug: 'perene-za-bastu-srbija',
     name: 'Gaura',
     category: 'perene',
     categories: ['perene'],
