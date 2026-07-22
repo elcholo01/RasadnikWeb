@@ -41,6 +41,20 @@ const blogPosts = [
       <p>Dobra vest je da je uzrok skoro uvek isti i lako se ispravlja: <strong>stres izazvan naglim promenama</strong>. U ovom vodiču objašnjavamo zašto hibiskus gubi pupoljke, zašto kasno liste u proleće (i zašto to nije razlog za brigu), kada ga rezati i koliko zaista podnosi srpsku zimu.</p>
 
       <h2>Zašto hibiskus gubi pupoljke — pravi razlozi</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Uzrok</th><th>Rešenje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Neredovno zalivanje (suša ili prelivanje)</td><td>Redovno, ujednačeno zalivanje + malč oko korena</td></tr>
+          <tr><td>Nagle promene temperature</td><td>Stabilna, zaštićena pozicija smanjuje ukupan stres</td></tr>
+          <tr><td>Premalo sunca</td><td>Sadite na mestu sa najmanje 5–6 sati sunca dnevno</td></tr>
+          <tr><td>Nedavno presađivanje</td><td>Strpljenje — cvetanje se vraća sledeće sezone</td></tr>
+          <tr><td>Previše azotnog đubriva</td><td>Đubrivo sa manje azota, više fosfora i kalijuma</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h3>1. Neredovno zalivanje (najčešći razlog)</h3>
       <p>Hibiskus je izuzetno osetljiv na promene u dostupnosti vode. I dugi period suše i iznenadno prelivanje posle njega izazivaju isti odgovor — biljka "žrtvuje" pupoljke da bi sačuvala energiju.</p>
@@ -80,6 +94,23 @@ const blogPosts = [
         <li><strong>Zalivanje:</strong> redovno i umereno tokom cele sezone rasta, posebno u periodu cvetanja (jul–oktobar). Izbegavajte i sušu i stajaću vodu</li>
         <li><strong>Malč:</strong> sloj od 5–8 cm oko korena stabilizuje vlagu i smanjuje stres od naglih promena</li>
       </ul>
+
+      <h2>Nega hibiskusa u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Osobina</th><th>Vrednost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sunce</td><td>Minimum 5–6 sati direktne svetlosti dnevno</td></tr>
+          <tr><td>Zalivanje</td><td>Redovno, umereno — bez suše i bez stajaće vode</td></tr>
+          <tr><td>Otpornost na mraz</td><td>Do -20°C</td></tr>
+          <tr><td>Vreme cvetanja</td><td>Jul–oktobar, vrhunac u avgustu</td></tr>
+          <tr><td>Rezidba</td><td>Februar–mart, do trećine dužine grana</td></tr>
+          <tr><td>Visina</td><td>Do 2–3 metra (može se formirati i kao malo drvo)</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>Da li hibiskus podnosi srpske zime?</h2>
       <p>Da, i to znatno bolje nego što većina ljudi misli. Hibiscus syriacus podnosi mraz do oko <strong>-20°C</strong>, što pokriva gotovo celu teritoriju Srbije bez posebne zaštite. Mladu sadnicu u prvoj zimi ipak zaštitite malčom oko korena dok se dobro ne ukoreni.</p>
