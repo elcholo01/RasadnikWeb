@@ -32,10 +32,10 @@ export const products = [
     ],
     seoTitle: 'Tuja Smaragd – sadnice za živu ogradu, cena od 300 RSD',
     metaDescription: 'Tuja Smaragd – zimzeleni četinar za gustu, urednu živu ogradu. Sadnice svih visina, cena od 300 RSD. Dostava i sadnja širom Srbije.',
-    description: 'Tuja Smaragd je zimzeleni četinar, savršen za žive ograde i dekoraciju dvorišta. Otporna, laka za održavanje i brzo raste.',
-    richContent: `Tuja Smaragd (Thuja occidentalis 'Smaragd') je najtraženija sadnica za živu ogradu u Srbiji. Uzak, piramidalan oblik koji ne gubi formu bez rezanja čini je idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na rastojanju 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara visine i otporna je na mraz do -25°C, što je savršeno za klimatske uslove Srbije. Rasadnik Tilija, Pločica (blizu Kovina), nudi tuje smaragd svih visina uz dostavu i sadnju na teritoriji cele Srbije.
+    description: 'Uzak, piramidalan četinar koji zadržava savršen oblik bez orezivanja — najtraženiji izbor za živu ogradu u Srbiji, otporan i lak za održavanje.',
+    richContent: `Thuja occidentalis 'Smaragd' odlikuje se uskim, piramidalnim rastom koji ne gubi formu ni bez redovnog rezanja, što je čini idealnom za graničnu sadnju. Sadi se u jesen (oktobar–novembar) ili rano proleće (mart–april), na razmaku 60–80 cm za gustu živu ogradu. Naraste do 4–5 metara i podnosi mraz do -25°C — savršeno za sve klimatske zone Srbije. Rasadnik Tilija, u Pločici kod Kovina, nudi je u svim visinama uz dostavu i sadnju širom Srbije.
 
-Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od manjih kontejnerskih sadnica (0,5–0,7 m) pogodnih za budžetsku sadnju i strpljivo čekanje rasta, do velikih primeraka (i preko 2,5 m) za trenutan efekat guste ograde odmah nakon sadnje. Naručivanje ide jednostavno telefonom ili preko kontakt forme — dogovaramo količinu, termin i, po želji, organizujemo i sadnju na terenu, bilo gde u Srbiji.`,
+Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5–0,7 m) za budžetsku sadnju, do velikih formiranih primeraka (i preko 2,5 m) za trenutan efekat guste ograde. Naručivanje ide jednostavno telefonom ili preko kontakt forme — dogovaramo količinu, termin i, po želji, sadnju na terenu bilo gde u Srbiji.`,
     relatedBlogSlug: 'tuja-smaragd-sadnja-i-nega',
     productFaq: [
       { q: 'Koje veličine tuje smaragd su dostupne?', a: 'Nudimo tuju smaragd od manjih kontejnerskih sadnica (0,5–0,7 m) do velikih formiranih primeraka (2,7–3 m i više). Cena raste sa visinom — pogledajte tabelu cena iznad ili nas kontaktirajte za tačnu ponudu.' },
@@ -67,8 +67,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
       '/images/taxus.jpeg',
       '/images/taxusbaccata.jpeg'
     ],
-    description: 'Tisa (Taxus) je dugovečan četinar, odličan za formiranje oblika i žive ograde. Sporo raste, ali je izuzetno dekorativna.',
-    richContent: `Tisa (Taxus baccata) je jedna od najdugovečnijih biljaka – živi i po nekoliko stotina godina. Odlično podnosi rezanje i oblikovanje, pa je popularna za formovane žive ograde i topijariju. Podnosi senku bolje od skoro svakog drugog četinara. Sadi se u proleće ili jesen, otporna je na mraz do -20°C. Rasadnik Tilija nudi tise svih visina uz mogućnost dostave i sadnje.`,
+    description: 'Dugovečan četinar koji podnosi rezanje bolje od gotovo bilo koje druge biljke — savršen izbor za formirane žive ograde i topijariju koje traju generacijama.',
+    richContent: `Taxus baccata spada među najdugovečnije biljke uopšte — pojedini primerci žive i po nekoliko stotina godina. Odlično podnosi učestalo rezanje i oblikovanje, a senku podnosi bolje od skoro svakog drugog četinara. Sadi se u proleće ili jesen, otporna je na mraz do -20°C. U Rasadniku Tilija dostupna je u svim visinama, uz mogućnost dostave i sadnje.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -87,8 +87,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     price: 1500,
     showPrice: true,
     image: '/images/WhatsApp Image 2025-12-30 at 20.53.06.jpeg',
-    description: 'Crni bor je lepo zimzeleno drvo sa karakterističnim tamno zelenim iglicama. Otporan i lepo se uklapa u različite pejzaže.',
-    richContent: `Crni bor (Pinus nigra) je robusno zimzeleno drvo karakterističnih tamnozelenih dugačkih iglica. Izuzetno je otporan na gradske uslove, zagađenje vazduha, vetar i sušu. Brzo raste – do 40–60 cm godišnje – i naraste do 20 metara. Sadi se u proleće ili ranu jesen na osunčanom mestu. Idealan je za parkove, veća dvorišta i pošumljavanje. Dostupan u Rasadniku Tilija u Pločici uz dostavu širom Srbije.`,
+    description: 'Robusno zimzeleno drvo tamnozelenih iglica, otporno na gradsku prašinu, vetar i sušu — pouzdan izbor za veća dvorišta, parkove i pošumljavanje.',
+    richContent: `Pinus nigra brzo raste — do 40–60 cm godišnje — i vremenom dostiže i 20 metara visine, zadržavajući karakteristične duge, tamnozelene iglice. Sadi se u proleće ili ranu jesen na osunčanom mestu. Odlično podnosi gradske uslove i zagađenje vazduha. Dostupan u Rasadniku Tilija u Pločici, uz dostavu širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -107,8 +107,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     price: 900,
     showPrice: true,
     image: '/images/WhatsApp Image 2026-01-03 at 19.53.27.jpeg',
-    description: 'Thuja Orientalis je zimzeleni četinar, idealan za žive ograde i ukrašavanje dvorišta. Kompaktan i otporan.',
-    richContent: `Thuja Orientalis (Platycladus orientalis) je azijska vrsta tuje sa karakterističnim vertikalnim granama i sočno zelenom bojom. Kompaktnija od tuje smaragd, idealna za manje bašte i terase. Naraste do 3–4 metra i dobro podnosi gradske uslove i zagađenje. Sadi se u proleće ili jesen, otporna je na mraz do -20°C. Dostupna u svim visinama u Rasadniku Tilija sa dostavom i sadnjom.`,
+    description: 'Kompaktna azijska tuja sočno zelene boje i vertikalnih grana — idealna za manje bašte i terase gde tuja smaragd zauzima previše prostora.',
+    richContent: `Platycladus orientalis raste gušće i kompaktnije od tuje smaragd, zadržavajući karakteristične vertikalne grane. Naraste do 3–4 metra i dobro podnosi gradske uslove i zagađenje. Sadi se u proleće ili jesen, otporna je na mraz do -20°C. Dostupna je u svim visinama u Rasadniku Tilija, uz dostavu i sadnju.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -127,8 +127,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     price: 1800,
     showPrice: true,
     image: '/images/WhatsApp Image 2026-01-04 at 19.50.56.jpeg',
-    description: 'Plava smrča je prelepo zimzeleno drvo sa karakterističnim plavo-sivim iglicama. Odlična za dekorativne svrhe.',
-    richContent: `Plava smrča (Picea pungens 'Glauca') je upečatljivo dekorativno drvo sa srebrnastoplavo obojenim iglicama. Sporo raste i zadržava lepotu bez posebnog rezanja. Naraste do 10–15 metara visine, idealna je kao soliter u dvorištu ili parku. Sadi se u proleće, traži sunčano mesto i blago kiselu zemlju. Veoma otporna na mraz i hladnoću. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Upečatljivo dekorativno drvo srebrnasto-plavih iglica koje zadržava lepotu bez ikakvog rezanja — savršen soliter za dvorište ili park.',
+    richContent: `Picea pungens 'Glauca' sporo raste, ali s vremenom dostiže impresivnih 10–15 metara visine. Sadi se u proleće, na sunčanom mestu u blago kiselu zemlju. Izuzetno je otporna na mraz i hladnoću. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -147,8 +147,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     price: 1200,
     showPrice: true,
     image: '/images/juniperushorizontalis.jpeg',
-    description: 'Juniperus horizontalis (polegli klek) je savršen pokrivač tla. Nizak i gust rast, idealan za prekrivanje tla, kamenjare i kosine. Zimzelen i dekorativan tokom cele godine, otporan na mraz i sušu, minimalno održavanje.',
-    richContent: `Juniperus horizontalis (polegli klek) je niska zimzelena biljka koja se širi horizontalno i pokriva tlo poput tepiha. Visina iznosi svega 20–40 cm, ali se širi do 1,5–2 metra. Idealna je za kosine, kamenjare i sprečavanje erozije tla. Veoma otporna na sušu, mraz i siromašna zemljišta – gotovo bez potrebe za negom. Dostupna u Rasadniku Tilija u Pločici, sa dostavom širom Srbije.`,
+    description: 'Nizak, gusto rastući pokrivač tla koji poput tepiha prekriva kosine i kamenjare — zimzelen tokom cele godine i gotovo bez potrebe za negom.',
+    richContent: `Polegli klek, kako se Juniperus horizontalis često naziva, raste horizontalno, visok svega 20–40 cm, ali se širi i do 1,5–2 metra. Odlično sprečava eroziju tla na kosinama i idealan je za kamenjare. Veoma je otporan na sušu, mraz i siromašna zemljišta. Dostupan je u Rasadniku Tilija u Pločici, sa dostavom širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -171,8 +171,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
       '/images/Bor na štapu cetinar.jpg',
       '/images/bornastapu.jpeg'
     ],
-    description: 'Bor na štapu je dekorativni četinar formiran na jednom stablu, idealan za male vrtove i kao akcenat u dvorištu. Elegantan i lak za održavanje.',
-    richContent: `Bor na štapu je posebno oblikovan bor koji raste na jednom ravnom stablu sa okruglom krunom na vrhu – elegantna i jedinstvena dekoracija za svako dvorište ili terasu. Savršen je kao akcenat u bašti, uz ulaz ili kao element parkovske arhitekture. Otporan je na mraz i ne zahteva posebnu negu. Dostupan u Rasadniku Tilija uz dostavu i sadnju.`,
+    description: 'Posebno oblikovan bor sa okruglom krunom na jednom pravom stablu — elegantan akcenat za male vrtove, terase i ulaze u dvorište.',
+    richContent: `Ovaj dekorativni četinar formira se kalemljenjem na jedno ravno stablo, čime dobija prepoznatljivu, uređenu siluetu retku kod drugih četinara. Otporan je na mraz i ne zahteva posebnu negu izuzev povremenog oblikovanja krune. Dostupan je u Rasadniku Tilija, uz dostavu i sadnju.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -195,8 +195,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     image: '/images/katalpa.jpg',
     seoTitle: 'Katalpa – sadnica za hlad u dvorištu, cena od 4.000 RSD',
     metaDescription: 'Katalpa – brzorastuće ukrasno drvo sa krupnim listovima i mirisnim belim cvetovima, savršeno za hlad. Cena od 4.000 RSD, dostava širom Srbije.',
-    description: 'Katalpa je ukrasno drvo sa velikim listovima i prelepim belim cvetovima. Pravi hlad i daje posebnu lepotu svakom dvorištu.',
-    richContent: `Katalpa (Catalpa bignonioides) je impresivno ukrasno drvo sa ogromnim srceolikim listovima i bujnim belim cvetovima koji mirišu u junu. Brzorastuće drvo – do 50 cm godišnje – koje naraste do 15 metara i pruža sjajan hlad. Postoji i katalpa na štapu (forma pendula) kao prelepa dekoracija za manja dvorišta. Sadi se u proleće na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu svih veličina uz dostavu i sadnju.`,
+    description: 'Impresivno ukrasno drvo ogromnih srceolikih listova i mirisnih belih cvetova — pravi gust hlad već posle nekoliko sezona i unosi poseban šarm u svako dvorište.',
+    richContent: `Catalpa bignonioides brzo raste — do 50 cm godišnje — i vremenom dostiže i 15 metara visine, cvetajući bujno i mirisno tokom juna. Postoji i u formi na štapu (pendula), kompaktnoj dekoraciji idealnoj za manja dvorišta. Sadi se u proleće, na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu u svim veličinama, uz dostavu i sadnju.`,
     relatedBlogSlug: 'katalpa-sadnja-i-nega',
     productFaq: [
       { q: 'Koje forme katalpe su dostupne?', a: 'Nudimo standardnu katalpu (drvo do 15 m) i katalpu na štapu (formu pendula) sa kompaktnom, kupolastom krošnjom za manja dvorišta.' },
@@ -221,8 +221,8 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     price: 2500,
     showPrice: true,
     image: '/images/WhatsApp Image 2026-01-03 at 19.52.34.jpeg',
-    description: 'Magnolija Grandiflora je prelepo zimzeleno drvo sa velikim belim cvetovima i lepim mirisom. Prava ukrasnost svakog dvorišta.',
-    richContent: `Magnolija Grandiflora je jedina zimzelena magnolija – zadržava mirisne, krupne bele cvetove i atraktivne sjajne listove tokom cele godine. Naraste do 10–15 metara i pravi je raritet u srpskim baštama. Sadi se u proleće na zaštićenom, osunčanom mestu. Traži blago kiselu, bogatu zemlju i redovno zalivanje dok se ne ukoreni. Rasadnik Tilija nudi magnoliju grandifloru uz dostavu i sadnju na celoj teritoriji Srbije.`,
+    description: 'Jedina zimzelena magnolija — krupni mirisni beli cvetovi i sjajno lišće čine je pravim raritetom u srpskim baštama tokom cele godine.',
+    richContent: `Magnolia grandiflora zadržava listove i cveta tokom cele godine, za razliku od listopadnih magnolija. Naraste do 10–15 metara. Sadi se u proleće na zaštićenom, osunčanom mestu, u blago kiselu, bogatu zemlju uz redovno zalivanje dok se ne ukoreni. Rasadnik Tilija nudi je uz dostavu i sadnju na celoj teritoriji Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -255,10 +255,10 @@ Prodaja tuje smaragd u Rasadniku Tilija obuhvata čitav niz veličina — od man
     ],
     seoTitle: 'Lovor Višnja – žbun za živu ogradu, cena od 400 RSD',
     metaDescription: 'Lovor višnja – gust zimzeleni žbun za elegantnu živu ogradu, otporan na mraz i gradske uslove. Cena od 400 RSD, dostava širom Srbije.',
-    description: 'Lovor višnja je zimzeleni žbun, idealan za guste, elegantne žive ograde. Otporna na mraz i gradske uslove.',
-    richContent: `Lovor višnja (Prunus laurocerasus) je najpopularnija biljka za guste, zimzelene žive ograde u Srbiji. Brzo raste – 30–50 cm godišnje – i lako se oblikuje rezanjem dva puta godišnje. Sadi se na rastojanju 50–80 cm za gustu ogradu, u proleće ili jesen. Otporna je na mraz do -20°C, gradske uslove, zagađenje i senku. Lovor višnja je odlična alternativa tuji kada se želi širi i gušći žbun sa sjajnim listovima. Rasadnik Tilija nudi lovor višnju svih visina – od 30 cm do 2 metra – uz dostavu i sadnju.
+    description: 'Gust, zimzeleni žbun koji ostaje jednako privlačan tokom cele godine — idealan izbor za elegantnu, neprozirnu živu ogradu otpornu na mraz i gradske uslove.',
+    richContent: `Prunus laurocerasus, u narodu poznat kao lovor višnja, najtraženija je biljka za guste žive ograde u Srbiji. Raste brzo — 40 do 60 cm godišnje — i lako se oblikuje rezanjem dva puta godišnje. Sadi se na razmaku 50–80 cm, u proleće ili jesen, i podnosi mraz do -20°C, gradske uslove, zagađenje i senku podjednako dobro. U poređenju sa tujom, nudi širi i gušći žbun sa sjajnim, tamnozelenim lišćem.
 
-Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra visine, što vam omogućava da birate između budžetske opcije za strpljiviju sadnju ili krupnijih primeraka za brz efekat guste žive ograde. Za narudžbinu nas kontaktirajte telefonom ili preko forme na sajtu — dogovaramo količinu prema dužini vaše ograde, termin sadnje i dostavu bilo gde u Srbiji, uz mogućnost profesionalne sadnje na terenu.`,
+Sadnice su dostupne od 30 cm do 2 metra visine — birate između pristupačnije opcije za strpljiviju sadnju ili krupnijih primeraka za trenutan efekat guste ograde. Za porudžbinu nas kontaktirajte telefonom ili preko sajta: dogovaramo količinu prema dužini ograde, termin sadnje i dostavu bilo gde u Srbiji, uz mogućnost profesionalne sadnje na terenu.`,
     relatedBlogSlug: 'lovor-visnja-sadnja-i-nega',
     productFaq: [
       { q: 'Koje veličine lovor višnje su dostupne?', a: 'Sadnice su dostupne od 30 cm do 2 metra visine, u zavisnosti od trenutne ponude u rasadniku.' },
@@ -293,10 +293,10 @@ Prodaja lovor višnje u Rasadniku Tilija obuhvata sadnice od 30 cm do 2 metra vi
     ],
     seoTitle: 'Fotinija Red Robin – žbun za živu ogradu, cena od 400 RSD',
     metaDescription: 'Fotinija Red Robin – zimzeleni žbun sa vatreno crvenim mladim listovima, idealan za živu ogradu. Cena od 400 RSD, dostava širom Srbije.',
-    description: 'Fotinija Red Robin je zimzeleni žbun sa atraktivnim crvenim mladim izbojcima. Idealna za dekoraciju i formiranje žive ograde.',
-    richContent: `Fotinija Red Robin (Photinia × fraseri 'Red Robin') prepoznatljiva je po vatreno crvenim mladim listovima koji se pojavljuju u proleće i jesen, dok stariji listovi ostaju sjajno tamnozeleni. Zimzelena je i idealna za živu ogradu visine 1–2 metra. Brzo raste i lako se oblikuje, otporna je na mraz do -15°C. Sadi se u proleće ili jesen. Rasadnik Tilija nudi fotiniju Red Robin uz dostavu i sadnju na celoj teritoriji Srbije.
+    description: 'Zimzeleni žbun čiji mladi izbojci u proleće i jesen blistaju vatreno crvenom bojom, dok starije lišće ostaje sjajno tamnozeleno — upečatljiv izbor za živu ogradu ili soliter.',
+    richContent: `Photinia × fraseri 'Red Robin' raste 30 do 50 cm godišnje i lako se oblikuje, formirajući živu ogradu visine 1–2 metra. Sadi se u proleće ili jesen i podnosi mraz do -15°C. U Rasadniku Tilija dostupna je uz dostavu i sadnju na celoj teritoriji Srbije.
 
-Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu. Cena zavisi od visine sadnice — javite nam se za trenutnu ponudu i dostupnost. Naručivanje je jednostavno preko telefona ili kontakt forme, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
+Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u više veličina — cena zavisi od visine, javite nam se za trenutnu ponudu i dostupnost. Naručivanje ide jednostavno preko telefona ili kontakt forme, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
     relatedBlogSlug: 'fotinija-red-robin-sadnja-i-nega',
     productFaq: [
       { q: 'Koje veličine fotinije Red Robin su dostupne?', a: 'Nudimo sadnice u više veličina, u zavisnosti od trenutne ponude — javite nam se za tačnu dostupnost i cenu.' },
@@ -327,8 +327,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Pennisetum1.jpeg',
       '/images/Pennisetum2.jpeg'
     ],
-    description: 'Pennisetum alopecuroides je dekorativna trajnica sa prelepim cvastovima. Idealna za pejzažne dizajne i ukrašavanje dvorišta.',
-    richContent: `Pennisetum alopecuroides (lisičji rep) je dekorativna ukrasna trava sa karakterističnim dlakavim, lisičjim cvastovima koji se pojavljuju od avgusta do oktobra. Formira guste zelene busene visine 60–90 cm. Odlična za moderne pejzažne dizajne, bordure i gradske bašte. Otporna na sušu i mraz, minimalno održavanje. Dostupna u Rasadniku Tilija sa dostavom.`,
+    description: 'Dekorativna ukrasna trava sa mekim, dlakavim cvastovima nalik lisičjem repu — moderan akcenat za bordure, gradske bašte i pejzažne kompozicije.',
+    richContent: `Lisičji rep, kako se Pennisetum alopecuroides često naziva, formira guste busene visine 60–90 cm i cveta od avgusta do oktobra. Otporan je na sušu i mraz, uz minimalno održavanje. Dostupan je u Rasadniku Tilija, sa dostavom.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -352,8 +352,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       { label: '1.5–2 m', price: 2500 },
       { label: '2.5–3 m', price: 3500 },
     ],
-    description: 'Bambus je brzorastuća trava koja stvara prirodnu živu ogradu i daje egzotični pejzaž. Idealna za modernije dizajne.',
-    richContent: `Bambus je najbrže rastuća biljka na svetu i idealna za formiranje privatne, prirodne žive ograde. Za dvorišta se preporučuju non-invazivne klastermske vrste (Fargesia) koje ne šire korenjem. Naraste do 3–5 metara i formira gustu zelenu zavesu. Zimi zadržava listove, ali može izgubiti deo lišća na jakim mrazevima. Rasadnik Tilija nudi bambus uz dostavu i sadnju.`,
+    description: 'Egzotičan, brzorastuć izbor za prirodnu, gustu živu ogradu — daje modernom dvorištu poseban, azijski karakter.',
+    richContent: `Bambus je najbrže rastuća biljka na svetu. Za dvorišta preporučujemo neinvazivne klastermske vrste (Fargesia) koje se ne šire korenjem, a formiraju gustu zelenu zavesu do 3–5 metara visine. Zimi zadržava listove, mada može izgubiti deo lišća na jakim mrazevima. Dostupan je u Rasadniku Tilija, uz dostavu i sadnju.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -377,8 +377,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/hortenzija.jpeg',
       '/images/WhatsApp Image 2026-01-04 at 19.51.44.jpeg'
     ],
-    description: 'Hortenzija je prelep cvetni žbun sa velikim kuglastim cvetovima u različitim bojama. Idealna za ukrašavanje bašta i dvorišta.',
-    richContent: `Hortenzija (Hydrangea) je jedna od najvoljenijih ukrasnih biljaka – njeni krupni kuglasti cvetovi u beloj, ružičastoj, plavoj i ljubičastoj boji ukrašavaju bašte od juna do oktobra. Boja cveta zavisi od kiselosti zemlje: kisela zemlja daje plave, alkalna ružičaste cvetove. Sadi se u proleće na polusenkovitom mestu u bogatu, vlažnu zemlju. Otporna je na mraz do -15°C. Rasadnik Tilija nudi hortenzije uz dostavu i sadnju na celoj teritoriji Srbije.`,
+    description: 'Jedna od najvoljenijih ukrasnih biljaka — krupni, kuglasti cvetovi u beloj, ružičastoj, plavoj i ljubičastoj boji krase baštu od juna do oktobra.',
+    richContent: `Hydrangea menja boju cveta u zavisnosti od kiselosti zemlje: kisela zemlja daje plave, alkalna ružičaste tonove. Sadi se u proleće na polusenkovitom mestu, u bogatu, vlažnu zemlju, i podnosi mraz do -15°C. Rasadnik Tilija nudi hortenzije uz dostavu i sadnju na celoj teritoriji Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -401,8 +401,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/puzavice1.jpeg',
       '/images/puzavice2.jpeg'
     ],
-    description: 'Bršljan (Hedera helix) je zimzelena puzavica, idealna za prekrivanje ograda i zidova. Dekorativna cele godine, brz i gust rast, otporna i laka za održavanje. Odlično podnosi senku i polusenku.',
-    richContent: `Bršljan (Hedera helix) je najpopularnija puzavica za prekrivanje zidova, ograda i tla u senkovitim mestima. Zimzelen je i dekorativan tokom cele godine. Brzo se širi i ne zahteva posebnu negu – idealan za teško pristupačne površine. Odlično podnosi senku, zagađenje i različite vrste tla. Dostupan u Rasadniku Tilija uz dostavu.`,
+    description: 'Zimzelena puzavica koja brzo i gusto prekriva ograde, zidove i tlo — dekorativna tokom cele godine i gotovo bez potrebe za negom.',
+    richContent: `Hedera helix najpopularnija je puzavica za senkovita mesta u dvorištu, savršena za teško pristupačne površine gde druge biljke teško uspevaju. Odlično podnosi senku, zagađenje i različite vrste tla. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -425,8 +425,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/lonicerantida1.jpeg',
       '/images/lonicerantida2.jpeg'
     ],
-    description: 'Lonicera nitida je gusta i moderna zelena ograda. Savršen izbor za niske žive ograde i oblikovanje prostora. Gusta i kompaktna forma, brz rast i lako održavanje, odlično podnosi orezivanje. Poluzimzelena i dekorativna tokom cele godine.',
-    richContent: `Lonicera nitida je kompaktna poluzimzelena biljka sa sitnim sjajnim listovima – savršena za niske formirane žive ograde do 1 metra. Lako se oblikuje i odlično podnosi česta rezanja. Brzo raste i popunjava praznine, idealna za formalnije vrtne stilove. Podnosi sun i polusenku, otporna je na mraz do -15°C. Dostupna u Rasadniku Tilija uz dostavu i sadnju.`,
+    description: 'Kompaktna, poluzimzelena biljka sitnog sjajnog lišća koja odlično podnosi česta rezanja — moderno rešenje za niske, formirane žive ograde do metar visine.',
+    richContent: `Ova gusta biljka brzo popunjava praznine i lako se oblikuje, zbog čega je omiljena u formalnijim vrtnim stilovima. Podnosi sunce i polusenku, otporna je na mraz do -15°C. Dostupna je u Rasadniku Tilija, uz dostavu i sadnju.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -450,8 +450,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/heuchera2.jpeg',
       '/images/heuchera3.jpg'
     ],
-    description: 'Heuchera (Koralna zvona) donosi boju i eleganciju tokom cele godine. Idealan izbor za dekorativne bašte. Dekorativni listovi u raznim bojama, niska i kompaktna biljka, otporna i laka za održavanje.',
-    richContent: `Heuchera (Koralna zvona) je perena koja se uzgaja pre svega zbog atraktivnih listova u nijansama ljubičaste, srebrne, narandžaste i zelene. Sjajna dekoracija u polusenkovitim delovima bašte tokom cele vegetacije. Niska je – 20–40 cm – i idealna za bordure, rubove staza i kamenjare. Otporna je na mraz do -20°C i ne zahteva posebnu negu. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao koralna zvona, ova niska perena uzgaja se pre svega zbog listova u nijansama ljubičaste, srebrne, narandžaste i zelene — boja koja traje tokom cele vegetacije.',
+    richContent: `Heuchera naraste 20–40 cm i sjajno se snalazi u polusenkovitim delovima bašte, idealna za bordure, rubove staza i kamenjare. Otporna je na mraz do -20°C i ne zahteva posebnu negu. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -470,8 +470,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 1500,
     showPrice: true,
     image: '/images/hibiskus.jpeg',
-    description: 'Hibiskus je egzotična lepota za svaki prostor. Savršen izbor za dvorišta, terase i dekorativne bašte. Krupni i atraktivni cvetovi, dugo i bogato cvetanje, brz rast i laka nega. Pogodan za sadnju u bašti i u saksijama.',
-    richContent: `Hibiskus (Hibiscus syriacus) je otporan listopadni žbun sa krupnim egzotičnim cvetovima od jula do oktobra. Cveta obilno i dugo čak i bez posebne nege. Naraste do 2–3 metra i može se oblikovati u drvo. Sadi se u proleće na osunčanom, zaštićenom mestu. Otporan na mraz do -10°C. Rasadnik Tilija nudi hibiskus uz dostavu i sadnju.`,
+    description: 'Egzotična lepotica sa krupnim, upečatljivim cvetovima koja cveta od jula do oktobra. Brzo raste, lako se održava i podjednako dobro uspeva u bašti i u saksiji na terasi.',
+    richContent: `Hibiscus syriacus je otporan listopadni žbun čiji krupni cvetovi krase dvorište sve do jeseni. Naraste do 2–3 metra, a rezidbom se lako oblikuje i u malo drvo. Najbolje uspeva na osunčanom, zaštićenom mestu, posađen u proleće. Podnosi mraz do -10°C. U Rasadniku Tilija dostupan je uz dostavu i sadnju na terenu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -495,8 +495,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/spirea.jpeg',
       '/images/Spirea japonica.jpg'
     ],
-    description: 'Spirea nudi bogato cvetanje i laku negu. Idealan izbor za dekoraciju dvorišta. Obilno i dekorativno cvetanje, brz rast i gusta forma, veoma laka za održavanje. Otporna i dugovečna biljka.',
-    richContent: `Spirea (Spiraea japonica) je dekorativni žbun prepoznatljiv po bujnom cvetanju u beloj, roze ili ljubičastoj boji. Cveta u proleće i leto, a neke vrste ponovo u jesen. Brzo raste, gust je i lako se orezuje. Otporna je na mraz do -25°C i gotovo ne zahteva negu. Idealna za bordure, živice i masovne sadnje. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Dekorativni žbun bujnog cvetanja u beloj, roze ili ljubičastoj boji — brzo raste, gotovo ne zahteva negu i dugo traje u dvorištu.',
+    richContent: `Spiraea japonica cveta u proleće i leto, a neke vrste ponovo i u jesen. Gusta je i lako se orezuje, idealna za bordure, živice i masovne sadnje. Otporna je na mraz do -25°C. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -519,8 +519,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Božur (Paeonia) 1 siblje.jpg',
       '/images/Božur (Paeonia) 2 siblje.jpg'
     ],
-    description: 'Božur (Paeonia) je raskošna biljka sa krupnim, mirisnim cvetovima. Dugovečna i otporna, idealna za cvetne leje i dekoraciju dvorišta. Cveta u proleće u ružičastim, belim i crvenim nijansama.',
-    richContent: `Božur (Paeonia) je jedna od najdražih vrtnih biljaka sa krupnim, mirisnim cvetovima koji cvetaju u maju. Izuzetno dugovečan – može živeti i 50 godina na istom mestu bez presađivanja. Sadi se u jesen na osunčanom mestu u plodnu, dobro oceditu zemlju. Otporan je na mraz do -20°C i ne zahteva posebnu negu. Rasadnik Tilija nudi božure uz dostavu.`,
+    description: 'Raskošna vrtna klasika sa krupnim, mirisnim cvetovima u ružičastim, belim i crvenim nijansama — jednom posađena, ostaje u bašti decenijama.',
+    richContent: `Paeonia cveta u maju i spada među najdugovečnije vrtne biljke — može ostati na istom mestu i 50 godina bez presađivanja. Sadi se u jesen, na osunčanom mestu u plodnu, dobro oceditu zemlju. Otporna je na mraz do -20°C i ne zahteva posebnu negu. Rasadnik Tilija nudi božure uz dostavu.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -542,8 +542,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 400,
     showPrice: true,
     image: '/images/Ajuga reptans perena.jpg',
-    description: 'Ajuga reptans je niska pokrovna perena sa plavim cvetićima. Idealna za pokrivanje tla, kamenjare i rubove staza. Brzo se širi i ne zahteva posebnu negu.',
-    richContent: `Ajuga reptans je niska pokrovna perena visine 10–15 cm sa prelepim plavim cvastovima u aprilu i maju. Brzo se širi i formira gusti tepih koji suzbija korov. Idealna je za polusenkovita mesta, rubove staza i ispod drveća. Otporna je na mraz do -25°C i gotovo bez potrebe za negom. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Niska pokrovna perena plavih cvetića koja brzo formira gusti tepih i suzbija korov — praktično rešenje za rubove staza, kamenjare i mesta ispod drveća.',
+    richContent: `Ova perena naraste svega 10–15 cm, ali se brzo širi i cveta u aprilu i maju. Najbolje uspeva na polusenkovitim mestima. Otporna je na mraz do -25°C i gotovo ne zahteva negu. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '10-15 cm',
@@ -567,8 +567,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Astilba isto.jpg',
       '/images/Astilba sp. perena.jpg'
     ],
-    description: 'Astilba je elegantna perena sa pernatim cvastovima u roze, crvenim i belim tonovima. Odlična za senkovite delove bašte i vlažna staništa.',
-    richContent: `Astilba je jedna od retkih perena koja cveta u senki – njeni pernati cvastovi u beloj, roze i crvenoj boji krase baštu od juna do avgusta. Naraste 40–60 cm i idealna je za vlažna, senkovita mesta, rubove potoka i jezera. Otporna je na mraz do -25°C. Sadi se u proleće u bogatu, vlažnu zemlju. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Jedna od retkih perena koja bogato cveta u senci — pernati cvastovi u roze, crvenim i belim tonovima krase baštu od juna do avgusta.',
+    richContent: `Naraste 40–60 cm i najbolje uspeva na vlažnim, senkovitim mestima — uz potoke, jezera ili ispod drveća. Sadi se u proleće, u bogatu, vlažnu zemlju, i podnosi mraz do -25°C. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '40-60 cm',
@@ -588,8 +588,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 500,
     showPrice: true,
     image: '/images/Carex morrowi \'Ice Dance\' -perena.jpg',
-    description: 'Carex morrowi \'Ice Dance\' je ukrasna trava sa zelenim listovima obrubljenim belom prugom. Idealna za bordure, kamenjare i sadnju ispod drveća.',
-    richContent: `Carex morrowi 'Ice Dance' je elegantna zimzelena ukrasna trava visine 25–35 cm sa karakterističnim zelenim listovima obrubljenim belom prugom. Idealna je za senkovite delove bašte, bordure i sadnju ispod drveća. Minimalno održavanje, otporna je na mraz do -20°C. Sadi se u proleće ili jesen. Dostupna u Rasadniku Tilija.`,
+    description: 'Elegantna zimzelena ukrasna trava sa zelenim listovima obrubljenim belom prugom — dekorativna tokom cele godine, čak i u senci.',
+    richContent: `Ova trava naraste 25–35 cm i idealna je za senkovite delove bašte, bordure i sadnju ispod drveća. Zahteva minimalno održavanje i otporna je na mraz do -20°C. Sadi se u proleće ili jesen. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '25-35 cm',
@@ -609,8 +609,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 500,
     showPrice: true,
     image: '/images/Festuca glauca- plava trava.jpg',
-    description: 'Festuca glauca (plava trava) je kompaktna ukrasna trava sa atraktivnim plavo-sivim listovima. Savršena za kamenjare, rubove i moderne bašte.',
-    richContent: `Festuca glauca (plava trava) je minijaturna ukrasna trava visine 20–30 cm sa upečatljivim plavo-sivim listovima. Savršena je za rock-gardens, japanske bašte, rubove staza i moderne pejzažne aranžmane. Traži sunčano mesto i suvu, dobro oceditnu zemlju. Otporna je na sušu i mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao plava trava, ova minijaturna ukrasna trava plavo-sivih listova unosi moderan akcenat u kamenjare, rubove staza i japanske bašte.',
+    richContent: `Festuca glauca naraste svega 20–30 cm i traži sunčano mesto u suvoj, dobro oceditoj zemlji. Otporna je na sušu i mraz do -25°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '20-30 cm',
@@ -630,8 +630,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 600,
     showPrice: true,
     image: '/images/Hemerocalis sp. (narandžasti i žuti cvet).jpg',
-    description: 'Hemerocallis (Dnevni ljiljan) je zahvalna perena sa prelepim narandžastim i žutim cvetovima. Cveta dugo, laka za održavanje i otporna na razne uslove.',
-    richContent: `Hemerocallis (Dnevni ljiljan) je jedna od najotpornijih i najzahvalnijih perena – cveta od maja do avgusta u jarkim narandžastim i žutim bojama. Naraste 50–80 cm i raste u skoro svakom tipu zemljišta, i na suncu i u polusenki. Otporna je na mraz do -25°C i gotovo bez potrebe za negom. Sadi se u proleće ili jesen. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Dnevni ljiljan, kako se Hemerocallis često naziva, jedna je od najzahvalnijih perena — cveta dugo, u jarkim narandžastim i žutim tonovima, i gotovo se sama brine o sebi.',
+    richContent: `Cveta od maja do avgusta i naraste 50–80 cm, uspevajući u skoro svakom tipu zemljišta, na suncu ili u polusenci. Otporna je na mraz do -25°C. Sadi se u proleće ili jesen. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '50-80 cm',
@@ -655,8 +655,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Hosta mix. perena za senku.jpg',
       '/images/Hosta mix isto.jpg'
     ],
-    description: 'Hosta je kraljica senke sa dekorativnim listovima u raznim nijansama zelene. Idealna za senkovite delove bašte, ispod drveća i uz vodene površine.',
-    richContent: `Hosta je "kraljica senke" – nema druge perene koja tako lepo izgleda na tamnim mestima ispod drveća. Dekorativni listovi u nijansama zelene, žute i plave, često šareni, dekorišu baštu od maja do oktobra. Naraste 30–60 cm i gotovo ne zahteva negu. Otporna je na mraz do -30°C. Sadi se u proleće u bogatu, vlažnu zemlju. Dostupna u Rasadniku Tilija.`,
+    description: 'Retko koja perena tako lepo izgleda u senci ispod drveća — dekorativni listovi u nijansama zelene, žute i plave krase baštu od maja do oktobra.',
+    richContent: `Hosta naraste 30–60 cm i gotovo ne zahteva negu, zbog čega je omiljena za senkovite delove bašte. Otporna je na mraz do -30°C. Sadi se u proleće, u bogatu, vlažnu zemlju. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '30-60 cm',
@@ -676,8 +676,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 500,
     showPrice: true,
     image: '/images/Iris - perunika (beli i ljubičasti cvet) perena.jpg',
-    description: 'Iris (Perunika) je elegantna perena sa prelepim belim i ljubičastim cvetovima. Nenametljiva lepota za svaku baštu, cveta u proleće.',
-    richContent: `Iris (Perunika) je klasična vrtna perena sa prelepim cvetovima u beloj, ljubičastoj, plavoj i žutoj boji koji cvetaju u maju i junu. Naraste 40–70 cm i idealna je za sunčane do polusenkovite pozicije. Sadi se u kasno leto ili ranu jesen, u dobro oceditnu, neutralnu zemlju. Otporna je na mraz do -25°C i izuzetno dugovečna. Dostupna u Rasadniku Tilija.`,
+    description: 'Klasična vrtna lepotica sa cvetovima u beloj, ljubičastoj, plavoj i žutoj boji — nenametljiva elegancija koja se vraća svakog maja i juna.',
+    richContent: `Perunika naraste 40–70 cm i dobro podnosi i sunce i polusenku. Sadi se u kasno leto ili ranu jesen, u dobro oceditnu, neutralnu zemlju. Otporna je na mraz do -25°C i izuzetno dugovečna. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '40-70 cm',
@@ -697,8 +697,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 700,
     showPrice: true,
     image: '/images/Kniphophia uvaria, narandžasti cvet, perena.jpg',
-    description: 'Kniphofia uvaria (Baklja) je egzotična perena sa upečatljivim narandžasto-crvenim cvastovima. Privlači poglede i leptire, idealna kao akcenat u bašti.',
-    richContent: `Kniphofia uvaria (Baklja) je impresivna egzotična perena sa upečatljivim narandžasto-crvenim svećnjacima koji cvetaju od jula do septembra. Naraste 60–100 cm i prava je zvezda svakog vrta. Traži sunčano mesto i dobro oceditnu zemlju. Otporna je na mraz do -15°C i privlači pčele i leptire. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao baklja, ova egzotična perena sa upečatljivim narandžasto-crvenim cvastovima prava je zvezda svakog vrta i magnet za leptire.',
+    richContent: `Kniphofia uvaria cveta od jula do septembra i naraste 60–100 cm. Traži sunčano mesto i dobro oceditnu zemlju. Otporna je na mraz do -15°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '60-100 cm',
@@ -718,8 +718,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 500,
     showPrice: true,
     image: '/images/Ophiopogon japonicus ukrasna trava.jpg',
-    description: 'Ophiopogon japonicus je zimzelena ukrasna trava, idealna za bordure i kao pokrivač tla. Niska i gusta, dekorativna tokom cele godine.',
-    richContent: `Ophiopogon japonicus je zimzelena trava visine 15–25 cm sa tamnozelenim sjajnim listovima. Odlična je za pokrivanje tla u senki, bordure i japanske bašte. Ne zahteva gotovo nikakvu negu i zadržava dekorativnost tokom cele godine. Otporna je na mraz do -15°C. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Niska, gusta zimzelena trava tamnozelenih, sjajnih listova — pouzdan pokrivač tla za senku, bordure i japanske bašte tokom cele godine.',
+    richContent: `Ova trava naraste 15–25 cm i gotovo ne zahteva negu. Otporna je na mraz do -15°C. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '15-25 cm',
@@ -743,8 +743,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Physostegia alba - perena.jpg',
       '/images/Physostegia alba.jpg'
     ],
-    description: 'Physostegia alba je perena sa elegantnim belim cvastovima. Bogato cveta tokom leta, laka za održavanje.',
-    richContent: `Physostegia alba (Poslušna biljka) je visoka perena (60–90 cm) sa elegantnim belim klasovima koji cvetaju od avgusta do oktobra. Brzo se širi i formira gusti busen, idealna za naturalističke bašte i bordure. Traži vlažnu, plodnu zemlju i sunce do polusenku. Otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao poslušna biljka, ova visoka perena elegantnih belih klasova bogato cveta od avgusta do oktobra i brzo formira gusti busen.',
+    richContent: `Physostegia alba naraste 60–90 cm i najbolje uspeva u vlažnoj, plodnoj zemlji, na suncu ili u polusenci. Otporna je na mraz do -25°C, idealna za naturalističke bašte i bordure. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '60-90 cm',
@@ -768,8 +768,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Sedum angelina isto.jpg',
       '/images/Sedum angelina perena.jpg'
     ],
-    description: 'Sedum angelina je sukulentna perena sa zlatno-zelenim listovima koji u jesen postaju narandžasti. Savršena za kamenjare i kao pokrivač tla.',
-    richContent: `Sedum angelina je niskorasta sukulentna perena visine 10–15 cm sa zlatno-zelenim listovima koji u jesen prelaze u vatreno narandžastu boju. Savršena je za kamenjare, zelene krovove i suve, sunčane pozicije. Izuzetno otporna na sušu i mraz do -25°C – gotovo bez potrebe za zalivanjem. Dostupna u Rasadniku Tilija.`,
+    description: 'Niskorasla sukulentna perena zlatno-zelenih listova koji u jesen prelaze u vatreno narandžastu boju — savršena za kamenjare i zelene krovove.',
+    richContent: `Ova sukulentna perena naraste 10–15 cm i izuzetno je otporna na sušu i mraz do -25°C, gotovo bez potrebe za zalivanjem. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '10-15 cm',
@@ -793,8 +793,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Isto sedum hybridum samo pojedinačna slika.jpg',
       '/images/Sedum hybridum - perena.jpg'
     ],
-    description: 'Sedum hybridum je gusta pokrovna perena sa jarko zelenim mesnatim listovima. Idealna za kamenjare, zelene krovove i prekrivanje tla.',
-    richContent: `Sedum hybridum je kompaktna sukulentna perena sa jarkozelenim mesnatim listovima i žutim cvetovima u junu. Visine je samo 10–20 cm ali se širi i dobro pokriva tlo. Idealna za zelene krovove, kamenjare i suve, peskovite površine. Otporna je na sušu, toplotu i mraz do -30°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Kompaktna sukulentna perena jarkozelenih mesnatih listova i žutih cvetova u junu — gusto prekriva tlo i savršena je za zelene krovove i kamenjare.',
+    richContent: `Naraste svega 10–20 cm, ali se dobro širi i pokriva površinu. Otporna je na sušu, toplotu i mraz do -30°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '10-20 cm',
@@ -814,8 +814,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 400,
     showPrice: true,
     image: '/images/sedum rupestre \'blue\' perena.jpg',
-    description: 'Sedum rupestre \'Blue\' je sukulentna perena sa plavo-sivim iglicama. Niska i otporna, savršena za kamenjare i suve bašte.',
-    richContent: `Sedum rupestre 'Blue' je zimzelena sukulentna perena sa plavičasto-sivim igličastim listovima. Visine je 10–15 cm, širi se i formira kompaktne tepih-jastuče. Idealna za stenovite bašte, rubnjake i zelene krovove. Otporna je na sušu, sunce i mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Zimzelena sukulentna perena plavičasto-sivih igličastih listova koja formira kompaktne tepih-jastuče — otporna, niska i skoro bezbrižna za negu.',
+    richContent: `Naraste 10–15 cm i idealna je za stenovite bašte, rubnjake i zelene krovove. Otporna je na sušu, sunce i mraz do -25°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '10-15 cm',
@@ -839,8 +839,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/Sedum S. Watson perena.jpg',
       '/images/Sedum S. Watson isto.jpg'
     ],
-    description: 'Sedum S. Watson je dekorativna sukulentna perena sa roze-zelenim rozetama. Atraktivna boja tokom cele godine, idealna za kamenjare i saksije.',
-    richContent: `Sedum S. Watson je dekorativna sukulentna perena sa atraktivnim roze-zelenim rozetama koje zadržavaju boju tokom cele godine. Niska je – 10–15 cm – i savršena za kamenjare, terasaste bašte i saksije. Izuzetno otporna na sušu i mraz do -20°C. Dostupna u Rasadniku Tilija uz dostavu.`,
+    description: 'Dekorativna sukulentna perena roze-zelenih rozeta koje zadržavaju boju tokom cele godine — savršena za kamenjare, terasaste bašte i saksije.',
+    richContent: `Naraste 10–15 cm i izuzetno je otporna na sušu i mraz do -20°C. Dostupna je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '10-15 cm',
@@ -860,8 +860,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     price: 500,
     showPrice: true,
     image: '/images/Sedum spectabile - debela koka.jpg',
-    description: 'Sedum spectabile (Debela koka) je robusna perena sa krupnim mesnatim listovima i ružičastim cvastovima. Privlači leptire i pčele, cveta u kasno leto.',
-    richContent: `Sedum spectabile (Debela koka) je visoka sukulentna perena (30–50 cm) sa krupnim sivkastozelenim listovima i ružičastim cvastovima koji cvetaju od avgusta do oktobra. Privlači leptire, pčele i druge korisne insekte. Otporna je na sušu i mraz do -25°C, idealna za suve sunčane bašte. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao debela koka, ova robusna perena krupnih mesnatih listova cveta ružičasto od avgusta do oktobra i privlači leptire i pčele.',
+    richContent: `Sedum spectabile naraste 30–50 cm i idealna je za suve, sunčane bašte. Otporna je na sušu i mraz do -25°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '30-50 cm',
@@ -885,8 +885,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/zekineusi.jpg',
       '/images/Stachys lanata - zekine uši.jpg'
     ],
-    description: 'Stachys lanata (Zečije uši) je perena sa mekanim, srebrno-sivim listovima nalik zečijim ušima. Odlična za kamenjare i kao kontrast tamnijem lišću.',
-    richContent: `Stachys lanata (Zečije uši) je prepoznatljiva perena sa izuzetno mekanim, srebrno-sivim listovima gusto pokrivenim belim dlačicama. Visine je 20–30 cm i odlična je kao kontrast tamnijem lišću u borduri ili kamenjaru. Otporna je na sušu i mraz do -25°C. Traži sunčano, suvo mesto. Dostupna u Rasadniku Tilija.`,
+    description: 'Poznata i kao zečije uši, ova perena ima izuzetno mekane, srebrno-sive listove gusto pokrivene belim dlačicama — savršen kontrast tamnijem lišću u borduri.',
+    richContent: `Naraste 20–30 cm i traži sunčano, suvo mesto. Otporna je na sušu i mraz do -25°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '20-30 cm',
@@ -916,8 +916,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
       '/images/novemasline2.jpeg',
       '/images/novemasline3.jpeg'
     ],
-    description: 'Maslina (Olea europaea) je zimzeleno mediteransko drvo sa srebrno-zelenim listovima. Dugovečna i dekorativna, idealna za dvorišta, terase i mediteranski stil uređenja.',
-    richContent: `Maslina (Olea europaea) je mediteransko zimzeleno drvo sa karakterističnim srebrnasto-zelenim listovima i krivudavim starim deblom. Može živeti stotinama godina i postaje sve lepša sa godinama. Kod nas se uzgaja uglavnom kao dekorativna biljka u teglama ili zaštićenim dvorištima. Podnosi mraz do -10°C, traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu – cena na upit.`,
+    description: 'Mediteransko zimzeleno drvo srebrno-zelenih listova i krivudavog debla koje sa godinama postaje sve lepše — dugovečan simbol mediteranskog stila.',
+    richContent: `Olea europaea može živeti stotinama godina. Kod nas se najčešće uzgaja kao dekorativna biljka u teglama ili zaštićenim dvorištima, jer podnosi mraz do -10°C. Traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu — cena na upit.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -935,8 +935,8 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     categories: ['mediteranske'],
     price: 0,
     image: '/images/Bonsai.jpeg',
-    description: 'Bonsai je umetnost uzgoja minijaturnog drveća. Elegantan i jedinstven, savršen poklon i ukras za svaki enterijer ili terasu. Zahteva pažljivu negu i oblikovanje.',
-    richContent: `Bonsai je umetnost uzgoja minijaturnog drveća – svaki primerak je jedinstven i može biti poklonjen kao posebna prigodna darija. Rasadnik Tilija nudi pažljivo oblikovane bonsai primerke različitih vrsta. Nega uključuje redovno zalivanje, sezonsku đubriju i povremeno oblikovanje rezanjem. Idealan je za terase, balkone i enterijer. Cena na upit.`,
+    description: 'Umetnost uzgoja minijaturnog drveća — svaki primerak je jedinstven, elegantan i savršen kao poklon ili ukras za enterijer i terasu.',
+    richContent: `Rasadnik Tilija nudi pažljivo oblikovane bonsai primerke različitih vrsta. Nega uključuje redovno zalivanje, sezonsko đubrenje i povremeno oblikovanje rezanjem. Idealan je za terase, balkone i enterijer. Cena na upit.`,
     inStock: true,
     details: {
       height: 'Minijaturne forme',
@@ -962,10 +962,10 @@ Prodaja fotinije Red Robin u Rasadniku Tilija uključuje sadnice spremne za odma
     ],
     seoTitle: 'Lejlandi – najbrža sadnica za živu ogradu, cena na upit',
     metaDescription: 'Lejlandi – najbrže rastući četinar za živu ogradu, i do 100 cm godišnje. Gust, zimzelen zid za brzu privatnost. Cena na upit, dostava širom Srbije.',
-    description: 'Lejlandi je najbrže rastući četinar za živu ogradu – raste i do 1 metar godišnje. Gust, zimzelen i lak za oblikovanje, idealan za brzu privatnost.',
-    richContent: `Lejlandi (Cupressus × leylandii) je hibridni četinar poznat kao najbrže rastuća biljka za živu ogradu – naraste i do 60–100 cm godišnje. Gust je i zimzelen, formira kompaktnu zidanu ogradu već posle nekoliko sezona. Idealan je za brzo zaklanjanje od pogleda, buke i vetra. Sadi se na rastojanju 60–80 cm u proleće ili jesen. Otporan je na mraz do -20°C i lako se oblikuje rezanjem jednom godišnje. Rasadnik Tilija nudi lejlandi sve visine uz dostavu i sadnju širom Srbije.
+    description: 'Najbrže rastući četinar za živu ogradu u Srbiji — gust, zimzelen i lak za oblikovanje, idealan kad vam treba privatnost što pre.',
+    richContent: `Cupressus × leylandii, hibridni čempres poznat kao lejlandi, naraste i do 60–100 cm godišnje, formirajući kompaktnu zidanu ogradu već posle nekoliko sezona. Odlično zaklanja od pogleda, buke i vetra. Sadi se na razmaku 60–80 cm, u proleće ili jesen, i podnosi mraz do -20°C. Oblikuje se rezanjem jednom godišnje. Rasadnik Tilija nudi ga u svim visinama, uz dostavu i sadnju širom Srbije.
 
-Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih za ekonomičniju sadnju i praćenje brzog rasta, do krupnijih primeraka za gotovo trenutnu privatnost. Cena zavisi od visine sadnice, javite nam se za ponudu. Naručivanje ide jednostavno telefonom ili preko kontakt forme na sajtu, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
+Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i praćenje brzog rasta, do krupnijih primeraka za gotovo trenutnu privatnost. Cena zavisi od visine, javite nam se za ponudu. Naručivanje ide jednostavno telefonom ili preko kontakt forme na sajtu, a organizujemo dostavu i sadnju na terenu širom Srbije.`,
     relatedBlogSlug: 'lejlandi-sadnja-i-nega',
     productFaq: [
       { q: 'Koje veličine lejlandija su dostupne?', a: 'Nudimo lejlandi u više visina, od mlađih sadnica do krupnijih primeraka za brz efekat. Cena zavisi od visine — javite nam se za ponudu.' },
@@ -996,8 +996,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
       '/images/palma.jpeg',
       '/images/palma1.jpeg'
     ],
-    description: 'Palma je egzotična dekorativna biljka koja daje mediteranski šmek svakom dvorištu ili terasi. Dostupna u različitim visinama i vrstama.',
-    richContent: `Palma je najupečatljivija egzotična biljka za dvorišta i terase u Srbiji. Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu. Idealne su za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu u dobro oceditnu zemlju. Dostupne u različitim visinama – cena na upit.`,
+    description: 'Egzotična dekorativna biljka koja momentalno unosi mediteranski šmek u dvorište ili terasu, dostupna u više visina i vrsta.',
+    richContent: `Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju. Cena na upit.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1019,8 +1019,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     images: [
       '/images/japanskijavor.jpeg'
     ],
-    description: 'Japanski javor je elegantno ukrasno drvo sa prelepim crvenim ili ljubičastim listovima koji menjaju boju tokom sezone. Pravo remek-delo svake bašte.',
-    richContent: `Japanski javor (Acer palmatum) je jedno od najatraktivnijih ukrasnih drveća – njegovi fino isečeni listovi u nijansama crvene, bordo, narandžaste i zelene boje ukrašavaju dvorište od proleća do jeseni. Sporo raste i naraste do 2–5 metara, idealan je kao soliter ili u kombinaciji sa zimzelenim biljkama. Traži zaštićeno mesto od jakog vetra, polusenku i blago kiselu, bogatu zemlju. Jesen donosi spektakularne crveno-narandžaste tonove. Dostupan u Rasadniku Tilija uz dostavu.`,
+    description: 'Elegantno ukrasno drvo fino isečenih listova u nijansama crvene, bordo, narandžaste i zelene boje — pravo remek-delo koje menja izgled iz sezone u sezonu.',
+    richContent: `Acer palmatum sporo raste i dostiže 2–5 metara, idealan je kao soliter ili u kombinaciji sa zimzelenim biljkama. Traži zaštićeno mesto od jakog vetra, polusenku i blago kiselu, bogatu zemlju. Jesen donosi spektakularne crveno-narandžaste tonove. Dostupan je u Rasadniku Tilija, uz dostavu.`,
     inStock: true,
     details: {
       height: '2-5 m',
@@ -1043,8 +1043,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
       '/images/bastenskijorgovan.jpeg',
       '/images/indijskijorgovan.jpeg'
     ],
-    description: 'Indijski jorgovan je raskošni ukrasni žbun sa prelepim mirisnim cvetovima. Cveta u proleće i krasi svako dvorište svojom bojom i mirisom.',
-    richContent: `Indijski jorgovan je jedan od najlepših ukrasnih žbunova koji cveta u aprilu i maju. Grozdovi cvetova ispunjavaju baštu prelepim mirisom. Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz i dugovečan – može živeti decenijama. Sadi se u jesen ili rano proleće na osunčanom mestu. Rasadnik Tilija nudi indijski jorgovan uz dostavu – cena na upit.`,
+    description: 'Raskošan ukrasni žbun čiji mirisni grozdovi cvetova u aprilu i maju ispunjavaju čitavo dvorište bojom i mirisom.',
+    richContent: `Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz i dugovečan — može živeti decenijama. Sadi se u jesen ili rano proleće, na osunčanom mestu. Rasadnik Tilija nudi ga uz dostavu — cena na upit.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1065,8 +1065,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     showPrice: false,
     image: '/images/japanskatresnja.jpeg',
     images: ['/images/japanskatresnja.jpeg'],
-    description: 'Japanska trešnja (Prunus) je prelepo ukrasno drvo poznato po raskošnom cvetanju u proleće. Bela ili roze boja cvetova daje bajkovit izgled svakom dvorištu.',
-    richContent: `Japanska trešnja (Prunus serrulata) je jedno od najatraktivnijih ukrasnih drveća – njeni raskošni cvetovi u beloj ili roze boji transformišu dvorište svake godine u proleće. Cveta pre nego što se listovi razviju, što joj daje posebno upečatljiv izgled. Naraste do 5–8 metara i idealna je kao soliter u dvorištu. Sadi se u proleće ili jesen na osunčanom, zaštićenom mestu u plodnu, dobro oceditnu zemlju. Rasadnik Tilija nudi japansku trešnju uz dostavu – cena na upit.`,
+    description: 'Ukrasno drvo poznato po bajkovitom, raskošnom cvetanju u proleće — bela ili roze boja cvetova svake godine iznova transformiše dvorište.',
+    richContent: `Prunus serrulata cveta pre nego što se listovi razviju, što joj daje poseban, upečatljiv izgled. Naraste do 5–8 metara i idealna je kao soliter. Sadi se u proleće ili jesen, na osunčanom, zaštićenom mestu u plodnu, dobro oceditnu zemlju. Rasadnik Tilija nudi je uz dostavu — cena na upit.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1088,8 +1088,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     showPrice: true,
     image: '/images/iberis.jpg',
     images: ['/images/iberis.jpg'],
-    description: 'Iberis je zimzelena perena koja u proleće eksplodira gustim belim cvetovima. Savršena za kamenjare, bordure i kao pokrivač tla.',
-    richContent: `Iberis sempervirens je niskorasta zimzelena perena visine 15–25 cm koja u aprilu i maju biva potpuno prekrivena gustim belim cvetovima, zbog čega se naziva i "snežna perena". Idealna je za ivičnjake, kamenjare, suve zidove i kao kontrast tamnijem lišću. Traži sunčano, dobro oceditno mesto i gotovo nikakvu negu posle ukorenjivanja. Otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Zimzelena perena koja u proleće eksplodira gustim belim cvetovima, zbog čega je poznata i kao "snežna perena" — savršena za kamenjare i bordure.',
+    richContent: `Iberis sempervirens naraste 15–25 cm i traži sunčano, dobro oceditno mesto, uz gotovo nikakvu negu posle ukorenjivanja. Otporna je na mraz do -25°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '15-25 cm',
@@ -1111,8 +1111,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     sizes: [{ label: 'Džak od 60 l', price: 850 }],
     image: '/images/mulchred.webp',
     images: ['/images/mulchred.webp'],
-    description: 'Crveni dekorativni malč od drvne kore. Ukrašava baštu upečatljivom bojom, čuva vlagu u zemlji, sprečava rast korova i štiti koren biljaka.',
-    richContent: `Crveni dekorativni malč je idealan za uređenje bašte i parkova — crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone. Pored dekorativne uloge, malč obavlja i niz praktičnih funkcija: čuva vlagu u zemlji (smanjuje potrebu za zalivanjem do 30%), sprečava rast korova i štiti koren biljaka od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja: 5–8 cm. Jedan džak od 60 litara pokriva površinu od 0,75–1,2 m².`,
+    description: 'Dekorativni malč od drvne kore u upečatljivoj crvenoj boji — čuva vlagu u zemlji, sprečava rast korova i štiti koren biljaka.',
+    richContent: `Crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone, a pored dekorativne uloge malč obavlja i praktične funkcije: čuva vlagu (smanjuje potrebu za zalivanjem i do 30%), sprečava korov i štiti koren od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja je 5–8 cm; jedan džak od 60 litara pokriva 0,75–1,2 m².`,
     inStock: true,
     details: {
       sunlight: 'Za sve pozicije',
@@ -1133,8 +1133,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     sizes: [{ label: 'Džak od 60 l', price: 850 }],
     image: '/images/malcborovakora.jpg',
     images: ['/images/malcborovakora.jpg'],
-    description: 'Prirodni malč od borove kore. Blago zakiseljuje zemlju — idealan za četinare, ruže, hortenzije i borovnice. Čuva vlagu i sprečava korov.',
-    richContent: `Malč od borove kore je prirodni produkt koji blago zakiseljuje zemljište — što ga čini savršenim izborom za biljke koje vole kiselu sredinu: četinare, tuje, hortenzije, ruže, borovnice i rododendrone. Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom. Preporučena debljina sloja: 6–8 cm. Jedan džak od 60 litara pokriva površinu od 0,75–1 m².`,
+    description: 'Prirodni malč koji blago zakiseljuje zemljište — idealan za četinare, ruže, hortenzije i borovnice, biljke koje vole kiselu sredinu.',
+    richContent: `Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom, dok istovremeno čuva vlagu i sprečava korov. Preporučena debljina sloja je 6–8 cm; jedan džak od 60 litara pokriva 0,75–1 m².`,
     inStock: true,
     details: {
       sunlight: 'Za sve pozicije',
@@ -1155,8 +1155,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     sizes: [{ label: 'Džak od 50 kg', price: 800 }],
     image: '/images/humus.png',
     images: ['/images/humus.png'],
-    description: 'Kvalitetan humus za obogaćivanje tla. Poboljšava strukturu zemljišta, povećava plodnost i podstiče zdrav razvoj korena. Idealan pri sadnji i prihrani biljaka.',
-    richContent: `Humus je prirodno organsko đubrivo koje nastaje razgradnjom biljnih i životinjskih materija. Dodavanjem humusa u tlo dramatično se poboljšava njegova struktura — zemlja postaje rastresitija, bolje zadržava vlagu i lakše propušta vazduh do korena. Idealan je za pripremu tla pre sadnje, kao i za prihranu već uspostavljenih biljaka. Posebno se preporučuje za sadnju drveća, žbunova, živih ograda i perenih biljaka. Jedan džak od 50 kg dovoljan je za pripremu površine od 3–5 m².`,
+    description: 'Kvalitetno organsko đubrivo koje obogaćuje tlo, poboljšava strukturu zemljišta i podstiče zdrav razvoj korena — idealno pri sadnji i prihrani biljaka.',
+    richContent: `Nastaje razgradnjom biljnih i životinjskih materija, a dodavanjem u tlo zemlja postaje rastresitija, bolje zadržava vlagu i lakše propušta vazduh do korena. Posebno se preporučuje za sadnju drveća, žbunova, živih ograda i perenih biljaka. Jedan džak od 50 kg dovoljan je za pripremu površine od 3–5 m².`,
     inStock: true,
     details: {
       sunlight: 'Za sve biljke',
@@ -1177,8 +1177,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     showPrice: true,
     image: '/images/gaura.jpg',
     images: ['/images/gaura.jpg'],
-    description: 'Gaura je elegantna perena sa nežnim belim i roze cvetovima koji lepršaju na vitkim stabljikama tokom celog leta. Savršena za naturalističke bašte.',
-    richContent: `Gaura lindheimeri je graciozna perena visine 60–120 cm sa dugačkim, vitkim stabljikama koje nose nežne belo-roze cvetove od juna do oktobra. Cvetovi podsećaju na leptire u letu – stoga se često naziva i "biljka leptir". Izuzetno je otporna na sušu i visoke temperature, traži puno sunca i dobro oceditnu zemlju. Gotovo ne zahteva negu i privlači pčele i leptire. Otporna na mraz do -20°C. Dostupna u Rasadniku Tilija.`,
+    description: 'Graciozna perena čiji nežni belo-roze cvetovi lepršaju na vitkim stabljikama poput leptira tokom celog leta — savršena za naturalističke bašte.',
+    richContent: `Gaura lindheimeri naraste 60–120 cm i cveta od juna do oktobra. Izuzetno je otporna na sušu i visoke temperature, traži puno sunca i dobro oceditnu zemlju, uz mraz do -20°C. Dostupna je u Rasadniku Tilija.`,
     inStock: true,
     details: {
       height: '60-120 cm',
@@ -1198,8 +1198,8 @@ Prodaja lejlandija u Rasadniku Tilija obuhvata sadnice svih visina — od manjih
     showPrice: false,
     image: '/images/italijanskicempres.jpeg',
     images: ['/images/italijanskicempres.jpeg'],
-    description: 'Italijanski čempres je vitka, uska zimzelena biljka koja unosi mediteranski šmek u svaki vrt. Idealan za aleje, ulaze i vertikalne akcente u dvorištu.',
-    richContent: `Italijanski čempres (Cupressus sempervirens) je klasična mediteranska biljka prepoznatljiva po uskom, strogo vertikalnom, stubastom obliku i tamnozelenoj, gustoj krošnji. Vekovima se koristi u toskanskim i mediteranskim vrtovima kao akcenat pored ulaza, duž aleja i staza, ili kao elegantan vertikalni element u kompoziciji dvorišta. Voli puno sunca i dobro drenirano, čak i suvo zemljište — ne podnosi stajaću vodu. Otporan je na sušu i vrućinu, a uz zaštićen položaj dobro podnosi i srpske zime. Sadi se u proleće ili jesen, uz umereno zalivanje u prvoj godini dok se ne ukoreni. Rasadnik Tilija nudi italijanski čempres u više visina uz dostavu i sadnju širom Srbije.`,
+    description: 'Vitka, uska zimzelena biljka strogo vertikalnog rasta koja unosi mediteranski šmek u svaki vrt — idealna za aleje, ulaze i vertikalne akcente.',
+    richContent: `Cupressus sempervirens vekovima se koristi u toskanskim i mediteranskim vrtovima kao akcenat pored ulaza, duž aleja i staza. Voli puno sunca i dobro drenirano, čak i suvo zemljište — ne podnosi stajaću vodu. Otporan je na sušu i vrućinu, a uz zaštićen položaj dobro podnosi i srpske zime. Sadi se u proleće ili jesen, uz umereno zalivanje prve godine. Rasadnik Tilija nudi ga u više visina, uz dostavu i sadnju širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
