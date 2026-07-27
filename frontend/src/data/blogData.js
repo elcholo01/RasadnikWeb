@@ -1,5 +1,120 @@
 const blogPosts = [
   {
+    id: 11,
+    slug: 'magnolija-grandiflora-sadnja-i-nega',
+    title: 'Magnolija Grandiflora – jedina zimzelena magnolija: sadnja, nega i zašto ne cveta',
+    excerpt: 'Magnolija Grandiflora ne cveta iako je zdrava i lepa? Najčešće je razlog jednostavan — mladost biljke. Saznajte kada prva magnolija procveta, zašto gubi pojedinačne listove (i kad je to normalno), kako je saditi i negovati.',
+    date: '2026-07-24',
+    readTime: '8 min',
+    category: 'Lišćari',
+    image: '/images/WhatsApp Image 2026-01-03 at 19.52.34.jpeg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'hibiskus-zasto-ne-cveta-nega', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Zašto magnolija grandiflora ne cveta?',
+        a: 'Najčešći razlog je jednostavno mladost biljke — magnolija grandiflora treba vreme da dostigne zrelost pre prvog cvetanja. Sadnice iz rasadnika (raslinjene ili kalemljene) obično prvi put cvetaju za 5–8 godina, dok biljke gajene iz semena mogu čekati i 10–15 godina. Ostali razlozi: premalo sunca, mladi izdanci oštećeni kasnim mrazom, ili nedovoljno zreo koren nakon presađivanja.'
+      },
+      {
+        q: 'Da li magnolija grandiflora gubi lišće — je li to normalno?',
+        a: 'Da, potpuno je normalno. Iako je zimzelena, magnolija grandiflora tokom cele godine postepeno menja starije listove za nove — u svakom trenutku može se videti nekoliko požutelih listova koji otpadaju. To nije znak bolesti. Problem postoji samo ako žuti veliki deo krošnje odjednom ili ako listovi žute sa zelenim nervima (znak hloroze zbog alkalnog zemljišta).'
+      },
+      {
+        q: 'Kada cveta magnolija grandiflora?',
+        a: 'Cveta u leto, od juna do jula, za razliku od listopadnih magnolija koje cvetaju rano u proleće. Krupni, mirisni beli cvetovi otvaraju se pojedinačno tokom nekoliko nedelja, ne svi odjednom.'
+      },
+      {
+        q: 'Da li magnolija grandiflora podnosi mraz u Srbiji?',
+        a: 'Podnosi mraz do oko -12°C, što je dovoljno za veći deo Srbije uz zaštićen položaj. U hladnijim krajevima (severna Vojvodina, viši predeli) sadite je uz zid ili zaklonjeno mesto, i zaštitite koren malčom u prvim zimama.'
+      },
+      {
+        q: 'Koliko prostora treba magnoliji grandiflori?',
+        a: 'Naraste do 10–15 metara visine sa širokom, gustom krošnjom, pa joj je potrebno najmanje 4–5 metara razmaka od objekata i drugog drveća. Sporo raste, pa taj prostor "popunjava" tek posle mnogo godina.'
+      },
+      {
+        q: 'Kakvu zemlju i negu traži magnolija grandiflora?',
+        a: 'Traži blago kiselu do neutralnu, bogatu zemlju i redovno zalivanje dok se ne ukoreni, posebno u prve dve godine. Na alkalnom tlu list može žuteti (hloroza) — u tom slučaju pomaže đubrivo za acidofilne biljke (kao za hortenziju ili rododendron).'
+      }
+    ],
+    content: `
+      <p>Magnolija Grandiflora je prava retkost u srpskim baštama — dok sve ostale magnolije u proleće ostaju gole posle cvetanja i bez lišća, ona zadržava krupno, sjajno lišće tokom cele godine i cveta krupnim, mirisnim belim cvetovima usred leta. Ali baš zato što je drugačija od "klasičnih" magnolija, oko nje postoje i najčešća pitanja: <strong>zašto ne cveta</strong> i <strong>zašto gubi listove kad je zimzelena</strong>?</p>
+
+      <p>U ovom vodiču objašnjavamo oboje, plus kada i kako je saditi, koliko prostora traži i kako je negovati da dočeka prvo cvetanje što pre.</p>
+
+      <h2>Zašto je Magnolija Grandiflora posebna?</h2>
+      <ul>
+        <li><strong>Jedina zimzelena magnolija</strong> — zadržava krupno, sjajno tamnozeleno lišće tokom cele godine, dok su ostale magnolije listopadne</li>
+        <li><strong>Cveta u leto</strong> — krupni mirisni beli cvetovi u junu i julu, kada većina drveća u bašti već završava sezonu cvetanja</li>
+        <li><strong>Dugovečna i impresivna</strong> — naraste do 10–15 metara i s godinama postaje sve upečatljivija</li>
+      </ul>
+
+      <h2>Zašto magnolija grandiflora ne cveta — pravi razlozi</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Uzrok</th><th>Rešenje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Biljka je premlada</td><td>Strpljenje — sadnice iz rasadnika cvetaju za 5–8 godina</td></tr>
+          <tr><td>Premalo sunca</td><td>Sadite na osunčanom, zaštićenom mestu</td></tr>
+          <tr><td>Kasni prolećni mraz oštetio pupoljke</td><td>Zaštićen položaj (uz zid, izvan udara vetra)</td></tr>
+          <tr><td>Nedavno presađivanje</td><td>Koren mora prvo da se stabilizuje, cvetanje dolazi kasnije</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>1. Biljka je premlada (najčešći razlog)</h3>
+      <p>Magnolija grandiflora nije brzo cvetajuća biljka. Sadnice gajene iz reznica ili kalemljene (ono što se prodaje u rasadnicima) obično prvi put procvetaju za <strong>5 do 8 godina</strong>. Biljke gajene iz semena čekaju znatno duže — i 10 do 15 godina. Ako ste tek posadili mladu magnoliju, izostanak cvetova prvih sezona je potpuno očekivan.</p>
+
+      <h3>2. Premalo sunca</h3>
+      <p>Magnolija grandiflora najbolje cveta na punom suncu ili blagoj polusenci. U dubokoj senci biljka raste, ali cvetanje izostaje ili je veoma slabo.</p>
+
+      <h3>3. Kasni prolećni mraz</h3>
+      <p>Cvetni pupoljci koji su se već formirali mogu stradati od kasnog mraza, posebno kod mlađih biljaka. Zaštićen položaj — uz zid kuće ili izvan hladnih vetrova — smanjuje ovaj rizik.</p>
+
+      <h2>Zašto magnoliji žute i opadaju listovi — kad je to normalno?</h2>
+      <p>Iako je zimzelena, magnolija grandiflora <strong>nije večna sa svakim listom</strong> — kao i sve zimzelene biljke, postepeno zamenjuje starije lišće novim tokom cele godine. Sasvim je normalno videti povremeno poneki požuteo list koji otpada, dok ostatak krošnje ostaje zdrav i sjajno zelen.</p>
+      <p><strong>Kada je to problem:</strong></p>
+      <ul>
+        <li><strong>Žutilo sa zelenim nervima na listu</strong> — znak hloroze, obično zbog previše alkalnog zemljišta. Rešenje: đubrivo za acidofilne biljke (isto kao za hortenziju ili rododendron).</li>
+        <li><strong>Žutilo i opadanje velikog dela krošnje odjednom</strong> — može biti znak stresa od suše, prevelike vlage u korenu, ili štete od jakog mraza. Proverite drenažu zemljišta i režim zalivanja.</li>
+      </ul>
+
+      <h2>Sadnja magnolije grandiflore — gde i kada</h2>
+      <p><strong>Pozicija:</strong> puno sunca do blaga polusenka, zaštićeno od jakog i hladnog vetra.</p>
+      <p><strong>Zemlja:</strong> blago kisela do neutralna, bogata humusom, dobra drenaža.</p>
+      <p><strong>Vreme sadnje:</strong> proleće, kada prođu poslednji mrazevi.</p>
+      <p><strong>Prostor:</strong> naraste do 10–15 metara sa širokom krošnjom — ostavite najmanje 4–5 metara razmaka od kuće, ograde i drugog drveća.</p>
+
+      <h2>Nega magnolije grandiflore</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno dok se ne ukoreni, posebno prve dve godine i tokom leta</li>
+        <li><strong>Đubrenje:</strong> u proleće, đubrivom za acidofilne biljke ako je zemlja alkalna</li>
+        <li><strong>Malčovanje:</strong> sloj malča oko korena čuva vlagu i štiti koren mladih sadnica u prvim zimama</li>
+        <li><strong>Rezidba:</strong> minimalna — samo uklanjanje suvih ili oštećenih grana, po potrebi</li>
+      </ul>
+
+      <h2>Česta pitanja o magnoliji grandiflori</h2>
+
+      <h3>Zašto magnolija grandiflora ne cveta?</h3>
+      <p>Najčešće zato što je biljka još mlada — sadnice iz rasadnika prvi put cvetaju za 5–8 godina. Ostali razlozi: premalo sunca, kasni mraz, nedavno presađivanje.</p>
+
+      <h3>Da li magnolija grandiflora gubi lišće?</h3>
+      <p>Povremeno, da — to je normalna zamena starijeg lišća novim. Problem je samo ako žuti veliki deo krošnje odjednom ili ako listovi žute sa zelenim nervima (hloroza).</p>
+
+      <h3>Kada cveta magnolija grandiflora?</h3>
+      <p>U leto, od juna do jula — kasnije od većine drugih magnolija koje cvetaju rano u proleće.</p>
+
+      <h3>Da li magnolija grandiflora podnosi mraz u Srbiji?</h3>
+      <p>Da, do oko -12°C, uz zaštićen položaj u hladnijim krajevima zemlje.</p>
+
+      <h3>Koliko prostora treba magnoliji grandiflori?</h3>
+      <p>Najmanje 4–5 metara razmaka od objekata i drugog drveća — vremenom naraste do 10–15 metara sa širokom krošnjom.</p>
+
+      <h2>Gde kupiti magnoliju grandifloru u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo magnoliju grandifloru uz dostavu i sadnju na terenu širom Srbije. Pogledajte <a href="/sadnice/magnolija-grandiflora">stranicu magnolije grandiflore</a> za aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 10,
     slug: 'hibiskus-zasto-ne-cveta-nega',
     title: 'Hibiskus – zašto gubi pupoljke i ne cveta: kompletan vodič',
@@ -8,7 +123,7 @@ const blogPosts = [
     readTime: '8 min',
     category: 'Šiblje',
     image: '/images/hibiskus.jpeg',
-    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'katalpa-sadnja-i-nega', 'perene-za-bastu-srbija'],
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'katalpa-sadnja-i-nega', 'magnolija-grandiflora-sadnja-i-nega'],
     faq: [
       {
         q: 'Zašto hibiskus gubi pupoljke pre nego što procvetaju?',
@@ -154,7 +269,7 @@ const blogPosts = [
     readTime: '7 min',
     category: 'Lišćari',
     image: '/images/katalpa.jpg',
-    relatedSlugs: ['perene-za-bastu-srbija', 'maslina-uzgoj-sadnja-prezimljavanje-srbija', 'hibiskus-zasto-ne-cveta-nega'],
+    relatedSlugs: ['perene-za-bastu-srbija', 'magnolija-grandiflora-sadnja-i-nega', 'hibiskus-zasto-ne-cveta-nega'],
     faq: [
       {
         q: 'Koliko brzo raste katalpa?',
@@ -815,7 +930,7 @@ const blogPosts = [
     readTime: '8 min',
     category: 'Šiblje',
     image: '/images/hortenzija.jpeg',
-    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'katalpa-sadnja-i-nega', 'hibiskus-zasto-ne-cveta-nega'],
+    relatedSlugs: ['fotinija-red-robin-sadnja-i-nega', 'magnolija-grandiflora-sadnja-i-nega', 'hibiskus-zasto-ne-cveta-nega'],
     faq: [
       {
         q: 'Zašto hortenzija ne cveta?',

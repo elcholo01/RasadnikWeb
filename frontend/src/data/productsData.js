@@ -223,6 +223,12 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     image: '/images/WhatsApp Image 2026-01-03 at 19.52.34.jpeg',
     description: 'Jedina zimzelena magnolija — krupni mirisni beli cvetovi i sjajno lišće čine je pravim raritetom u srpskim baštama tokom cele godine.',
     richContent: `Magnolia grandiflora zadržava listove i cveta tokom cele godine, za razliku od listopadnih magnolija. Naraste do 10–15 metara. Sadi se u proleće na zaštićenom, osunčanom mestu, u blago kiselu, bogatu zemlju uz redovno zalivanje dok se ne ukoreni. Rasadnik Tilija nudi je uz dostavu i sadnju na celoj teritoriji Srbije.`,
+    relatedBlogSlug: 'magnolija-grandiflora-sadnja-i-nega',
+    productFaq: [
+      { q: 'Zašto magnolija grandiflora ne cveta?', a: 'Najčešće zato što je biljka još mlada — sadnice iz rasadnika prvi put cvetaju za 5–8 godina. Strpljenje je ključno.' },
+      { q: 'Da li podnosi mraz u Srbiji?', a: 'Da, do oko -12°C, uz zaštićen položaj u hladnijim krajevima.' },
+      { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, sadimo magnoliju na vašoj lokaciji širom Srbije.' },
+    ],
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
