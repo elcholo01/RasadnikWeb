@@ -1,5 +1,123 @@
 const blogPosts = [
   {
+    id: 12,
+    slug: 'zasto-tuja-zuti-i-susi-se',
+    title: 'Zašto tuja žuti i suši se — kako da prepoznate pravi uzrok (i da li je normalno)',
+    excerpt: 'Tuja požutela ili osušila vrhove grana? Pre nego što posumnjate na bolest, proverite da li je reč o potpuno normalnoj jesenjoj promeni iglica. U ovom vodiču pokazujemo kako da prepoznate šest najčešćih uzroka žućenja i sušenja tuje — od zimske opekotine do grinja — i tačno šta da uradite za svaki.',
+    date: '2026-07-30',
+    readTime: '8 min',
+    category: 'Četinari',
+    image: '/images/tuje.jpeg',
+    relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'lejlandi-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Zašto moja tuja žuti iznutra u jesen?',
+        a: 'To je, u velikoj većini slučajeva, potpuno normalna pojava — tuja svake jeseni odbacuje unutrašnje iglice stare 2–3 godine, koje požute, pa pomeđaju u braon i otpadaju, dok spoljašnji deo krošnje ostaje zelen. Nije bolest niti znak da nešto nije u redu. Zabrinjavajuće je jedino ako žuti/suši spoljašnji, vidljivi deo grana.'
+      },
+      {
+        q: 'Zašto su vrhovi tuje braon posle zime?',
+        a: 'Najčešće je reč o zimskoj (sunčano-vetrovnoj) opekotini — iglice isparavaju vodu tokom sunčanih zimskih dana, a koren u smrznutoj zemlji ne može da je nadoknadi, pa vrhovi grana isuše i pobronzave, obično na južnoj ili zapadnoj strani. Rešenje je obilno zalivanje pred zimu i, kod mlađih sadnica, zaštita netkanim tekstilom prve 2–3 zime.'
+      },
+      {
+        q: 'Kako da znam da li tuja ima grinje?',
+        a: 'Stavite belu hartiju ili list papira ispod grane i lagano je protresite ili udarite — ako primetite sitne, jedva vidljive tačkice koje se pomeraju po papiru, reč je o paučinastim grinjama. One su najaktivnije u toplim, suvim letima i izazivaju sivkasto-braon, "prašnjav" izgled iglica, obično prvo na unutrašnjim, donjim granama.'
+      },
+      {
+        q: 'Zašto mi cela grana ili polovina tuje odjednom osuši?',
+        a: 'Naglo sušenje cele grane ili čitave strane žbuna najčešće je znak truleži korena zbog prevlaživanja — teška, slabo drenirana zemlja ili prečesto zalivanje ugušuju koren. Proverite drenažu i smanjite zalivanje; nažalost, već osušene grane se ne oporavljaju, ali biljka može preživeti ako se problem sa vodom reši na vreme.'
+      },
+      {
+        q: 'Da li žuta tuja može da se spasi?',
+        a: 'Zavisi od uzroka. Zimska opekotina i grinje se uglavnom rešavaju redovnim zalivanjem i tretmanom, a iglice se vremenom obnavljaju. Trulež korena je najozbiljniji uzrok — ako je zahvatila veći deo korena, biljka se retko oporavi. Što ranije prepoznate uzrok, veće su šanse za spas.'
+      },
+      {
+        q: 'Koliko često treba zalivati tuju da ne bi žutela?',
+        a: 'Prve dve godine posle sadnje, tuja treba dubinsko zalivanje jednom nedeljno u sušnim periodima (više u vrelom letu, ređe u proleće i jesen). Izbegavajte česta, plitka zalivanja — bolje je ređe, ali obilno, da voda dopre duboko do korena.'
+      }
+    ],
+    content: `
+      <p>Tuja Smaragd je najotpornija ograda koju možete posaditi u srpskoj bašti — ali baš zato svako žuto ili braon mesto na njoj deluje alarmantno. Dobra vest: u većini slučajeva razlog je bezopasan i lako se prepoznaje čim znate na šta da obratite pažnju.</p>
+
+      <p>U ovom vodiču prolazimo kroz šest najčešćih uzroka žućenja i sušenja tuje — počevši od onog koji <strong>uopšte nije problem</strong> — i objašnjavamo tačno kako da prepoznate koji je vaš slučaj i šta da uradite.</p>
+
+      <h2>Prvo proverite: da li je ovo normalna jesenja promena?</h2>
+      <p>Najčešći "lažni alarm" kod vlasnika tuje: svake jeseni, <strong>unutrašnje iglice stare 2–3 godine</strong> prirodno požute, pa pomeđaju u braon i otpadaju, dok spoljašnji, vidljivi deo krošnje ostaje potpuno zelen. Ovo je normalan proces obnavljanja lišća kod svih četinara sličnih tuji, ne bolest.</p>
+      <p><strong>Kako da prepoznate da je normalno:</strong> žućenje je duboko unutar krošnje, blizu debla, i spolja je biljka i dalje zelena i gusta. Ako protresete granu, otpašće nekoliko suvih iglica — to je očekivano.</p>
+      <p><strong>Kada nije normalno:</strong> ako žuti ili suši spoljašnji, vidljivi deo grana, ili cela biljka gubi boju — tada je reč o jednom od pravih uzroka ispod.</p>
+
+      <h2>Šest pravih uzroka žućenja i sušenja tuje</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Kako izgleda</th><th>Uzrok</th><th>Rešenje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Braon vrhovi grana rano u proleće, uglavnom sa juga/zapada</td><td>Zimska opekotina (sunce + vetar)</td><td>Obilno zalivanje pred zimu, zaštita mladih sadnica netkanim platnom</td></tr>
+          <tr><td>Sivkasto-braon, "prašnjave" iglice, posebno leti</td><td>Paučinaste grinje</td><td>Jak mlaz vode po krošnji, po potrebi akaricid</td></tr>
+          <tr><td>Braon vrhovi izdanaka posle kišnog proleća, širi se</td><td>Gljivično oboljenje vrhova izdanaka</td><td>Uklanjanje zaraženih grančica, bolje provetravanje/razmak</td></tr>
+          <tr><td>Cela grana ili polovina žbuna naglo suva</td><td>Trulež korena od prevlaživanja</td><td>Proverite drenažu, smanjite zalivanje</td></tr>
+          <tr><td>Opšte bledilo/žutilo cele biljke, spor rast</td><td>Manjak hraniva ili alkalna zemlja</td><td>Đubrivo za četinare, gvožđe helat</td></tr>
+          <tr><td>Žutilo/sušenje samo na jednoj, senovitoj strani</td><td>Nedovoljno svetla</td><td>Nema pravog rešenja osim premeštanja — planirajte položaj unapred</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>1. Zimska (sunčano-vetrovna) opekotina</h3>
+      <p>Ovo je, posle normalnog jesenjeg žućenja, ubedljivo najčešći uzrok braon vrhova na tuji — pogotovo kod mlađih, tek posađenih sadnica. Tokom sunčanih zimskih dana iglice isparavaju vodu, a koren u smrznutoj zemlji ne može da je nadoknadi, pa vrhovi grana isuše i dobiju karakterističnu bronzano-braon boju, najčešće na južnoj ili zapadnoj, izloženoj strani.</p>
+      <p><strong>Rešenje:</strong> obilno zalivanje kasno u jesen, pre nego što se zemlja smrzne — biljka ulazi u zimu sa punim rezervama vode. Mlade sadnice u prve 2–3 zime dodatno zaštitite netkanim tekstilom sa izložene strane.</p>
+
+      <h3>2. Paučinaste grinje</h3>
+      <p>U toplim, suvim letima, sitne paučinaste grinje mogu napasti tuju, izazivajući sivkasto-braon, kao "zaprašen" izgled iglica — obično prvo na unutrašnjim, donjim granama, gde je manje vazdušne cirkulacije.</p>
+      <p><strong>Kako proveriti:</strong> stavite belu hartiju ispod sumnjive grane i lagano je protresite. Sitne pokretne tačkice na papiru potvrđuju grinje.</p>
+      <p><strong>Rešenje:</strong> jak mlaz vode povremeno tokom leta smanjuje populaciju grinja; kod jačeg napada koristite akaricid iz poljoprivredne apoteke.</p>
+
+      <h3>3. Gljivično oboljenje vrhova izdanaka</h3>
+      <p>Posle vlažnog, kišnog proleća, vrhovi mladih izdanaka mogu požuteti, pa posmeđeti i osušiti se — znak gljivične infekcije koja se širi u gustim, slabo provetrenim zasadima.</p>
+      <p><strong>Rešenje:</strong> uklonite i uništite zaražene grančice (ne kompostirajte ih), i ako je moguće, poboljšajte provetravanje između biljaka orezivanjem ili većim razmakom pri sledećoj sadnji.</p>
+
+      <h3>4. Trulež korena od prevlaživanja</h3>
+      <p>Najozbiljniji uzrok na ovoj listi. Teška, glinovita ili slabo drenirana zemlja, ili prečesto zalivanje, ugušuju koren i dovode do truleži — što se na krošnji vidi kao naglo sušenje cele grane ili čitave strane žbuna, ponekad u roku od svega nedelju dana.</p>
+      <p><strong>Rešenje:</strong> proverite da li voda posle kiše ili zalivanja stoji oko korena duže od par sati — ako da, poboljšajte drenažu (podignuta gredica, drenažni sloj šljunka) i smanjite učestalost zalivanja. Već osušene grane se ne oporavljaju, ali biljka može preživeti ako se koren spase na vreme.</p>
+
+      <h3>5. Manjak hraniva ili alkalna zemlja</h3>
+      <p>Opšte bledilo ili žutilo cele biljke, praćeno sporijim rastom, obično ukazuje na siromašnu ili previše alkalnu zemlju, koja onemogućava usvajanje gvožđa (hloroza).</p>
+      <p><strong>Rešenje:</strong> đubrivo namenjeno četinarima u proleće, a kod izražene hloroze — dodatak gvožđe helata.</p>
+
+      <h3>6. Nedovoljno svetla</h3>
+      <p>Ako tuja raste uz zid, ogradu ili drugo drveće koje je zaklanja sa jedne strane, ta strana može biti ređa, bleđa ili čak požuteti, dok osunčana strana ostaje gusta i zelena.</p>
+      <p><strong>Rešenje:</strong> nema brzog leka osim uklanjanja izvora senke gde je moguće — najbolje je ovo predvideti pre sadnje i ostaviti dovoljno prostora i svetla sa svih strana.</p>
+
+      <h2>Kako da sprečite žućenje tuje unapred</h2>
+      <ul>
+        <li><strong>Zalivanje prve dve godine:</strong> dubinsko zalivanje jednom nedeljno u sušnim periodima — ređe, ali obilno, umesto čestog plitkog zalivanja</li>
+        <li><strong>Zalivanje pred zimu:</strong> poslednje obilno zalivanje kasno u jesen, pre smrzavanja zemlje, značajno smanjuje rizik od zimske opekotine</li>
+        <li><strong>Drenaža:</strong> proverite da voda ne zastaje oko korena — najčešći uzrok ozbiljnih problema je prevlaživanje, ne suša</li>
+        <li><strong>Razmak pri sadnji:</strong> dovoljan razmak između biljaka smanjuje vlažnost i rizik od gljivičnih oboljenja</li>
+        <li><strong>Malčovanje:</strong> sloj malča oko korena čuva vlagu i stabilizuje temperaturu zemljišta</li>
+      </ul>
+
+      <h2>Česta pitanja o žućenju i sušenju tuje</h2>
+
+      <h3>Zašto moja tuja žuti iznutra u jesen?</h3>
+      <p>To je normalna sezonska promena — unutrašnje, starije iglice požute i otpadaju, dok spoljašnji deo ostaje zelen. Nije razlog za brigu.</p>
+
+      <h3>Zašto su vrhovi tuje braon posle zime?</h3>
+      <p>Najčešće zimska opekotina od sunca i vetra dok je koren u smrznutoj zemlji. Pomaže obilno zalivanje pred zimu i zaštita mladih sadnica.</p>
+
+      <h3>Kako da znam da li tuja ima grinje?</h3>
+      <p>Protresite granu iznad bele hartije — sitne pokretne tačkice na papiru potvrđuju grinje.</p>
+
+      <h3>Zašto mi cela grana ili polovina tuje odjednom osuši?</h3>
+      <p>Najverovatnije trulež korena zbog prevlaživanja i loše drenaže — proverite da voda ne zastaje oko korena.</p>
+
+      <h3>Da li žuta tuja može da se spasi?</h3>
+      <p>Zavisi od uzroka — zimska opekotina i grinje se uglavnom rešavaju, dok je trulež korena najozbiljniji problem. Rano prepoznavanje uzroka povećava šanse za spas.</p>
+
+      <h2>Gde kupiti zdrave sadnice tuje u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) uzgajamo Tuju Smaragd u svim visinama, uz savet o sadnji i nezi i dostavu širom Srbije. Pogledajte <a href="/sadnice/tuja-smaragd">stranicu Tuje Smaragd</a> za aktuelne cene, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 11,
     slug: 'magnolija-grandiflora-sadnja-i-nega',
     title: 'Magnolija Grandiflora – jedina zimzelena magnolija: sadnja, nega i zašto ne cveta',
@@ -1413,7 +1531,7 @@ const blogPosts = [
     readTime: '7 min',
     category: 'Četinari',
     image: '/images/tujavelika.jpeg',
-    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega', 'lejlandi-sadnja-i-nega'],
+    relatedSlugs: ['zasto-tuja-zuti-i-susi-se', 'najbrza-ziva-ograda-srbija', 'lejlandi-sadnja-i-nega'],
     faq: [
       {
         q: 'Koliko brzo raste Tuja Smaragd?',
