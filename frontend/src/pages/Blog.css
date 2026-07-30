@@ -217,6 +217,26 @@
   box-shadow: 0 2px 12px rgba(44,62,80,0.08);
 }
 
+.blog-article-content .content-image {
+  margin: 28px 0;
+}
+
+.blog-article-content .content-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+}
+
+.blog-article-content .content-image figcaption {
+  margin-top: 8px;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: #6b7a6d;
+  text-align: center;
+}
+
 .blog-article-content table {
   width: 100%;
   min-width: 480px;

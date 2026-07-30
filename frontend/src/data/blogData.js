@@ -7,7 +7,7 @@ const blogPosts = [
     date: '2026-07-30',
     readTime: '8 min',
     category: 'Četinari',
-    image: '/images/tuje.jpeg',
+    image: '/images/tuja-osusena-ziva-ograda.jpg',
     relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'lejlandi-sadnja-i-nega'],
     faq: [
       {
@@ -44,6 +44,11 @@ const blogPosts = [
       <p>Najčešći "lažni alarm" kod vlasnika tuje: svake jeseni, <strong>unutrašnje iglice stare 2–3 godine</strong> prirodno požute, pa pomeđaju u braon i otpadaju, dok spoljašnji, vidljivi deo krošnje ostaje potpuno zelen. Ovo je normalan proces obnavljanja lišća kod svih četinara sličnih tuji, ne bolest.</p>
       <p><strong>Kako da prepoznate da je normalno:</strong> žućenje je duboko unutar krošnje, blizu debla, i spolja je biljka i dalje zelena i gusta. Ako protresete granu, otpašće nekoliko suvih iglica — to je očekivano.</p>
       <p><strong>Kada nije normalno:</strong> ako žuti ili suši spoljašnji, vidljivi deo grana, ili cela biljka gubi boju — tada je reč o jednom od pravih uzroka ispod.</p>
+
+      <figure class="content-image">
+        <img src="/images/tuja-pocetak-susenja-vrhovi.jpg" alt="Početak sušenja tuje - vrhovi grančica žute i smeđe dok je ostatak grane još uvek zelen" loading="lazy" />
+        <figcaption>Ovako izgleda rano, aktivno sušenje vrhova — za razliku od normalnog jesenjeg žućenja, ovde treba potražiti uzrok</figcaption>
+      </figure>
 
       <h2>Šest pravih uzroka žućenja i sušenja tuje</h2>
       <div class="table-wrapper">
