@@ -367,12 +367,12 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     name: 'Bambus',
     category: 'liscari',
     categories: ['liscari'],
-    price: 2500,
+    price: 3500,
     showPrice: true,
     image: '/images/bambus.jpeg',
     sizes: [
-      { label: '1.5–2 m', price: 2500 },
-      { label: '2.5–3 m', price: 3500 },
+      { label: '1.5–2 m', price: 3500 },
+      { label: '2.5–3 m', price: 4500 },
     ],
     description: 'Egzotičan, brzorastuć izbor za prirodnu, gustu živu ogradu — daje modernom dvorištu poseban, azijski karakter.',
     richContent: `Bambus je najbrže rastuća biljka na svetu. Za dvorišta preporučujemo neinvazivne klastermske vrste (Fargesia) koje se ne šire korenjem, a formiraju gustu zelenu zavesu do 3–5 metara visine. Zimi zadržava listove, mada može izgubiti deo lišća na jakim mrazevima. Dostupan je u Rasadniku Tilija, uz dostavu i sadnju.`,
@@ -933,7 +933,8 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     name: 'Maslina',
     category: 'mediteranske',
     categories: ['mediteranske'],
-    price: 0,
+    price: 15000,
+    showPrice: true,
     image: '/images/maslina1.jpeg',
     images: [
       '/images/maslina1.jpeg',
@@ -945,7 +946,7 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
       '/images/novemasline3.jpeg'
     ],
     description: 'Mediteransko zimzeleno drvo srebrno-zelenih listova i krivudavog debla koje sa godinama postaje sve lepše — dugovečan simbol mediteranskog stila.',
-    richContent: `Olea europaea može živeti stotinama godina. Kod nas se najčešće uzgaja kao dekorativna biljka u teglama ili zaštićenim dvorištima, jer podnosi mraz do -10°C. Traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu — cena na upit.`,
+    richContent: `Olea europaea može živeti stotinama godina. Kod nas se najčešće uzgaja kao dekorativna biljka u teglama ili zaštićenim dvorištima, jer podnosi mraz do -10°C. Traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu širom Srbije.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -980,16 +981,20 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     name: 'Lejlandi',
     category: 'cetinari',
     categories: ['cetinari', 'ziva-ograda'],
-    price: 0,
-    showPrice: false,
+    price: 500,
+    showPrice: true,
+    sizes: [
+      { label: '50–60 cm', price: 500 },
+      { label: '1–1.2 m', price: 1200 },
+    ],
     image: '/images/lejlandinew.jpeg',
     images: [
       '/images/lejlandinew.jpeg',
       '/images/lejlandi.jpeg',
       '/images/lejlandi1.jpeg'
     ],
-    seoTitle: 'Lejlandi – najbrža sadnica za živu ogradu, cena na upit',
-    metaDescription: 'Lejlandi – najbrže rastući četinar za živu ogradu, i do 100 cm godišnje. Gust, zimzelen zid za brzu privatnost. Cena na upit, dostava širom Srbije.',
+    seoTitle: 'Lejlandi – najbrža sadnica za živu ogradu, cena od 500 RSD',
+    metaDescription: 'Lejlandi – najbrže rastući četinar za živu ogradu, i do 100 cm godišnje. Gust, zimzelen zid za brzu privatnost. Cena od 500 RSD, dostava širom Srbije.',
     description: 'Najbrže rastući četinar za živu ogradu u Srbiji — gust, zimzelen i lak za oblikovanje, idealan kad vam treba privatnost što pre.',
     richContent: `Cupressus × leylandii, hibridni čempres poznat kao lejlandi, naraste i do 60–100 cm godišnje, formirajući kompaktnu zidanu ogradu već posle nekoliko sezona. Odlično zaklanja od pogleda, buke i vetra. Sadi se na razmaku 60–80 cm, u proleće ili jesen, i podnosi mraz do -20°C. Oblikuje se rezanjem jednom godišnje. Rasadnik Tilija nudi ga u svim visinama, uz dostavu i sadnju širom Srbije.
 
@@ -1222,8 +1227,11 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     name: 'Italijanski čempres',
     category: 'mediteranske',
     categories: ['mediteranske', 'cetinari'],
-    price: 0,
-    showPrice: false,
+    price: 8800,
+    showPrice: true,
+    sizes: [
+      { label: '2.5–3 m', price: 8800 },
+    ],
     image: '/images/italijanskicempres.jpeg',
     images: ['/images/italijanskicempres.jpeg'],
     description: 'Vitka, uska zimzelena biljka strogo vertikalnog rasta koja unosi mediteranski šmek u svaki vrt — idealna za aleje, ulaze i vertikalne akcente.',
