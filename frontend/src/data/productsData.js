@@ -1224,6 +1224,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 49,
     slug: 'italijanski-cempres',
+    relatedBlogSlug: 'italijanski-cempres-sadnja-nega-mraz',
     name: 'Italijanski čempres',
     category: 'mediteranske',
     categories: ['mediteranske', 'cetinari'],

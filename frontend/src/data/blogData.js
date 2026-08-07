@@ -1,5 +1,135 @@
 const blogPosts = [
   {
+    id: 13,
+    slug: 'italijanski-cempres-sadnja-nega-mraz',
+    title: 'Italijanski (toskanski) čempres – da li podnosi srpske zime: sadnja, nega i zašto se suši',
+    excerpt: 'Italijanski čempres unosi mediteranski, toskanski šmek u dvorište — ali najveće pitanje kod nas je da li preživljava zimu. Saznajte tačnu granicu mraza, gde ga saditi da bude bezbedan, i zašto grane žute ili se suše (najčešće nije mraz, nego voda).',
+    date: '2026-08-05',
+    readTime: '8 min',
+    category: 'Četinari',
+    image: '/images/italijanskicempres.jpeg',
+    relatedSlugs: ['zasto-tuja-zuti-i-susi-se', 'tuja-smaragd-sadnja-i-nega', 'maslina-uzgoj-sadnja-prezimljavanje-srbija'],
+    faq: [
+      {
+        q: 'Da li italijanski čempres podnosi mraz u Srbiji?',
+        a: 'Podnosi mraz do oko -15°C, što je dovoljno za veći deo Srbije, ali znatno manje od tuje ili lejlandija (koji podnose i -20°C do -30°C). U toplijim, zaštićenim mikrolokacijama (uz zid kuće, u gradu, u južnijim delovima zemlje) uspeva bez problema. U otvorenim, izloženim položajima u severnijim i hladnijim krajevima (severna Vojvodina, viši predeli), oštre zime mogu ga oštetiti ili ubiti — tu je pametnije birati zaštićen položaj ili razmotriti otporniju alternativu.'
+      },
+      {
+        q: 'Zašto se italijanskom čempresu suše grane?',
+        a: 'Najčešći uzrok kod nas nije mraz, nego voda — čempres izuzetno loše podnosi stajaću vodu oko korena, mnogo lošije od tuje. Teška, glinovita ili slabo drenirana zemlja dovodi do truleži korena i sušenja grana, često počevši od dna ili jedne strane biljke. Drugi mogući uzrok je gljivično oboljenje grana (rak kore, sa smolastim izlivima na kori) — ako primetite lepljivu smolu koja izbija iz kore uz sušenje te grane, verovatno je u pitanju to, i zaraženu granu treba ukloniti.'
+      },
+      {
+        q: 'Kakva zemlja je potrebna za italijanski čempres?',
+        a: 'Pre svega dobro drenirana — čak i suvo, siromašno zemljište mu više odgovara nego vlažno i teško tlo. Ako imate glinovitu zemlju koja zadržava vodu, obavezno poboljšajte drenažu pri sadnji (drenažni sloj šljunka, podignuta gredica) ili birajte drugu vrstu za tu lokaciju.'
+      },
+      {
+        q: 'Koliko brzo raste italijanski čempres?',
+        a: 'Raste umereno brzo, u proseku 30–40 cm godišnje u povoljnim uslovima, i s vremenom dostiže i 10–15 metara visine uz vrlo usku, kolonoidnu širinu (0,5–1,5 m) — zato je toliko cenjen za uske prolaze, aleje i akcente pored ulaza, gde široko drvo ne bi stalo.'
+      },
+      {
+        q: 'Da li se italijanski čempres orezuje?',
+        a: 'Ne mora — prirodno zadržava usku, uspravnu formu bez orezivanja. Ako želite, možete ga blago skratiti u proleće radi ujednačavanja, ali to nije neophodno kao kod žive ograde.'
+      },
+      {
+        q: 'Da li italijanski čempres treba potporu/kolac pri sadnji?',
+        a: 'Mlade sadnice, posebno uže kolonoidne forme, dobro je privezati za kolac prve 1–2 godine — jak vetar ili mokar sneg mogu saviti ili delimično razdvojiti krošnju pre nego što se koren dobro učvrsti.'
+      }
+    ],
+    content: `
+      <p>Italijanski čempres (Cupressus sempervirens), poznat i kao toskanski čempres, jedna je od najprepoznatljivijih slika mediteranskog pejzaža — uska, tamnozelena silueta duž puteva i vrtova Toskane. Sve više se sadi i u srpskim dvorištima koja teže tom mediteranskom stilu. Ali čim se pomene, stiže i isto pitanje: <strong>da li uopšte preživljava naše zime?</strong></p>
+
+      <p>Odgovor je da, uz jedan uslov koji objašnjavamo u nastavku — plus zašto grane najčešće žute i suše (a to gotovo nikad nije razlog koji ljudi prvo posumnjaju), kako i gde ga saditi, i kolika mu je nega zaista potrebna.</p>
+
+      <h2>Da li italijanski čempres podnosi srpske zime?</h2>
+      <p>Italijanski čempres podnosi mraz do oko <strong>-15°C</strong>. To je solidna otpornost, ali znatno niža od tuje ili lejlandija, koji podnose -20°C do -30°C — čempres je jednostavno manje hladnootporan, jer je vrsta iz toplijeg, mediteranskog podneblja.</p>
+      <p>Za veći deo Srbije to i dalje znači da uspeva bez problema, pogotovo:</p>
+      <ul>
+        <li><strong>U zaštićenim mikrolokacijama</strong> — uz južni ili zapadni zid kuće, u unutrašnjem dvorištu, izvan hladnih vetrova</li>
+        <li><strong>U urbanim sredinama</strong> — gradovi su u proseku par stepeni topliji od okolnih otvorenih terena</li>
+        <li><strong>U južnijim i nižim predelima zemlje</strong></li>
+      </ul>
+      <p>Oprez je opravdan u <strong>otvorenim, izloženim položajima u severnijim krajevima</strong> (severna Vojvodina, viši i hladniji tereni), gde temperature u oštrim zimama mogu pasti ispod -15°C — tu je najbolje saditi ga uz zaštićen zid, ili razmotriti otporniju vrstu ako je lokacija baš izložena.</p>
+
+      <h2>Zašto se italijanskom čempresu suše grane — pravi uzroci</h2>
+      <p>Kad grane čempresa počnu da žute ili se suše, gotovo svako prvo posumnja na mraz. U praksi je uzrok mnogo češće nešto sasvim drugo.</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Kako izgleda</th><th>Uzrok</th><th>Rešenje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sušenje počinje od dna ili jedne strane, zemlja često vlažna</td><td>Trulež korena od stajaće vode (najčešći uzrok)</td><td>Poboljšajte drenažu, smanjite zalivanje</td></tr>
+          <tr><td>Pojedinačna grana se suši, lepljiva smola na kori te grane</td><td>Gljivično oboljenje kore (rak grana)</td><td>Uklonite zaraženu granu, dezinfikujte alat posle rezanja</td></tr>
+          <tr><td>Vrhovi grana braon posle oštre zime, na izloženom mestu</td><td>Zimska šteta (mraz ispod -15°C ili jak hladan vetar)</td><td>Zaštićen položaj, zaštita mladih sadnica prve 2–3 zime</td></tr>
+          <tr><td>Blago žućenje dubljih, starijih grančica u jesen</td><td>Normalna sezonska promena</td><td>Nije potrebna intervencija</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>1. Trulež korena od stajaće vode (najčešći uzrok)</h3>
+      <p>Ovo je, iskustveno, ubedljivo najčešći razlog sušenja italijanskog čempresa u srpskim dvorištima — mnogo češći od mraza. Čempres je mediteranska vrsta navikla na suvo, propusno tlo, i <strong>izuzito loše podnosi vlažan, teško dreniran koren</strong> — lošije od skoro svih drugih četinara koje uzgajamo. Teška glinovita zemlja, nizak teren gde se voda zadržava, ili prečesto zalivanje dovode do truleži korena.</p>
+      <p><strong>Rešenje:</strong> pre sadnje proverite drenažu — ako voda posle kiše stoji na tom mestu duže od par sati, poboljšajte je (drenažni sloj šljunka na dnu sadne jame, podignuta gredica) ili birajte drugu lokaciju. Zalivajte umereno, nikad "za svaki slučaj".</p>
+
+      <h3>2. Gljivično oboljenje kore (rak grana)</h3>
+      <p>Čempresi su podložni gljivičnim infekcijama kore koje izazivaju sušenje pojedinačnih grana, često praćeno <strong>lepljivom smolom koja izbija iz kore</strong> na mestu infekcije. Širi se lakše na oslabljenim biljkama (stres od suše, rana od orezivanja).</p>
+      <p><strong>Rešenje:</strong> čim primetite zaraženu granu, uklonite je rezom u zdravo drvo, dobrih par centimetara ispod vidljive štete, i dezinfikujte alat pre sledećeg reza da ne prenesete infekciju.</p>
+
+      <h3>3. Zimska šteta</h3>
+      <p>Na izloženim, otvorenim lokacijama, posebno u severnijim delovima Srbije, oštra zima sa temperaturama ispod -15°C ili jak hladan vetar mogu isušiti i pobronzati vrhove grana.</p>
+      <p><strong>Rešenje:</strong> saditi na zaštićenom mestu; mlade sadnice u prve 2–3 zime dodatno zaštititi netkanim tekstilom sa izložene strane.</p>
+
+      <h2>Sadnja italijanskog čempresa — gde i kada</h2>
+      <p><strong>Pozicija:</strong> puno sunce, po mogućstvu zaštićeno od najhladnijih zimskih vetrova.</p>
+      <p><strong>Zemlja:</strong> presudna je dobra drenaža — čak i suvo, siromašno zemljište mu odgovara više nego vlažno i teško tlo.</p>
+      <p><strong>Vreme sadnje:</strong> proleće ili jesen.</p>
+      <p><strong>Razmak:</strong> zahvaljujući izrazito uskoj, kolonoidnoj formi (0,5–1,5 m širine), sadi se mnogo gušće nego širokolisno drveće — odlično se uklapa u uske prolaze i aleje gde druga drveća ne bi stala.</p>
+      <p><strong>Potpora:</strong> mladu sadnicu je dobro privezati za kolac prve 1–2 godine, dok se koren ne učvrsti — jak vetar ili mokar sneg mogu je saviti.</p>
+
+      <h2>Nega italijanskog čempresa</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno prve 1–2 godine dok se ne ukoreni; posle toga izrazito je suvotolerantan i zalivanje je retko potrebno</li>
+        <li><strong>Đubrenje:</strong> nije neophodno na plodnijem tlu; na siromašnom, đubrivo za četinare u proleće</li>
+        <li><strong>Rezidba:</strong> nije obavezna — prirodno zadržava usku formu; po želji blago skratiti u proleće</li>
+        <li><strong>Zaštita zimi:</strong> potrebna samo mladim sadnicama na izloženim, hladnijim lokacijama</li>
+      </ul>
+
+      <h2>Italijanski čempres u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Osobina</th><th>Vrednost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Otpornost na mraz</td><td>Do -15°C</td></tr>
+          <tr><td>Brzina rasta</td><td>30–40 cm godišnje</td></tr>
+          <tr><td>Visina u zrelosti</td><td>10–15 m</td></tr>
+          <tr><td>Širina (kolonoidne forme)</td><td>0,5–1,5 m</td></tr>
+          <tr><td>Sunce</td><td>Puno sunce</td></tr>
+          <tr><td>Zemlja</td><td>Dobro drenirana, podnosi i suvo/siromašno tlo</td></tr>
+          <tr><td>Rezidba</td><td>Nije obavezna</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Česta pitanja o italijanskom čempresu</h2>
+
+      <h3>Da li italijanski čempres podnosi mraz u Srbiji?</h3>
+      <p>Da, do oko -15°C — dovoljno za veći deo zemlje, uz zaštićen položaj u hladnijim, izloženim krajevima.</p>
+
+      <h3>Zašto se italijanskom čempresu suše grane?</h3>
+      <p>Najčešće zbog stajaće vode i truleži korena, ne zbog mraza — provera drenaže je prvi korak. Pojedinačna grana sa smolom na kori ukazuje na gljivično oboljenje.</p>
+
+      <h3>Kakva zemlja je potrebna?</h3>
+      <p>Pre svega dobro drenirana — suvo tlo mu više odgovara nego vlažno i teško.</p>
+
+      <h3>Koliko brzo raste?</h3>
+      <p>Umereno brzo, 30–40 cm godišnje, dostižući 10–15 m visine uz vrlo usku širinu.</p>
+
+      <h2>Gde kupiti italijanski čempres u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo italijanski čempres uz dostavu i sadnju širom Srbije. Pogledajte <a href="/sadnice/italijanski-cempres">stranicu italijanskog čempresa</a> za aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 12,
     slug: 'zasto-tuja-zuti-i-susi-se',
     title: 'Zašto tuja žuti i suši se — kako da prepoznate pravi uzrok (i da li je normalno)',
