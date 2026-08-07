@@ -526,7 +526,7 @@ const blogPosts = [
     faq: [
       {
         q: 'Koliko brzo raste katalpa?',
-        a: 'Katalpa je brzorastuće drvo – naraste do 50 cm godišnje i vremenom dostiže i do 15 metara visine. Već posle nekoliko sezona pravi gust hlad zahvaljujući ogromnim srcolikim listovima.'
+        a: 'Katalpa je brzorastuće drvo – naraste do 50 cm godišnje i vremenom dostiže i do 4 metra visine. Već posle nekoliko sezona pravi gust hlad zahvaljujući ogromnim srcolikim listovima.'
       },
       {
         q: 'Kada saditi katalpu?',
@@ -538,7 +538,7 @@ const blogPosts = [
       },
       {
         q: 'Koliko prostora treba katalpi?',
-        a: 'Standardna katalpa naraste do 15 metara visine sa širokom krošnjom, pa joj treba najmanje 5–6 metara razmaka od kuće, ograde i drugog drveća. Za manja dvorišta postoji katalpa na štapu (forma pendula) sa kompaktnom, kupolastom krošnjom od svega 2–3 metra.'
+        a: 'Standardna katalpa naraste do 4 metra visine sa širokom krošnjom, pa joj treba najmanje 2–3 metra razmaka od kuće, ograde i drugog drveća. Za manja dvorišta postoji i katalpa na štapu (forma pendula) sa kompaktnom, kupolastom krošnjom sličnih, skromnijih dimenzija.'
       },
       {
         q: 'Šta je katalpa na štapu?',
@@ -576,7 +576,7 @@ const blogPosts = [
           <tr><th>Forma</th><th>Visina / širina krošnje</th><th>Potreban prostor</th></tr>
         </thead>
         <tbody>
-          <tr><td>Standardna katalpa</td><td>do 15 m</td><td>najmanje 5–6 m od objekata i ograde</td></tr>
+          <tr><td>Standardna katalpa</td><td>do 4 m</td><td>najmanje 2–3 m od objekata i ograde</td></tr>
           <tr><td>Katalpa na štapu (pendula)</td><td>2–3 m, kupolasta krošnja</td><td>manja dvorišta, terase, uz stazu</td></tr>
         </tbody>
       </table>
@@ -600,7 +600,7 @@ const blogPosts = [
       </ul>
 
       <h2>Katalpa na štapu — rešenje za manja dvorišta</h2>
-      <p>Ako volite izgled katalpe ali nemate prostora za drvo od 15 metara, rešenje je <strong>katalpa na štapu</strong> — kalemljena forma koja raste kao uredan, kompaktan "kišobran" na jednom pravom stablu, bez bujnog rasta u visinu. Savršena je kao soliter pored ulaza, na terasi ili u manjem dvorištu, gde daje isti dekorativni efekat krupnog lišća bez potrebe za velikim prostorom.</p>
+      <p>Ako volite izgled katalpe ali želite još urednu, kompaktnu formu, rešenje je <strong>katalpa na štapu</strong> — kalemljena forma koja raste kao uredan "kišobran" na jednom pravom stablu, bez bujnog, razgranatog rasta standardne forme. Savršena je kao soliter pored ulaza, na terasi ili u manjem dvorištu, gde daje isti dekorativni efekat krupnog lišća u urednijem, kontrolisanijem obliku.</p>
 
       <h2>Gde kupiti katalpu u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo katalpu u standardnoj i formi na štapu, cena od 4.000 RSD u zavisnosti od veličine. Vršimo dostavu i sadnju na terenu širom Srbije.</p>

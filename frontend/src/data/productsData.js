@@ -200,10 +200,10 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     seoTitle: 'Katalpa – sadnica za hlad u dvorištu, cena od 4.000 RSD',
     metaDescription: 'Katalpa – brzorastuće ukrasno drvo sa krupnim listovima i mirisnim belim cvetovima, savršeno za hlad. Cena od 4.000 RSD, dostava širom Srbije.',
     description: 'Impresivno ukrasno drvo ogromnih srceolikih listova i mirisnih belih cvetova — pravi gust hlad već posle nekoliko sezona i unosi poseban šarm u svako dvorište.',
-    richContent: `Catalpa bignonioides brzo raste — do 50 cm godišnje — i vremenom dostiže i 15 metara visine, cvetajući bujno i mirisno tokom juna. Postoji i u formi na štapu (pendula), kompaktnoj dekoraciji idealnoj za manja dvorišta. Sadi se u proleće, na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu u svim veličinama, uz dostavu i sadnju.`,
+    richContent: `Catalpa bignonioides brzo raste — do 50 cm godišnje — i vremenom dostiže i do 4 metra visine, cvetajući bujno i mirisno tokom juna. Postoji i u formi na štapu (pendula), kompaktnoj dekoraciji idealnoj za manja dvorišta. Sadi se u proleće, na osunčanom mestu u plodnu zemlju. Rasadnik Tilija nudi katalpu u svim veličinama, uz dostavu i sadnju.`,
     relatedBlogSlug: 'katalpa-sadnja-i-nega',
     productFaq: [
-      { q: 'Koje forme katalpe su dostupne?', a: 'Nudimo standardnu katalpu (drvo do 15 m) i katalpu na štapu (formu pendula) sa kompaktnom, kupolastom krošnjom za manja dvorišta.' },
+      { q: 'Koje forme katalpe su dostupne?', a: 'Nudimo standardnu katalpu (drvo do 4 m) i katalpu na štapu (formu pendula) sa kompaktnom, kupolastom krošnjom za manja dvorišta.' },
       { q: 'Kolika je cena katalpe?', a: 'Cena počinje od 4.000 RSD, u zavisnosti od veličine i forme sadnice.' },
       { q: 'Da li vršite dostavu i sadnju?', a: 'Da, dostavljamo i, po dogovoru, sadimo katalpu na vašoj lokaciji širom Srbije.' },
     ],
