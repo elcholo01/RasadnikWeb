@@ -363,7 +363,7 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
   {
     id: 12,
     slug: 'bambus',
-    relatedBlogSlug: 'najbrza-ziva-ograda-srbija',
+    relatedBlogSlug: 'bambus-da-li-je-invazivan-sadnja-nega',
     name: 'Bambus',
     category: 'liscari',
     categories: ['liscari'],

@@ -1,5 +1,123 @@
 const blogPosts = [
   {
+    id: 14,
+    slug: 'bambus-da-li-je-invazivan-sadnja-nega',
+    title: 'Bambus za živu ogradu – da li je invazivan i kako ga saditi u Srbiji',
+    excerpt: 'Bambus zvuči primamljivo za brzu, gustu ogradu — ali skoro svako prvo pomisli "hoće li mi preplaviti dvorište". Odgovor zavisi od vrste. Objašnjavamo razliku između invazivnog i bezbednog bambusa, koju vrstu mi gajimo i zašto, i kako ga saditi i negovati.',
+    date: '2026-08-10',
+    readTime: '7 min',
+    category: 'Šiblje',
+    image: '/images/bambus.jpeg',
+    relatedSlugs: ['najbrza-ziva-ograda-srbija', 'lejlandi-sadnja-i-nega', 'zasto-tuja-zuti-i-susi-se'],
+    faq: [
+      {
+        q: 'Da li je bambus invazivan?',
+        a: 'Zavisi od vrste. "Trčeći" bambusi (npr. Phyllostachys) šire se agresivno preko podzemnih rizoma i mogu postati pravi problem u dvorištu i kod suseda ako se ne kontrolišu barijerom. "Klasterski" bambusi (npr. Fargesia) rastu u zbijenoj, sporo se širećoj busenici i ne šalju rizome na daljinu — bezbedni su za baštu bez ikakve barijere. Mi u Rasadniku Tilija gajimo i prodajemo isključivo klasterski, neinvazivni tip.'
+      },
+      {
+        q: 'Koju vrstu bambusa prodaje Rasadnik Tilija?',
+        a: 'Fargesia — klasterski (neinvazivni) bambus koji formira gustu, ali kontrolisanu busenicu. Ne širi se korenjem po dvorištu niti ugrožava susedne parcele, pa se sadi bez brige i bez rizomske barijere.'
+      },
+      {
+        q: 'Da li bambus podnosi mraz u Srbiji?',
+        a: 'Fargesia podnosi mraz do oko -15°C do -20°C, zavisno od sorte, što pokriva veći deo Srbije. U oštrim zimama listovi mogu privremeno požuteti ili se uviti od hladnoće — to je normalna zaštitna reakcija, ne znak da je biljka uginula, i vraća se u puni sjaj s proletnjim rastom.'
+      },
+      {
+        q: 'Koliko brzo raste bambus?',
+        a: 'Bambus je najbrže rastuća biljka na svetu — pojedinačni izdanci (mladice) mogu narasti i preko metar za samo nekoliko nedelja tokom proleća. Kod klasterskih vrsta se, za razliku od trčećih, širina busenice povećava postepeno iz godine u godinu, ne naglo.'
+      },
+      {
+        q: 'Na kom razmaku saditi bambus za živu ogradu?',
+        a: 'Za gustu, neprozirnu ogradu sadite na 60–100 cm razmaka. Zahvaljujući klasterskom rastu, busenice će se s vremenom prirodno spojiti u jedinstven zeleni zid, bez potrebe za kontrolom širenja.'
+      },
+      {
+        q: 'Zašto bambusu žuti ili opada lišće?',
+        a: 'Najčešće je reč o normalnoj zaštitnoj reakciji na hladnoću ili sušu — bambus tada privremeno žuti ili uvija listove da smanji gubitak vlage. Ako se to dešava samo zimi ili u periodu suše, nije razlog za brigu. Trajno, uporno žutilo tokom tople sezone uz redovno zalivanje ukazuje na problem sa zemljištem (najčešće previše stajaće vode) i vredi proveriti drenažu.'
+      }
+    ],
+    content: `
+      <p>Bambus u dvorištu deluje egzotično, moderno i daje gotov "azijski" karakter prostoru brže nego skoro bilo koja druga biljka. Ali čim se pomene, stiže i ista reakcija: <strong>"Zar to ne preplavi ceo dvorište?"</strong> Ta briga je opravdana — ali samo za jednu vrstu bambusa, ne za sve.</p>
+
+      <p>U ovom vodiču objašnjavamo tačnu razliku između invazivnog i bezbednog bambusa, koju vrstu mi gajimo i zašto, kako ga saditi za gustu živu ogradu, i zašto lišće ponekad požuti (a to najčešće nije razlog za brigu).</p>
+
+      <h2>Da li je bambus invazivan? Zavisi od vrste</h2>
+      <p>Ovo je najvažnija stvar koju treba znati pre kupovine bambusa — postoje dva potpuno različita tipa rasta, i loš glas koji bambus ima dolazi samo od jednog od njih.</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Tip</th><th>Kako raste</th><th>Da li je bezbedan za baštu</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Trčeći bambus</strong> (npr. Phyllostachys)</td><td>Širi se agresivno preko podzemnih rizoma, i po nekoliko metara godišnje</td><td>Rizičan bez rizomske barijere — može ugroziti susedne parcele</td></tr>
+          <tr><td><strong>Klasterski bambus</strong> (npr. Fargesia)</td><td>Raste u zbijenoj busenici koja se širi sporo i predvidivo</td><td>Bezbedan, ne zahteva barijeru</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><strong>Rasadnik Tilija gaji i prodaje isključivo klasterski (Fargesia) bambus</strong> — upravo zato da naši kupci mogu da uživaju u brzini i gustini bambusa bez rizika da im "pobegne" po dvorištu ili izazove spor sa susedima.</p>
+
+      <h2>Zašto baš Fargesia?</h2>
+      <ul>
+        <li><strong>Ne širi se korenjem</strong> — busenica raste postepeno, u istom, predvidivom prostoru</li>
+        <li><strong>Ne treba rizomska barijera</strong> — sadi se direktno u zemlju, bez dodatnih troškova i radova</li>
+        <li><strong>Gust i zimzelen</strong> — zadržava lišće tokom cele godine, odličan vizuelni zaklon</li>
+        <li><strong>Otporan na mraz</strong> — podnosi do -15°C do -20°C, dobro prilagođen srpskoj klimi</li>
+      </ul>
+
+      <h2>Sadnja bambusa — gde i kada</h2>
+      <p><strong>Pozicija:</strong> sunce do blaga polusenka; potpuna senka usporava rast i redi busenicu.</p>
+      <p><strong>Zemlja:</strong> bogata, plodna, ravnomerno vlažna — bambus ne voli ni sušu ni stajaću vodu.</p>
+      <p><strong>Vreme sadnje:</strong> proleće ili rana jesen, kada temperature nisu ekstremne.</p>
+      <p><strong>Razmak za živu ogradu:</strong> 60–100 cm između sadnica — busenice se vremenom prirodno spajaju u gust, neprozirni zid.</p>
+
+      <h2>Nega bambusa</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno, posebno tokom leta i prve dve godine dok se ne ukoreni — zemlja treba da ostane ravnomerno vlažna, ne mokra</li>
+        <li><strong>Malčovanje:</strong> sloj malča oko korena čuva vlagu i štiti koren zimi</li>
+        <li><strong>Đubrenje:</strong> u proleće, azotnim đubrivom, podstiče bujniji rast novih izdanaka</li>
+        <li><strong>Zimska zaštita:</strong> u izloženim, hladnijim lokacijama, mladu busenicu prve zime zaštitite malčom oko korena</li>
+      </ul>
+
+      <h2>Zašto bambusu žuti ili opada lišće?</h2>
+      <p>Bambus je tehnički zimzelena trava, ali reaguje na stres promenom izgleda lišća — to zna da zabrine, iako najčešće nije ozbiljno.</p>
+      <p><strong>Normalno:</strong> zimi ili u periodu suše, listovi mogu požuteti, uviti se ili delimično otpasti — to je zaštitna reakcija kojom biljka smanjuje gubitak vlage, i lišće se vraća u puni sjaj s narednim ciklusom rasta.</p>
+      <p><strong>Nije normalno:</strong> uporno žutilo tokom tople sezone uz redovno zalivanje obično znači da zemlja predugo zadržava vodu — proverite drenažu oko korena.</p>
+
+      <h2>Bambus u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Osobina</th><th>Vrednost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Tip rasta</td><td>Klasterski (Fargesia) — neinvazivan</td></tr>
+          <tr><td>Visina u zrelosti</td><td>3–5 m</td></tr>
+          <tr><td>Razmak za živu ogradu</td><td>60–100 cm</td></tr>
+          <tr><td>Sunce</td><td>Sunce do polusenka</td></tr>
+          <tr><td>Zalivanje</td><td>Redovno, zemlja ravnomerno vlažna</td></tr>
+          <tr><td>Otpornost na mraz</td><td>Do -15°C do -20°C</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Česta pitanja o bambusu</h2>
+
+      <h3>Da li je bambus invazivan?</h3>
+      <p>Samo trčeće vrste (npr. Phyllostachys). Klasterski bambus poput Fargesije, koju mi prodajemo, ne širi se korenjem i bezbedan je za baštu.</p>
+
+      <h3>Da li bambus podnosi mraz u Srbiji?</h3>
+      <p>Da, do -15°C do -20°C — pokriva veći deo zemlje. Privremeno žuto ili uvijeno lišće zimi je normalno.</p>
+
+      <h3>Koliko brzo raste bambus?</h3>
+      <p>Izuzetno brzo — pojedinačni izdanci i preko metar za nekoliko nedelja u proleće, dok se busenica širi postepeno iz sezone u sezonu.</p>
+
+      <h3>Na kom razmaku saditi bambus za ogradu?</h3>
+      <p>60–100 cm između sadnica za gustu, neprozirnu ogradu.</p>
+
+      <h2>Gde kupiti bambus u Srbiji?</h2>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo klasterski, neinvazivni bambus (Fargesia), uz dostavu i sadnju širom Srbije. Pogledajte <a href="/sadnice/bambus">stranicu bambusa</a> za aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 13,
     slug: 'italijanski-cempres-sadnja-nega-mraz',
     title: 'Italijanski (toskanski) čempres – da li podnosi srpske zime: sadnja, nega i zašto se suši',
