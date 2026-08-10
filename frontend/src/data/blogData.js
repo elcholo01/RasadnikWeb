@@ -114,7 +114,7 @@ const blogPosts = [
       <p>60–100 cm između sadnica za gustu, neprozirnu ogradu.</p>
 
       <h2>Gde kupiti bambus u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo klasterski, neinvazivni bambus (Fargesia), uz dostavu i sadnju širom Srbije. Pogledajte <a href="/sadnice/bambus">stranicu bambusa</a> za aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo klasterski, neinvazivni bambus (Fargesia), uz dostavu i sadnju širom Srbije. <a href="/sadnice/bambus">Naručite bambus</a> — pogledajte aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -244,7 +244,7 @@ const blogPosts = [
       <p>Umereno brzo, 30–40 cm godišnje, dostižući 10–15 m visine uz vrlo usku širinu.</p>
 
       <h2>Gde kupiti italijanski čempres u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo italijanski čempres uz dostavu i sadnju širom Srbije. Pogledajte <a href="/sadnice/italijanski-cempres">stranicu italijanskog čempresa</a> za aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo italijanski čempres uz dostavu i sadnju širom Srbije. <a href="/sadnice/italijanski-cempres">Naručite italijanski čempres</a> — pogledajte aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -367,7 +367,7 @@ const blogPosts = [
       <p>Zavisi od uzroka — zimska opekotina i grinje se uglavnom rešavaju, dok je trulež korena najozbiljniji problem. Rano prepoznavanje uzroka povećava šanse za spas.</p>
 
       <h2>Gde kupiti zdrave sadnice tuje u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) uzgajamo Tuju Smaragd u svim visinama, uz savet o sadnji i nezi i dostavu širom Srbije. Pogledajte <a href="/sadnice/tuja-smaragd">stranicu Tuje Smaragd</a> za aktuelne cene, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) uzgajamo Tuju Smaragd u svim visinama, uz savet o sadnji i nezi i dostavu širom Srbije. <a href="/sadnice/tuja-smaragd">Naručite Tuju Smaragd</a> — pogledajte aktuelne cene, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -482,7 +482,7 @@ const blogPosts = [
       <p>Najmanje 4–5 metara razmaka od objekata i drugog drveća — vremenom naraste do 10–15 metara sa širokom krošnjom.</p>
 
       <h2>Gde kupiti magnoliju grandifloru u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo magnoliju grandifloru uz dostavu i sadnju na terenu širom Srbije. Pogledajte <a href="/sadnice/magnolija-grandiflora">stranicu magnolije grandiflore</a> za aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo magnoliju grandifloru uz dostavu i sadnju na terenu širom Srbije. <a href="/sadnice/magnolija-grandiflora">Naručite magnoliju grandifloru</a> — pogledajte aktuelnu cenu i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -628,7 +628,7 @@ const blogPosts = [
       <p>Od jula do oktobra, sa vrhuncem u avgustu.</p>
 
       <h2>Gde kupiti hibiskus u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo hibiskus spreman za sadnju u dvorište ili saksiju. Pogledajte <a href="/sadnice/hibiskus">stranicu hibiskusa</a> za aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo hibiskus spreman za sadnju u dvorište ili saksiju. <a href="/sadnice/hibiskus">Naručite hibiskus</a> — pogledajte aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -722,7 +722,7 @@ const blogPosts = [
 
       <h2>Gde kupiti katalpu u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo katalpu u standardnoj i formi na štapu, cena od 4.000 RSD u zavisnosti od veličine. Vršimo dostavu i sadnju na terenu širom Srbije.</p>
-      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte stranicu <a href="/sadnice/katalpa">Katalpa</a> na našem sajtu.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/katalpa">naručite katalpu</a> direktno na sajtu.</p>
     `,
   },
   {
@@ -825,7 +825,7 @@ const blogPosts = [
 
       <h2>Cena i gde kupiti Lejlandi u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo Lejlandi u svim visinama — od mlađih sadnica za ekonomičnu sadnju, do krupnijih primeraka za brz efekat. Cena zavisi od visine sadnice — javite nam se za ponudu. Vršimo dostavu sadnica širom Srbije.</p>
-      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte stranicu <a href="/sadnice/lejlandi">Lejlandi</a> na našem sajtu.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/lejlandi">naručite Lejlandi</a> direktno na sajtu.</p>
     `,
   },
   {
@@ -1289,7 +1289,7 @@ const blogPosts = [
 
       <h2>Gde kupiti maslinu u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo sadnice masline u kontejnerima — sorte Leccino i Maurino, testirane za srpske uslove. Sadnice su visine 60–120 cm, sa formiranom krošnjom, pogodne za sadnju odmah. Vršimo dostavu sadnica širom Srbije.</p>
-      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili posetite stranicu <a href="/sadnice/maslina">masline u našem rasadniku</a> za aktuelnu ponudu i cene.</p>
+      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/maslina">naručite maslinu</a> direktno na sajtu za aktuelnu ponudu i cene.</p>
     `,
   },
   {
@@ -1474,7 +1474,7 @@ const blogPosts = [
       <p>Macrophylla od juna do septembra. Paniculata od jula do oktobra. Arborescens (Annabelle) od juna do avgusta.</p>
 
       <h2>Gde kupiti hortenziju u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo hortenzije u kontejnerima — pogodne za sadnju tokom cele sezone. Pogledajte <a href="/sadnice/hortenzija">stranicu hortenzije</a> za aktuelne cene i veličine, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo hortenzije u kontejnerima — pogodne za sadnju tokom cele sezone. <a href="/sadnice/hortenzija">Naručite hortenziju</a> — pogledajte aktuelne cene i veličine, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -1652,7 +1652,7 @@ const blogPosts = [
       </table>
       </div>
       <p>Primer: za ogradu dužine 10 metara sa razmakom 60 cm, potrebno je oko <strong>17 sadnica</strong>. Uvek kupite 1–2 extra kao rezervu.</p>
-      <p>Pogledajte naše <a href="/sadnice/fotinija-red-robin">sadnice fotinija u različitim visinama</a>.</p>
+      <p>Pogledajte i <a href="/sadnice/fotinija-red-robin">naručite fotiniju</a> u različitim visinama.</p>
 
       <h2>Najčešće greške pri uzgoju fotinija</h2>
       <ul>
@@ -1664,7 +1664,7 @@ const blogPosts = [
 
       <h2>Gde kupiti fotiniju Red Robin u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo fotiniju Red Robin u svim visinama — od malih kontejnerskih sadnica (40–60 cm) do krupnih biljaka (120–150 cm) spremnih za trenutni efekat. Dostavljamo sadnice širom Srbije i pružamo besplatan savet za svaki tip dvorišta.</p>
-      <p>Posetite stranicu <a href="/sadnice/fotinija-red-robin">fotinija Red Robin</a> ili nas kontaktirajte na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+      <p><a href="/sadnice/fotinija-red-robin">Naručite fotiniju Red Robin</a> ili nas kontaktirajte na <a href="tel:+381638870837">063 88 70 837</a>.</p>
     `,
   },
   {
@@ -1772,7 +1772,7 @@ const blogPosts = [
 
       <h2>Kupite lovor višnju u Rasadniku Tilija</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) uvek imamo na stanju lovor višnju u različitim visinama — od 40 cm do 150+ cm sadnica. Vršimo dostavu sadnica širom Srbije.</p>
-      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte <a href="/sadnice/lovor-visnja">stranicu lovor višnje</a> za aktuelne cene i raspoloživost.</p>
+      <p>Kontaktirajte nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/lovor-visnja">naručite lovor višnju</a> — pogledajte aktuelne cene i raspoloživost.</p>
     `,
   },
   {
@@ -1867,7 +1867,7 @@ const blogPosts = [
 
       <h2>Gde kupiti Tuju Smaragd u Srbiji?</h2>
       <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo Tuju Smaragd u više visina — od manjih sadnica za ekonomičnu sadnju, do krupnih primeraka za trenutni efekat. Vršimo dostavu sadnica širom Srbije.</p>
-      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili pogledajte stranicu <a href="/sadnice/tuja-smaragd">Tuja Smaragd</a> na našem sajtu.</p>
+      <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/tuja-smaragd">naručite Tuju Smaragd</a> direktno na sajtu.</p>
     `,
   },
   {

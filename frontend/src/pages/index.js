@@ -54,20 +54,21 @@ const Home = () => {
           "@context": "https://schema.org",
           "@type": "GardenStore",
           "name": "Rasadnik Tilija",
+          "description": "Prodaja kvalitetnih sadnica, ukrasnog bilja, četinara, lišćara i žive ograde",
           "url": "https://rasadniktilija.rs",
           "telephone": "+381638870837",
           "image": "https://rasadniktilija.rs/images/logo.png",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Pločica",
-            "addressLocality": "Kovin",
-            "postalCode": "26220",
+            "streetAddress": "Miloša Crnjanskog 34",
+            "addressLocality": "Pločica",
+            "postalCode": "26229",
             "addressCountry": "RS"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 44.7530,
-            "longitude": 20.9970
+            "latitude": 44.7500,
+            "longitude": 20.9667
           },
           "areaServed": [
             { "@type": "City", "name": "Kovin" },
@@ -76,7 +77,12 @@ const Home = () => {
             { "@type": "AdministrativeArea", "name": "Južnobanatski okrug" }
           ],
           "priceRange": "$$",
-          "openingHours": "Mo-Sa 07:00-18:00"
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "07:00",
+            "closes": "18:00"
+          }
         })}} />
       </Head>
       <div className="home">

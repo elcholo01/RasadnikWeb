@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import blogPosts from '../../data/blogData';
+import { products } from '../../data/productsData';
 import ReadingProgress from '../../components/ReadingProgress';
 
 export async function getStaticPaths() {
@@ -15,10 +16,13 @@ export async function getStaticProps({ params }) {
   const relatedPosts = post?.relatedSlugs
     ? post.relatedSlugs.map(s => blogPosts.find(p => p.slug === s)).filter(Boolean).slice(0, 3)
     : [];
-  return { props: { post, relatedPosts } };
+  const linkedProduct = post
+    ? products.find(p => p.relatedBlogSlug === post.slug) || null
+    : null;
+  return { props: { post, relatedPosts, linkedProduct } };
 }
 
-export default function BlogPost({ post, relatedPosts }) {
+export default function BlogPost({ post, relatedPosts, linkedProduct }) {
   if (!post) return null;
 
   const dateFormatted = new Date(post.date).toLocaleDateString('sr-RS', {
@@ -111,7 +115,13 @@ export default function BlogPost({ post, relatedPosts }) {
             <div className="blog-article-cta">
               <p>Imate pitanje ili želite da naručite sadnice?</p>
               <Link href="/contact" className="blog-cta-btn">Kontaktirajte nas</Link>
-              <Link href="/products" className="blog-cta-btn blog-cta-secondary">Pogledaj sadnice</Link>
+              {linkedProduct ? (
+                <Link href={`/sadnice/${linkedProduct.slug}`} className="blog-cta-btn blog-cta-secondary">
+                  Naručite {linkedProduct.name}
+                </Link>
+              ) : (
+                <Link href="/products" className="blog-cta-btn blog-cta-secondary">Pogledaj sadnice</Link>
+              )}
             </div>
           </article>
 
