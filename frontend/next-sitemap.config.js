@@ -23,6 +23,10 @@ module.exports = {
     } else if (path === '/sadnice/tuja-smaragd' || path === '/sadnice/lovor-visnja' || path === '/sadnice/lejlandi') {
       priority = 0.9;
       changefreq = 'monthly';
+    } else if (['/sadnice/cetinari', '/sadnice/ziva-ograda', '/sadnice/liscari', '/sadnice/siblje', '/sadnice/perene', '/sadnice/mediteranske', '/sadnice/zemlja-i-malc'].includes(path)) {
+      // Kategorijske hub-stranice — više prioritet od pojedinačnih proizvoda
+      priority = 0.85;
+      changefreq = 'weekly';
     } else if (path.startsWith('/sadnice/')) {
       priority = 0.7;
       changefreq = 'monthly';

@@ -128,6 +128,18 @@ const Products = () => {
         </section>
 
         <section className="section" style={{ background: '#fff', borderRadius: 18, boxShadow: '0 8px 32px rgba(44,62,80,0.08)', maxWidth: 1200, margin: '0 auto 32px auto', padding: '24px 32px' }}>
+          <h2 style={{ color: '#2e7d32', fontSize: '1.1rem', fontWeight: 700, marginBottom: 14, textAlign: 'center' }}>Pregledajte po kategoriji</h2>
+          <div className="filters" style={{ rowGap: '12px' }}>
+            {categoryList.filter(cat => cat.id !== 'sve').map(cat => (
+              <Link key={cat.id} href={`/sadnice/${cat.id}`}
+                style={{ padding: '10px 24px', border: '2px solid #2e7d32', background: '#fff', color: '#2e7d32', borderRadius: 25, fontWeight: 600, fontSize: '1rem', textDecoration: 'none', display: 'inline-block' }}>
+                {cat.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="section" style={{ background: '#fff', borderRadius: 18, boxShadow: '0 8px 32px rgba(44,62,80,0.08)', maxWidth: 1200, margin: '0 auto 32px auto', padding: '24px 32px' }}>
           <div className="filters" style={{ rowGap: '16px' }}>
             {categoryList.map(cat => (
               <button key={cat.id}

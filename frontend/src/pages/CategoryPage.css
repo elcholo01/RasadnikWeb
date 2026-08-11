@@ -1,0 +1,81 @@
+/* Kategorijske stranice: /sadnice/[kategorija] */
+
+.category-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+
+.category-hero {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.category-hero h1 {
+  color: #2e7d32;
+  font-weight: 700;
+  font-size: 2.1rem;
+  margin-bottom: 8px;
+}
+
+.category-count {
+  color: #666;
+  font-size: 0.98rem;
+}
+
+.category-intro {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.08);
+  padding: 32px 36px;
+  margin-bottom: 36px;
+  line-height: 1.75;
+  color: #333;
+}
+
+.category-intro h2 {
+  color: #2e7d32;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 22px 0 8px;
+}
+
+.category-intro h2:first-child {
+  margin-top: 0;
+}
+
+.category-intro p {
+  margin: 0 0 14px;
+}
+
+.category-intro a {
+  color: #2e7d32;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.category-products-grid {
+  margin-bottom: 40px;
+}
+
+.category-cta {
+  text-align: center;
+  background: linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%);
+  border-radius: 16px;
+  padding: 28px 24px;
+}
+
+.category-cta p {
+  color: #234d20;
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .category-hero h1 {
+    font-size: 1.6rem;
+  }
+  .category-intro {
+    padding: 22px 20px;
+  }
+}

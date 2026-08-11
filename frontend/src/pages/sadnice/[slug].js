@@ -4,8 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
-import { products, getCategoryName } from '../../data/productsData';
+import { products, categories, getCategoryName } from '../../data/productsData';
 import blogPosts from '../../data/blogData';
+import categoryContent from '../../data/categoryContent';
 import ImageLightbox from '../../components/ImageLightbox';
 
 // Opšti FAQ o procesu naručivanja — prikazuje se kad proizvod nema
@@ -17,16 +18,34 @@ const DEFAULT_ORDER_FAQ = [
   { q: 'Da li mogu lično da posetim rasadnik i izaberem sadnice?', a: 'Naravno — nalazimo se u Pločici kod Kovina. Kontaktirajte nas da dogovorimo termin posete.' },
 ];
 
-// SSG: generiši HTML za svaki proizvod pri build-u
+// SSG: generiši HTML za svaki proizvod I svaku kategoriju pri build-u.
+// Isti [slug] segment nosi dva tipa stranice: proizvod (/sadnice/tuja-smaragd)
+// i kategoriju (/sadnice/cetinari) — nema kolizije jer se ID-jevi kategorija
+// i slugovi proizvoda ne poklapaju.
 export async function getStaticPaths() {
-  const paths = products.map(p => ({ params: { slug: p.slug } }));
-  return { paths, fallback: false };
+  const productPaths = products.map(p => ({ params: { slug: p.slug } }));
+  const categoryPaths = categories
+    .filter(c => c.id !== 'sve')
+    .map(c => ({ params: { slug: c.id } }));
+  return { paths: [...productPaths, ...categoryPaths], fallback: false };
 }
 
 export async function getStaticProps({ params }) {
   const product = products.find(p => p.slug === params.slug);
-  if (!product) return { notFound: true };
-  return { props: { product } };
+  if (product) {
+    return { props: { pageType: 'product', product } };
+  }
+
+  const category = categories.find(c => c.id === params.slug && c.id !== 'sve');
+  if (category) {
+    const categoryProducts = products.filter(p =>
+      (p.categories && p.categories.includes(category.id)) || p.category === category.id
+    );
+    const content = categoryContent[category.id] || null;
+    return { props: { pageType: 'category', category, categoryProducts, content } };
+  }
+
+  return { notFound: true };
 }
 
 const ProductDetails = ({ product }) => {
@@ -362,4 +381,111 @@ const ProductDetails = ({ product }) => {
   );
 };
 
-export default ProductDetails;
+const CategoryView = ({ category, categoryProducts, content }) => {
+  const { t } = useTranslation();
+  const pageTitle = content?.seoTitle || `${category.name} – prodaja sadnica | Rasadnik Tilija`;
+  const metaDesc = content?.metaDescription || `Prodaja sadnica iz kategorije ${category.name} – Rasadnik Tilija, dostava širom Srbije.`;
+  const canonicalUrl = `https://rasadniktilija.rs/sadnice/${category.id}`;
+
+  return (
+    <>
+      <Head>
+        <title>{pageTitle}</title>
+        <meta name="description" content={metaDesc} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={metaDesc} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://rasadniktilija.rs/images/hero-background.webp" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": pageTitle,
+          "description": metaDesc,
+          "url": canonicalUrl,
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": categoryProducts.map((p, i) => ({
+              "@type": "ListItem",
+              "position": i + 1,
+              "url": `https://rasadniktilija.rs/sadnice/${p.slug}`,
+              "name": p.name
+            }))
+          }
+        })}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://rasadniktilija.rs" },
+            { "@type": "ListItem", "position": 2, "name": "Sadnice", "item": "https://rasadniktilija.rs/products" },
+            { "@type": "ListItem", "position": 3, "name": category.name, "item": canonicalUrl }
+          ]
+        })}} />
+      </Head>
+
+      <div className="category-page">
+        <nav className="breadcrumb">
+          <Link href="/">{t('nav.home') || 'Početna'}</Link>
+          <span className="breadcrumb-separator">/</span>
+          <Link href="/products">{t('nav.products') || 'Proizvodi'}</Link>
+          <span className="breadcrumb-separator">/</span>
+          <span className="breadcrumb-current">{category.name}</span>
+        </nav>
+
+        <div className="category-hero">
+          <h1>{category.name}</h1>
+          <p className="category-count">{categoryProducts.length} {categoryProducts.length === 1 ? 'sadnica dostupna' : 'sadnica dostupno'}</p>
+        </div>
+
+        {content?.intro && (
+          <div
+            className="category-intro"
+            dangerouslySetInnerHTML={{ __html: content.intro }}
+          />
+        )}
+
+        <div className="products-grid-compact category-products-grid">
+          {categoryProducts.map(product => (
+            <Link key={product.id} href={`/sadnice/${product.slug}`} className="product-card-compact">
+              <div className="product-image-compact">
+                <Image src={product.image} alt={product.name} fill style={{ objectFit: 'cover' }} sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 25vw" />
+                <span className={`stock-badge ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
+                  {product.inStock ? (t('products.inStock') || 'Na stanju') : (t('products.outOfStock') || 'Nema na stanju')}
+                </span>
+                <div className="card-overlay">Pogledaj detalje →</div>
+              </div>
+              <div className="product-info-compact">
+                <h3>{product.name}</h3>
+                <p>{product.description}</p>
+                {product.sizes && product.sizes.length > 0
+                  ? <div className="product-price-badge">{product.sizes[0].price ? `${product.sizes[0].price.toLocaleString()} RSD` : 'Cena na upit'}</div>
+                  : product.showPrice
+                    ? <div className="product-price-badge">od {product.price.toLocaleString()} RSD</div>
+                    : <div className="product-price-badge price-on-request">Cena na upit</div>
+                }
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="category-cta">
+          <p>Ne znate koja vrsta vam odgovara, ili vam treba veća količina za projekat?</p>
+          <Link href="/contact" className="contact-btn">Kontaktirajte nas za savet i ponudu</Link>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const SadnicePage = (props) => {
+  if (props.pageType === 'category') {
+    return <CategoryView category={props.category} categoryProducts={props.categoryProducts} content={props.content} />;
+  }
+  return <ProductDetails product={props.product} />;
+};
+
+export default SadnicePage;

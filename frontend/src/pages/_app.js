@@ -8,6 +8,7 @@ import '../index.css';
 import '../pages/Home.css';
 import '../pages/Products.css';
 import '../pages/ProductDetails.css';
+import '../pages/CategoryPage.css';
 import '../pages/About.css';
 import '../pages/Contact.css';
 import '../pages/Gallery.css';
