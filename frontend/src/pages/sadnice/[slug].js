@@ -95,20 +95,22 @@ const ProductDetails = ({ product }) => {
         <meta property="og:image" content={`https://rasadniktilija.rs${product.image}`} />
         <meta name="twitter:image" content={`https://rasadniktilija.rs${product.image}`} />
         <meta property="og:url" content={`https://rasadniktilija.rs/sadnice/${product.slug}`} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": product.name,
-          "description": product.richContent || product.description,
-          "image": `https://rasadniktilija.rs${product.image}`,
-          "offers": product.showPrice ? {
-            "@type": "Offer",
-            "price": product.price,
-            "priceCurrency": "RSD",
-            "availability": "https://schema.org/InStock",
-            "seller": { "@type": "Organization", "name": "Rasadnik Tilija" }
-          } : undefined
-        })}} />
+        {product.showPrice && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": product.name,
+            "description": product.richContent || product.description,
+            "image": `https://rasadniktilija.rs${product.image}`,
+            "offers": {
+              "@type": "Offer",
+              "price": product.price,
+              "priceCurrency": "RSD",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "Organization", "name": "Rasadnik Tilija" }
+            }
+          })}} />
+        )}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
