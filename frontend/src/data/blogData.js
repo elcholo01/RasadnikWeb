@@ -1,5 +1,156 @@
 const blogPosts = [
   {
+    id: 15,
+    slug: 'malc-za-baste-vrste-primena-cena',
+    title: 'Malč za baštu – vrste, cena i kako ga pravilno postaviti',
+    excerpt: 'Malč čuva vlagu u zemlji i do 30%, sprečava korov i štiti koren biljaka — ali koji tip odabrati i koliko vam zapravo treba? Objašnjavamo razliku između crvenog malča, malča od borove kore i humusa, kako se postavlja i po kojoj ceni ga nudimo.',
+    date: '2026-08-13',
+    readTime: '6 min',
+    category: 'Zemlja i malč',
+    image: '/images/mulchred.webp',
+    relatedSlugs: ['perene-za-bastu-srbija', 'zasto-tuja-zuti-i-susi-se', 'najbrza-ziva-ograda-srbija'],
+    faq: [
+      {
+        q: 'Koja je razlika između malča i humusa?',
+        a: 'Malč se postavlja kao sloj NA površini zemlje — usporava isparavanje vode, sprečava korov i štiti koren od temperaturnih ekstrema. Humus se meša SA zemljom pri sadnji ili prihrani — obogaćuje tlo hranljivim materijama i poboljšava strukturu. Za novu sadnju je najbolja kombinacija: humus u zemlju, malč preko nje.'
+      },
+      {
+        q: 'Koliko debeo sloj malča treba postaviti?',
+        a: 'Za crveni malč i malč od borove kore preporučena debljina je 5–8 cm. Tanji sloj gubi funkciju (korov probija, vlaga brzo isparava), a preterano debeo sloj (preko 10 cm) može ugušiti koren i zadržavati previše vlage.'
+      },
+      {
+        q: 'Koliko malča mi treba za moju baštu?',
+        a: 'Zavisi od proizvoda: džak crvenog malča od 60 l pokriva 0,75–1,2 m², džak malča od borove kore od 60 l pokriva 0,75–1 m², a džak humusa od 50 kg dovoljan je za pripremu 3–5 m². Za tačan broj džakova pomnožite dužinu i širinu površine da dobijete m², pa podelite sa pokrivenošću jednog džaka.'
+      },
+      {
+        q: 'Da li malč od borove kore šteti biljkama koje ne vole kiselu zemlju?',
+        a: 'Zakiseljavanje je blago i postepeno, i najviše koristi četinarima, ružama, hortenzijama i borovnicama. Za biljke bez posebnih zahteva prema pH vrednosti (većina trave, perena, listopadnog šiblja) crveni malč je bezbedniji izbor jer ne menja pH zemljišta.'
+      },
+      {
+        q: 'Da li treba menjati malč svake godine?',
+        a: 'Ne u potpunosti. Malč od kore se vremenom razlaže i sleže, pa je dovoljno jednom godišnje (najčešće u proleće) dosuti tanak sloj da nadoknadi razgradnju, umesto da se svake sezone postavlja iznova od nule.'
+      },
+      {
+        q: 'Da li malč privlači insekte ili štetočine?',
+        a: 'Kvalitetan malč od kore ne privlači štetočine — naprotiv, kontroliše vlagu i temperaturu zemljišta na način koji odgovara korenu biljaka. Problem nastaje jedino ako se malč direktno nagomila uz samo stablo/deblo, gde može zadržavati previše vlage — zato uvek ostavite mali razmak od baze biljke.'
+      }
+    ],
+    content: `
+      <p>Malč je jedan od najisplativijih poteza u bašti — sloj koji se postavi jednom, a onda meseci obavlja posao: čuva vlagu, sprečava korov i štiti koren, bez ikakvog dodatnog rada. Ipak, skoro svaki kupac postavi ista dva pitanja: <strong>koji tip malča odabrati</strong> i <strong>koliko mi ga tačno treba</strong>?</p>
+
+      <p>U ovom vodiču prolazimo kroz obe dileme — razliku između crvenog malča, malča od borove kore i humusa, kako se malč pravilno postavlja, i praktičan način da izračunate tačnu količinu za vašu površinu.</p>
+
+      <h2>Zašto uopšte koristiti malč?</h2>
+      <ul>
+        <li><strong>Čuva vlagu</strong> — usporava isparavanje vode iz zemlje i smanjuje potrebu za zalivanjem i do 30%</li>
+        <li><strong>Sprečava korov</strong> — blokira svetlost do semena korova, pa mnogo manje niče</li>
+        <li><strong>Reguliše temperaturu zemljišta</strong> — štiti koren od letnje žege i zimskog mraza</li>
+        <li><strong>Sprečava eroziju</strong> — sloj kore drži zemlju na mestu pri jakoj kiši</li>
+        <li><strong>Estetski efekat</strong> — uredan, "dovršen" izgled bašte, posebno uz žive ograde i bordure</li>
+      </ul>
+
+      <h2>Malč ili humus – koja je razlika?</h2>
+      <p>Ovo su dva različita proizvoda sa različitom namenom, iako se često mešaju:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th></th><th>Malč (crveni / borova kora)</th><th>Humus</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Kako se koristi</strong></td><td>Postavlja se kao sloj NA površini zemlje</td><td>Meša se SA zemljom pri sadnji ili prihrani</td></tr>
+          <tr><td><strong>Glavna funkcija</strong></td><td>Čuva vlagu, sprečava korov, štiti koren</td><td>Obogaćuje tlo hranljivim materijama</td></tr>
+          <tr><td><strong>Trajnost</strong></td><td>Postepeno se razlaže, doziva se povremeno</td><td>Ugrađuje se jednom, pri sadnji ili prihrani</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Za novu sadnju najbolji rezultat daje kombinacija oba: <strong>humus se unosi u zemlju</strong> pri sadnji da obogati koren, a <strong>malč se postavlja preko površine</strong> da tu vlagu i hranu zadrži duže.</p>
+
+      <h2>Vrste malča – crveni ili borova kora?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th></th><th>Malč crveni</th><th>Malč borova kora</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Efekat na zemlju</strong></td><td>Ne menja pH vrednost</td><td>Blago zakiseljuje zemljište</td></tr>
+          <tr><td><strong>Najbolje za</strong></td><td>Sve biljke bez posebnih zahteva, dekorativne površine</td><td>Četinare, ruže, hortenzije, borovnice</td></tr>
+          <tr><td><strong>Vizuelni efekat</strong></td><td>Upečatljiva crvena boja, jak kontrast uz zelenilo</td><td>Prirodna, tamnosmeđa boja kore</td></tr>
+          <tr><td><strong>Preporučen sloj</strong></td><td>5–8 cm</td><td>6–8 cm</td></tr>
+          <tr><td><strong>Pokrivenost (džak 60 l)</strong></td><td>0,75–1,2 m²</td><td>0,75–1 m²</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Ako nemate posebne biljke koje traže kiselu sredinu, izbor je uglavnom estetski — <strong>crveni malč</strong> ističe zelenilo i uredno izgleda uz žive ograde i staze, dok <strong>malč od borove kore</strong> deluje prirodnije i dodatno pogoduje četinarima i drugim biljkama koje vole kiseliju zemlju.</p>
+
+      <h2>Koliko malča vam zapravo treba?</h2>
+      <p>Jednostavan proračun u tri koraka:</p>
+      <ol>
+        <li><strong>Izmerite površinu</strong> — pomnožite dužinu i širinu (npr. leja 4 × 1,5 m = 6 m²)</li>
+        <li><strong>Podelite sa pokrivenošću jednog džaka</strong> — za crveni malč deljenje sa ~1 m² po džaku (6 m² ÷ 1 m² = 6 džakova)</li>
+        <li><strong>Zaokružite naviše</strong> — bolje je da vam ostane malo viška nego da vam nedostaje pri postavljanju</li>
+      </ol>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Proizvod</th><th>Pakovanje</th><th>Pokrivenost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Malč crveni</td><td>Džak 60 l</td><td>0,75–1,2 m² (sloj 5–8 cm)</td></tr>
+          <tr><td>Malč borova kora</td><td>Džak 60 l</td><td>0,75–1 m² (sloj 6–8 cm)</td></tr>
+          <tr><td>Humus</td><td>Džak 50 kg</td><td>3–5 m² (kao dodatak u zemlju)</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kako se malč pravilno postavlja</h2>
+      <ol>
+        <li><strong>Očistite površinu</strong> — uklonite korov i veće kamenje pre postavljanja</li>
+        <li><strong>Zalijte zemlju</strong> ako je suva, pre nego što nasipate malč</li>
+        <li><strong>Nasipajte ravnomerno</strong> u sloju od 5–8 cm, po celoj površini</li>
+        <li><strong>Ostavite razmak od stabla</strong> — nekoliko centimetara oko baze biljke, da malč ne naleže direktno na koru/stablo</li>
+        <li><strong>Po potrebi dosipajte</strong> jednom godišnje, obično u proleće, kad sloj oseti da se sleže i razlaže</li>
+      </ol>
+
+      <h2>Kada je najbolje vreme za malčovanje?</h2>
+      <p>Malč se može postavljati tokom cele godine, ali dva perioda daju najviše koristi:</p>
+      <p><strong>Proleće</strong> — pre nego što zemlja počne da se suši i pre nicanja korova, malč od starta štiti mladu vegetaciju i smanjuje potrebu za zalivanjem tokom leta.</p>
+      <p><strong>Jesen</strong> — sloj malča pre zime dodatno izoluje koren od mraza, posebno korisno za mlade sadnice i biljke osetljivije na hladnoću.</p>
+
+      <h2>Malč u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Osobina</th><th>Vrednost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Preporučena debljina sloja</td><td>5–8 cm</td></tr>
+          <tr><td>Ušteda na zalivanju</td><td>do 30%</td></tr>
+          <tr><td>Učestalost dosipanja</td><td>1x godišnje (proleće)</td></tr>
+          <tr><td>Najbolje vreme postavljanja</td><td>Proleće ili jesen</td></tr>
+          <tr><td>Cena (džak 60 l)</td><td>od 850 RSD</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Česta pitanja o malču</h2>
+
+      <h3>Koja je razlika između malča i humusa?</h3>
+      <p>Malč se postavlja na površinu zemlje i štiti je spolja; humus se meša sa zemljom i hrani je iznutra. Za novu sadnju idealna je kombinacija oba.</p>
+
+      <h3>Koliko debeo sloj malča treba?</h3>
+      <p>5–8 cm — tanje ne štiti dovoljno, deblje od 10 cm može ugušiti koren.</p>
+
+      <h3>Da li malč borova kora šteti biljkama koje ne vole kiselu zemlju?</h3>
+      <p>Zakiseljavanje je blago i postepeno. Za biljke bez posebnih zahteva, crveni malč je bezbedniji jer ne menja pH.</p>
+
+      <h3>Da li treba menjati malč svake godine?</h3>
+      <p>Ne u potpunosti — dovoljno je jednom godišnje dosuti tanak sloj da nadoknadi prirodnu razgradnju.</p>
+
+      <h2>Gde kupiti malč u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi crveni malč, malč od borove kore i humus, sve u džakovima uz dostavu širom Srbije. <a href="/sadnice/crveni-malc">Naručite crveni malč</a> za dekorativan efekat, <a href="/sadnice/malc-borova-kora">naručite malč borova kora</a> za četinare i biljke koje vole kiselu zemlju, ili <a href="/sadnice/humus">naručite humus</a> za obogaćivanje zemljišta pri sadnji — pogledajte aktuelne cene i dostupnost, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 14,
     slug: 'bambus-da-li-je-invazivan-sadnja-nega',
     title: 'Bambus za živu ogradu – da li je invazivan i kako ga saditi u Srbiji',

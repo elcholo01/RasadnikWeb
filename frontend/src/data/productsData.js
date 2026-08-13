@@ -1225,6 +1225,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     seoTitle: 'Malč crveni – prodaja, džak 60l, cena od 850 RSD',
     metaDescription: 'Malč crveni – prodaja, dekorativni malč od drvne kore koji čuva vlagu i sprečava korov. Cena od 850 RSD po džaku, dostava širom Srbije.',
     description: 'Dekorativni malč od drvne kore u upečatljivoj crvenoj boji — čuva vlagu u zemlji, sprečava rast korova i štiti koren biljaka.',
+    relatedBlogSlug: 'malc-za-baste-vrste-primena-cena',
     richContent: `Crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone, a pored dekorativne uloge malč obavlja i praktične funkcije: čuva vlagu (smanjuje potrebu za zalivanjem i do 30%), sprečava korov i štiti koren od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja je 5–8 cm; jedan džak od 60 litara pokriva 0,75–1,2 m².`,
     inStock: true,
     details: {
@@ -1249,6 +1250,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     seoTitle: 'Malč borova kora – prodaja, džak 60l, cena od 850 RSD',
     metaDescription: 'Malč borova kora – prodaja, prirodni malč koji blago zakiseljuje zemljište, idealan za četinare i hortenzije. Cena od 850 RSD, dostava širom Srbije.',
     description: 'Prirodni malč koji blago zakiseljuje zemljište — idealan za četinare, ruže, hortenzije i borovnice, biljke koje vole kiselu sredinu.',
+    relatedBlogSlug: 'malc-za-baste-vrste-primena-cena',
     richContent: `Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom, dok istovremeno čuva vlagu i sprečava korov. Preporučena debljina sloja je 6–8 cm; jedan džak od 60 litara pokriva 0,75–1 m².`,
     inStock: true,
     details: {
@@ -1273,6 +1275,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     seoTitle: 'Humus – prodaja, džak 50kg, cena od 800 RSD',
     metaDescription: 'Humus – prodaja kvalitetnog organskog đubriva koje obogaćuje zemljište. Cena od 800 RSD po džaku, dostava širom Srbije.',
     description: 'Kvalitetno organsko đubrivo koje obogaćuje tlo, poboljšava strukturu zemljišta i podstiče zdrav razvoj korena — idealno pri sadnji i prihrani biljaka.',
+    relatedBlogSlug: 'malc-za-baste-vrste-primena-cena',
     richContent: `Nastaje razgradnjom biljnih i životinjskih materija, a dodavanjem u tlo zemlja postaje rastresitija, bolje zadržava vlagu i lakše propušta vazduh do korena. Posebno se preporučuje za sadnju drveća, žbunova, živih ograda i perenih biljaka. Jedan džak od 50 kg dovoljan je za pripremu površine od 3–5 m².`,
     inStock: true,
     details: {
