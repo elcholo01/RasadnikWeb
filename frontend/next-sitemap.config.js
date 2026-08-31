@@ -14,6 +14,9 @@ module.exports = {
     } else if (path === '/products' || path === '/gallery') {
       priority = 0.9;
       changefreq = 'weekly';
+    } else if (path === '/veleprodaja-sadnica') {
+      priority = 0.8;
+      changefreq = 'monthly';
     } else if (path === '/blog') {
       priority = 0.8;
       changefreq = 'weekly';

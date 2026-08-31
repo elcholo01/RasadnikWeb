@@ -20,6 +20,7 @@ const Footer = () => {
               <li><Link href="/products" onClick={() => window.scrollTo(0,0)}>{t('nav.products')}</Link></li>
               <li><Link href="/about" onClick={() => window.scrollTo(0,0)}>{t('nav.about')}</Link></li>
               <li><Link href="/contact" onClick={() => window.scrollTo(0,0)}>{t('nav.contact')}</Link></li>
+              <li><Link href="/veleprodaja-sadnica" onClick={() => window.scrollTo(0,0)}>Veleprodaja / B2B saradnja</Link></li>
             </ul>
           </div>
           

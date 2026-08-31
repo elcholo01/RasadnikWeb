@@ -68,6 +68,13 @@ const ProductDetails = ({ product }) => {
   const metaDesc = product.metaDescription || `${descAlreadyHasName ? '' : product.name + ' - '}${product.description.substring(0, 150)}${priceText}`;
   const pageTitle = product.seoTitle || `${product.name} – Rasadnik Tilija | Kupite sadnice`;
 
+  const selectedSize = product.sizes && selectedSizeIdx !== null ? product.sizes[selectedSizeIdx] : null;
+  const waPriceText = selectedSize
+    ? (selectedSize.price ? ` (${selectedSize.label} – ${selectedSize.price.toLocaleString()} RSD)` : ` (${selectedSize.label})`)
+    : (product.showPrice ? ` – cena od ${product.price.toLocaleString()} RSD` : '');
+  const waMessage = `Zdravo, zanima me ${product.name}${waPriceText}. Da li je dostupno i kolika je dostava?`;
+  const waHref = `https://wa.me/381638870837?text=${encodeURIComponent(waMessage)}`;
+
   const openLightbox = (index) => {
     setLightboxIndex(index);
     setLightboxOpen(true);
@@ -360,6 +367,12 @@ const ProductDetails = ({ product }) => {
             )}
 
             <div className="product-actions">
+              <a href={waHref} target="_blank" rel="noopener noreferrer" className="whatsapp-order-btn">
+                <svg viewBox="0 0 32 32" fill="currentColor" width="20" height="20" aria-hidden="true">
+                  <path d="M16.003 0C7.17 0 .008 7.162.008 16a15.93 15.93 0 002.22 8.14L.003 32l8.12-2.12A16 16 0 1016.003 0zm0 29.333a13.28 13.28 0 01-6.787-1.867l-.48-.293-5.013 1.307 1.333-4.867-.32-.493A13.28 13.28 0 012.67 16c0-7.333 5.987-13.333 13.333-13.333S29.336 8.667 29.336 16s-5.987 13.333-13.333 13.333zm7.307-9.96c-.4-.2-2.36-1.16-2.727-1.293-.36-.133-.627-.2-.893.2-.267.4-1.027 1.293-1.267 1.56-.24.267-.48.3-.88.1-.4-.2-1.68-.613-3.2-1.96-1.18-1.053-1.98-2.347-2.213-2.747-.24-.4-.027-.613.173-.813.173-.173.4-.453.6-.693.2-.24.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.893-2.16-1.227-2.96-.32-.76-.64-.667-.893-.68L10.5 8.72c-.267 0-.7.1-1.067.5-.36.4-1.387 1.36-1.387 3.307 0 1.96 1.42 3.853 1.62 4.12.2.267 2.8 4.28 6.787 6.013.947.413 1.687.653 2.267.84.953.3 1.82.253 2.507.153.76-.113 2.347-.96 2.68-1.887.333-.92.333-1.72.233-1.887-.1-.16-.36-.253-.76-.453z" />
+                </svg>
+                Poruči preko WhatsApp-a
+              </a>
               <Link href="/contact" className="contact-btn">
                 {t('productDetails.contactUs') || 'Kontaktirajte nas za narudžbinu'}
               </Link>
