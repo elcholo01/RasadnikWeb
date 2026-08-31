@@ -50,6 +50,9 @@ const Navbar = () => {
           <Link href="/blog" className={`nav-link${isActive('/blog') ? ' active' : ''}`} onClick={() => setIsOpen(false)}>
             Blog
           </Link>
+          <Link href="/veleprodaja-sadnica" className={`nav-link${isActive('/veleprodaja-sadnica') ? ' active' : ''}`} onClick={() => setIsOpen(false)}>
+            Veleprodaja
+          </Link>
           <LanguageSwitcher />
         </div>
 
