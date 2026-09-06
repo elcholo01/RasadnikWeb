@@ -121,6 +121,32 @@ const Home = () => {
           </div>
         </section>
 
+        {/* Kategorije */}
+        <section className="section bg-light">
+          <div className="container">
+            <h2 className="section-title" style={{ fontSize: isDesktop ? '2.2rem' : '1.5rem', marginBottom: isDesktop ? 40 : 20 }}>Pregledajte po kategoriji</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 20, maxWidth: 1400, margin: '0 auto' }}>
+              {[
+                { id: 'ziva-ograda', name: 'Živa ograda', image: '/images/tuja-card.webp' },
+                { id: 'cetinari', name: 'Četinari', image: '/images/tisa.jpeg' },
+                { id: 'liscari', name: 'Lišćari', image: '/images/katalpa-card.webp' },
+                { id: 'siblje', name: 'Šiblje', image: '/images/hortenzija.jpeg' },
+                { id: 'perene', name: 'Perene', image: '/images/gaura.jpg' },
+                { id: 'mediteranske', name: 'Mediteranske biljke', image: '/images/italijanskicempres.jpeg' },
+                { id: 'zemlja-i-malc', name: 'Zemlja i malč', image: '/images/mulchred.webp' },
+              ].map(cat => (
+                <Link key={cat.id} href={`/sadnice/${cat.id}`} className="reveal"
+                  style={{ position: 'relative', borderRadius: 18, overflow: 'hidden', height: 140, textDecoration: 'none', display: 'block', boxShadow: '0 6px 20px rgba(44,62,80,0.12)' }}>
+                  <img src={cat.image} alt={cat.name} loading="lazy" decoding="async"
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27,94,32,0.85) 0%, rgba(27,94,32,0.25) 55%, transparent 100%)' }} />
+                  <span style={{ position: 'absolute', bottom: 12, left: 14, right: 14, color: '#fff', fontWeight: 700, fontSize: '1.02rem', textShadow: '0 1px 4px rgba(0,0,0,0.3)' }}>{cat.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Zašto izabrati nas */}
         <section className="section" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #f9fbe7 100%)', marginTop: 0 }}>
           <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 48 }}>
