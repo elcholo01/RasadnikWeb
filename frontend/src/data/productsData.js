@@ -1003,15 +1003,11 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     categories: ['mediteranske'],
     price: 15000,
     showPrice: true,
-    image: '/images/maslina1.jpeg',
+    image: '/images/maslina1.jpg',
     images: [
-      '/images/maslina1.jpeg',
-      '/images/maslina2.jpeg',
-      '/images/maslina3.jpeg',
-      '/images/maslina5.jpeg',
-      '/images/novemasline1.jpeg',
-      '/images/novemasline2.jpeg',
-      '/images/novemasline3.jpeg'
+      '/images/maslina1.jpg',
+      '/images/maslina2.jpg',
+      '/images/maslina3.JPG'
     ],
     seoTitle: 'Maslina – prodaja sadnica, cena od 15.000 RSD',
     metaDescription: 'Maslina (Olea europaea) – prodaja sadnica, mediteransko zimzeleno drvo srebrno-zelenih listova. Cena od 15.000 RSD, dostava širom Srbije.',
