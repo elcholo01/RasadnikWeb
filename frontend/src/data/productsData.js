@@ -274,6 +274,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     sizes: [
       { label: '40–80 cm (kontejnerska)', price: 400 },
       { label: '80–120 cm (busen)', price: 1700 },
+      { label: '1.5–2 m', price: 4000 },
     ],
     images: [
       '/images/lovorvisnja.jpeg',
