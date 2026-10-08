@@ -278,11 +278,11 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     images: [
       '/images/lovorvisnja.jpeg',
       '/images/lovormarakana.PNG',
+      '/images/lovorbusen.jpg',
       '/images/lovormali.jpeg',
       '/images/lovor3.jpeg',
       '/images/lovor4.jpeg',
-      '/images/lovorrazgranati.jpeg',
-      '/images/lovorbusen.jpg'
+      '/images/lovorrazgranati.jpeg'
     ],
     seoTitle: 'Lovor Višnja – prodaja sadnica za živu ogradu, cena od 400 RSD',
     metaDescription: 'Lovor višnja – prodaja sadnica, gust zimzeleni žbun za elegantnu živu ogradu, otporan na mraz i gradske uslove. Cena od 400 RSD, dostava širom Srbije.',
