@@ -147,7 +147,7 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     <link>https://rasadniktilija.rs/sadnice/fotinija-red-robin</link>
     <g:image_link>https://rasadniktilija.rs/images/fotinijanaslovna.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>400.00 RSD</g:price>
+    <g:price>200.00 RSD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Rasadnik Tilija</g:brand>
     <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>
@@ -507,6 +507,19 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     <g:identifier_exists>false</g:identifier_exists>
   </item>
   <item>
+    <g:id>palma</g:id>
+    <title>Palma</title>
+    <description>Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.</description>
+    <link>https://rasadniktilija.rs/sadnice/palma</link>
+    <g:image_link>https://rasadniktilija.rs/images/palma2.jpeg</g:image_link>
+    <g:availability>in_stock</g:availability>
+    <g:price>12000.00 RSD</g:price>
+    <g:condition>new</g:condition>
+    <g:brand>Rasadnik Tilija</g:brand>
+    <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>
+    <g:identifier_exists>false</g:identifier_exists>
+  </item>
+  <item>
     <g:id>indijski-jorgovan</g:id>
     <title>Indijski jorgovan</title>
     <description>Naraste do 3–5 metara i može se oblikovati kao žbun ili drvo. Izuzetno je otporan na mraz i dugovečan — može živeti decenijama. Sadi se u jesen ili rano proleće, na osunčanom mestu. Rasadnik Tilija nudi ga uz dostavu širom Srbije.</description>
@@ -604,7 +617,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     <link>https://rasadniktilija.rs/sadnice/italijanski-cempres</link>
     <g:image_link>https://rasadniktilija.rs/images/italijanskicempres.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>8800.00 RSD</g:price>
+    <g:price>7200.00 RSD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Rasadnik Tilija</g:brand>
     <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>

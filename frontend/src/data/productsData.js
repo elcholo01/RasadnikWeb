@@ -1098,18 +1098,22 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     name: 'Palma',
     category: 'mediteranske',
     categories: ['mediteranske'],
-    price: 0,
-    showPrice: false,
+    price: 12000,
+    showPrice: true,
+    sizes: [
+      { label: '1.2–1.3 m', price: 12000 },
+      { label: '2–2.5 m', price: 24000 },
+    ],
     image: '/images/palma2.jpeg',
     images: [
       '/images/palma2.jpeg',
       '/images/palma1.jpeg',
       '/images/palmica.jpg'
     ],
-    seoTitle: 'Palma – prodaja sadnica, cena na upit',
-    metaDescription: 'Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Dostava širom Srbije, cena na upit.',
+    seoTitle: 'Palma – prodaja sadnica, cena od 12.000 RSD',
+    metaDescription: 'Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Cena od 12.000 RSD, dostava širom Srbije.',
     description: 'Egzotična dekorativna biljka koja momentalno unosi mediteranski šmek u dvorište ili terasu, dostupna u više visina i vrsta.',
-    richContent: `Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju. Cena na upit.`,
+    richContent: `Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.`,
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
