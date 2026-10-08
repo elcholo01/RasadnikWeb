@@ -279,11 +279,10 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
       '/images/lovorvisnja.jpeg',
       '/images/lovormarakana.PNG',
       '/images/lovormali.jpeg',
-      '/images/lovor1.jpeg',
       '/images/lovor3.jpeg',
       '/images/lovor4.jpeg',
       '/images/lovorrazgranati.jpeg',
-      '/images/lovorvisok.jpeg'
+      '/images/lovorbusen.jpg'
     ],
     seoTitle: 'Lovor Višnja – prodaja sadnica za živu ogradu, cena od 400 RSD',
     metaDescription: 'Lovor višnja – prodaja sadnica, gust zimzeleni žbun za elegantnu živu ogradu, otporan na mraz i gradske uslove. Cena od 400 RSD, dostava širom Srbije.',
@@ -314,21 +313,25 @@ Sadnice su dostupne od 30 cm do 2 metra visine — birate između pristupačnije
     name: 'Fotinija Red Robin',
     category: 'liscari',
     categories: ['liscari', 'ziva-ograda'],
-    price: 400,
+    price: 200,
     showPrice: true,
     sizes: [
+      { label: '30 cm (kontejnerska)', price: 200 },
       { label: '40–60 cm (kontejnerska)', price: 400 },
-      { label: '1.5–2 m (busen)', price: 3500 },
+      { label: '1.5–2 m (busen)', price: 4000 },
     ],
     image: '/images/fotinijanaslovna.jpeg',
     images: [
       '/images/fotinijanaslovna.jpeg',
+      '/images/fotinija saksija.jpg',
+      '/images/fotinijarepro.jpg',
+      '/images/fotinijabusen.jpg',
       '/images/WhatsApp Image 2025-12-30 at 14.15.33.jpeg',
       '/images/fotinijanastapu.jpeg',
       '/images/fotinijanastapu2.jpeg'
     ],
-    seoTitle: 'Fotinija Red Robin – prodaja sadnica za živu ogradu, cena od 400 RSD',
-    metaDescription: 'Fotinija Red Robin – prodaja sadnica, zimzeleni žbun sa vatreno crvenim mladim listovima, idealan za živu ogradu. Cena od 400 RSD, dostava širom Srbije.',
+    seoTitle: 'Fotinija Red Robin – prodaja sadnica za živu ogradu, cena od 200 RSD',
+    metaDescription: 'Fotinija Red Robin – prodaja sadnica, zimzeleni žbun sa vatreno crvenim mladim listovima, idealan za živu ogradu. Cena od 200 RSD, dostava širom Srbije.',
     description: 'Zimzeleni žbun čiji mladi izbojci u proleće i jesen blistaju vatreno crvenom bojom, dok starije lišće ostaje sjajno tamnozeleno — upečatljiv izbor za živu ogradu ili soliter.',
     richContent: `Photinia × fraseri 'Red Robin' raste 30 do 50 cm godišnje i lako se oblikuje, formirajući živu ogradu visine 1–2 metra. Sadi se u proleće ili jesen i podnosi mraz do -15°C. U Rasadniku Tilija dostupna je uz dostavu i sadnju na celoj teritoriji Srbije.
 
@@ -1052,12 +1055,16 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     price: 500,
     showPrice: true,
     sizes: [
-      { label: '50–60 cm', price: 500 },
-      { label: '1–1.2 m', price: 1200 },
+      { label: '50 cm', price: 500 },
+      { label: '1.2–1.3 m', price: 1500 },
+      { label: '1.6–1.7 m', price: 2000 },
+      { label: '2–2.2 m', price: 2400 },
+      { label: '2.5–3 m', price: 4000 },
     ],
     image: '/images/lejlandinew.jpeg',
     images: [
       '/images/lejlandinew.jpeg',
+      '/images/lejlandialb.jpg',
       '/images/lejlandi.jpeg',
       '/images/lejlandi1.jpeg'
     ],
@@ -1092,10 +1099,11 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     categories: ['mediteranske'],
     price: 0,
     showPrice: false,
-    image: '/images/palma.jpeg',
+    image: '/images/palma2.jpeg',
     images: [
-      '/images/palma.jpeg',
-      '/images/palma1.jpeg'
+      '/images/palma2.jpeg',
+      '/images/palma1.jpeg',
+      '/images/palmica.jpg'
     ],
     seoTitle: 'Palma – prodaja sadnica, cena na upit',
     metaDescription: 'Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Dostava širom Srbije, cena na upit.',
