@@ -460,13 +460,6 @@ const CategoryView = ({ category, categoryProducts, content }) => {
           <p className="category-count">{categoryProducts.length} {categoryProducts.length === 1 ? 'sadnica dostupna' : 'sadnica dostupno'}</p>
         </div>
 
-        {content?.intro && (
-          <div
-            className="category-intro"
-            dangerouslySetInnerHTML={{ __html: content.intro }}
-          />
-        )}
-
         <div className="products-grid-compact category-products-grid">
           {categoryProducts.map(product => (
             <Link key={product.id} href={`/sadnice/${product.slug}`} className="product-card-compact">
