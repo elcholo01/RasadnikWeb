@@ -20,7 +20,7 @@ const blogPosts = [
       },
       {
         q: 'Koliko malča mi treba za moju baštu?',
-        a: 'Zavisi od proizvoda: džak crvenog malča od 60 l pokriva 0,75–1,2 m², džak malča od borove kore od 60 l pokriva 0,75–1 m², a džak humusa od 50 kg dovoljan je za pripremu 3–5 m². Za tačan broj džakova pomnožite dužinu i širinu površine da dobijete m², pa podelite sa pokrivenošću jednog džaka.'
+        a: 'Zavisi od proizvoda: džak crvenog malča od 50 l pokriva 0,6–1 m², džak malča od borove kore od 50 l pokriva 0,6–0,8 m², a džak humusa od 50 kg dovoljan je za pripremu 3–5 m². Za tačan broj džakova pomnožite dužinu i širinu površine da dobijete m², pa podelite sa pokrivenošću jednog džaka.'
       },
       {
         q: 'Da li malč od borove kore šteti biljkama koje ne vole kiselu zemlju?',
@@ -76,7 +76,7 @@ const blogPosts = [
           <tr><td><strong>Najbolje za</strong></td><td>Sve biljke bez posebnih zahteva, dekorativne površine</td><td>Četinare, ruže, hortenzije, borovnice</td></tr>
           <tr><td><strong>Vizuelni efekat</strong></td><td>Upečatljiva crvena boja, jak kontrast uz zelenilo</td><td>Prirodna, tamnosmeđa boja kore</td></tr>
           <tr><td><strong>Preporučen sloj</strong></td><td>5–8 cm</td><td>6–8 cm</td></tr>
-          <tr><td><strong>Pokrivenost (džak 60 l)</strong></td><td>0,75–1,2 m²</td><td>0,75–1 m²</td></tr>
+          <tr><td><strong>Pokrivenost (džak 50 l)</strong></td><td>0,6–1 m²</td><td>0,6–0,8 m²</td></tr>
         </tbody>
       </table>
       </div>
@@ -86,7 +86,7 @@ const blogPosts = [
       <p>Jednostavan proračun u tri koraka:</p>
       <ol>
         <li><strong>Izmerite površinu</strong> — pomnožite dužinu i širinu (npr. leja 4 × 1,5 m = 6 m²)</li>
-        <li><strong>Podelite sa pokrivenošću jednog džaka</strong> — za crveni malč deljenje sa ~1 m² po džaku (6 m² ÷ 1 m² = 6 džakova)</li>
+        <li><strong>Podelite sa pokrivenošću jednog džaka</strong> — za crveni malč deljenje sa ~0,8 m² po džaku (6 m² ÷ 0,8 m² ≈ 8 džakova)</li>
         <li><strong>Zaokružite naviše</strong> — bolje je da vam ostane malo viška nego da vam nedostaje pri postavljanju</li>
       </ol>
       <div class="table-wrapper">
@@ -95,8 +95,8 @@ const blogPosts = [
           <tr><th>Proizvod</th><th>Pakovanje</th><th>Pokrivenost</th></tr>
         </thead>
         <tbody>
-          <tr><td>Malč crveni</td><td>Džak 60 l</td><td>0,75–1,2 m² (sloj 5–8 cm)</td></tr>
-          <tr><td>Malč borova kora</td><td>Džak 60 l</td><td>0,75–1 m² (sloj 6–8 cm)</td></tr>
+          <tr><td>Malč crveni</td><td>Džak 50 l</td><td>0,6–1 m² (sloj 5–8 cm)</td></tr>
+          <tr><td>Malč borova kora</td><td>Džak 50 l</td><td>0,6–0,8 m² (sloj 6–8 cm)</td></tr>
           <tr><td>Humus</td><td>Džak 50 kg</td><td>3–5 m² (kao dodatak u zemlju)</td></tr>
         </tbody>
       </table>
@@ -127,7 +127,7 @@ const blogPosts = [
           <tr><td>Ušteda na zalivanju</td><td>do 30%</td></tr>
           <tr><td>Učestalost dosipanja</td><td>1x godišnje (proleće)</td></tr>
           <tr><td>Najbolje vreme postavljanja</td><td>Proleće ili jesen</td></tr>
-          <tr><td>Cena (džak 60 l)</td><td>od 850 RSD</td></tr>
+          <tr><td>Cena (džak 50 l)</td><td>od 850 RSD</td></tr>
         </tbody>
       </table>
       </div>
