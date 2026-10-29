@@ -1388,10 +1388,10 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 30–50 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -25°C' }
   },
   {
-    id: 54, slug: 'bor-krivulj', name: 'Bor krivulj', category: 'cetinari', categories: ['cetinari'],
+    id: 54, slug: 'bor-krivulj', name: 'Pinus mugo', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/bor-krivulj.jpg', images: ['/images/bor-krivulj.jpg'],
-    seoTitle: 'Bor krivulj – prodaja sadnica, cena na upit',
-    metaDescription: 'Bor krivulj – prodaja sadnica, nizak, puzeći planinski bor idealan za kamenjare. Cena na upit, dostava širom Srbije.',
+    seoTitle: 'Pinus mugo – prodaja sadnica, cena na upit',
+    metaDescription: 'Pinus mugo – prodaja sadnica, nizak, puzeći planinski bor idealan za kamenjare. Cena na upit, dostava širom Srbije.',
     description: 'Nizak, gusto razgranat planinski bor koji raste u širinu umesto u visinu — savršen za kamenjare, kosine i manje bašte.',
     richContent: `Pinus mugo, poznat i kao planinski bor, u prirodi raste u formi niskog, razgranatog žbuna visine 1–3 m, širi se puzeći po stenovitom terenu. Sadi se na suncu, izuzetno je otporan na mraz (do -30°C), sušu i siromašno zemljište. Idealan za kamenjare i kosine. Dostupan u Rasadniku Tilija.`,
     inStock: true,
@@ -1406,16 +1406,6 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     richContent: `Pinus nigra 'Brepo' je patuljasti kultivar crnog bora, sa kompaktnom, zaobljenom krošnjom visine 1–2 m. Zadržava sve prednosti crnog bora — otpornost na sušu, vetar i gradske uslove — u znatno manjem, baštenskom formatu. Sadi se na suncu, u dobro drenirano zemljište. Dostupan u Rasadniku Tilija.`,
     inStock: true,
     details: { height: '1–2 m (patuljasta forma)', sunlight: 'Puno sunce', watering: 'Malo zalivanje', soil: 'Peskovita do glinena', hardiness: 'Veoma otporan na mraz' }
-  },
-  {
-    id: 56, slug: 'cikas', name: 'Cikas', category: 'liscari', categories: ['liscari', 'mediteranske'],
-    price: 0, showPrice: false, image: '/images/cikas.jpg', images: ['/images/cikas.jpg'],
-    seoTitle: 'Cikas – prodaja sadnica, cena na upit',
-    metaDescription: 'Cikas – prodaja sadnica, egzotična biljka nalik palmi za mediteranski stil dvorišta. Cena na upit, dostava širom Srbije.',
-    description: 'Egzotična, izuzetno spororastuća biljka nalik palmi, sa krutim, sjajnim perastim listovima — upečatljiv akcenat za teglu ili zaštićeno dvorište.',
-    richContent: `Cycas revoluta, poznat i kao sago palma, zapravo nije prava palma već cikas — jedna od najstarijih grupa biljaka na svetu. Izuzetno sporo raste, a u zrelosti (nakon više decenija) dostiže 2–3 m. Traži sunčano do blago zasenjeno mesto i dobro drenirano zemljište. Osetljiv je na jak mraz (ispod -5°C do -10°C), pa se kod nas najčešće gaji u teglama uz zimsku zaštitu. Dostupan u Rasadniku Tilija.`,
-    inStock: true,
-    details: { height: 'Do 2–3 m (vrlo spor rast)', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Osetljiv na jak mraz, ispod -5 do -10°C' }
   },
   {
     id: 57, slug: 'japanska-tresnja-royal-burgundy', name: "Japanska trešnja 'Royal Burgundy'", category: 'liscari', categories: ['liscari'],
@@ -1434,16 +1424,6 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Albicija – prodaja sadnica, egzotično drvo sa svilenkastim ružičastim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Egzotično ukrasno drvo paprativog lišća i upečatljivih svilenkastih ružičastih cvasti koje leto čine posebnim — prava retkost u srpskim dvorištima.',
     richContent: `Albizia julibrissin, poznata i kao svilena akacija, privlači pažnju paprativim lišćem i svilenkastim, ružičastim cvasti koje se pojavljuju tokom leta. Dostiže 5–10 m visine. Sadi se na suncu, dobro podnosi sušu kada se ukoreni, a otporna je na mraz do oko -15 do -20°C (u oštrijim zimama preporučuje se zaštićena lokacija). Dostupna u Rasadniku Tilija.`,
-    inStock: true,
-    details: { height: 'Do 5–10 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje, otporna na sušu kad je ukorenjena', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do oko -15 do -20°C' }
-  },
-  {
-    id: 59, slug: 'albicija-vistestablo', name: 'Albicija višestablo', category: 'liscari', categories: ['liscari'],
-    price: 0, showPrice: false, image: '/images/albicija-vistestablo.jpg', images: ['/images/albicija-vistestablo.jpg'],
-    seoTitle: 'Albicija višestablo – prodaja sadnica, cena na upit',
-    metaDescription: 'Albicija višestablo – prodaja sadnica, albicija formirana sa više stabala za širu, prirodniju krošnju. Cena na upit, dostava širom Srbije.',
-    description: 'Ista upečatljiva albicija, formirana sa više stabala umesto jednog — šira, prirodnija krošnja i raskošniji izgled za veće dvorište.',
-    richContent: `Albizia julibrissin u višestablo formi gaji se sa nekoliko stabala iz jednog korena, što daje širu i prirodniju, žbunastu krošnju u odnosu na klasičnu jednostablo formu. Nega je identična kao kod standardne albicije — sadi se na suncu, otporna je na sušu kad se ukoreni, otporna na mraz do oko -15 do -20°C. Dostupna u Rasadniku Tilija.`,
     inStock: true,
     details: { height: 'Do 5–10 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje, otporna na sušu kad je ukorenjena', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do oko -15 do -20°C' }
   },
