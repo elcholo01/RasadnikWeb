@@ -196,6 +196,14 @@
   text-align: center;
 }
 
+.image-credit {
+  margin-top: 6px;
+  font-size: 0.72rem;
+  color: #aaa;
+  text-align: center;
+  font-style: italic;
+}
+
 .stock-indicator {
   position: absolute;
   top: 16px;

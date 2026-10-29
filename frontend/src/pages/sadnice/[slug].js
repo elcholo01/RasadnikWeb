@@ -208,6 +208,10 @@ const ProductDetails = ({ product }) => {
                 {activeIndex + 1} / {productImages.length} – {t('productDetails.clickToEnlarge') || 'kliknite za uvećanje'}
               </p>
             )}
+
+            {product.imageCredit && (
+              <p className="image-credit">{product.imageCredit}</p>
+            )}
           </div>
 
           {/* Desna strana - informacije */}

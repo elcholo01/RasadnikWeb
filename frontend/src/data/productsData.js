@@ -1350,6 +1350,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 50, slug: 'beli-bor', name: 'Beli bor', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/beli-bor.jpg', images: ['/images/beli-bor.jpg'],
+    imageCredit: 'Foto: Mickaël Delcey (Silverkey), Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Beli bor – prodaja sadnica, cena na upit',
     metaDescription: 'Beli bor – prodaja sadnica, visok zimzeleni četinar otporan na mraz i sušu. Cena na upit, dostava širom Srbije.',
     description: 'Visoko, izdržljivo zimzeleno drvo sa karakterističnom narandžasto-sivom korom — otporno na sušu, siromašna zemljišta i jake mrazeve.',
@@ -1360,6 +1361,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 51, slug: 'zelena-smrca', name: 'Zelena smrča', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/zelena-smrca.jpg', images: ['/images/zelena-smrca.jpg'],
+    imageCredit: 'Foto: Ivar Leidus, Wikimedia Commons (CC BY-SA 3.0 ee)',
     seoTitle: 'Zelena smrča – prodaja sadnica, cena na upit',
     metaDescription: 'Zelena smrča – prodaja sadnica, klasičan zimzeleni četinar za dvorišta i žive ograde. Cena na upit, dostava širom Srbije.',
     description: 'Klasično zimzeleno drvo gustih tamnozelenih iglica — poznato kao tradicionalna novogodišnja jelka, odlično i za veće žive ograde.',
@@ -1370,6 +1372,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 52, slug: 'aris', name: 'Ariš', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/aris.jpg', images: ['/images/aris.jpg'],
+    imageCredit: 'Foto: Dominicus Johannes Bergsma, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Ariš – prodaja sadnica, cena na upit',
     metaDescription: 'Ariš – prodaja sadnica, listopadni četinar sa zlatnožutom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Neobičan listopadni četinar — iglice mu u jesen požute i opadnu, da bi se svakog proleća ponovo zazelenele. Brz rast i upečatljiva jesenja boja.',
@@ -1380,6 +1383,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 53, slug: 'himalajski-bor', name: 'Himalajski bor', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/himalajski-bor.jpg', images: ['/images/himalajski-bor.jpg'],
+    imageCredit: 'Foto: Moskenes, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Himalajski bor – prodaja sadnica, cena na upit',
     metaDescription: 'Himalajski bor – prodaja sadnica, četinar dugih plavo-zelenih iglica. Cena na upit, dostava širom Srbije.',
     description: 'Upečatljiv četinar dugih, mekih, plavo-zelenih iglica koje vise u elegantnim pramenovima — pravi akcenat za veće dvorište ili park.',
@@ -1390,6 +1394,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 54, slug: 'bor-krivulj', name: 'Pinus mugo', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/bor-krivulj.jpg', images: ['/images/bor-krivulj.jpg'],
+    imageCredit: 'Foto: Agnieszka Kwiecień, Nova, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Pinus mugo – prodaja sadnica, cena na upit',
     metaDescription: 'Pinus mugo – prodaja sadnica, nizak, puzeći planinski bor idealan za kamenjare. Cena na upit, dostava širom Srbije.',
     description: 'Nizak, gusto razgranat planinski bor koji raste u širinu umesto u visinu — savršen za kamenjare, kosine i manje bašte.',
@@ -1400,6 +1405,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 55, slug: 'crni-bor-brepo', name: "Crni bor 'Brepo'", category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/crni-bor-brepo.jpg', images: ['/images/crni-bor-brepo.jpg'],
+    imageCredit: 'Foto: Stefan.lefnaer, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: "Crni bor 'Brepo' – prodaja sadnica, cena na upit",
     metaDescription: "Crni bor 'Brepo' – prodaja sadnica, patuljasti kompaktni četinar za male bašte. Cena na upit, dostava širom Srbije.",
     description: 'Patuljasta, kuglasta forma crnog bora — gust, kompaktan i spororastuć, savršen za male bašte i kamenjare gde standardni crni bor ne bi stao.',
@@ -1410,6 +1416,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 57, slug: 'japanska-tresnja-royal-burgundy', name: "Japanska trešnja 'Royal Burgundy'", category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/japanska-tresnja-royal-burgundy.jpg', images: ['/images/japanska-tresnja-royal-burgundy.jpg'],
+    imageCredit: 'Foto: Myrabella, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: "Japanska trešnja 'Royal Burgundy' – prodaja sadnica, cena na upit",
     metaDescription: "Japanska trešnja 'Royal Burgundy' – prodaja sadnica, ukrasno drvo sa tamnoljubičastim lišćem i ružičastim cvetovima. Cena na upit, dostava širom Srbije.",
     description: 'Ukrasno drvo koje tokom cele sezone nosi tamnoljubičasto, skoro crno lišće, a u proleće se prekrije punim ružičastim cvetovima — upečatljiv akcenat svakog dvorišta.',
@@ -1420,6 +1427,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 58, slug: 'albicija', name: 'Albicija', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/albicija.jpg', images: ['/images/albicija.jpg'],
+    imageCredit: 'Foto: Famartin, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Albicija – prodaja sadnica, cena na upit',
     metaDescription: 'Albicija – prodaja sadnica, egzotično drvo sa svilenkastim ružičastim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Egzotično ukrasno drvo paprativog lišća i upečatljivih svilenkastih ružičastih cvasti koje leto čine posebnim — prava retkost u srpskim dvorištima.',
@@ -1430,6 +1438,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 60, slug: 'krupnolisna-lipa', name: 'Krupnolisna lipa', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/krupnolisna-lipa.jpg', images: ['/images/krupnolisna-lipa.jpg'],
+    imageCredit: 'Foto: Chmee2, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Krupnolisna lipa – prodaja sadnica, cena na upit',
     metaDescription: 'Krupnolisna lipa – prodaja sadnica, veliko senovito drvo mirisnih cvetova. Cena na upit, dostava širom Srbije.',
     description: 'Veliko, dugovečno senovito drvo krupnih srcolikih listova i mirisnih cvetova koji privlače pčele — klasičan izbor za aleje i parkove.',
@@ -1440,6 +1449,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 61, slug: 'sitnolisna-lipa', name: 'Sitnolisna lipa', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/sitnolisna-lipa.jpg', images: ['/images/sitnolisna-lipa.jpg'],
+    imageCredit: 'Foto: Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Sitnolisna lipa – prodaja sadnica, cena na upit',
     metaDescription: 'Sitnolisna lipa – prodaja sadnica, otporno gradsko drvo za ulice, parkove i aleje. Cena na upit, dostava širom Srbije.',
     description: 'Dugovečno, veoma otporno drvo sitnijih listova od svoje krupnolisne rođake — odličan izbor za ulice, parkove i gradske sredine.',
@@ -1450,6 +1460,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 62, slug: 'srebrna-lipa', name: 'Srebrna lipa', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/srebrna-lipa.jpg', images: ['/images/srebrna-lipa.jpg'],
+    imageCredit: 'Foto: Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Srebrna lipa – prodaja sadnica, cena na upit',
     metaDescription: 'Srebrna lipa – prodaja sadnica, otporno drvo srebrnaste donje strane listova. Cena na upit, dostava širom Srbije.',
     description: 'Upečatljivo drvo čiji listovi na donjoj strani srebrno sijaju na vetru — izuzetno otporno na sušu, zagađenje i gradske uslove.',
@@ -1460,6 +1471,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 63, slug: 'crveni-hrast', name: 'Crveni hrast', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crveni-hrast.jpg', images: ['/images/crveni-hrast.jpg'],
+    imageCredit: 'Foto: Velela, Wikimedia Commons (Public domain)',
     seoTitle: 'Crveni hrast – prodaja sadnica, cena na upit',
     metaDescription: 'Crveni hrast – prodaja sadnica, brzorastuće drvo sa upečatljivom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Brzorastuće, snažno drvo koje se u jesen prekrije vatreno crvenim lišćem — jedan od najdekorativnijih hrastova za veća dvorišta i parkove.',
@@ -1470,6 +1482,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 64, slug: 'likvidambar', name: 'Likvidambar', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/likvidambar.jpg', images: ['/images/likvidambar.jpg'],
+    imageCredit: 'Foto: Famartin, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Likvidambar – prodaja sadnica, cena na upit',
     metaDescription: 'Likvidambar – prodaja sadnica, drvo zvezdastih listova sa spektakularnom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Ukrasno drvo zvezdastih listova koji se u jesen obasjaju kombinacijom crvene, narandžaste i ljubičaste — jedna od najlepših jesenjih boja među drvećem.',
@@ -1480,6 +1493,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 65, slug: 'tulipanovo-drvo', name: 'Tulipanovo drvo', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/tulipanovo-drvo.jpg', images: ['/images/tulipanovo-drvo.jpg'],
+    imageCredit: 'Foto: Jean-Pol GRANDMONT, Wikimedia Commons (CC BY 3.0)',
     seoTitle: 'Tulipanovo drvo – prodaja sadnica, cena na upit',
     metaDescription: 'Tulipanovo drvo – prodaja sadnica, impozantno brzorastuće drvo sa cvetovima nalik tulipanu. Cena na upit, dostava širom Srbije.',
     description: 'Impozantno, brzorastuće drvo prepoznatljivih listova i cvetova nalik tulipanu — jedno od najviših listopadnih drveća, pravi akcenat za veliki prostor.',
@@ -1490,6 +1504,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 66, slug: 'javor-crimson-king', name: "Javor 'Crimson King'", category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-crimson-king.jpg', images: ['/images/javor-crimson-king.jpg'],
+    imageCredit: 'Foto: Gmihail, Wikimedia Commons (CC BY-SA 3.0 rs)',
     seoTitle: "Javor 'Crimson King' – prodaja sadnica, cena na upit",
     metaDescription: "Javor 'Crimson King' – prodaja sadnica, drvo sa tamnoljubičastim lišćem tokom cele sezone. Cena na upit, dostava širom Srbije.",
     description: 'Upečatljivo drvo koje tokom cele vegetacije nosi duboko ljubičasto-crveno lišće — snažan vizuelni akcenat u svakom dvorištu ili aleji.',
@@ -1500,6 +1515,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 67, slug: 'magnolija-soulangeana', name: 'Magnolija Soulangeana', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/magnolija-soulangeana.jpg', images: ['/images/magnolija-soulangeana.jpg'],
+    imageCredit: 'Foto: Jean Tosti, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Magnolija Soulangeana – prodaja sadnica, cena na upit',
     metaDescription: 'Magnolija Soulangeana – prodaja sadnica, listopadna magnolija sa krupnim prolećnim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Listopadna magnolija koja se u ranom proleću, pre nego što joj se pojavi lišće, prekrije krupnim ružičasto-belim cvetovima nalik tulipanima.',
@@ -1510,6 +1526,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 68, slug: 'crvena-sljiva', name: 'Crvena šljiva', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crvena-sljiva.jpg', images: ['/images/crvena-sljiva.jpg'],
+    imageCredit: 'Foto: An-d, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Crvena šljiva – prodaja sadnica, cena na upit',
     metaDescription: 'Crvena šljiva – prodaja sadnica, ukrasno drvo sa tamnocrvenim lišćem i prolećnim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Ukrasno drvo koje tokom cele sezone nosi tamnocrveno, skoro ljubičasto lišće, a u rano proleće se prekrije nežnim svetlo-ružičastim cvetovima.',
@@ -1520,6 +1537,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 69, slug: 'crveni-javor', name: 'Crveni javor', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crveni-javor.jpg', images: ['/images/crveni-javor.jpg'],
+    imageCredit: 'Foto: Ayotte, Gilles, 1948-, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Crveni javor – prodaja sadnica, cena na upit',
     metaDescription: 'Crveni javor – prodaja sadnica, drvo sa crvenim cvetovima u proleće i vatrenom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Dekorativno drvo koje crvenilom oduševljava dvaput godišnje — crvenim cvetovima i krilatim plodovima u proleće, i vatrenim lišćem u jesen.',
@@ -1530,6 +1548,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 70, slug: 'platan', name: 'Platan', category: 'liscari', categories: ['liscari', 'mediteranske'],
     price: 0, showPrice: false, image: '/images/platan.jpg', images: ['/images/platan.jpg'],
+    imageCredit: 'Foto: Der-Herr-Simo-95, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Platan – prodaja sadnica, cena na upit',
     metaDescription: 'Platan – prodaja sadnica, veliko senovito drvo otporno na gradske uslove. Cena na upit, dostava širom Srbije.',
     description: 'Veliko, dugovečno senovito drvo prepoznatljive šarene kore koja se ljušti u pločama — klasičan izbor za bulevare, trgove i velika dvorišta.',
@@ -1540,6 +1559,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 71, slug: 'kuglasti-bagrem', name: 'Kuglasti bagrem', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/kuglasti-bagrem.jpg', images: ['/images/kuglasti-bagrem.jpg'],
+    imageCredit: 'Foto: Pollinator at English Wikipedia, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Kuglasti bagrem – prodaja sadnica, cena na upit',
     metaDescription: 'Kuglasti bagrem – prodaja sadnica, drvo sa prirodno zaobljenom krošnjom bez potrebe za rezanjem. Cena na upit, dostava širom Srbije.',
     description: 'Kalemljeni bagrem prirodno zaobljene, kompaktne krošnje nalik lopti — ne zahteva formiranje rezanjem, savršen za manja dvorišta i uličnu sadnju.',
@@ -1550,6 +1570,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 72, slug: 'breza', name: 'Breza', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/breza.jpg', images: ['/images/breza.jpg'],
+    imageCredit: 'Foto: Percita at Flickr, Wikimedia Commons (CC BY-SA 2.0)',
     seoTitle: 'Breza – prodaja sadnica, cena na upit',
     metaDescription: 'Breza – prodaja sadnica, drvo prepoznatljive bele kore i vitkih grana. Cena na upit, dostava širom Srbije.',
     description: 'Elegantno drvo prepoznatljive bele kore koja se ljušti u listićima i vitkih, povijenih grana — jedan od najprepoznatljivijih simbola severnjačkih pejzaža.',
@@ -1560,6 +1581,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 73, slug: 'cvetajuci-jasen', name: 'Cvetajući jasen', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/cvetajuci-jasen.jpg', images: ['/images/cvetajuci-jasen.jpg'],
+    imageCredit: 'Foto: Jean-Pol GRANDMONT, Wikimedia Commons (CC BY 3.0)',
     seoTitle: 'Cvetajući jasen – prodaja sadnica, cena na upit',
     metaDescription: 'Cvetajući jasen – prodaja sadnica, drvo sa mirisnim belim cvetnim metlicama u proleće. Cena na upit, dostava širom Srbije.',
     description: 'Manje drvo koje se u proleće prekrije mirisnim, belim cvetnim metlicama — neobično za jasenove, čini ga pravom retkošću za ukrasnu sadnju.',
@@ -1570,6 +1592,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 74, slug: 'stubasti-grab', name: 'Stubasti grab', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/stubasti-grab.jpg', images: ['/images/stubasti-grab.jpg'],
+    imageCredit: 'Foto: Willow, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Stubasti grab – prodaja sadnica, cena na upit',
     metaDescription: 'Stubasti grab – prodaja sadnica, uska, stubasta forma idealna za alee i žive zidove. Cena na upit, dostava širom Srbije.',
     description: 'Uska, stubasta forma graba koja raste u visinu bez širenja — odličan izbor za alee, žive zidove i ozelenjavanje uskih prostora.',
@@ -1580,6 +1603,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 75, slug: 'javor-secerac', name: 'Javor šećerac', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-secerac.jpg', images: ['/images/javor-secerac.jpg'],
+    imageCredit: 'Foto: Darkone, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Javor šećerac – prodaja sadnica, cena na upit',
     metaDescription: 'Javor šećerac – prodaja sadnica, brzorastuće drvo duboko usečenih listova. Cena na upit, dostava širom Srbije.',
     description: 'Brzorastuće, veliko drvo duboko usečenih listova koji na donjoj strani srebrnasto sijaju na vetru — pruža brz hlad već posle nekoliko sezona.',
@@ -1590,6 +1614,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 76, slug: 'judino-drvo', name: 'Judino drvo', category: 'liscari', categories: ['liscari', 'mediteranske'],
     price: 0, showPrice: false, image: '/images/judino-drvo.jpg', images: ['/images/judino-drvo.jpg'],
+    imageCredit: 'Foto: אורנה לוטן, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Judino drvo – prodaja sadnica, cena na upit',
     metaDescription: 'Judino drvo – prodaja sadnica, mediteransko drvo sa cvetovima direktno na granama. Cena na upit, dostava širom Srbije.',
     description: 'Mediteransko drvo upečatljivog prizora — ružičasto-magenta cvetovi pojavljuju se direktno na golim granama i deblu, pre nego što se pojavi lišće.',
@@ -1600,6 +1625,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 77, slug: 'javor-mlec', name: 'Javor mleč', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-mlec.jpg', images: ['/images/javor-mlec.jpg'],
+    imageCredit: 'Foto: Martin Bobka, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Javor mleč – prodaja sadnica, cena na upit',
     metaDescription: 'Javor mleč – prodaja sadnica, klasično senovito drvo za dvorišta i parkove. Cena na upit, dostava širom Srbije.',
     description: 'Klasično, snažno senovito drvo širok krošnje i žute jesenje boje — pouzdan izbor za veća dvorišta, parkove i uličnu sadnju.',
@@ -1610,6 +1636,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 78, slug: 'japanska-jabuka', name: 'Japanska jabuka', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/japanska-jabuka.jpg', images: ['/images/japanska-jabuka.jpg'],
+    imageCredit: 'Foto: MichaelMaggs, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Japanska jabuka – prodaja sadnica, cena na upit',
     metaDescription: 'Japanska jabuka – prodaja sadnica, ukrasno drvo sa obilnim prolećnim cvetanjem. Cena na upit, dostava širom Srbije.',
     description: 'Ukrasno drvo koje se u proleće prekrije obiljem ružičasto-belih cvetova, a kasnije nosi sitne, dekorativne plodiće — pravi prolećni spektakl.',
@@ -1620,6 +1647,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 79, slug: 'jablan', name: 'Jablan', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/jablan.jpg', images: ['/images/jablan.jpg'],
+    imageCredit: 'Foto: WeeJeeVee, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Jablan – prodaja sadnica, cena na upit',
     metaDescription: 'Jablan – prodaja sadnica, visoko, uska stubasto drvo za alee i vetrozaštitne pojaseve. Cena na upit, dostava širom Srbije.',
     description: 'Visoko, uskostubasto drvo koje brzo raste u visinu — klasičan izbor za alee, granice imanja i vetrozaštitne pojaseve.',
@@ -1630,6 +1658,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 80, slug: 'bastenski-jorgovan', name: 'Baštenski jorgovan', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/bastenski-jorgovan.jpg', images: ['/images/bastenski-jorgovan.jpg'],
+    imageCredit: 'Foto: Jjron, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Baštenski jorgovan – prodaja sadnica, cena na upit',
     metaDescription: 'Baštenski jorgovan – prodaja sadnica, klasičan mirisni žbun za svaku baštu. Cena na upit, dostava širom Srbije.',
     description: 'Klasičan, mirisni žbun čiji grozdovi ljubičastih ili belih cvetova u proleće ispune čitavo dvorište prepoznatljivim mirisom.',
@@ -1640,6 +1669,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 81, slug: 'simsir', name: 'Šimšir', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/simsir.jpg', images: ['/images/simsir.jpg'],
+    imageCredit: 'Foto: MPF, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Šimšir – prodaja sadnica, cena na upit',
     metaDescription: 'Šimšir – prodaja sadnica, klasičan zimzeleni žbun za niske žive ograde i topijariju. Cena na upit, dostava širom Srbije.',
     description: 'Gust, zimzeleni žbun sitnog, sjajnog lišća koji savršeno podnosi oblikovanje — klasičan izbor za niske žive ograde, bordure i topijariju.',
@@ -1650,6 +1680,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 82, slug: 'pirakanta', name: "Pirakanta 'Red Column'", category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/pirakanta.jpg', images: ['/images/pirakanta.jpg'],
+    imageCredit: 'Foto: noebse, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: "Pirakanta 'Red Column' – prodaja sadnica, cena na upit",
     metaDescription: "Pirakanta 'Red Column' – prodaja sadnica, bodljikav zimzeleni žbun sa crvenim bobicama. Cena na upit, dostava širom Srbije.",
     description: 'Gust, bodljikav zimzeleni žbun koji u proleće nosi bele cvetove, a u jesen i zimu upečatljive crveno-narandžaste bobice — odličan i kao sigurnosna živa ograda.',
@@ -1660,6 +1691,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 83, slug: 'potentila', name: 'Potentila', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/potentila.jpg', images: ['/images/potentila.jpg'],
+    imageCredit: 'Foto: Walter Siegmund, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Potentila – prodaja sadnica, cena na upit',
     metaDescription: 'Potentila – prodaja sadnica, nizak žbun sa dugim periodom cvetanja od proleća do jeseni. Cena na upit, dostava širom Srbije.',
     description: 'Nizak, nezahtevan žbun koji cveta neprekidno od proleća do jeseni, u žutoj, narandžastoj, roze ili beloj boji — pouzdan izbor za bordure.',
@@ -1670,6 +1702,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 84, slug: 'ruza', name: 'Ruža', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/ruza.jpg', images: ['/images/ruza.jpg'],
+    imageCredit: 'Foto: Roozitaa, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Ruža – prodaja sadnica, cena na upit',
     metaDescription: 'Ruža – prodaja sadnica, klasična vrtna ruža u više boja i sorti. Cena na upit, dostava širom Srbije.',
     description: 'Klasična vrtna lepotica dostupna u mnoštvu boja i sorti — simbol svake negovane bašte, sa dugim periodom cvetanja tokom tople sezone.',
@@ -1680,6 +1713,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 85, slug: 'ruza-stablasica', name: 'Ruža stablašica', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/ruza-stablasica.jpg', images: ['/images/ruza-stablasica.jpg'],
+    imageCredit: 'Foto: Stan Shebs, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Ruža stablašica – prodaja sadnica, cena na upit',
     metaDescription: 'Ruža stablašica – prodaja sadnica, ruža kalemljena na visoko stablo za elegantan akcenat. Cena na upit, dostava širom Srbije.',
     description: 'Ruža kalemljena na visoko, pravo stablo, sa cvetnom krošnjom na vrhu — elegantan, formalan akcenat za ulaze, staze i simetrične baštenske kompozicije.',
@@ -1690,6 +1724,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 86, slug: 'kiseli-ruj', name: 'Kiseli ruj', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/kiseli-ruj.jpg', images: ['/images/kiseli-ruj.jpg'],
+    imageCredit: 'Foto: Katya from Moscow, Russia, Wikimedia Commons (CC BY-SA 2.0)',
     seoTitle: 'Kiseli ruj – prodaja sadnica, cena na upit',
     metaDescription: 'Kiseli ruj – prodaja sadnica, žbun sa spektakularnom vatrenom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Žbun poznat po spektakularnoj, vatreno crveno-narandžastoj jesenjoj boji lišća i neobičnim, baršunastim crvenim cvastima koje ostaju i zimi.',
@@ -1700,6 +1735,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 87, slug: 'kariopteris', name: 'Kariopteris', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/kariopteris.jpg', images: ['/images/kariopteris.jpg'],
+    imageCredit: 'Foto: Dalgial, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Kariopteris – prodaja sadnica, cena na upit',
     metaDescription: 'Kariopteris – prodaja sadnica, nizak žbun sa plavim cvetovima krajem leta. Cena na upit, dostava širom Srbije.',
     description: 'Nizak žbun koji krajem leta i u jesen nosi neobične, plave cvetne klasove — redak izbor te boje u tom delu sezone.',
@@ -1710,6 +1746,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 88, slug: 'kerija', name: 'Kerija', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/kerija.jpg', images: ['/images/kerija.jpg'],
+    imageCredit: 'Foto: AfroBrazilian, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Kerija – prodaja sadnica, cena na upit',
     metaDescription: 'Kerija – prodaja sadnica, žbun sa žutim cvetovima i zelenim granama za zimski akcenat. Cena na upit, dostava širom Srbije.',
     description: 'Žbun koji se u proleće prekrije upečatljivim žutim cvetovima, a tokom zime privlači pažnju svojim trajno zelenim granama.',
@@ -1720,6 +1757,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 89, slug: 'forzicija', name: 'Forzicija', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/forzicija.jpg', images: ['/images/forzicija.jpg'],
+    imageCredit: 'Foto: Jerzy Opioła, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Forzicija – prodaja sadnica, cena na upit',
     metaDescription: 'Forzicija – prodaja sadnica, jedan od najranijih prolećnih žbunova sa žutim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Jedan od prvih najava proleća — gole grane se prekriju gustim žutim cvetovima pre nego što se pojavi i jedan list.',
@@ -1730,6 +1768,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 90, slug: 'biserak', name: 'Biserak', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/biserak.jpg', images: ['/images/biserak.jpg'],
+    imageCredit: 'Foto: H. Zell, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Biserak – prodaja sadnica, cena na upit',
     metaDescription: 'Biserak – prodaja sadnica, žbun sa belim bobicama koje ostaju do zime. Cena na upit, dostava širom Srbije.',
     description: 'Nezahtevan žbun čije beле, sedefaste bobice ostaju na granama duboko u jesen i zimu — odličan izbor i za senovite delove dvorišta.',
@@ -1740,6 +1779,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 91, slug: 'ilex', name: 'Ilex', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/ilex.jpg', images: ['/images/ilex.jpg'],
+    imageCredit: 'Foto: Jürgen Howaldt, Wikimedia Commons (CC BY-SA 2.0 de)',
     seoTitle: 'Ilex – prodaja sadnica, cena na upit',
     metaDescription: 'Ilex (božikovina) – prodaja sadnica, zimzeleni žbun sa bodljikavim listovima i crvenim bobicama. Cena na upit, dostava širom Srbije.',
     description: 'Klasična zimzelena božikovina bodljikavih, sjajnih listova i crvenih zimskih bobica — prepoznatljiv praznični simbol i odlična živa ograda.',
@@ -1750,6 +1790,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 92, slug: 'lavanda', name: 'Lavanda', category: 'perene', categories: ['perene', 'mediteranske'],
     price: 0, showPrice: false, image: '/images/lavanda.jpg', images: ['/images/lavanda.jpg'],
+    imageCredit: 'Foto: D2swirl, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Lavanda – prodaja sadnica, cena na upit',
     metaDescription: 'Lavanda – prodaja sadnica, mirisna mediteranska perena za bordure i kamenjare. Cena na upit, dostava širom Srbije.',
     description: 'Mirisna, sivo-zelena perena sa ljubičastim cvetnim klasovima — klasičan mediteranski akcenat za bordure, staze i kamenjare.',
@@ -1760,6 +1801,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 93, slug: 'viola', name: 'Viola', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/viola.jpg', images: ['/images/viola.jpg'],
+    imageCredit: 'Foto: Jörg Hempel, Wikimedia Commons (CC BY-SA 2.0 de)',
     seoTitle: 'Viola – prodaja sadnica, cena na upit',
     metaDescription: 'Viola – prodaja sadnica, niska sezonska perena za rane prolećne i jesenje boje. Cena na upit, dostava širom Srbije.',
     description: 'Niska, šarmantna sezonska perena koja cveta u hladnijim mesecima godine — u mnoštvu boja, idealna za bordure i saksije.',
@@ -1770,6 +1812,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 94, slug: 'muskatla', name: 'Muškatla', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/muskatla.jpg', images: ['/images/muskatla.jpg'],
+    imageCredit: 'Foto: Andrew massyn, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Muškatla – prodaja sadnica, cena na upit',
     metaDescription: 'Muškatla – prodaja sadnica, klasična balkonska biljka sa neprekidnim letnjim cvetanjem. Cena na upit, dostava širom Srbije.',
     description: 'Klasična balkonska i baštenska biljka neprekidnog letnjeg cvetanja u mnoštvu živih boja — pouzdan izbor za saksije i terase.',
@@ -1780,6 +1823,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 95, slug: 'santolina', name: 'Santolina', category: 'perene', categories: ['perene', 'mediteranske'],
     price: 0, showPrice: false, image: '/images/santolina.jpg', images: ['/images/santolina.jpg'],
+    imageCredit: 'Foto: Stan Shebs, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Santolina – prodaja sadnica, cena na upit',
     metaDescription: 'Santolina – prodaja sadnica, aromatična sivo-srebrna perena za niske bordure. Cena na upit, dostava širom Srbije.',
     description: 'Aromatična, sivo-srebrna perena kompaktnog rasta — odlična za niske bordure i mediteranske kompozicije, uz žute dugmaste cvetove leti.',
@@ -1790,6 +1834,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 96, slug: 'geranium', name: 'Geranium', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/geranium.jpg', images: ['/images/geranium.jpg'],
+    imageCredit: 'Foto: Alvesgaspar, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Geranium – prodaja sadnica, cena na upit',
     metaDescription: 'Geranium (zdravac) – prodaja sadnica, otporna višegodišnja perena za bordure. Cena na upit, dostava širom Srbije.',
     description: 'Otporna, nezahtevna višegodišnja perena dugog letnjeg cvetanja — ne treba je mešati sa saksijskom muškatlom, prava je baštenska trajnica.',
@@ -1800,6 +1845,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 97, slug: 'imperata-red-baron', name: "Imperata 'Red Baron'", category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/imperata-red-baron.jpg', images: ['/images/imperata-red-baron.jpg'],
+    imageCredit: 'Foto: Keisotyo, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: "Imperata 'Red Baron' – prodaja sadnica, cena na upit",
     metaDescription: "Imperata 'Red Baron' – prodaja sadnica, ukrasna trava sa krvavocrvenim vrhovima. Cena na upit, dostava širom Srbije.",
     description: 'Upečatljiva ukrasna trava čiji listovi od vrha ka osnovi prelaze u sve intenzivniju krvavocrvenu boju tokom sezone — pravi vizuelni akcenat.',
