@@ -39,13 +39,13 @@ export default function BlogStickyCta({ product, postSlug }) {
       >
         ×
       </button>
+      <span className="blog-float-cta-tag">Proizvod · odmah dostupno</span>
       <Link href={`/sadnice/${product.slug}`} className="blog-float-cta-link">
         <img src={product.image} alt={product.name} className="blog-float-cta-img" />
         <div className="blog-float-cta-text">
-          <span className="blog-float-cta-label">Dostupno kod nas</span>
           <strong className="blog-float-cta-name">{product.name}</strong>
+          <span className="blog-float-cta-label">Naruči odmah →</span>
         </div>
-        <span className="blog-float-cta-arrow">→</span>
       </Link>
     </div>
   );
