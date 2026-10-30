@@ -3,6 +3,7 @@ import Link from 'next/link';
 import blogPosts from '../../data/blogData';
 import { products } from '../../data/productsData';
 import ReadingProgress from '../../components/ReadingProgress';
+import BlogStickyCta from '../../components/BlogStickyCta';
 
 export async function getStaticPaths() {
   return {
@@ -65,6 +66,7 @@ export default function BlogPost({ post, relatedPosts, linkedProduct }) {
   return (
     <>
       <ReadingProgress />
+      <BlogStickyCta product={linkedProduct} postSlug={post.slug} />
       <Head>
         <title>{post.title} – Rasadnik Tilija</title>
         <meta name="description" content={post.excerpt} />
@@ -106,6 +108,19 @@ export default function BlogPost({ post, relatedPosts, linkedProduct }) {
             <div className="blog-article-hero">
               <img src={post.image} alt={post.title} loading="eager" />
             </div>
+
+            {linkedProduct && (
+              <div className="blog-top-cta">
+                <img src={linkedProduct.image} alt={linkedProduct.name} className="blog-top-cta-img" />
+                <div className="blog-top-cta-text">
+                  <span className="blog-top-cta-label">Ovaj proizvod je dostupan kod nas</span>
+                  <strong>{linkedProduct.name}</strong>
+                </div>
+                <Link href={`/sadnice/${linkedProduct.slug}`} className="blog-top-cta-btn">
+                  Naruči odmah →
+                </Link>
+              </div>
+            )}
 
             <div
               className="blog-article-content"
