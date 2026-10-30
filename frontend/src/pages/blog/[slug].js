@@ -109,19 +109,6 @@ export default function BlogPost({ post, relatedPosts, linkedProduct }) {
               <img src={post.image} alt={post.title} loading="eager" />
             </div>
 
-            {linkedProduct && (
-              <div className="blog-top-cta">
-                <img src={linkedProduct.image} alt={linkedProduct.name} className="blog-top-cta-img" />
-                <div className="blog-top-cta-text">
-                  <span className="blog-top-cta-label">Ovaj proizvod je dostupan kod nas</span>
-                  <strong>{linkedProduct.name}</strong>
-                </div>
-                <Link href={`/sadnice/${linkedProduct.slug}`} className="blog-top-cta-btn">
-                  Naruči odmah →
-                </Link>
-              </div>
-            )}
-
             <div
               className="blog-article-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
