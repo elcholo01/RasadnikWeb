@@ -1546,7 +1546,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Redovno zalivanje', soil: 'Vlažna, dobro drenirana zemlja', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 70, slug: 'platan', name: 'Platan', category: 'liscari', categories: ['liscari', 'mediteranske'],
+    id: 70, slug: 'platan', name: 'Platan', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/platan.jpg', images: ['/images/platan.jpg'],
     imageCredit: 'Foto: Der-Herr-Simo-95, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Platan – prodaja sadnica, cena na upit',
@@ -1612,7 +1612,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Redovno zalivanje', soil: 'Podnosi i vlažnija zemljišta', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 76, slug: 'judino-drvo', name: 'Judino drvo', category: 'liscari', categories: ['liscari', 'mediteranske'],
+    id: 76, slug: 'judino-drvo', name: 'Judino drvo', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/judino-drvo.jpg', images: ['/images/judino-drvo.jpg'],
     imageCredit: 'Foto: אורנה לוטן, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Judino drvo – prodaja sadnica, cena na upit',
@@ -1788,7 +1788,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 3–10 m, održava se i nižim rezanjem', sunlight: 'Sunce do senka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -15 do -20°C' }
   },
   {
-    id: 92, slug: 'lavanda', name: 'Lavanda', category: 'perene', categories: ['perene', 'mediteranske'],
+    id: 92, slug: 'lavanda', name: 'Lavanda', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/lavanda.jpg', images: ['/images/lavanda.jpg'],
     imageCredit: 'Foto: D2swirl, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Lavanda – prodaja sadnica, cena na upit',
@@ -1821,7 +1821,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: '0,3–0,6 m', sunlight: 'Puno sunce', watering: 'Redovno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Nije otporna na mraz, gaji se sezonski' }
   },
   {
-    id: 95, slug: 'santolina', name: 'Santolina', category: 'perene', categories: ['perene', 'mediteranske'],
+    id: 95, slug: 'santolina', name: 'Santolina', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/santolina.jpg', images: ['/images/santolina.jpg'],
     imageCredit: 'Foto: Stan Shebs, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Santolina – prodaja sadnica, cena na upit',
