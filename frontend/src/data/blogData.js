@@ -1,5 +1,206 @@
 const blogPosts = [
   {
+    id: 17,
+    slug: 'likvidambar-jesenje-boje-sadnja-nega',
+    title: 'Likvidambar – drvo sa najlepšom jesenjom bojom: sadnja i nega',
+    excerpt: 'Likvidambar je ukrasno drvo zvezdastih listova koje se u jesen obasjaju kombinacijom crvene, narandžaste, žute i ljubičaste boje — jedna od najefektnijih jesenjih paleta među svim drvećem. Objašnjavamo zašto je boja tako intenzivna i kako ga pravilno saditi i negovati.',
+    date: '2026-10-30',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/likvidambar.jpg',
+    relatedSlugs: ['katalpa-sadnja-i-nega', 'platan-sadnja-nega-gradsko-drvo', 'magnolija-grandiflora-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Zašto likvidambar ima tako intenzivnu jesenju boju?',
+        a: 'Boju određuju temperaturne razlike između toplih dana i hladnih noći u jesen, koje podstiču ispoljavanje crvenih i ljubičastih pigmenata (antocijana) skrivenih tokom leta zelenom bojom hlorofila. Boja je najintenzivnija na suncu, a znatno slabija u senci.'
+      },
+      {
+        q: 'Koliko likvidambar naraste?',
+        a: 'U zrelosti dostiže 20–25 m visine, uz umeren tempo rasta, pa dugo ostaje proporcionalan dvorištu pre nego što dosegne punu veličinu.'
+      },
+      {
+        q: 'Da li likvidambar podnosi mraz u Srbiji?',
+        a: 'Da, otporan je na mraz do -20°C, što pokriva veći deo Srbije.'
+      },
+      {
+        q: 'Kada je jesenja boja likvidambara najlepša?',
+        a: 'Obično od sredine oktobra do početka novembra, u zavisnosti od vremenskih uslova te godine — hladnije i sunčanije jeseni daju upečatljiviju boju.'
+      },
+      {
+        q: 'Koja je cena sadnice likvidambara?',
+        a: 'Cena je na upit, u zavisnosti od veličine sadnice i količine — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p>Ako tražite drvo koje će vašem dvorištu svake jeseni priuštiti prizor vredan fotografije, <strong>likvidambar</strong> (Liquidambar styraciflua) jedan je od najefektnijih izbora. Prepoznatljiv je po zvezdastim, javorolikim listovima koji se u jesen oboje u kombinaciju crvene, narandžaste, žute i ljubičaste — često sve boje istovremeno, na istom stablu.</p>
+
+      <p>U ovom vodiču objašnjavamo zašto likvidambar ima tako intenzivnu jesenju boju, koliko prostora mu treba i kako ga pravilno posaditi i negovati.</p>
+
+      <h2>Šta je likvidambar i zašto je poseban?</h2>
+      <ul>
+        <li><strong>Spektakularna jesenja boja</strong> — kombinacija crvene, narandžaste, žute i ljubičaste na istom drvetu, duže traje nego kod većine drugog drveća</li>
+        <li><strong>Prepoznatljivi zvezdasti listovi</strong> — slični javorovim, ali sa 5–7 oštrih, zvezdastih lapova</li>
+        <li><strong>Impozantna visina</strong> — dostiže 20–25 m, ali raste umereno, pa dugo ostaje u skladu sa dvorištem</li>
+        <li><strong>Dekorativna kora</strong> — sa godinama razvija plutastu, ispucanu teksturu, zanimljivu i zimi bez lišća</li>
+      </ul>
+
+      <h2>Zašto je jesenja boja likvidambara tako intenzivna?</h2>
+      <p>Boja zavisi od temperaturnih razlika između dana i noći u jesen — hladnije noći i sunčani dani podstiču razlaganje hlorofila i ispoljavanje crvenih i ljubičastih pigmenata koji su inače maskirani zelenom bojom tokom leta. Zato je jesenja boja najintenzivnija na otvorenom, sunčanom mestu, a znatno slabija u senci.</p>
+
+      <h2>Kada saditi likvidambar?</h2>
+      <ul>
+        <li><strong>Jesen (oktobar–novembar)</strong> — najbolji period, dovoljno vremena da se ukoreni pre prolećnog rasta</li>
+        <li><strong>Rano proleće (mart–april)</strong> — druga dobra opcija</li>
+      </ul>
+
+      <h2>Koliko prostora treba likvidambaru?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Od čega</th><th>Minimalno rastojanje</th></tr></thead>
+        <tbody>
+          <tr><td>Temelj kuće i objekti</td><td>najmanje 5–6 m</td></tr>
+          <tr><td>Ograda, staza</td><td>najmanje 3–4 m</td></tr>
+          <tr><td>Drugo drveće</td><td>najmanje 5 m, zbog širine krošnje</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kako saditi likvidambar — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano mesto — jesenja boja je najintenzivnija uz puno sunca, dok u senci listovi ostaju uglavnom žuti ili blago narandžasti.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, u plodnu, vlažnu i dobro drenirane zemljište — likvidambar ne voli tlo u kom se dugo zadržava voda, ali ni suvo, peskovito.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu tako da vrh busena bude u nivou okolnog tla, zasipajte i obilno zalijte odmah nakon sadnje.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve godine je ključno za uspešno ukorenjavanje — kasnije likvidambar postaje znatno samostalniji.</p>
+
+      <h2>Nega likvidambara</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno prve 1–2 godine, kasnije umereno, posebno u sušnim periodima</li>
+        <li><strong>Rezidba:</strong> minimalna — samo uklanjanje suvih ili oštećenih grana krajem zime</li>
+        <li><strong>Đubrenje:</strong> nije neophodno na plodnom zemljištu; po potrebi đubrivo za lišćare u proleće</li>
+      </ul>
+
+      <h2>Likvidambar u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina u zrelosti</td><td>20–25 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -20°C</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunca (za najbolju jesenju boju)</td></tr>
+          <tr><td>Zemljište</td><td>plodno, vlažno, dobro drenirano</td></tr>
+          <tr><td>Vrhunac jesenje boje</td><td>oktobar–novembar</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti likvidambar u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice likvidambara uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/likvidambar">pogledajte likvidambar i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 16,
+    slug: 'platan-sadnja-nega-gradsko-drvo',
+    title: 'Platan – sadnja, nega i zašto je najotpornije drvo za senku',
+    excerpt: 'Platan podnosi zagađenje, vrućinu i siromašno gradsko zemljište bolje od većine drugog drveća, a daje ogromnu, dugotrajnu senku. Objašnjavamo koliko prostora mu zapravo treba i kako ga pravilno posaditi i negovati.',
+    date: '2026-10-28',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/platan.jpg',
+    relatedSlugs: ['katalpa-sadnja-i-nega', 'likvidambar-jesenje-boje-sadnja-nega', 'magnolija-grandiflora-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Koliko platan naraste i koliko mu treba vremena?',
+        a: 'Platan dostiže 25–35 m visine u zrelosti, ali je to proces od više decenija — raste umereno brzo i pravi primetnu senku već posle 8–10 godina.'
+      },
+      {
+        q: 'Da li platan podnosi gradske uslove i zagađenje?',
+        a: 'Da, to mu je jedna od glavnih prednosti — zato se najčešće sadi na bulevarima, trgovima i uz saobraćajnice, gde druge vrste teže opstaju.'
+      },
+      {
+        q: 'Koliko prostora treba platanu od kuće i instalacija?',
+        a: 'Zbog snažnog korenovog sistema preporučuje se najmanje 10–15 m od temelja objekata i 8–10 m od vodovodnih i kanalizacionih instalacija.'
+      },
+      {
+        q: 'Da li je ljuštenje kore znak bolesti?',
+        a: 'Ne, to je prirodna osobina platana — kora se ljušti u pločama otkrivajući svetlije mrlje, što je upravo jedna od njegovih prepoznatljivih ukrasnih odlika, posebno vidljiva zimi.'
+      },
+      {
+        q: 'Koja je cena sadnice platana?',
+        a: 'Cena je na upit, u zavisnosti od veličine sadnice i količine — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p>Ako tražite drvo koje će vašem dvorištu, prilazu ili imanju dati ozbiljnu, dugotrajnu senku i koje podnosi baš sve — od vrućine i zagađenja do siromašnog zemljišta — <strong>platan</strong> je jedan od najboljih i najdokazanijih izbora. Prepoznatljiv je po krupnim, javorolikim listovima i kori koja se ljušti otkrivajući svetlije mrlje, pa deluje impozantno tokom cele godine.</p>
+
+      <p>U ovom vodiču objašnjavamo zašto je platan toliko otporan, koliko prostora mu zapravo treba, i kako ga pravilno posaditi i negovati.</p>
+
+      <h2>Šta je platan i zašto je toliko popularan?</h2>
+      <ul>
+        <li><strong>Izuzetna otpornost</strong> — podnosi zagađenje vazduha, sabijeno gradsko zemljište, sušu i vrućinu bolje od većine drugog drveća</li>
+        <li><strong>Ogromna senka</strong> — široka, gusta krošnja već posle desetak godina pravi hlad za ceo deo dvorišta ili imanja</li>
+        <li><strong>Prepoznatljiva kora</strong> — ljušti se u pločama, otkrivajući svetlije, skoro bež mrlje — karakterističan, ukrasan izgled i zimi, bez lišća</li>
+        <li><strong>Dugovečnost</strong> — živi i po nekoliko stotina godina, prava investicija za generacije</li>
+      </ul>
+
+      <h2>Koliko prostora treba platanu?</h2>
+      <p>Platan je veliko drvo — dostiže <strong>25–35 m visine</strong> sa širokom krošnjom i snažnim korenovim sistemom. Pre sadnje obavezno vodite računa o rastojanju:</p>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Od čega</th><th>Minimalno rastojanje</th></tr></thead>
+        <tbody>
+          <tr><td>Temelj kuće i objekti</td><td>najmanje 10–15 m</td></tr>
+          <tr><td>Vodovodne i kanalizacione instalacije</td><td>najmanje 8–10 m</td></tr>
+          <tr><td>Ograda, staza, kolovoz</td><td>najmanje 5–6 m</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Zbog snažnog korenovog sistema platan je idealan za velika dvorišta, imanja, bulevare i parkove — ali ne za mala gradska dvorišta blizu temelja ili instalacija.</p>
+
+      <h2>Kada saditi platan?</h2>
+      <ul>
+        <li><strong>Jesen (oktobar–novembar)</strong> — najbolji period, korenu ostaje cela zima da se učvrsti pre prolećnog rasta</li>
+        <li><strong>Rano proleće (mart)</strong> — druga dobra opcija, dok biljka još nije u punoj vegetaciji</li>
+      </ul>
+
+      <h2>Kako saditi platan — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Platan voli puno sunca i otvoren prostor gde krošnja može slobodno da se razvija narednih decenija.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu bar dva puta širu od busena korena. Platan nije izbirljiv po tipu zemljišta, ali dobro drenirano tlo ubrzava ukorenjavanje.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu tako da vrh busena bude u nivou okolne zemlje, zasipajte i lagano sabijte, pa obilno zalijte.</p>
+      <h3>4. Prva godina</h3>
+      <p>Redovno zalivanje tokom prve vegetacijske sezone je presudno — kasnije platan postaje izrazito otporan na sušu i samostalan.</p>
+
+      <h2>Nega platana</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno prve 1–2 godine, kasnije samo u ekstremnoj suši</li>
+        <li><strong>Rezidba:</strong> uklanjanje suvih i ukrštenih grana krajem zime; mlada drveta se mogu formirati u željeni oblik krošnje</li>
+        <li><strong>Đubrenje:</strong> nije neophodno na kvalitetnom zemljištu, po potrebi đubrivo za lišćare u proleće</li>
+      </ul>
+
+      <h2>Platan u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina u zrelosti</td><td>25–35 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -20°C</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunca</td></tr>
+          <tr><td>Tip zemljišta</td><td>prilagodljiv, širok spektar</td></tr>
+          <tr><td>Namena</td><td>bulevari, trgovi, velika dvorišta i imanja</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti platan u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice platana uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine i količine — <a href="/sadnice/platan">pogledajte platan i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 15,
     slug: 'malc-za-baste-vrste-primena-cena',
     title: 'Malč za baštu – vrste, cena i kako ga pravilno postaviti',

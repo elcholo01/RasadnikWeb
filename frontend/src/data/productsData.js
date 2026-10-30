@@ -1487,6 +1487,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Likvidambar – prodaja sadnica, drvo zvezdastih listova sa spektakularnom jesenjom bojom. Cena na upit, dostava širom Srbije.',
     description: 'Ukrasno drvo zvezdastih listova koji se u jesen obasjaju kombinacijom crvene, narandžaste i ljubičaste — jedna od najlepših jesenjih boja među drvećem.',
     richContent: `Liquidambar styraciflua prepoznatljiv je po zvezdastim listovima i spektakularnoj, višebojnoj jesenjoj paleti. Dostiže 20–25 m visine. Sadi se na suncu, u plodnu, vlažnu, dobro dreniranu zemlju, otporan je na mraz do -20°C. Dostupan u Rasadniku Tilija.`,
+    relatedBlogSlug: 'likvidambar-jesenje-boje-sadnja-nega',
     inStock: true,
     details: { height: 'Do 20–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna, dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
   },
@@ -1553,6 +1554,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Platan – prodaja sadnica, veliko senovito drvo otporno na gradske uslove. Cena na upit, dostava širom Srbije.',
     description: 'Veliko, dugovečno senovito drvo prepoznatljive šarene kore koja se ljušti u pločama — klasičan izbor za bulevare, trgove i velika dvorišta.',
     richContent: `Platanus × acerifolia jedno je od najotpornijih gradskih drveća, poznato po krupnim, javorolikim listovima i karakterističnoj kori koja se ljušti otkrivajući svetlije mrlje. Dostiže 25–35 m visine. Sadi se na suncu, izuzetno je otporan na zagađenje vazduha i gradske uslove, otporan je na mraz do -20°C. Dostupan u Rasadniku Tilija.`,
+    relatedBlogSlug: 'platan-sadnja-nega-gradsko-drvo',
     inStock: true,
     details: { height: 'Do 25–35 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiv različitim tipovima zemljišta', hardiness: 'Otporan na mraz do -20°C' }
   },
