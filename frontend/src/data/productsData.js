@@ -141,6 +141,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     metaDescription: 'Plava smrča – prodaja sadnica, dekorativno drvo srebrnasto-plavih iglica, savršen soliter za dvorište. Cena od 3.500 RSD, dostava širom Srbije.',
     description: 'Upečatljivo dekorativno drvo srebrnasto-plavih iglica koje zadržava lepotu bez ikakvog rezanja — savršen soliter za dvorište ili park.',
     richContent: `Picea pungens 'Glauca' sporo raste, ali s vremenom dostiže impresivnih 10–15 metara visine. Sadi se u proleće, na sunčanom mestu u blago kiselu zemlju. Izuzetno je otporna na mraz i hladnoću. Dostupna je u Rasadniku Tilija, uz dostavu.`,
+    relatedBlogSlug: 'plava-smrca-sadnja-nega-cena',
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1135,6 +1136,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Japanski javor – prodaja sadnica, elegantno ukrasno drvo fino isečenih, jesenje obojenih listova. Dostava širom Srbije, cena na upit.',
     description: 'Elegantno ukrasno drvo fino isečenih listova u nijansama crvene, bordo, narandžaste i zelene boje — pravo remek-delo koje menja izgled iz sezone u sezonu.',
     richContent: `Acer palmatum sporo raste i dostiže 2–5 metara, idealan je kao soliter ili u kombinaciji sa zimzelenim biljkama. Traži zaštićeno mesto od jakog vetra, polusenku i blago kiselu, bogatu zemlju. Jesen donosi spektakularne crveno-narandžaste tonove. Dostupan je u Rasadniku Tilija, uz dostavu.`,
+    relatedBlogSlug: 'japanski-javor-sadnja-nega-polusenka',
     inStock: true,
     details: {
       height: '2-5 m',
@@ -1709,6 +1711,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Ruža – prodaja sadnica, klasična vrtna ruža u više boja i sorti. Cena na upit, dostava širom Srbije.',
     description: 'Klasična vrtna lepotica dostupna u mnoštvu boja i sorti — simbol svake negovane bašte, sa dugim periodom cvetanja tokom tople sezone.',
     richContent: `Vrtne ruže (Rosa sp.) dolaze u mnoštvu sorti, boja i formi, od niskih žbunastih do penjačica. Visina zavisi od sorte, najčešće 0,5–2 m. Sadi se na punom suncu, zahteva redovno đubrenje i rezanje, otpornost na mraz zavisi od sorte (najčešće do -20°C). Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'ruza-sadnja-nega-rezidba-zastita-zimi',
     inStock: true,
     details: { height: '0,5–2 m, zavisno od sorte', sunlight: 'Puno sunce', watering: 'Redovno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -20°C (zavisno od sorte)' }
   },

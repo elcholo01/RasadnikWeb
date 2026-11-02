@@ -1,5 +1,303 @@
 const blogPosts = [
   {
+    id: 20,
+    slug: 'ruza-sadnja-nega-rezidba-zastita-zimi',
+    title: 'Ruža – sadnja, nega, rezidba i zaštita zimi',
+    excerpt: 'Ruža je najtraženija baštenska biljka u Srbiji — ali i jedna od najčešće pogrešno orezanih i negovanih. Objašnjavamo kada i kako orezati ružu, zašto ne cveta i kako je zaštititi preko zime.',
+    date: '2026-11-02',
+    readTime: '7 min',
+    category: 'Šiblje',
+    image: '/images/ruza.jpg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'perene-za-bastu-srbija', 'hibiskus-zasto-ne-cveta-nega'],
+    faq: [
+      {
+        q: 'Kada se orezuje ruža?',
+        a: 'Glavna rezidba radi se krajem zime ili ranog proleća, pre kretanja novih izbojaka (februar–mart, zavisno od regiona). Dodatno se može blago orezati i u jesen, pre zahladnjenja, da se skrate previsoke granе.'
+      },
+      {
+        q: 'Zašto ruža ne cveta?',
+        a: 'Najčešći razlozi su nedovoljno sunca (treba joj puno sunca), loša ili neredovna rezidba, previše azota u đubrenju (podstiče list, a ne cvet) i neuklanjanje precvetalih cvetova koji troše energiju biljke.'
+      },
+      {
+        q: 'Kako se ruža štiti preko zime?',
+        a: 'Oko korena se nasipa zemlja ili malč u visini od 15–20 cm, čime se štiti mesto kalemljenja. U hladnijim krajevima penjačice i stablašice se dodatno obmotaju agrotekstilom.'
+      },
+      {
+        q: 'Koliko često treba zalivati ružu?',
+        a: 'Redovno, ali bez prelivanja — zemlja treba da se prosuši između zalivanja. Najbolje je zalivati direktno u korenski prostor, ujutru, da bi se listovi tokom dana osušili i smanjio rizik od bolesti.'
+      },
+      {
+        q: 'Koja je cena sadnice ruže?',
+        a: 'Cena je na upit, u zavisnosti od sorte, forme (žbunasta, penjačica ili stablašica) i veličine sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Ruža</strong> (Rosa sp.) je verovatno najprepoznatljivija i najtraženija baštenska biljka u Srbiji — simbol negovane bašte, prisutna u gotovo svakom dvorištu, od skromnih žbunova do raskošnih penjačica preko kapija i odžbunjenih stablašica. Uz svu svoju popularnost, ruža je i jedna od biljaka kod kojih se najčešće greši, baš oko rezidbe, zalivanja i zaštite zimi.</p>
+
+      <p>U ovom vodiču objašnjavamo kako i kada saditi ružu, kako je pravilno orezati, zašto često ne cveta i kako je provesti kroz zimu bez štete.</p>
+
+      <h2>Zašto je ruža najtraženija baštenska biljka?</h2>
+      <ul>
+        <li><strong>Dugo cvetanje</strong> — od maja do kasne jeseni, u talasima, uz redovnu negu</li>
+        <li><strong>Mnoštvo sorti, boja i formi</strong> — od niskih žbunastih do penjačica i stablašica</li>
+        <li><strong>Prepoznatljiv miris</strong> — kod mnogih sorti izražen i karakterističan</li>
+        <li><strong>Univerzalna upotreba</strong> — žive ograde, solitersko sađenje, kapije, lukovi, saksije</li>
+      </ul>
+
+      <h2>Kada i gde saditi ružu?</h2>
+      <p>Ruža traži <strong>puno sunca</strong> — najmanje 6 sati direktne svetlosti dnevno, u senci slabo cveta i podložnija je bolestima. Zemljište treba da bude plodno, dobro drenirano i blago kiselo do neutralno. Najbolje vreme za sadnju je <strong>rana jesen (oktobar)</strong> ili <strong>rano proleće (mart–april)</strong>, dok sadnice u kontejneru mogu da se sade praktično cele sezone.</p>
+
+      <h2>Kako saditi ružu — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano, prozračno mesto — dobra cirkulacija vazduha smanjuje rizik od gljivičnih bolesti na listu.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu oko 40–50 cm duboku i široku, uz dodatak zrelog komposta ili stajnjaka u zemlju za sadnju.</p>
+      <h3>3. Sadnja</h3>
+      <p>Mesto kalemljenja (zadebljanje na dnu stabla) postavite 3–5 cm ispod nivoa zemlje, posebno u hladnijim krajevima — to štiti sortu od smrzavanja.</p>
+      <h3>4. Zalivanje nakon sadnje</h3>
+      <p>Obilno zalijte odmah nakon sadnje i redovno tokom prvih nekoliko nedelja, dok se ruža ne ukoreni.</p>
+
+      <h2>Kada orezati ružu i kako?</h2>
+      <ul>
+        <li><strong>Glavna rezidba — krajem zime/rano proleće:</strong> uklanjaju se suve, bolesne i preslabe grane, a zdrave se skraćuju iznad zdravog pupoljka, kosim rezom pod uglom od 45°</li>
+        <li><strong>Tokom sezone:</strong> redovno uklanjanje precvetalih cvetova (deadheading) podstiče nastajanje novih</li>
+        <li><strong>Jesenja rezidba:</strong> blago skraćivanje previsokih grana pre zime, da ih vetar i sneg ne bi oštetili ili polomili</li>
+      </ul>
+
+      <h2>Zašto ruža ne cveta?</h2>
+      <ul>
+        <li><strong>Nedovoljno sunca</strong> — najčešći razlog, ruža u senci retko i slabo cveta</li>
+        <li><strong>Pogrešna rezidba ili izostanak rezidbe</strong> — stara, zapuštena ruža gubi snagu za cvetanje</li>
+        <li><strong>Previše azota u đubrenju</strong> — podstiče bujan list na račun cveta; potrebno je đubrivo bogatije fosforom i kalijumom</li>
+        <li><strong>Neuklanjanje precvetalih cvetova</strong> — biljka troši energiju na stvaranje semena umesto novih pupoljaka</li>
+      </ul>
+
+      <h2>Zaštita ruže zimi</h2>
+      <p>Oko baze biljke nasipa se zemlja ili malč u visini 15–20 cm, čime se štiti mesto kalemljenja od smrzavanja. Penjačice i stablašice, posebno u hladnijim krajevima Srbije, dodatno se obmotaju agrotekstilom ili jutom. Rezidba pre zime treba da bude blaga — glavno orezivanje čeka proleće.</p>
+
+      <h2>Najčešće bolesti ruža</h2>
+      <p>Najčešći problemi su <strong>pepelnica</strong> (beličasta prevlaka na listu) i <strong>crna pegavost</strong> (crne pege koje dovode do žućenja i opadanja lišća). Oboje se smanjuju zalivanjem direktno u korenski prostor (ne po listu), dobrom cirkulacijom vazduha i redovnim uklanjanjem obolelog lišća.</p>
+
+      <h2>Ruža u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>0,5–2 m, zavisno od sorte</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -20°C, zavisno od sorte</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce, min. 6h dnevno</td></tr>
+          <tr><td>Zemljište</td><td>plodno, dobro drenirano</td></tr>
+          <tr><td>Glavna rezidba</td><td>krajem zime / rano proleće</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti ružu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice ruža u više formi — žbunaste, penjačice i stablašice — uz dostavu širom Srbije. Cena je na upit u zavisnosti od sorte i veličine — <a href="/sadnice/ruza">pogledajte ružu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 19,
+    slug: 'plava-smrca-sadnja-nega-cena',
+    title: 'Plava smrča – sadnja, nega i zašto joj iglice žute',
+    excerpt: 'Plava smrča je jedan od najtraženijih soliterskih četinara u srpskim dvorištima, zahvaljujući upečatljivoj srebrnasto-plavoj boji iglica koja ne bledi tokom godine. Objašnjavamo kako je posaditi, negovati i prepoznati najčešće probleme.',
+    date: '2026-11-01',
+    readTime: '6 min',
+    category: 'Četinari',
+    image: '/images/WhatsApp Image 2026-01-04 at 19.50.56.jpeg',
+    relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'lejlandi-sadnja-i-nega', 'italijanski-cempres-sadnja-nega-mraz'],
+    faq: [
+      {
+        q: 'Koliko naraste plava smrča?',
+        a: 'U zrelosti dostiže 10–15 m visine, ali raste sporo, pa dugo ostaje proporcionalna dvorištu pre nego što dosegne punu veličinu.'
+      },
+      {
+        q: 'Zašto plavoj smrči iglice žute ili opadaju?',
+        a: 'Najčešći uzroci su zemljište koje zadržava vlagu (loša drenaža), produžena suša, gljivične bolesti igličja i sađenje u senci — boja i zdravlje iglica su najbolji na punom suncu i u dobro dreniranoj zemlji.'
+      },
+      {
+        q: 'Da li plava smrča podnosi mraz u Srbiji?',
+        a: 'Da, izuzetno je otporna na mraz i hladnoću, pa je pogodna za sve regione Srbije.'
+      },
+      {
+        q: 'Kada je najbolje saditi plavu smrču?',
+        a: 'Najbolje u proleće ili ranu jesen. Sadnice u kontejneru mogu se saditi i tokom drugih delova godine, uz redovno zalivanje nakon sadnje.'
+      },
+      {
+        q: 'Koja je cena sadnice plave smrče?',
+        a: 'Cena počinje od 3.500 RSD, u zavisnosti od veličine sadnice — kontaktirajte nas za tačnu ponudu prema željenoj visini.'
+      },
+    ],
+    content: `
+      <p><strong>Plava smrča</strong> (Picea pungens 'Glauca') jedan je od najprepoznatljivijih četinara u srpskim dvorištima — zahvaljujući srebrnasto-plavoj boji iglica koja ostaje upečatljiva tokom cele godine, bez ikakvog rezanja ili posebnog oblikovanja. Zato je dugo omiljen izbor za soliterski primerak u centru dvorišta ili parka.</p>
+
+      <p>U ovom vodiču objašnjavamo gde posaditi plavu smrču, kako je pravilno negovati i zašto joj iglice ponekad žute ili opadaju.</p>
+
+      <h2>Šta je plava smrča i zašto je tako popularna?</h2>
+      <ul>
+        <li><strong>Upečatljiva boja</strong> — srebrnasto-plave iglice koje ne bledi tokom godine</li>
+        <li><strong>Impozantna visina u zrelosti</strong> — do 10–15 m, uz sporiji, predvidiv rast</li>
+        <li><strong>Zimzelena cele godine</strong> — zadržava boju i formu i zimi</li>
+        <li><strong>Ne traži rezidbu</strong> — prirodno pravilna, konusna forma bez oblikovanja</li>
+      </ul>
+
+      <h2>Gde posaditi plavu smrču?</h2>
+      <p>Traži <strong>puno sunce</strong> — na suncu boja iglica je najintenzivnija, dok u senci postaju zelenije i manje upečatljive. Zemljište treba da bude blago kiselo i, što je najvažnije, <strong>dobro drenirano</strong> — plava smrča ne podnosi zemljište u kom se dugo zadržava voda.</p>
+
+      <h2>Koliko prostora treba plavoj smrči?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Od čega</th><th>Minimalno rastojanje</th></tr></thead>
+        <tbody>
+          <tr><td>Kuća i objekti</td><td>najmanje 4–5 m</td></tr>
+          <tr><td>Ograda, staza</td><td>najmanje 2–3 m</td></tr>
+          <tr><td>Drugo drveće</td><td>najmanje 4 m, zbog širine krošnje u zrelosti</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kada saditi plavu smrču?</h2>
+      <p>Najbolje je saditi u <strong>proleće</strong> ili <strong>ranu jesen</strong>, kada su temperature umerene. Sadnice u kontejneru mogu se saditi i u drugim periodima, uz redovno zalivanje odmah nakon sadnje.</p>
+
+      <h2>Kako saditi plavu smrču — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano mesto, dovoljno udaljeno od kuće i drugog drveća, imajući u vidu konačnu visinu i širinu krošnje.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, u dobro drenirano zemljište — po potrebi dodajte krupniji pesak ili drenažni materijal na dno rupe.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu tako da vrh busena bude u nivou okolnog tla — sađenje preduboko je čest uzrok lošeg razvoja.</p>
+      <h3>4. Zalivanje nakon sadnje</h3>
+      <p>Obilno zalijte odmah nakon sadnje, a tokom prve godine redovno, posebno u sušnim periodima.</p>
+
+      <h2>Nega plave smrče</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> umereno, ali redovno prve 1–2 godine; kasnije plava smrča postaje otporna i na duže suše</li>
+        <li><strong>Rezidba:</strong> nije potrebna — prirodno zadržava pravilnu, konusnu formu</li>
+        <li><strong>Đubrenje:</strong> po potrebi, đubrivo za četinare u proleće, posebno na siromašnijem zemljištu</li>
+      </ul>
+
+      <h2>Zašto plavoj smrči iglice žute ili opadaju?</h2>
+      <ul>
+        <li><strong>Loša drenaža ili prelivanje</strong> — najčešći uzrok, koren trune u zemljištu koje dugo zadržava vodu</li>
+        <li><strong>Produžena suša</strong> — posebno u prvim godinama nakon sadnje, dok korenov sistem još nije razvijen</li>
+        <li><strong>Gljivične bolesti igličja</strong> — mogu uzrokovati žućenje i opadanje starijih, donjih iglica</li>
+        <li><strong>Sađenje u senci ili preduboko</strong> — slabi opšte zdravlje i boju biljke</li>
+      </ul>
+
+      <h2>Plava smrča u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina u zrelosti</td><td>10–15 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>veoma otporna</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce</td></tr>
+          <tr><td>Zemljište</td><td>blago kiselo, dobro drenirano</td></tr>
+          <tr><td>Cena</td><td>od 3.500 RSD, zavisno od veličine</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti plavu smrču u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice plave smrče svih visina, po ceni od 3.500 RSD, uz dostavu širom Srbije. <a href="/sadnice/plava-smrca">Pogledajte plavu smrču i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 18,
+    slug: 'japanski-javor-sadnja-nega-polusenka',
+    title: 'Japanski javor – sadnja, nega i zašto suše listovi',
+    excerpt: 'Japanski javor je jedno od najelegantnijih ukrasnih drveta za manja dvorišta, poznato po finom, isečenom lišću koje se u jesen oboji u vatrene nijanse. Objašnjavamo gde ga posaditi, kako ga negovati i zašto mu listovi često suše na ivicama.',
+    date: '2026-10-31',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/japanskijavor.jpeg',
+    relatedSlugs: ['platan-sadnja-nega-gradsko-drvo', 'likvidambar-jesenje-boje-sadnja-nega', 'magnolija-grandiflora-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Koliko naraste japanski javor?',
+        a: 'Sporo raste i u zrelosti dostiže 2–5 m, zbog čega dugo ostaje kompaktan i pogodan za manja dvorišta, dvorišne kompozicije i velike saksije.'
+      },
+      {
+        q: 'Da li japanski javor voli sunce ili senku?',
+        a: 'Najbolje mu odgovara polusenka — zaštićeno mesto od jakog, direktnog podnevnog sunca i vetra, posebno tokom letnjih meseci.'
+      },
+      {
+        q: 'Zašto japanskom javoru listovi suše na ivicama?',
+        a: 'Najčešći uzrok je "ožeg lišća" — kombinacija jakog sunca, vetra i suve zemlje, posebno tokom leta. Uzrok mogu biti i prekomerno đubrenje ili stres nakon presađivanja u prvoj godini.'
+      },
+      {
+        q: 'Da li japanski javor podnosi mraz u Srbiji?',
+        a: 'Zrele biljke podnose mraz do -20°C, ali mlade, tek posađene sadnice je dobro zaštititi malčom oko korena tokom prve zime.'
+      },
+      {
+        q: 'Koja je cena sadnice japanskog javora?',
+        a: 'Cena je na upit, u zavisnosti od veličine i oblika sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Japanski javor</strong> (Acer palmatum) jedno je od najelegantnijih ukrasnih drveta koje se može posaditi u manjem dvorištu ili baštenskoj kompoziciji. Prepoznatljiv je po finom, duboko isečenom lišću koje tokom sezone prelazi kroz nijanse zelene, bordo i crvene, da bi se u jesen rasplamsalo u vatrene crveno-narandžaste tonove.</p>
+
+      <p>U ovom vodiču objašnjavamo gde japanski javor najbolje uspeva, kako ga saditi i negovati, i zašto mu listovi ponekad suše na ivicama.</p>
+
+      <h2>Šta je japanski javor i zašto je toliko tražen?</h2>
+      <ul>
+        <li><strong>Fino, isečeno lišće</strong> — duboko rezani listovi, potpuno drugačiji od klasičnog javora</li>
+        <li><strong>Spor rast</strong> — ostaje kompaktan (2–5 m) godinama, idealan za manje prostore i saksije</li>
+        <li><strong>Boja tokom cele sezone</strong> — od proleća do jeseni, u zavisnosti od sorte i svetlosti</li>
+        <li><strong>Univerzalna upotreba</strong> — soliter, kombinacija sa zimzelenim biljkama, japanski vrt, velike saksije</li>
+      </ul>
+
+      <h2>Gde posaditi japanski javor?</h2>
+      <p>Najbolje mu odgovara <strong>polusenka</strong> — zaštićeno mesto od jakog, direktnog podnevnog sunca i snažnog vetra, koji mu lako isuše i oštete fino lišće. Zemljište treba da bude blago kiselo, bogato humusom i dobro drenirano.</p>
+
+      <h2>Kada saditi japanski javor?</h2>
+      <p>Najbolje je saditi u <strong>jesen</strong> ili <strong>rano proleće</strong>, kada su temperature umerene i biljka ima vremena da se ukoreni pre izlaganja letnjoj vrelini.</p>
+
+      <h2>Kako saditi japanski javor — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte mesto zaštićeno od popodnevnog sunca i vetra — istočna ili severoistočna strana dvorišta, ili senka pod krošnjom većeg drveta, obično su idealni.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, u plodnu, blago kiselu zemlju obogaćenu kompostom.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu tako da vrh busena bude u nivou okolnog tla, zasipajte i obilno zalijte.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve godine je ključno, posebno tokom letnjih vrućina — korenov sistem još nije dovoljno razvijen da samostalno podnese sušu.</p>
+
+      <h2>Nega japanskog javora</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno, posebno tokom suvih i vrelih perioda, zemljište ne treba da se potpuno isuši</li>
+        <li><strong>Rezidba:</strong> minimalna — samo uklanjanje suvih ili ukrštenih grana, krajem zime pre kretanja soka</li>
+        <li><strong>Zaštita zimi:</strong> mlade sadnice je dobro zaštititi slojem malča oko korena tokom prve zime</li>
+        <li><strong>Saksije:</strong> odlično podnosi gajenje u velikim saksijama, uz redovnije zalivanje nego u zemlji</li>
+      </ul>
+
+      <h2>Zašto japanskom javoru listovi suše na ivicama?</h2>
+      <ul>
+        <li><strong>Ožeg lišća</strong> — najčešći uzrok; kombinacija jakog sunca, vetra i suvog zemljišta tokom leta</li>
+        <li><strong>Prekomerno đubrenje</strong> — nagomilane soli u zemljištu mogu "spržiti" ivice lista</li>
+        <li><strong>Stres nakon presađivanja</strong> — u prvoj godini nakon sadnje javor je osetljiviji, pa se blago sušenje ivica povremeno javlja i bez ozbiljnog uzroka</li>
+      </ul>
+      <p>Rešenje je obično jednostavno: premestiti sadnicu (ili je zaštititi) od direktnog popodnevnog sunca i vetra, i obezbediti redovno, ali umereno zalivanje.</p>
+
+      <h2>Japanski javor u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>2–5 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -20°C (zrele biljke)</td></tr>
+          <tr><td>Potreba za suncem</td><td>polusenka</td></tr>
+          <tr><td>Zemljište</td><td>blago kisela, bogata, dobro drenirana</td></tr>
+          <tr><td>Tempo rasta</td><td>spor</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti japanski javor u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice japanskog javora uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/japanski-javor">pogledajte japanski javor i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 17,
     slug: 'likvidambar-jesenje-boje-sadnja-nega',
     title: 'Likvidambar – drvo sa najlepšom jesenjom bojom: sadnja i nega',
