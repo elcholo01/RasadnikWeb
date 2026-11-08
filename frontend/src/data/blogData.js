@@ -1,5 +1,281 @@
 const blogPosts = [
   {
+    id: 23,
+    slug: 'simsir-zuti-listovi-moljac-nega',
+    title: 'Šimšir žuti i suši se? Moljac, bolesti i pravilna nega',
+    excerpt: 'Šimšir je decenijama bio najpouzdanija živa ograda u srpskim dvorištima — dok se nije pojavio šimširov moljac. Objašnjavamo kako prepoznati moljca i gljivične bolesti, zašto listovi žute i kako pravilno negovati i orezati šimšir.',
+    date: '2026-11-08',
+    readTime: '7 min',
+    category: 'Šiblje',
+    image: '/images/simsir.jpg',
+    relatedSlugs: ['lovor-visnja-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega', 'najbrza-ziva-ograda-srbija'],
+    faq: [
+      {
+        q: 'Zašto šimširu žute i suše listovi?',
+        a: 'Najčešći uzroci su napad šimširovog moljca (gusenice koje izjedaju list iznutra), gljivična bolest Cylindrocladium buxicola (box blight) koja se širi u vlažnim uslovima, ili prekomerno zalivanje po listu. Pregledom lista i grana obično se vidi koji je uzrok.'
+      },
+      {
+        q: 'Šta je šimširov moljac i kako se prepoznaje?',
+        a: 'Šimširov moljac (Cydalima perspectalis) je invazivna vrsta čije gusenice obrazuju paučinastu mrežu unutar krošnje i izjedaju list, ostavljajući ogoljene, suve grane. Prvi znaci su sitne paukove mreže i zeleno-crne gusenice na unutrašnjim granama.'
+      },
+      {
+        q: 'Kako se boriti protiv šimširovog moljca?',
+        a: 'Najefikasnije je tretiranje biološkim insekticidom na bazi Bacillus thuringiensis u fazi kada su gusenice male i aktivne (najčešće u proleće i kasno leto), uz redovan pregled krošnje tokom sezone kako bi se napad otkrio na vreme.'
+      },
+      {
+        q: 'Kada se orezuje šimšir?',
+        a: 'Oblikujuća rezidba radi se 2 puta godišnje — u proleće (maj) i krajem leta (avgust–septembar), izbegavajući rezanje po najžešćoj letnjoj vrelini.'
+      },
+      {
+        q: 'Koja je cena sadnice šimšira?',
+        a: 'Cena je na upit, u zavisnosti od veličine i oblika sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Šimšir</strong> (Buxus sempervirens) decenijama je bio sinonim za pouzdanu, negovanu živu ogradu i topijariju u srpskim dvorištima — gust, zimzelen, otporan na rezanje u bilo koju formu. Poslednjih godina, sve više vlasnika bašti primećuje žućenje, sušenje ili čak potpuno ogoljene grane na šimširu, najčešće zbog pojave šimširovog moljca ili gljivičnih bolesti.</p>
+
+      <p>U ovom vodiču objašnjavamo kako prepoznati uzrok problema, kako se boriti protiv moljca i bolesti, i kako pravilno saditi i negovati šimšir da bi ostao gust i zdrav.</p>
+
+      <h2>Zašto je šimšir klasičan izbor za živu ogradu?</h2>
+      <ul>
+        <li><strong>Gust, sitan i sjajan list</strong> — savršena tekstura za formirane, geometrijske oblike</li>
+        <li><strong>Odlično podnosi rezanje</strong> — jedini pravi izbor za topijariju i preciznu bordura-formu</li>
+        <li><strong>Zimzelen</strong> — drži formu i gustinu tokom cele godine</li>
+        <li><strong>Spor rast</strong> — dugo zadržava zadati oblik uz samo dva rezanja godišnje</li>
+      </ul>
+
+      <h2>Gde i kada saditi šimšir?</h2>
+      <p>Šimšir podnosi i sunce i senku, ali najgušći raste na mestu sa bar nekoliko sati sunca dnevno. Zemljište treba da bude dobro drenirano — ne voli duže zadržavanje vode oko korena. Najbolje vreme za sadnju je <strong>jesen</strong> ili <strong>rano proleće</strong>.</p>
+
+      <h2>Kako saditi šimšir — korak po korak</h2>
+      <h3>1. Razmak između biljaka</h3>
+      <p>Za formiranu živu ogradu sadi se na razmaku od 25–40 cm, u zavisnosti od željene gustine i brzine formiranja zida.</p>
+      <h3>2. Priprema zemljišta</h3>
+      <p>Iskopajte rov ili rupe dovoljno duboke za busen korena, uz dodatak komposta u siromašnijem zemljištu.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnice u nivou okolnog tla, zasipajte i obilno zalijte.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve godine, dok se korenov sistem ne razvije.</p>
+
+      <h2>Nega i rezidba šimšira</h2>
+      <ul>
+        <li><strong>Rezidba:</strong> 2 puta godišnje — u proleće (maj) i krajem leta (avgust–septembar)</li>
+        <li><strong>Zalivanje:</strong> umereno, direktno u korenski prostor — izbegavajte zalivanje po listu, posebno predveče, jer vlažan list pogoduje gljivičnim bolestima</li>
+        <li><strong>Đubrenje:</strong> po potrebi, đubrivo za zimzelene žbunove u proleće</li>
+      </ul>
+
+      <h2>Šimširov moljac — kako prepoznati i kako se boriti</h2>
+      <p><strong>Šimširov moljac</strong> (Cydalima perspectalis) je u posledanjih deceniju postao najveća pretnja šimširu u Srbiji i regionu. Gusenice prave paučinaste mreže unutar krošnje i izjedaju list iznutra, ostavljajući suve, ogoljene grane koje na prvi pogled podsećaju na sušu ili bolest.</p>
+      <ul>
+        <li><strong>Prepoznavanje:</strong> sitna paukova mreža na unutrašnjim granama, zeleno-crne gusenice sa crnim pegama, izgriženo lišće</li>
+        <li><strong>Tretman:</strong> biološki insekticid na bazi Bacillus thuringiensis, primenjen dok su gusenice male i aktivne (proleće i kasno leto)</li>
+        <li><strong>Prevencija:</strong> redovan pregled krošnje tokom sezone, posebno unutrašnjih, gušćih delova gde se gusenice prvo naseljavaju</li>
+      </ul>
+
+      <h2>Gljivične bolesti — zašto šimšir žuti i suši se</h2>
+      <p>Pored moljca, žućenje i sušenje grana može prouzrokovati i gljivična bolest <strong>Cylindrocladium buxicola</strong> (box blight), koja se širi u uslovima visoke vlažnosti i slabe cirkulacije vazduha. Prepoznaje se po tamnim pegama na listu i crnim prugama na granama. Smanjenje vlage na listu (zalivanje u korenski prostor, ne po listu) i proređivanje gusto zasađenih biljaka značajno smanjuju rizik.</p>
+
+      <h2>Šimšir u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>održava se po želji, u prirodi i do 5 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -20°C</td></tr>
+          <tr><td>Potreba za suncem</td><td>sunce do senka</td></tr>
+          <tr><td>Rezidba</td><td>2× godišnje (proleće i kraj leta)</td></tr>
+          <tr><td>Najveća pretnja</td><td>šimširov moljac (Cydalima perspectalis)</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti šimšir u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice šimšira uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/simsir">pogledajte šimšir i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 22,
+    slug: 'japanska-tresnja-sakura-cvetanje-sadnja',
+    title: 'Japanska trešnja (sakura) – cvetanje, sadnja i nega',
+    excerpt: 'Japanska trešnja je drvo čije prolećno cvetanje pretvara dvorište u prizor vredan japanskih bašti — nekoliko nedelja bele ili roze bujice cveta pre nego što se razviju listovi. Objašnjavamo kada cveta, kako je saditi i negovati.',
+    date: '2026-11-07',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/japanskatresnja.jpeg',
+    relatedSlugs: ['magnolija-grandiflora-sadnja-i-nega', 'likvidambar-jesenje-boje-sadnja-nega', 'platan-sadnja-nega-gradsko-drvo'],
+    faq: [
+      {
+        q: 'Kada cveta japanska trešnja i koliko dugo traje cvetanje?',
+        a: 'Cveta u martu ili aprilu, u zavisnosti od vremenskih uslova te godine, pre nego što se razviju listovi. Cvetanje traje 1–2 nedelje, u zavisnosti od temperature i vetra.'
+      },
+      {
+        q: 'Da li japanska trešnja rodi plod?',
+        a: 'Ukrasne sorte (Prunus serrulata) gaje se zbog cveta, a ne zbog roda — plod je sitan, trpak i praktično se ne koristi. Sav naglasak biljke ide na obilno, dekorativno cvetanje.'
+      },
+      {
+        q: 'Koliko naraste japanska trešnja?',
+        a: 'Dostiže 5–8 m visine, pa je pogodna i za srednje velika dvorišta, ne samo za parkove.'
+      },
+      {
+        q: 'Da li japanska trešnja podnosi mraz u Srbiji?',
+        a: 'Da, dobro podnosi hladnoću tokom zime, ali rano cvetanje je povremeno osetljivo na kasne prolećne mrazeve koji mogu oštetiti cvet u punom razvoju.'
+      },
+      {
+        q: 'Koja je cena sadnice japanske trešnje?',
+        a: 'Cena počinje od 3.500 RSD, u zavisnosti od veličine sadnice — kontaktirajte nas za tačnu ponudu prema željenoj visini.'
+      },
+    ],
+    content: `
+      <p><strong>Japanska trešnja</strong> (Prunus serrulata), poznata i kao <strong>sakura</strong>, jedno je od najemotivnijih drveta koje možete posaditi u dvorištu. Nekoliko nedelja u proleće, pre nego što se i jedan list razvije, čitava krošnja se prekrije gustim oblacima belog ili roze cveta — prizor koji je u Japanu inspirisao celu kulturu posmatranja cvetanja trešnje (hanami).</p>
+
+      <p>U ovom vodiču objašnjavamo kada japanska trešnja cveta, kako je pravilno posaditi i negovati, i na šta obratiti pažnju u prvim godinama.</p>
+
+      <h2>Zašto je japanska trešnja tako popularna?</h2>
+      <ul>
+        <li><strong>Bajkovito prolećno cvetanje</strong> — gust, obilan cvet pre razvoja lišća</li>
+        <li><strong>Umerena veličina</strong> — 5–8 m, pogodna za srednje velika dvorišta</li>
+        <li><strong>Brz vizuelni efekat</strong> — svakog proleća dvorište dobije potpuno nov izgled</li>
+        <li><strong>Jesenja boja lista</strong> — dodatni, manje poznat bonus u žuto-narandžastim tonovima</li>
+      </ul>
+
+      <h2>Gde posaditi japansku trešnju?</h2>
+      <p>Traži <strong>puno sunce</strong> za najbujnije cvetanje i zaštićeno mesto od jakog vetra koji može prerano oduvati cvet. Zemljište treba da bude plodno i dobro drenirano — ne podnosi dugotrajno zadržavanje vode oko korena.</p>
+
+      <h2>Kada saditi japansku trešnju?</h2>
+      <p>Najbolje je saditi u <strong>jesen</strong> ili <strong>rano proleće</strong>, pre kretanja vegetacije. Sadnice u kontejneru mogu se saditi i tokom drugih delova godine.</p>
+
+      <h2>Kako saditi japansku trešnju — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano mesto, zaštićeno od najjačeg vetra, sa dovoljno prostora za razvoj krošnje (najmanje 4–5 m od objekata).</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, u plodnu, dobro drenirane zemljište.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu u nivou okolnog tla, zasipajte i obilno zalijte odmah nakon sadnje.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve godine je ključno za uspešno ukorenjavanje.</p>
+
+      <h2>Nega japanske trešnje</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> redovno prve 1–2 godine, kasnije umereno, posebno u sušnim periodima</li>
+        <li><strong>Rezidba:</strong> minimalna — samo uklanjanje suvih ili ukrštenih grana, odmah nakon cvetanja, nikad kasno u jesen</li>
+        <li><strong>Česti problemi:</strong> trulež cveta (monilija) u vlažnim prolećima i lisne vaši — rešavaju se standardnim preparatima za koštičavo voće</li>
+      </ul>
+
+      <h2>Japanska trešnja u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>5–8 m</td></tr>
+          <tr><td>Period cvetanja</td><td>mart–april, 1–2 nedelje</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce</td></tr>
+          <tr><td>Zemljište</td><td>plodno, dobro drenirano</td></tr>
+          <tr><td>Cena</td><td>od 3.500 RSD, zavisno od veličine</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti japansku trešnju u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice japanske trešnje po ceni od 3.500 RSD, uz dostavu širom Srbije. <a href="/sadnice/japanska-tresnja">Pogledajte japansku trešnju i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 21,
+    slug: 'breza-sadnja-nega-koren-pored-kuce',
+    title: 'Breza – sadnja, nega i da li joj koren šteti temeljima',
+    excerpt: 'Breza je jedno od najprepoznatljivijih drveta u srpskim dvorištima, zahvaljujući beloj kori i vitkim granama — ali i tema stalnih nedoumica oko toga koliko daleko od kuće treba da bude posađena. Objašnjavamo sve, od sadnje do rezidbe.',
+    date: '2026-11-06',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/breza.jpg',
+    relatedSlugs: ['platan-sadnja-nega-gradsko-drvo', 'likvidambar-jesenje-boje-sadnja-nega', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Da li korenje breze oštećuje temelje i instalacije?',
+        a: 'Breza ima relativno plitak, ali razgranat korenov sistem koji se širi u potrazi za vlagom, pa se, posebno u suvim periodima, može probiti prema cevima ili pod temeljima ako je drvo posađeno preblizu. Preporučeno rastojanje od kuće i instalacija je najmanje 5–6 m.'
+      },
+      {
+        q: 'Kada se orezuje breza?',
+        a: 'Breza se ne orezuje u proleće — tada "krvari", odnosno iz preseka obilno curi sok. Rezidba se radi krajem leta ili u kasnu jesen, kada je drvo u fazi mirovanja soka.'
+      },
+      {
+        q: 'Koliko naraste breza?',
+        a: 'U zrelosti dostiže 15–25 m visine, uz relativno brz rast u mladosti.'
+      },
+      {
+        q: 'Da li breza podnosi mraz u Srbiji?',
+        a: 'Da, izuzetno je otporna na hladnoću — podnosi mraz do -40°C, što je čini pogodnom za sve regione Srbije.'
+      },
+      {
+        q: 'Koja je cena sadnice breze?',
+        a: 'Cena je na upit, u zavisnosti od veličine sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Breza</strong> (Betula pendula) jedno je od najprepoznatljivijih drveta u srpskim dvorištima — bela, slojevita kora koja se ljuska u listićima i vitke, povijene grane dale su joj status pravog simbola severnjačkih pejzaža, pa i brojnih domaćih bašti. Uz svu lepotu, breza je i tema stalnih pitanja o tome koliko daleko od kuće treba da bude posađena.</p>
+
+      <p>U ovom vodiču objašnjavamo da li korenje breze zaista predstavlja rizik za temelje i instalacije, kako je pravilno saditi i negovati, i zašto se ne orezuje u proleće.</p>
+
+      <h2>Zašto je breza tako prepoznatljiva i tražena?</h2>
+      <ul>
+        <li><strong>Bela, slojevita kora</strong> — upečatljiva tokom cele godine, posebno zimi bez lišća</li>
+        <li><strong>Vitke, povijene grane</strong> — lagan, elegantan silhuet koji se blago njiše na vetru</li>
+        <li><strong>Brz rast</strong> — relativno brzo stvara efekat zrelog drveta</li>
+        <li><strong>Izuzetna otpornost na hladnoću</strong> — podnosi mraz do -40°C</li>
+      </ul>
+
+      <h2>Da li korenje breze šteti temeljima i instalacijama?</h2>
+      <p>Breza ima plitak, ali široko razgranat korenov sistem koji aktivno traži vlagu, posebno u suvim periodima. Ako je drvo posađeno preblizu kuće, septičke jame, cevi za vodu ili kanalizacije, koren se s vremenom može probiti prema njima u potrazi za vlagom. Zato se preporučuje rastojanje od najmanje 5–6 m od objekata i podzemnih instalacija.</p>
+
+      <h2>Koliko prostora treba brezi?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Od čega</th><th>Minimalno rastojanje</th></tr></thead>
+        <tbody>
+          <tr><td>Temelj kuće</td><td>najmanje 5–6 m</td></tr>
+          <tr><td>Cevi za vodu, kanalizacija, septička jama</td><td>najmanje 6 m</td></tr>
+          <tr><td>Ograda, staza</td><td>najmanje 3 m</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kada i kako saditi brezu?</h2>
+      <p>Najbolje vreme za sadnju je <strong>jesen</strong> ili <strong>rano proleće</strong>. Breza je prilagodljiva različitim tipovima zemljišta, a najbolje se razvija na punom suncu.</p>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano mesto, dovoljno udaljeno od kuće i podzemnih instalacija, imajući u vidu konačnu visinu drveta.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu u nivou okolnog tla, zasipajte i obilno zalijte.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve 1–2 godine, dok se korenov sistem ne razvije.</p>
+
+      <h2>Nega i rezidba breze</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> umereno, redovnije tokom suvih perioda i prvih godina nakon sadnje</li>
+        <li><strong>Rezidba:</strong> isključivo krajem leta ili u kasnu jesen — rezidba u proleće uzrokuje obilno "krvarenje" soka kroz presek, koje slabi drvo</li>
+        <li><strong>Đubrenje:</strong> obično nije neophodno na prosečnom zemljištu</li>
+      </ul>
+
+      <h2>Breza u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina u zrelosti</td><td>15–25 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -40°C</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce</td></tr>
+          <tr><td>Zemljište</td><td>prilagodljiva, razni tipovi</td></tr>
+          <tr><td>Rezidba</td><td>kraj leta / kasna jesen, nikad proleće</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti brezu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice breze uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/breza">pogledajte brezu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 20,
     slug: 'ruza-sadnja-nega-rezidba-zastita-zimi',
     title: 'Ruža – sadnja, nega, rezidba i zaštita zimi',

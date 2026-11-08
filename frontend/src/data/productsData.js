@@ -1187,6 +1187,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Japanska trešnja – prodaja sadnica, ukrasno drvo bajkovitog prolećnog cvetanja. Cena od 3.500 RSD, dostava širom Srbije.',
     description: 'Ukrasno drvo poznato po bajkovitom, raskošnom cvetanju u proleće — bela ili roze boja cvetova svake godine iznova transformiše dvorište.',
     richContent: `Prunus serrulata cveta pre nego što se listovi razviju, što joj daje poseban, upečatljiv izgled. Naraste do 5–8 metara i idealna je kao soliter. Sadi se u proleće ili jesen, na osunčanom, zaštićenom mestu u plodnu, dobro oceditnu zemlju. Rasadnik Tilija nudi je uz dostavu širom Srbije.`,
+    relatedBlogSlug: 'japanska-tresnja-sakura-cvetanje-sadnja',
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1579,6 +1580,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Breza – prodaja sadnica, drvo prepoznatljive bele kore i vitkih grana. Cena na upit, dostava širom Srbije.',
     description: 'Elegantno drvo prepoznatljive bele kore koja se ljušti u listićima i vitkih, povijenih grana — jedan od najprepoznatljivijih simbola severnjačkih pejzaža.',
     richContent: `Betula pendula lako se prepoznaje po beloj kori koja se ljušti i vitkim, povijenim granama. Dostiže 15–25 m visine. Sadi se na punom suncu, prilagodljiva je zemljištu, izuzetno je otporna na hladnoću — mraz do -40°C. Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'breza-sadnja-nega-koren-pored-kuce',
     inStock: true,
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiva različitim tipovima zemljišta', hardiness: 'Otporna na mraz do -40°C' }
   },
@@ -1678,6 +1680,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Šimšir – prodaja sadnica, klasičan zimzeleni žbun za niske žive ograde i topijariju. Cena na upit, dostava širom Srbije.',
     description: 'Gust, zimzeleni žbun sitnog, sjajnog lišća koji savršeno podnosi oblikovanje — klasičan izbor za niske žive ograde, bordure i topijariju.',
     richContent: `Buxus sempervirens je klasičan izbor za formirane žive ograde i topijariju, zahvaljujući gustom rastu i odličnoj podnošljivosti rezanja. U prirodi dostiže i do 5 m, ali se u baštama najčešće održava znatno nižim. Sadi se na suncu do senci, otporan je na mraz do -20°C. Dostupan u Rasadniku Tilija.`,
+    relatedBlogSlug: 'simsir-zuti-listovi-moljac-nega',
     inStock: true,
     details: { height: 'Dostupne sve visine, odlično podnosi rezanje', sunlight: 'Sunce do senka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
   },
