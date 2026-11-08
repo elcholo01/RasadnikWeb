@@ -1,5 +1,275 @@
 const blogPosts = [
   {
+    id: 26,
+    slug: 'lipa-sadnja-nega-medonosna-cvet-za-caj',
+    title: 'Lipa – sadnja, nega i cvet koji se bere za čaj',
+    excerpt: 'Lipa je drvo po kom je naš rasadnik dobio ime — dugovečno, mirisno i medonosno, cenjeno vekovima zbog hlada, cveta za čaj i privlačenja pčela. Objašnjavamo razlike između krupnolisne, sitnolisne i srebrne lipe i kako ih saditi i negovati.',
+    date: '2026-11-08',
+    readTime: '7 min',
+    category: 'Lišćari',
+    image: '/images/krupnolisna-lipa.jpg',
+    relatedSlugs: ['breza-sadnja-nega-koren-pored-kuce', 'platan-sadnja-nega-gradsko-drvo', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Kada cveta lipa i kada se bere cvet za čaj?',
+        a: 'Lipa cveta u junu, a cvet se bere u prvih nekoliko dana cvetanja, ujutru kada se rosa osuši, i suši se u hladu na promajnom mestu, zaštićeno od direktnog sunca.'
+      },
+      {
+        q: 'Koja je razlika između krupnolisne, sitnolisne i srebrne lipe?',
+        a: 'Krupnolisna lipa (Tilia platyphyllos) ima najveće listove i cveta najranije. Sitnolisna lipa (Tilia cordata) ima sitnije listove i izuzetno dobro podnosi gradske uslove, pa se često sadi uz ulice. Srebrna lipa (Tilia tomentosa) prepoznatljiva je po srebrnoj donjoj strani lista i najotpornija je na sušu i zagađenje vazduha.'
+      },
+      {
+        q: 'Da li je lipa medonosna biljka?',
+        a: 'Da, lipa je jedna od najcenjenijih medonosnih vrsta — mirisni cvetovi u junu privlače ogromnu količinu pčela, a lipov med je poseban po ukusu i smatra se jednim od najkvalitetnijih.'
+      },
+      {
+        q: 'Koliko prostora treba lipi?',
+        a: 'Sve tri vrste u zrelosti rastu veoma visoko (15–40 m, zavisno od vrste), pa im treba dovoljno udaljeno mesto od kuće, ograda i instalacija — najmanje 6–8 m.'
+      },
+      {
+        q: 'Koja je cena sadnice lipe?',
+        a: 'Cena je na upit, u zavisnosti od vrste i veličine sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Lipa</strong> (Tilia sp.) nije samo omiljeno senovito drvo gradskih aleja i seoskih dvorišta — po njoj je dobio ime i naš rasadnik. Vekovima se ceni zbog gustog hlada, mirisnog junskog cveta koji se suši za čaj, i zbog uloge jedne od najvažnijih medonosnih vrsta u ovom delu Evrope.</p>
+
+      <p>U ovom vodiču objašnjavamo razlike između tri vrste lipe koje gajimo — krupnolisnu, sitnolisnu i srebrnu — kako ih pravilno saditi i negovati, i kako se bere cvet za čaj.</p>
+
+      <h2>Zašto je lipa tako cenjena?</h2>
+      <ul>
+        <li><strong>Gust, osvežavajući hlad</strong> — široka, zaokružena krošnja idealna za aleje, dvorišta i parkove</li>
+        <li><strong>Mirisan cvet u junu</strong> — tradicionalno se bere i suši za čaj poznat po umirujućem dejstvu</li>
+        <li><strong>Jedna od najvažnijih medonosnih vrsta</strong> — privlači ogromnu količinu pčela tokom cvetanja</li>
+        <li><strong>Izuzetna dugovečnost</strong> — lipe žive i po nekoliko stotina godina</li>
+      </ul>
+
+      <h2>Tri vrste lipe — koju izabrati?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Vrsta</th><th>Osobina</th><th>Visina</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Krupnolisna lipa</strong></td><td>najveći listovi, cveta najranije u junu</td><td>20–40 m</td></tr>
+          <tr><td><strong>Sitnolisna lipa</strong></td><td>sitniji list, najbolje podnosi gradske uslove i ulice</td><td>15–30 m</td></tr>
+          <tr><td><strong>Srebrna lipa</strong></td><td>srebrna donja strana lista, najotpornija na sušu i zagađenje</td><td>20–30 m</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde i kada saditi lipu?</h2>
+      <p>Lipa uspeva na suncu do polusenci, u plodnom, dobro dreniranom zemljištu. Srebrna lipa je izrazito otporna na sušu, pa je dobar izbor i za manje povoljne, gradske uslove. Najbolje je saditi u <strong>jesen</strong> ili <strong>rano proleće</strong>.</p>
+
+      <h2>Kako saditi lipu — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Imajući u vidu konačnu visinu (15–40 m, zavisno od vrste), birajte mesto udaljeno najmanje 6–8 m od kuće i instalacija.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, u plodnu zemlju.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu u nivou okolnog tla, zasipajte i obilno zalijte.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve 1–2 godine, dok se korenov sistem ne razvije.</p>
+
+      <h2>Nega lipe</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> umereno, redovnije tokom suvih perioda i prvih godina nakon sadnje</li>
+        <li><strong>Rezidba:</strong> minimalna — uklanjanje suvih ili ukrštenih grana krajem zime</li>
+        <li><strong>Đubrenje:</strong> obično nije neophodno na plodnom zemljištu</li>
+      </ul>
+
+      <h2>Kako se bere cvet lipe za čaj?</h2>
+      <p>Cvet se bere u <strong>junu</strong>, u prvih nekoliko dana cvetanja, pre nego što počne da vene. Najbolje je brati ujutru, kada se rosa osuši, zajedno sa karakterističnim lisnim prilistom. Cvet se suši u hladu, na promajnom mestu zaštićenom od direktnog sunca, i čuva u papirnoj ili platnenoj kesi.</p>
+
+      <h2>Lipa u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>15–40 m, zavisno od vrste</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -25 do -30°C</td></tr>
+          <tr><td>Period cvetanja</td><td>jun</td></tr>
+          <tr><td>Potreba za suncem</td><td>sunce do polusenka</td></tr>
+          <tr><td>Dugovečnost</td><td>i preko 200 godina</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti lipu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sve tri vrste lipe uz dostavu širom Srbije. Cena je na upit u zavisnosti od vrste i veličine sadnice — pogledajte <a href="/sadnice/krupnolisna-lipa">krupnolisnu lipu</a>, <a href="/sadnice/sitnolisna-lipa">sitnolisnu lipu</a> ili <a href="/sadnice/srebrna-lipa">srebrnu lipu</a> i zatražite ponudu, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 25,
+    slug: 'forzicija-sadnja-cvetanje-orezivanje',
+    title: 'Forzicija – prva najava proleća: sadnja, cvetanje i orezivanje',
+    excerpt: 'Forzicija je žbun koji svake godine prvi javlja da je proleće stiglo — gole grane se za nekoliko dana prekriju gustim žutim cvetom, pre nego što se pojavi i jedan list. Objašnjavamo kako je saditi, negovati i, najvažnije, kada je orezati.',
+    date: '2026-11-08',
+    readTime: '5 min',
+    category: 'Šiblje',
+    image: '/images/forzicija.jpg',
+    relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'lovor-visnja-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Kada cveta forzicija?',
+        a: 'Forzicija je jedan od najranijih prolećnih žbunova — cveta već u martu, pre nego što se pojavi i jedan list, i to traje 2–3 nedelje.'
+      },
+      {
+        q: 'Kada se orezuje forzicija?',
+        a: 'Odmah nakon cvetanja, u aprilu. Forzicija formira pupoljke za narednu sezonu na ovogodišnjem izrastu, pa rezidba kasnije u sezoni (leto, jesen) uklanja pupoljke i smanjuje cvetanje sledećeg proleća.'
+      },
+      {
+        q: 'Koliko naraste forzicija?',
+        a: 'Dostiže 2–3 m visine i širine, uz relativno brz rast.'
+      },
+      {
+        q: 'Da li forzicija podnosi mraz u Srbiji?',
+        a: 'Da, veoma je otporna na hladnoću — podnosi mraz do -25 do -30°C.'
+      },
+      {
+        q: 'Koja je cena sadnice forzicije?',
+        a: 'Cena je na upit, u zavisnosti od veličine sadnice — kontaktirajte nas za tačnu ponudu.'
+      },
+    ],
+    content: `
+      <p><strong>Forzicija</strong> (Forsythia × intermedia) je žbun koji svake godine prvi objavljuje kraj zime — dok je ostatak dvorišta još golo i sivo, njene grane se za samo nekoliko toplijih dana prekriju gustim, žutim cvetom, pre nego što se pojavi i jedan list.</p>
+
+      <p>U ovom vodiču objašnjavamo kako i kada saditi forziciju, kako je negovati, i, najvažnije, kada je tačno orezati da ne biste žrtvovali cvetanje narednog proleća.</p>
+
+      <h2>Zašto je forzicija omiljena?</h2>
+      <ul>
+        <li><strong>Prvi znak proleća</strong> — cveta pre skoro svih drugih žbunova, često već u martu</li>
+        <li><strong>Obilno, gusto cvetanje</strong> — cele grane prekrivene žutim cvetom bez i jednog lista</li>
+        <li><strong>Nezahtevna i prilagodljiva</strong> — podnosi širok raspon zemljišta i uslova</li>
+        <li><strong>Brz rast</strong> — relativno brzo stvara gust, efektan žbun</li>
+      </ul>
+
+      <h2>Gde i kada saditi forziciju?</h2>
+      <p>Traži <strong>puno sunce</strong> za najobilnije cvetanje — u senci cveta znatno slabije. Zemljište joj nije izbirljivo, prilagođava se različitim tipovima. Najbolje vreme za sadnju je <strong>jesen</strong> ili <strong>rano proleće</strong>.</p>
+
+      <h2>Kako saditi forziciju — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano mesto, sa dovoljno prostora za širenje (2–3 m širine u zrelosti) — koristi se i kao soliter i kao neformalna živa ograda.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu u nivou okolnog tla, zasipajte i obilno zalijte.</p>
+
+      <h2>Kada i kako orezati forziciju?</h2>
+      <p>Ovo je ključan deo nege: forzicija formira cvetne pupoljke za narednu godinu na <strong>ovogodišnjem izrastu</strong>, odmah nakon cvetanja. Zato se rezidba radi <strong>isključivo odmah nakon cvetanja, u aprilu</strong> — ako se žbun oreže kasnije u sezoni (leto ili jesen), uklanjaju se upravo grane koje bi narednog proleća nosile cvet, pa cvetanje bude znatno slabije.</p>
+
+      <h2>Nega forzicije</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> umereno, redovnije tokom suvih perioda prve godine</li>
+        <li><strong>Rezidba:</strong> odmah nakon cvetanja (april) — uklanjanje starijih, izmorenih grana radi obnove gustine</li>
+        <li><strong>Đubrenje:</strong> po potrebi, đubrivo za cvetne žbunove u proleće</li>
+      </ul>
+
+      <h2>Forzicija u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Visina</td><td>2–3 m</td></tr>
+          <tr><td>Otpornost na mraz</td><td>do -25 do -30°C</td></tr>
+          <tr><td>Period cvetanja</td><td>mart, 2–3 nedelje</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce</td></tr>
+          <tr><td>Rezidba</td><td>odmah nakon cvetanja (april)</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti forziciju u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice forzicije uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/forzicija">pogledajte forziciju i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 24,
+    slug: 'palma-za-dvoriste-da-li-podnosi-mraz',
+    title: 'Palma za dvorište – koja vrsta podnosi mraz u Srbiji?',
+    excerpt: 'Palma momentalno unosi mediteranski šmek u dvorište ili terasu, ali najčešće pitanje glasi — da li uopšte može da preživi srpsku zimu? Objašnjavamo koje vrste palmi su dovoljno otporne, kako ih saditi i kako ih zaštititi tokom hladnih meseci.',
+    date: '2026-11-08',
+    readTime: '6 min',
+    category: 'Mediteranske biljke',
+    image: '/images/palma2.jpeg',
+    relatedSlugs: ['maslina-uzgoj-sadnja-prezimljavanje-srbija', 'italijanski-cempres-sadnja-nega-mraz', 'hibiskus-zasto-ne-cveta-nega'],
+    faq: [
+      {
+        q: 'Da li palma podnosi mraz u Srbiji?',
+        a: 'Otpornije vrste palmi, kao one koje nudimo u rasadniku, podnose zime u većem delu Srbije uz minimalnu zaštitu, ali nisu podjednako otporne kao zimzeleni četinari — mlade i tek posađene biljke posebno treba zaštititi prvih zima.'
+      },
+      {
+        q: 'Kako se palma štiti zimi?',
+        a: 'Krošnja se u periodu najjačih mrazeva može labavo omotati agrotekstilom ili jutom, a korenski prostor zaštititi debljim slojem malča — posebno važno u prve 2–3 godine nakon sadnje, dok palma ne razvije dublji korenov sistem.'
+      },
+      {
+        q: 'Gde je najbolje posaditi palmu?',
+        a: 'Na sunčano, zaštićeno mesto, idealno uz južni zid kuće koji dodatno akumulira toplotu i štiti od severnog vetra, u dobro drenirano, peskovito zemljište.'
+      },
+      {
+        q: 'Da li palma uspeva i u saksiji?',
+        a: 'Da, mlađe i manje palme odlično uspevaju u velikim saksijama na terasi, uz mogućnost da se po potrebi unesu na zaštićeno mesto tokom najhladnijih dana.'
+      },
+      {
+        q: 'Koja je cena sadnice palme?',
+        a: 'Cena počinje od 12.000 RSD za sadnicu visine 1,2–1,3 m, odnosno 24.000 RSD za veću sadnicu od 2–2,5 m.'
+      },
+    ],
+    content: `
+      <p><strong>Palma</strong> je biljka koja za nekoliko sekundi promeni karakter dvorišta ili terase, dajući mu mediteranski, odmorski šmek. Uz svu egzotičnu privlačnost, prvo pitanje koje postavi skoro svaki kupac u kontinentalnoj Srbiji je — da li palma uopšte može da preživi našu zimu?</p>
+
+      <p>U ovom vodiču objašnjavamo koje vrste palmi su dovoljno otporne za srpske zime, kako ih pravilno saditi i kako ih zaštititi tokom najhladnijih meseci.</p>
+
+      <h2>Da li palma podnosi mraz u Srbiji?</h2>
+      <p>Ne sve vrste — ali postoje otpornije palme koje su se u poslednjih dvadesetak godina dobro pokazale u velikom delu Srbije, uz minimalnu zimsku zaštitu, posebno u prvim godinama nakon sadnje. U rasadniku nudimo baš takve, otpornije vrste, pogodne za mediteranski stil uređenja i van strogo primorskih uslova.</p>
+
+      <h2>Gde posaditi palmu?</h2>
+      <ul>
+        <li><strong>Puno sunce</strong> — ključno za zdrav rast i bolju otpornost na hladnoću</li>
+        <li><strong>Zaštićeno mesto</strong> — idealno uz južni zid kuće, koji akumulira toplotu i štiti od severnog, hladnog vetra</li>
+        <li><strong>Dobro drenirana, peskovita zemlja</strong> — palma ne podnosi zadržavanje vode oko korena, posebno zimi</li>
+      </ul>
+
+      <h2>Kada saditi palmu?</h2>
+      <p>Najbolje je saditi u <strong>proleće</strong>, kada palma ima celu toplu sezonu da se dobro ukoreni pre prve zime. Sadnja u jesen je rizičnija jer biljka ulazi u zimu slabije ukorenjena.</p>
+
+      <h2>Kako saditi palmu — korak po korak</h2>
+      <h3>1. Izbor mesta</h3>
+      <p>Birajte sunčano, zaštićeno mesto, po mogućstvu uz zid okrenut jugu.</p>
+      <h3>2. Priprema rupe</h3>
+      <p>Iskopajte rupu dva puta širu od busena korena, uz dodatak krupnijeg peska na dno radi bolje drenaže.</p>
+      <h3>3. Sadnja</h3>
+      <p>Postavite sadnicu u nivou okolnog tla i obilno zalijte.</p>
+      <h3>4. Prva sezona</h3>
+      <p>Redovno zalivanje tokom prve godine, dok se korenov sistem ne razvije dovoljno da bolje podnosi i sušu i hladnoću.</p>
+
+      <h2>Zaštita palme zimi</h2>
+      <p>U periodu najjačih mrazeva krošnja se može labavo omotati agrotekstilom ili jutom, dok se korenski prostor zaštiti debljim slojem malča. Ova zaštita je posebno važna u prve 2–3 godine nakon sadnje — zrelije, dobro ukorenjene palme znatno bolje podnose hladnotu bez dodatne nege.</p>
+
+      <h2>Nega palme</h2>
+      <ul>
+        <li><strong>Zalivanje:</strong> umereno tokom tople sezone, smanjeno zimi</li>
+        <li><strong>Rezidba:</strong> uklanjanje samo suvih, požutelih donjih listova</li>
+        <li><strong>Saksija:</strong> mlađe palme dobro uspevaju i u velikim saksijama na terasi, uz mogućnost premeštanja na zaštićeno mesto tokom najhladnijih dana</li>
+      </ul>
+
+      <h2>Palma u brojkama</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Osobina</th><th>Vrednost</th></tr></thead>
+        <tbody>
+          <tr><td>Otpornost na mraz</td><td>zavisi od vrste, otpornije sorte uz minimalnu zaštitu</td></tr>
+          <tr><td>Potreba za suncem</td><td>puno sunce</td></tr>
+          <tr><td>Zemljište</td><td>dobro drenirano, peskovito</td></tr>
+          <tr><td>Cena (1,2–1,3 m)</td><td>12.000 RSD</td></tr>
+          <tr><td>Cena (2–2,5 m)</td><td>24.000 RSD</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti palmu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi otpornije vrste palmi, u više visina, uz dostavu širom Srbije. <a href="/sadnice/palma">Pogledajte palmu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 23,
     slug: 'simsir-zuti-listovi-moljac-nega',
     title: 'Šimšir žuti i suši se? Moljac, bolesti i pravilna nega',

@@ -1111,6 +1111,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Cena od 12.000 RSD, dostava širom Srbije.',
     description: 'Egzotična dekorativna biljka koja momentalno unosi mediteranski šmek u dvorište ili terasu, dostupna u više visina i vrsta.',
     richContent: `Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.`,
+    relatedBlogSlug: 'palma-za-dvoriste-da-li-podnosi-mraz',
     inStock: true,
     details: {
       height: 'Dostupne sve visine',
@@ -1446,6 +1447,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Krupnolisna lipa – prodaja sadnica, veliko senovito drvo mirisnih cvetova. Cena na upit, dostava širom Srbije.',
     description: 'Veliko, dugovečno senovito drvo krupnih srcolikih listova i mirisnih cvetova koji privlače pčele — klasičan izbor za aleje i parkove.',
     richContent: `Tilia platyphyllos je visoko, dugovečno drvo krupnih, srcolikih listova, u zrelosti dostiže 20–40 m. Mirisni cvetovi u junu privlače pčele i tradicionalno se koriste za čaj. Sadi se na suncu do polusenci, otporna je na mraz do -30°C. Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'lipa-sadnja-nega-medonosna-cvet-za-caj',
     inStock: true,
     details: { height: 'Do 20–40 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -30°C' }
   },
@@ -1457,6 +1459,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Sitnolisna lipa – prodaja sadnica, otporno gradsko drvo za ulice, parkove i aleje. Cena na upit, dostava širom Srbije.',
     description: 'Dugovečno, veoma otporno drvo sitnijih listova od svoje krupnolisne rođake — odličan izbor za ulice, parkove i gradske sredine.',
     richContent: `Tilia cordata je sitnolisna lipa, poznata po dugovečnosti i odličnoj podnošljivosti gradskih uslova. Dostiže 15–30 m visine. Sadi se na suncu do polusenci, otporna je na mraz do -30°C. Čest je izbor za uličnu i parkovsku sadnju. Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'lipa-sadnja-nega-medonosna-cvet-za-caj',
     inStock: true,
     details: { height: 'Do 15–30 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -30°C' }
   },
@@ -1468,6 +1471,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Srebrna lipa – prodaja sadnica, otporno drvo srebrnaste donje strane listova. Cena na upit, dostava širom Srbije.',
     description: 'Upečatljivo drvo čiji listovi na donjoj strani srebrno sijaju na vetru — izuzetno otporno na sušu, zagađenje i gradske uslove.',
     richContent: `Tilia tomentosa prepoznatljiva je po listovima koji su na donjoj strani srebrnobeli, pa cela krošnja "zasijа" pri povetarcu. Dostiže 20–30 m visine, izrazito je otporna na sušu i zagađenje vazduha — odličan izbor za gradsku sredinu. Sadi se na suncu, otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'lipa-sadnja-nega-medonosna-cvet-za-caj',
     inStock: true,
     details: { height: 'Do 20–30 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje, otporna na sušu', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
   },
@@ -1770,6 +1774,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     metaDescription: 'Forzicija – prodaja sadnica, jedan od najranijih prolećnih žbunova sa žutim cvetovima. Cena na upit, dostava širom Srbije.',
     description: 'Jedan od prvih najava proleća — gole grane se prekriju gustim žutim cvetovima pre nego što se pojavi i jedan list.',
     richContent: `Forsythia × intermedia jedan je od najranijih prolećnih žbunova — gole grane se prekriju gustim, žutim cvetovima pre listanja. Dostiže 2–3 m visine. Sadi se na punom suncu radi obilnog cvetanja, otporna je na mraz do -25 do -30°C. Dostupna u Rasadniku Tilija.`,
+    relatedBlogSlug: 'forzicija-sadnja-cvetanje-orezivanje',
     inStock: true,
     details: { height: 'Do 2–3 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiva različitim tipovima zemljišta', hardiness: 'Otporna na mraz do -25 do -30°C' }
   },
