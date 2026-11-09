@@ -1860,7 +1860,7 @@ const blogPosts = [
       },
       {
         q: 'Koliko košta sadnica katalpe?',
-        a: 'U Rasadniku Tilija cena katalpe počinje od 4.000 RSD, u zavisnosti od veličine i forme sadnice (standardna ili na štapu).'
+        a: 'U Rasadniku Tilija cena katalpe počinje od 4.500 RSD, u zavisnosti od veličine i forme sadnice (standardna ili na štapu).'
       },
     ],
     content: `
@@ -1917,7 +1917,7 @@ const blogPosts = [
       <p>Ako volite izgled katalpe ali želite još urednu, kompaktnu formu, rešenje je <strong>katalpa na štapu</strong> — kalemljena forma koja raste kao uredan "kišobran" na jednom pravom stablu, bez bujnog, razgranatog rasta standardne forme. Savršena je kao soliter pored ulaza, na terasi ili u manjem dvorištu, gde daje isti dekorativni efekat krupnog lišća u urednijem, kontrolisanijem obliku.</p>
 
       <h2>Gde kupiti katalpu u Srbiji?</h2>
-      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo katalpu u standardnoj i formi na štapu, cena od 4.000 RSD u zavisnosti od veličine. Vršimo dostavu i sadnju na terenu širom Srbije.</p>
+      <p>U <strong>Rasadniku Tilija</strong> u Pločici (kod Kovina) nudimo katalpu u standardnoj i formi na štapu, cena od 4.500 RSD u zavisnosti od veličine. Vršimo dostavu i sadnju na terenu širom Srbije.</p>
       <p>Pozovite nas na <a href="tel:+381638870837">063 88 70 837</a> ili <a href="/sadnice/katalpa">naručite katalpu</a> direktno na sajtu.</p>
     `,
   },
