@@ -1,5 +1,225 @@
 const blogPosts = [
   {
+    id: 29,
+    slug: 'lavanda-sadnja-nega-rezidba',
+    title: 'Lavanda – sadnja, nega i rezidba',
+    excerpt: 'Lavanda je mirisna mediteranska perena koja u Srbiji često propadne zbog previše vlage ili pogrešne rezidbe. Objašnjavamo kako i gde je saditi, kada orezivati i kako je provesti kroz zimu.',
+    date: '2026-11-11',
+    readTime: '6 min',
+    category: 'Perene',
+    image: '/images/lavanda.jpg',
+    relatedSlugs: ['bozur-sadnja-nega-zasto-ne-cveta', 'tisa-sadnja-nega-otrovnost', 'ruza-sadnja-nega-rezidba-zastita-zimi'],
+    faq: [
+      {
+        q: 'Kada se orezuje lavanda?',
+        a: 'Lavanda se orezuje dva puta godišnje — odmah nakon cvetanja (avgust) i blago u proleće (mart) pre kretanja nove vegetacije. Nikada se ne reže duboko u staro, drvenasto deo stabljike jer se odatle teško obnavlja.'
+      },
+      {
+        q: 'Zašto lavanda žuti i propada?',
+        a: 'Najčešći razlog je previše vode i teška, glinovita zemlja — lavanda ne podnosi stajaću vlagu oko korena. Drugi uzrok je presenčeno mesto. Rešenje je presadnja na sunčano mesto u dobro dreniranu, čak i peskovitu zemlju.'
+      },
+      {
+        q: 'Da li lavanda podnosi mraz u Srbiji?',
+        a: 'Lavandula angustifolia (engleska lavanda) otporna je na mraz do -20°C i dobro prezimljava u celoj Srbiji. Mlade biljke u prvoj zimi dobro je zaštititi suvim malčem ili granama jelke oko korena.'
+      },
+      {
+        q: 'Koliko često treba zalivati lavandu?',
+        a: 'Veoma retko. Nakon prve godine ukorenjavanja, lavanda se zaliva samo u dugim periodima suše — previše zalivanja je glavni uzrok propadanja ove biljke.'
+      },
+      {
+        q: 'Da li lavanda raste u senci?',
+        a: 'Ne preporučuje se. Lavandi je potrebno puno sunce (minimum 6-8 sati dnevno) da bi razvila jak miris, gust rast i obilno cvetanje. U senci se razvlači, slabije cveta i lakše oboli.'
+      },
+    ],
+    content: `
+      <p>Malo biljaka toliko podseća na Mediteran kao <strong>lavanda</strong> — sivo-zeleno lišće, ljubičasti klasovi cveta i prepoznatljiv miris koji privlači pčele i leptire. Problem je što se u srpskim baštama lavanda često gaji u pogrešnim uslovima — previše vode, teška zemlja, senka — i onda brzo propadne.</p>
+
+      <p>U ovom tekstu objašnjavamo kako posaditi lavandu da zaista dugo traje, kada i kako je orezivati, i koje su najčešće greške koje je upropaste.</p>
+
+      <h2>Gde i kako saditi lavandu</h2>
+      <ul>
+        <li><strong>Sunce</strong> — isključivo puno sunce, minimum 6-8 sati dnevno. U senci slabo cveta i podložnija je bolestima.</li>
+        <li><strong>Zemljište</strong> — dobro drenirano, čak i siromašno ili peskovito. Teška, glinovita zemlja koja drži vodu je glavni neprijatelj lavande.</li>
+        <li><strong>Vreme sadnje</strong> — proleće (april–maj) je najbolje, biljka ima celo leto da se ukoreni pre zime.</li>
+        <li><strong>Razmak</strong> — 40–60 cm između biljaka, zavisno od toga da li formirate bordure ili gusti niz.</li>
+      </ul>
+      <p>Ako je zemljište u vašoj bašti teško, pomešajte ga sa peskom ili sitnim šljunkom pre sadnje, ili podignite lavandu na blago uzvišenu gredicu kako voda ne bi stagnirala oko korena.</p>
+
+      <h2>Rezidba lavande — kada i kako</h2>
+      <p>Rezidba je ključna za dugovečnost lavande i često se radi pogrešno:</p>
+      <ul>
+        <li><strong>Nakon cvetanja (avgust)</strong> — glavna rezidba. Skinite sve precvale klasove i oko trećinu zelenog rasta, oblikujući biljku u kompaktnu loptu.</li>
+        <li><strong>Rano proleće (mart)</strong> — blaga korekcija, uklanjanje izmrzlih ili oštećenih vrhova, pre kretanja nove vegetacije.</li>
+      </ul>
+      <p><strong>Zlatno pravilo:</strong> nikada ne sečite duboko u staro, drvenasto, sivo stablo bez listova — lavanda se iz tog dela teško ili nikako ne obnavlja. Režite samo kroz zeleni, mladi deo biljke.</p>
+
+      <h2>Najčešće greške u gajenju lavande</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Greška</th><th>Posledica</th><th>Rešenje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Previše zalivanja</td><td>Trule korenje, žuti i odumire</td><td>Zalivati samo u dugoj suši, nikad redovno</td></tr>
+          <tr><td>Teška, glinovita zemlja</td><td>Stajaća vlaga, trulenje korena</td><td>Umešati pesak/šljunak ili podići gredicu</td></tr>
+          <tr><td>Sadnja u senci</td><td>Slabo cvetanje, razvlačenje</td><td>Presaditi na najsunčanije mesto u bašti</td></tr>
+          <tr><td>Rezidba u staro drvo</td><td>Biljka se ne obnavlja, ogoli se</td><td>Seći samo kroz zeleni deo stabljike</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Prezimljavanje lavande</h2>
+      <p>Lavandula angustifolia otporna je na mraz do -20°C, pa u većem delu Srbije dobro prezimljava bez posebne zaštite. Mlade, prvu godinu posađene biljke je dobro zaštititi suvim malčem, slamom ili granama jelke oko korena — ne i preko lišća, jer vlaga zadržana ispod pokrivke može naškoditi više od samog mraza.</p>
+
+      <h2>Gde kupiti lavandu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice lavande uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/lavanda">pogledajte lavandu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 28,
+    slug: 'bozur-sadnja-nega-zasto-ne-cveta',
+    title: 'Božur – sadnja, nega i zašto ne cveta',
+    excerpt: 'Božur je vrtna klasika koja može ostati na istom mestu i 50 godina, ali ume i godinama da ne procveta ako je pogrešno posađen. Objašnjavamo pravu dubinu sadnje, negu i najčešći razlog necvetanja.',
+    date: '2026-11-11',
+    readTime: '6 min',
+    category: 'Šiblje',
+    image: '/images/Božur (Paeonia) 1 siblje.jpg',
+    relatedSlugs: ['ruza-sadnja-nega-rezidba-zastita-zimi', 'lavanda-sadnja-nega-rezidba', 'hortenzija-nega-rezidba-cvetanje'],
+    faq: [
+      {
+        q: 'Zašto božur ne cveta?',
+        a: 'Najčešći razlog je preduboka sadnja — očni pupoljci (kruna korena) moraju biti na dubini od najviše 3-5 cm ispod površine zemlje. Dublja sadnja, prevelika senka ili presađivanje mlade biljke takođe odlažu cvetanje godinama.'
+      },
+      {
+        q: 'Kada i kako se sadi božur?',
+        a: 'Božur se sadi u jesen (septembar–oktobar), na osunčanom mestu u plodnu, dobro oceditu zemlju. Kruna korena sa očnim pupoljcima sadi se na dubinu od samo 3-5 cm — dublja sadnja je glavni razlog necvetanja.'
+      },
+      {
+        q: 'Da li su mravi štetni za božur?',
+        a: 'Ne. Mravi na pupoljcima božura su bezopasni i privučeni su lučenim slatkim nektarom pre otvaranja cveta. Ne treba ih tretirati niti uklanjati — ne oštećuju biljku.'
+      },
+      {
+        q: 'Koliko dugo božur cveta i koliko živi?',
+        a: 'Božur cveta tokom maja, obično 2-3 nedelje. Kao trajnica može ostati na istom mestu i do 50 godina bez presađivanja, sa cvetanjem koje iz godine u godinu postaje sve bujnije.'
+      },
+      {
+        q: 'Da li božur treba presađivati?',
+        a: 'Ne, i to je važno — božur ne voli presađivanje i nakon njega može da ne cveta 2-3 godine dok se ponovo ne ukoreni. Birajte mu konačno mesto odmah i ostavite ga da raste neometano.'
+      },
+    ],
+    content: `
+      <p><strong>Božur</strong> (Paeonia) je jedna od najdugovečnijih i najraskošnijih biljaka koje možete posaditi u svojoj bašti — krupni, mirisni cvetovi u maju, i to na istom mestu decenijama unazad. Ali upravo zato što se sadi jednom i ostaje zadugo, greška pri sadnji se plaća godinama čekanja da procveta.</p>
+
+      <p>Objašnjavamo šta je najvažnije da uradite pravilno od samog početka, i zašto je necvetanje skoro uvek posledica jedne iste greške.</p>
+
+      <h2>Kada i kako saditi božur</h2>
+      <ul>
+        <li><strong>Vreme sadnje</strong> — jesen (septembar–oktobar) je idealno vreme, dok je zemlja još topla i korenov sistem ima vremena da se razvije pre zime.</li>
+        <li><strong>Lokacija</strong> — puno sunce do blaga polusenka. Previše senke je jedan od glavnih razloga slabog ili izostalog cvetanja.</li>
+        <li><strong>Zemljište</strong> — plodna, dobro ocedita zemlja. Božur ne voli stajaću vlagu oko korena.</li>
+        <li><strong>Dubina sadnje</strong> — ovo je najvažniji korak (pogledajte sledeće poglavlje).</li>
+      </ul>
+
+      <h2>Zašto božur ne cveta? (najčešći razlog)</h2>
+      <p>U velikoj većini slučajeva kada posađen božur godinama ne cveta, razlog je <strong>preduboka sadnja</strong>. Kruna korena božura ima vidljive ružičaste "očne" pupoljke — oni moraju da budu na dubini od najviše <strong>3–5 cm</strong> ispod površine zemlje. Ako su zakopani dublje, biljka će lepo rasti lisno, ali neće formirati cvetne pupoljke, često godinama.</p>
+      <p>Drugi mogući razlozi necvetanja:</p>
+      <ul>
+        <li>Previše senke — potrebno je bar 5-6 sati sunca dnevno</li>
+        <li>Nedavno presađivanje — nakon presadnje božur često "miruje" cvetno 2-3 godine</li>
+        <li>Previše mlada biljka — prve 1-2 godine nakon sadnje cvetanje je prirodno slabije</li>
+        <li>Prejak azotni (N) deo đubriva, koji podstiče lišće na račun cveta</li>
+      </ul>
+
+      <h2>Nega tokom godine</h2>
+      <p>Božur ne traži mnogo nege kada je jednom pravilno posađen:</p>
+      <ul>
+        <li>Zalivanje umereno, pojačano samo u dugoj suši</li>
+        <li>Đubrenje u proleće, đubrivom bogatijim fosforom i kalijumom nego azotom</li>
+        <li>Nakon cvetanja ukloniti precvale cvetove da biljka ne trati energiju na seme</li>
+        <li>U jesen, kada lišće požuti, poseći ga do zemlje — smanjuje rizik od gljivičnih bolesti sledeće godine</li>
+      </ul>
+
+      <h2>Mravi na božuru — da li su problem?</h2>
+      <p>Vrlo često se na još zatvorenim pupoljcima božura vide mravi — to je potpuno normalna i bezopasna pojava. Pupoljci luče slatki nektar pre otvaranja cveta, što privlači mrave, ali oni ne oštećuju biljku niti sprečavaju cvetanje. Nema potrebe za bilo kakvim tretmanom.</p>
+
+      <h2>Gde kupiti božur u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice božura uz dostavu širom Srbije. Cena je od 400 RSD u zavisnosti od veličine sadnice — <a href="/sadnice/bozur">pogledajte božur i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 27,
+    slug: 'tisa-sadnja-nega-otrovnost',
+    title: 'Tisa – sadnja, nega i da li je otrovna',
+    excerpt: 'Tisa je jedan od najdugovečnijih četinara i odlična je za formiranu živu ogradu, ali oko nje postoji i opravdana zabrinutost — njene bobice su otrovne. Objašnjavamo šta je bezbedno znati pre sadnje, posebno ako imate decu ili kućne ljubimce.',
+    date: '2026-11-11',
+    readTime: '6 min',
+    category: 'Četinari',
+    image: '/images/tisa.jpeg',
+    relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Da li je tisa otrovna?',
+        a: 'Da — igličice i semenke tise sadrže toksine opasne za ljude i životinje ako se progutaju u većoj količini. Jedino crveni, mesnati deo bobice (arilus) oko semenke nije otrovan i njime se hrane ptice, ali samu semenku ne treba jesti.'
+      },
+      {
+        q: 'Koliko tisa raste godišnje?',
+        a: 'Tisa raste sporo do umereno — prosečno 15-30 cm godišnje, u zavisnosti od uslova. Zbog sporog rasta dugo zadržava formu i savršena je za gusto formiranu, dugotrajnu živu ogradu.'
+      },
+      {
+        q: 'Na koji razmak saditi tisu za živu ogradu?',
+        a: 'Za gustu formiranu ogradu sadite tisu na 50–60 cm razmaka. Za slobodnostojeće primerke ili topijariju ostavite 80–120 cm, u zavisnosti od planirane konačne širine.'
+      },
+      {
+        q: 'Da li tisa podnosi senku?',
+        a: 'Da, tisa podnosi senku bolje nego gotovo svaki drugi četinar — čak i duboku senku, gde tuja ili čempres jedva opstaju. To je čini idealnom za ograde ispod velikih stabala ili uz severnu stranu objekta.'
+      },
+      {
+        q: 'Kada orezivati tisu?',
+        a: 'Tisa se orezuje krajem marta ili krajem avgusta, slično tuji. Zahvaljujući sporom rastu, orezivanje je potrebno samo jednom ili dvaput godišnje, a biljka dobro podnosi i jaču, obnavljajuću rezidbu u staro drvo.'
+      },
+    ],
+    content: `
+      <p><strong>Tisa</strong> (Taxus baccata) spada među najdugovečnije biljke na planeti — pojedini primerci u Evropi stari su i preko hiljadu godina. Podnosi rezanje bolje od skoro bilo koje druge biljke, raste i u dubokoj senci, i upravo zbog toga je klasičan izbor za formirane žive ograde i topijariju koje traju generacijama.</p>
+
+      <p>Istovremeno, oko tise postoji realna i opravdana predostrožnost — njene bobice sadrže toksine. U ovom tekstu objašnjavamo šta tačno treba da znate, posebno ako u dvorištu imate decu ili kućne ljubimce, i kako pravilno saditi i negovati ovu biljku.</p>
+
+      <h2>Da li je tisa otrovna?</h2>
+      <p>Da, i ovo je važno razjasniti precizno: <strong>igličice i semenke</strong> tise sadrže taksine, jedinjenja toksična za ljude i životinje (pogotovo pse i konje) ako se progutaju u većoj količini. Simptomi trovanja mogu biti ozbiljni, pa je gutanje veće količine lišća ili semenki hitan slučaj za veterinara ili lekara.</p>
+      <p>Ono što često zbunjuje: crvena, mesnata <strong>bobica (arilus)</strong> koja obavija semenku <em>nije</em> sama po sebi toksična i njome se slobodno hrane ptice, raznoseći seme. Problem je sama semenka unutra, koja jeste otrovna ako se razgrize i proguta. U praksi, decu i kućne ljubimce koji grickaju biljke treba držati podalje od tise, kao mera opreza — a odrasle, zimzelene žive ograde od tise su decenijama bezbedno gajene širom Evrope upravo zato što se ne beru i ne jedu.</p>
+
+      <h2>Zašto je tisa dobar izbor za živu ogradu</h2>
+      <ul>
+        <li><strong>Izuzetna dugovečnost</strong> — živi i po nekoliko stotina godina uz minimalnu negu</li>
+        <li><strong>Podnosi senku</strong> bolje od gotovo svakog drugog četinara, uključujući duboku senku</li>
+        <li><strong>Odličan odgovor na rezidbu</strong> — podnosi i jaku, obnavljajuću rezidbu u staro drvo bez štete</li>
+        <li><strong>Otporna na mraz</strong> do -20°C, pouzdana u svim regionima Srbije</li>
+      </ul>
+
+      <h2>Kada i kako saditi tisu</h2>
+      <p>Tisa se sadi u proleće ili jesen, u rupu dvostruko širu od korenove lopte. Dobro podnosi različite tipove zemljišta, ali najbolje reaguje na umereno vlažnu, dobro drenirani zemlju. Nakon sadnje redovno zalivati prve sezone dok se ne ukoreni.</p>
+
+      <h2>Razmak za živu ogradu od tise</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Željeni efekat</th><th>Razmak između biljaka</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Gusta formirana ograda</td><td>50–60 cm</td></tr>
+          <tr><td>Standardna ograda</td><td>60–80 cm</td></tr>
+          <tr><td>Slobodnostojeće / topijarija</td><td>80–120 cm</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Nega i orezivanje</h2>
+      <p>Zahvaljujući sporom rastu (15–30 cm godišnje), tisa zahteva orezivanje samo jednom ili dvaput godišnje — krajem marta ili krajem avgusta. Umereno zalivanje je dovoljno nakon ukorenjavanja, a biljka ne zahteva posebno đubrenje da bi dobro izgledala.</p>
+
+      <h2>Gde kupiti tisu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice tise u svim visinama, uz dostavu i mogućnost sadnje širom Srbije. Cena je od 2.000 RSD — <a href="/sadnice/tisa">pogledajte tisu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 26,
     slug: 'lipa-sadnja-nega-medonosna-cvet-za-caj',
     title: 'Lipa – sadnja, nega i cvet koji se bere za čaj',
@@ -558,7 +778,7 @@ const blogPosts = [
     faq: [
       {
         q: 'Kada se orezuje ruža?',
-        a: 'Glavna rezidba radi se krajem zime ili ranog proleća, pre kretanja novih izbojaka (februar–mart, zavisno od regiona). Dodatno se može blago orezati i u jesen, pre zahladnjenja, da se skrate previsoke granе.'
+        a: 'Glavna rezidba radi se krajem zime ili ranog proleća, pre kretanja novih izbojaka (februar–mart, zavisno od regiona). Dodatno se može blago orezati i u jesen, pre zahladnjenja, da se skrate previsoke grane.'
       },
       {
         q: 'Zašto ruža ne cveta?',
@@ -2114,7 +2334,7 @@ const blogPosts = [
         <li><strong>Visina:</strong> 5–60 cm (zavisno od sorte)</li>
         <li><strong>Cvetanje:</strong> jul–oktobar (jedno od najdužih)</li>
         <li><strong>Pozicija:</strong> puno sunce, suvo do umereno vlažno, propusno tlo</li>
-        <li><strong>Idealno za:</strong> kamenite vrtove, suve padine, zelenи krov, rubove bordura</li>
+        <li><strong>Idealno za:</strong> kamenite vrtove, suve padine, zeleni krov, rubove bordura</li>
       </ul>
       <p>Najpopularnije sorte: <em>Sedum spectabile</em> (visoka, roze cvast, najtražena), <em>Sedum hybridum</em> (niska, žuto-zelena pokrivač tla), <em>Sedum Angelina</em> (zlatnožuta, intenzivna boja tokom cele sezone).</p>
 
@@ -2706,7 +2926,7 @@ const blogPosts = [
       },
     ],
     content: `
-      <p>Kada u proleće iz rasadnika iznesemo nove sadnice fotinija i složimo ih u red, prolaznici uvek zastanu. Nije čudno — mladi listovi fotinija sijaju u narandžasto-crvenoj boji kao da gorе. Nijedna druga zimzelena biljka ne daje taj efekat vatre usred zelene bašte.</p>
+      <p>Kada u proleće iz rasadnika iznesemo nove sadnice fotinija i složimo ih u red, prolaznici uvek zastanu. Nije čudno — mladi listovi fotinija sijaju u narandžasto-crvenoj boji kao da gore. Nijedna druga zimzelena biljka ne daje taj efekat vatre usred zelene bašte.</p>
 
       <p><strong>Fotinija Red Robin</strong> (<em>Photinia × fraseri 'Red Robin'</em>) je jedna od najtražnijih biljaka za živu ogradu i dekoraciju dvorišta u Srbiji. Zimzelena je, relativno brzorastuća, otporna na mraz i ne zahteva mnogo nege. U ovom vodiču objasnićemo vam sve — od izbora mesta do pravilne rezidbe — da biste od nje dobili maksimum.</p>
 
@@ -2898,7 +3118,7 @@ const blogPosts = [
     content: `
       <p>Kada kupci dođu u naš rasadnik i pitaju „šta je dobro za živu ogradu koja brzo raste i lepo izgleda celu godinu?" — odgovor koji najčešće dajemo je <strong>lovor višnja</strong>. I to nije slučajno.</p>
 
-      <p>Lovor višnja (<em>Prunus laurocerasus</em>) je zimzeleni žbun koji osvaja svakoga ko ga posadi: krupni, sjajni listovi, kompaktan rast, otpornost na hladnoću i suše, i sposobnost da za samo nekoliko godina napravi gustу, neprobojnu ogradu. U ovom tekstu ćemo vam objasniti sve što treba da znate pre sadnje.</p>
+      <p>Lovor višnja (<em>Prunus laurocerasus</em>) je zimzeleni žbun koji osvaja svakoga ko ga posadi: krupni, sjajni listovi, kompaktan rast, otpornost na hladnoću i suše, i sposobnost da za samo nekoliko godina napravi gustu, neprobojnu ogradu. U ovom tekstu ćemo vam objasniti sve što treba da znate pre sadnje.</p>
 
       <h2>Zašto je lovor višnja tako popularna?</h2>
       <ul>

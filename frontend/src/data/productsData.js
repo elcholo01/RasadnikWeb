@@ -56,6 +56,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
   {
     id: 2,
     slug: 'tisa',
+    relatedBlogSlug: 'tisa-sadnja-nega-otrovnost',
     name: 'Tisa',
     category: 'cetinari',
     categories: ['cetinari', 'ziva-ograda'],
@@ -572,6 +573,7 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
   {
     id: 20,
     slug: 'bozur',
+    relatedBlogSlug: 'bozur-sadnja-nega-zasto-ne-cveta',
     name: 'Božur',
     category: 'siblje',
     categories: ['siblje'],
@@ -1801,7 +1803,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 3–10 m, održava se i nižim rezanjem', sunlight: 'Sunce do senka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -15 do -20°C' }
   },
   {
-    id: 92, slug: 'lavanda', name: 'Lavanda', category: 'perene', categories: ['perene'],
+    id: 92, slug: 'lavanda', relatedBlogSlug: 'lavanda-sadnja-nega-rezidba', name: 'Lavanda', category: 'perene', categories: ['perene'],
     price: 0, showPrice: false, image: '/images/lavanda.jpg', images: ['/images/lavanda.jpg'],
     imageCredit: 'Foto: D2swirl, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Lavanda – prodaja sadnica, cena na upit',
