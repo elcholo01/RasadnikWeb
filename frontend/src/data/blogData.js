@@ -1,5 +1,252 @@
 const blogPosts = [
   {
+    id: 33,
+    slug: 'crveni-hrast-sadnja-nega-brzorastuce-drvo',
+    title: 'Crveni hrast – brzorastuće drvo sa vatreno crvenom jesenjom bojom',
+    excerpt: 'Crveni hrast raste znatno brže od našeg domaćeg hrasta, a u jesen se prekrije upečatljivom vatreno crvenom bojom. Objašnjavamo zašto je odličan izbor za veća dvorišta i parkove, i kako ga pravilno posaditi.',
+    date: '2026-11-12',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/crveni-hrast.jpg',
+    relatedSlugs: ['likvidambar-jesenje-boje-sadnja-nega', 'platan-sadnja-nega-gradsko-drvo', 'javor-crimson-king-sadnja-nega-boja-lista'],
+    faq: [
+      {
+        q: 'Koliko brzo raste crveni hrast u poređenju sa domaćim hrastom?',
+        a: 'Crveni hrast (Quercus rubra) raste znatno brže od našeg domaćeg hrasta lužnjaka ili kitnjaka — i do 40-60 cm godišnje u povoljnim uslovima, naspram svega 15-25 cm kod domaćih vrsta. To znači da gust hlad i impozantno drvo dobijate mnogo brže.'
+      },
+      {
+        q: 'Kada crveni hrast dobija crvenu jesenju boju?',
+        a: 'Lišće počinje da menja boju krajem septembra i tokom oktobra, prelazeći iz tamnozelene u upečatljivu vatreno crvenu do bronzanu nijansu, koja se zadržava duže nego kod većine listopadnog drveća.'
+      },
+      {
+        q: 'Koliko veliko dvorište je potrebno za crveni hrast?',
+        a: 'Crveni hrast u zrelosti dostiže 20-25 m visine i širok obim krošnje, pa mu je potreban prostor — veće dvorište, imanje ili park, sa udaljenošću od najmanje 8-10 m od objekata i instalacija.'
+      },
+      {
+        q: 'Da li je crveni hrast prilagodljiv tipu zemljišta?',
+        a: 'Da, jedna je od njegovih najvećih prednosti — dobro podnosi različite tipove zemljišta, uključujući i slabije, peskovite ili blago kisele podloge, gde mnoge druge vrste teže uspevaju.'
+      },
+      {
+        q: 'Koliko dugo živi crveni hrast?',
+        a: 'Crveni hrast je dugovečno drvo koje u povoljnim uslovima živi i preko 150-200 godina, postajući sa vremenom sve impozantnije i vrednije za imanje.'
+      },
+    ],
+    content: `
+      <p>Kada se pomene hrast, većina zamišlja sporo drvo koje "sadi deda, a uživa unuk". <strong>Crveni hrast</strong> (Quercus rubra) menja tu priču — raste znatno brže od domaćih vrsta, a nagrađuje vas jednom od najdramatičnijih jesenjih boja među svim listopadnim drvećem.</p>
+
+      <p>U ovom tekstu objašnjavamo zašto je crveni hrast odličan izbor za veća dvorišta, imanja i parkove, i šta treba da znate pre sadnje.</p>
+
+      <h2>Zašto posaditi crveni hrast</h2>
+      <ul>
+        <li><strong>Brz rast</strong> — i do 40-60 cm godišnje, znatno brže od domaćeg hrasta lužnjaka ili kitnjaka</li>
+        <li><strong>Upečatljiva jesenja boja</strong> — vatreno crveno do bronzano lišće koje se zadržava duže nego kod većine vrsta</li>
+        <li><strong>Izuzetna otpornost na mraz</strong> — do -30°C, pouzdan u svim delovima Srbije</li>
+        <li><strong>Prilagodljivost zemljištu</strong> — dobro podnosi i slabije, peskovite ili blago kiselije podloge</li>
+        <li><strong>Dugovečnost</strong> — živi i preko 150-200 godina, prava investicija za generacije</li>
+      </ul>
+
+      <h2>Kada i gde saditi crveni hrast</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu, u rupu dvostruko širu od korenove lopte. Zbog konačne veličine (20-25 m visine i širok obim krošnje), potrebno je planirati dovoljno prostora — najmanje 8-10 m od kuće, ograde ili podzemnih instalacija. Idealan je za veća dvorišta, imanja, duž prilaznih puteva i u parkovima.</p>
+
+      <h2>Nega crvenog hrasta</h2>
+      <p>Nakon sadnje, redovno zalivati prve 1-2 sezone dok se koren ne razvije. Kada se ukoreni, crveni hrast je izuzetno izdržljiv i zahteva samo umereno zalivanje u dugim sušnim periodima. Orezivanje je minimalno — samo uklanjanje oštećenih ili ukrštenih grana, po mogućstvu tokom mirovanja biljke (kasna jesen do rano proleće).</p>
+
+      <h2>Crveni hrast u poređenju sa drugim brzorastućim drvećem</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Godišnji rast</th><th>Jesenja boja</th><th>Otpornost na mraz</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Crveni hrast</td><td>40–60 cm</td><td>Vatreno crvena, bronzana</td><td>-30°C</td></tr>
+          <tr><td>Likvidambar</td><td>30–40 cm</td><td>Crvena, narandžasta, ljubičasta</td><td>-20°C</td></tr>
+          <tr><td>Platan</td><td>50–70 cm</td><td>Žuto-braon</td><td>-25°C</td></tr>
+          <tr><td>Domaći hrast</td><td>15–25 cm</td><td>Braon</td><td>-30°C</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti crveni hrast u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice crvenog hrasta uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/crveni-hrast">pogledajte crveni hrast i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 32,
+    slug: 'magnolija-soulangeana-sadnja-nega-cvetanje',
+    title: 'Magnolija Soulangeana – prolećno cvetanje pre nego što se pojavi list',
+    excerpt: 'Magnolija Soulangeana je listopadna magnolija koja se u ranom proleću, dok su grane još gole, prekrije krupnim ružičasto-belim cvetovima nalik tulipanima. Objašnjavamo razliku od zimzelene magnolije i kako je pravilno saditi.',
+    date: '2026-11-12',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/magnolija-soulangeana.jpg',
+    relatedSlugs: ['magnolija-grandiflora-sadnja-i-nega', 'japanska-tresnja-sakura-cvetanje-sadnja', 'judino-drvo-sadnja-nega-cvetanje-na-grani'],
+    faq: [
+      {
+        q: 'Koja je razlika između Magnolije Soulangeana i Magnolije Grandiflore?',
+        a: 'Magnolija Soulangeana je listopadna — gubi lišće u jesen i cveta rano u proleće pre nego što se pojave novi listovi. Magnolija Grandiflora je zimzelena, cveta kasnije tokom leta i zadržava krupno, sjajno lišće tokom cele godine. Soulangeana je i znatno otpornija na mraz.'
+      },
+      {
+        q: 'Kada cveta Magnolija Soulangeana?',
+        a: 'Cveta vrlo rano u proleće, obično krajem marta ili u aprilu, pre nego što se pojavi lišće — krupni ružičasto-beli cvetovi tada prekriju gole grane, stvarajući upečatljiv prizor.'
+      },
+      {
+        q: 'Da li Magnoliji Soulangeana odgovara svako zemljište?',
+        a: 'Najbolje uspeva u blago kiseloj, plodnoj i dobro dreniranoj zemlji. U veoma alkalnom (krečnom) zemljištu može pokazivati žuticu lišća usled nedostatka gvožđa — u tom slučaju preporučuje se đubrivo za kiselo-ljubive biljke.'
+      },
+      {
+        q: 'Da li kasni prolećni mraz može oštetiti cvetove?',
+        a: 'Da, ovo je glavni rizik — pošto cveta vrlo rano, iznenadni kasni mraz (ispod -2 do -3°C) može oštetiti ili potpuno uništiti tek otvorene cvetove te sezone. Samoj biljci to ne šteti, ali tog proleća cvetanje može biti slabije.'
+      },
+      {
+        q: 'Koliko veliko postaje ovo drvo?',
+        a: 'Magnolija Soulangeana dostiže 5–8 m visine u zrelosti, što je čini pogodnom čak i za manja i srednja dvorišta, za razliku od mnogih drugih vrsta magnolija.'
+      },
+    ],
+    content: `
+      <p>Malo prizora u srpskom proleću privlači toliko pažnje kao <strong>Magnolija Soulangeana</strong> u punom cvatu — krupni, ružičasto-beli cvetovi nalik tulipanima, pojavljuju se direktno na golim granama, pre nego što izbije i jedan list. Nekoliko nedelja godišnje, ovo drvo je apsolutni centar pažnje u dvorištu.</p>
+
+      <p>Objašnjavamo po čemu se razlikuje od poznatije zimzelene magnolije, i kako je pravilno posaditi i negovati.</p>
+
+      <h2>Soulangeana vs. Grandiflora — koja je razlika?</h2>
+      <p>Ovo je najčešća zabuna kod kupaca. <strong>Magnolija Grandiflora</strong> je zimzelena, sa krupnim, sjajnim, kožastim lišćem koje nosi tokom cele godine, i cveta kasnije, tokom leta, krupnim belim cvetovima. <strong>Magnolija Soulangeana</strong> je listopadna — u jesen ostaje bez lišća, ali zato u ranom proleću cveta znatno ranije i spektakularnije, baš kada dvorište najviše oskudeva u boji. Soulangeana je i otpornija na mraz, pa je pouzdanija u hladnijim delovima Srbije.</p>
+
+      <h2>Kada i gde saditi Magnoliju Soulangeana</h2>
+      <ul>
+        <li><strong>Lokacija</strong> — puno sunce do blaga polusenka, zaštićena od jakog vetra</li>
+        <li><strong>Zemljište</strong> — blago kisela, plodna, dobro ocedita zemlja</li>
+        <li><strong>Vreme sadnje</strong> — rano proleće ili rana jesen</li>
+        <li><strong>Razmak od objekata</strong> — s obzirom na konačnu visinu od 5-8 m, dovoljno je 3-4 m slobodnog prostora</li>
+      </ul>
+
+      <h2>Rizik kasnog prolećnog mraza</h2>
+      <p>Pošto Magnolija Soulangeana cveta vrlo rano, pre nego što se pojavi lišće, glavni rizik je iznenadni kasni mraz koji može oštetiti tek otvorene cvetove te sezone. Ovo ne ugrožava zdravlje same biljke niti njeno cvetanje naredne godine — samo smanjuje prizor te konkretne sezone. Sadnja na blago zaklonjenom mestu (uz južni zid kuće, pod zaštitom drugih stabala) može ublažiti ovaj rizik.</p>
+
+      <h2>Nega tokom godine</h2>
+      <p>Magnolija Soulangeana zahteva redovno zalivanje, posebno prve dve godine nakon sadnje i tokom letnjih suša. Orezivanje je minimalno — po potrebi odmah nakon cvetanja, uklanjanjem samo oštećenih ili ukrštenih grana. Na alkalnom zemljištu povremeno đubrenje specijalizovanim đubrivom za kiselo-ljubive biljke sprečava žuticu lišća.</p>
+
+      <h2>Gde kupiti Magnoliju Soulangeana u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice Magnolije Soulangeana uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/magnolija-soulangeana">pogledajte Magnoliju Soulangeana i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 31,
+    slug: 'judino-drvo-sadnja-nega-cvetanje-na-grani',
+    title: 'Judino drvo – cvetovi direktno na granama, bez premca u proleće',
+    excerpt: 'Judino drvo ima jedinstvenu osobinu — ružičasto-magenta cvetovi niču direktno iz kore grana i debla, pre nego što se pojavi list. Objašnjavamo zašto je ovo mediteransko drvo sve traženije i za srpska dvorišta.',
+    date: '2026-11-12',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/judino-drvo.jpg',
+    relatedSlugs: ['magnolija-soulangeana-sadnja-nega-cvetanje', 'ruza-sadnja-nega-rezidba-zastita-zimi', 'japanska-tresnja-sakura-cvetanje-sadnja'],
+    faq: [
+      {
+        q: 'Zašto Judino drvo cveta direktno na granama?',
+        a: 'Ova pojava se naziva kauliflorija — cvetni pupoljci se kod Judinog drveta formiraju direktno u kori starijih grana i debla, a ne samo na mladim izdancima kao kod većine drveća. Rezultat je upečatljiv prizor gustih ružičasto-magenta cvetova koji prekrivaju i deblo i grane.'
+      },
+      {
+        q: 'Kada cveta Judino drvo?',
+        a: 'Cveta rano u proleće (obično april), pre nego što se pojavi lišće — cvetovi se pojavljuju direktno na golim granama i deblu, što traje nekoliko nedelja.'
+      },
+      {
+        q: 'Da li je Judino drvo otporno na sušu?',
+        a: 'Da, jednom kada se ukoreni (nakon prve 1-2 godine), Judino drvo je izuzetno otporno na sušu i ne zahteva dodatno zalivanje osim u ekstremno dugim periodima bez kiše — poreklom je sa Mediterana i naviklo na sušna leta.'
+      },
+      {
+        q: 'Da li je Judino drvo pogodno za manja dvorišta?',
+        a: 'Da — dostiže samo 5-10 m visine u zrelosti i često ima više-stablasti, raširen oblik, što ga čini odličnim izborom čak i za manja i srednja dvorišta, za razliku od mnogih visokih sadnica.'
+      },
+      {
+        q: 'Da li Judino drvo podnosi mraz u Srbiji?',
+        a: 'Da, otporno je na mraz do -15 do -20°C, što je dovoljno za veći deo Srbije. U izuzetno hladnim, izloženim mikrolokacijama mlada biljka može imati koristi od zaštite prve 1-2 zime.'
+      },
+    ],
+    content: `
+      <p><strong>Judino drvo</strong> (Cercis siliquastrum) ima osobinu koju retko koje drvo u našim dvorištima ima — cvetovi ne niču na vrhovima mladih grančica, nego direktno iz kore starijih grana, pa čak i samog debla. Rezultat je prizor koji zaustavlja prolaznike: celo drvo, od korena do vrha, prekriveno gustim ružičasto-magenta cvetovima, pre nego što se pojavi ijedan list.</p>
+
+      <p>Objašnjavamo odakle ova jedinstvena osobina, i zašto je ovo mediteransko drvo sve traženiji izbor i u srpskim dvorištima.</p>
+
+      <h2>Zašto Judino drvo cveta baš na granama?</h2>
+      <p>Pojava se naziva <strong>kauliflorija</strong> — sposobnost biljke da formira cvetne pupoljke direktno u kori starijeg drveta, a ne isključivo na novom prirastu kao većina vrsta. Kod Judinog drveta to znači da i deblo, i najstarije grane, mogu biti prekriveni cvetovima jednako gusto kao i mlade grančice — nešto što retko koja vrsta u umerenom klimatskom pojasu nudi.</p>
+
+      <h2>Zašto posaditi Judino drvo</h2>
+      <ul>
+        <li><strong>Jedinstven prizor cvetanja</strong> — cvetovi direktno na kori grana i debla, pre lišća</li>
+        <li><strong>Otpornost na sušu</strong> — mediteransko poreklo znači minimalnu potrebu za zalivanjem kada se ukoreni</li>
+        <li><strong>Kompaktna veličina</strong> — 5-10 m, pogodno i za manja i srednja dvorišta</li>
+        <li><strong>Srcoliki listovi</strong> — dekorativni i tokom leta, nakon što cvetanje prođe</li>
+        <li><strong>Malo zahteva u nezi</strong> — jednom ukorenjeno, praktično se samo o sebi brine</li>
+      </ul>
+
+      <h2>Kada i gde saditi Judino drvo</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu — što više sunca, bujnije cvetanje. Dobro podnosi dobro drenirano zemljište, uključujući i siromašnije, kamenite podloge. Izbegavati teška, glinovita zemljišta gde voda zastajava, jer korenov sistem ne voli stajaću vlagu.</p>
+
+      <h2>Nega Judinog drveta</h2>
+      <p>Prve 1-2 godine nakon sadnje redovno zalivati dok se korenov sistem ne razvije. Nakon toga, zalivanje je potrebno samo u dugim periodima suše. Orezivanje je minimalno — po potrebi odmah nakon cvetanja, uklanjanjem samo oštećenih ili ukrštenih grana, kako se ne bi žrtvovali cvetni pupoljci za narednu sezonu.</p>
+
+      <h2>Gde kupiti Judino drvo u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice Judinog drveta uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/judino-drvo">pogledajte Judino drvo i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 30,
+    slug: 'javor-crimson-king-sadnja-nega-boja-lista',
+    title: "Javor 'Crimson King' – drvo koje celo leto nosi ljubičasto lišće",
+    excerpt: "Javor 'Crimson King' tokom cele vegetacije nosi duboko ljubičasto-crveno lišće, umesto da tu boju pokaže tek u jesen kao većina drveća. Objašnjavamo zašto je ovo jedan od najupečatljivijih akcenata za svako dvorište.",
+    date: '2026-11-12',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/javor-crimson-king.jpg',
+    relatedSlugs: ['crveni-hrast-sadnja-nega-brzorastuce-drvo', 'likvidambar-jesenje-boje-sadnja-nega', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: "Da li javor 'Crimson King' ikada ima zeleno lišće?",
+        a: "Ne — za razliku od gotovo svog drugog drveća koje ljubičastu ili crvenu boju pokazuje samo u jesen, 'Crimson King' nosi duboku ljubičasto-crvenu boju lišća tokom cele vegetacione sezone, od proleća do jeseni."
+      },
+      {
+        q: "Koliko brzo raste javor 'Crimson King'?",
+        a: "Raste umerenim tempom, slično standardnom javoru mleču od kog je i nastao kao kultivar — u proseku 25-35 cm godišnje, dostižući 10-15 m visine u zrelosti."
+      },
+      {
+        q: "Da li mu je potrebno puno sunca za najintenzivniju boju?",
+        a: "Da, ovo je ključno — na punom suncu lišće zadržava najdublju, najintenzivniju ljubičasto-crvenu boju. U senci ili polusenci boja bledi i prelazi u zelenkasto-braon nijansu, pa za najbolji efekat birajte najsunčaniju poziciju u dvorištu."
+      },
+      {
+        q: "Na koju udaljenost od kuće saditi javor 'Crimson King'?",
+        a: "S obzirom na konačnu visinu i širinu krošnje (10-15 m), preporučuje se najmanje 5-6 m razmaka od objekata, ograda i podzemnih instalacija."
+      },
+      {
+        q: "Da li podnosi gradske uslove i zagađenje?",
+        a: "Da, kao i standardni javor mleč od kog potiče, 'Crimson King' dobro podnosi gradske uslove, zagađenje vazduha i zbijeno zemljište, što ga čini pouzdanim izborom i za uličnu i parkovsku sadnju."
+      },
+    ],
+    content: `
+      <p>Dok većina drveća čeka jesen da pokaže svoju crvenu ili ljubičastu stranu, <strong>javor 'Crimson King'</strong> (Acer platanoides 'Crimson King') tu boju nosi od prvog prolećnog lista do poslednjeg jesenjeg — duboko ljubičasto-crveno lišće koje je vizuelni akcenat u dvorištu kroz celu sezonu, ne samo nekoliko nedelja.</p>
+
+      <p>Objašnjavamo zašto je ovaj kultivar toliko tražen, i kako obezbediti da boja lišća bude što intenzivnija.</p>
+
+      <h2>Po čemu se Crimson King razlikuje od običnog javora</h2>
+      <p>'Crimson King' je kultivar javora mleča (Acer platanoides), selekcionisan upravo zbog svoje ljubičasto-crvene boje lišća koja se, za razliku od standardne zelene forme, zadržava tokom cele vegetacije — od momenta kad lišće izbije u proleće, pa sve do opadanja u jesen. Rezultat je drvo koje deluje kao stalan, živ akcenat u pejzažu, bez obzira na doba godine u toku sezone.</p>
+
+      <h2>Zašto posaditi javor Crimson King</h2>
+      <ul>
+        <li><strong>Boja tokom cele sezone</strong> — ne samo u jesen, nego od proleća do jeseni</li>
+        <li><strong>Snažan vizuelni akcenat</strong> — idealan kao solitersko stablo ili u aleji</li>
+        <li><strong>Otpornost na mraz</strong> do -30°C, pouzdan u celoj Srbiji</li>
+        <li><strong>Podnosi gradske uslove</strong> — zagađenje, zbijeno zemljište, suša</li>
+        <li><strong>Prilagodljiv zemljištu</strong> — ne zahteva specifičan tip podloge</li>
+      </ul>
+
+      <h2>Kada i gde saditi</h2>
+      <p>Sadi se u proleće ili jesen. Za najintenzivniju boju lišća, obavezno birati poziciju sa punim suncem — u senci ili polusenci ljubičasta boja bledi prema zelenkasto-braon nijansi. S obzirom na konačnu veličinu (10-15 m visine, široka krošnja), ostaviti najmanje 5-6 m slobodnog prostora od objekata i instalacija.</p>
+
+      <h2>Nega tokom godine</h2>
+      <p>Nakon sadnje, redovno zalivati prve 1-2 sezone. Kada se ukoreni, javor Crimson King zahteva samo umereno zalivanje u dužim sušnim periodima. Orezivanje je minimalno — uklanjanje oštećenih ili ukrštenih grana tokom mirovanja biljke (kasna jesen do rano proleće), bez potrebe za redovnim oblikovanjem krošnje.</p>
+
+      <h2>Gde kupiti javor Crimson King u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice javora 'Crimson King' uz dostavu širom Srbije. Cena je na upit u zavisnosti od veličine sadnice — <a href="/sadnice/javor-crimson-king">pogledajte javor Crimson King i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 29,
     slug: 'lavanda-sadnja-nega-rezidba',
     title: 'Lavanda – sadnja, nega i rezidba',

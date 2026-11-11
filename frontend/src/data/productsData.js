@@ -1478,7 +1478,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 20–30 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje, otporna na sušu', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
   },
   {
-    id: 63, slug: 'crveni-hrast', name: 'Crveni hrast', category: 'liscari', categories: ['liscari'],
+    id: 63, slug: 'crveni-hrast', relatedBlogSlug: 'crveni-hrast-sadnja-nega-brzorastuce-drvo', name: 'Crveni hrast', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crveni-hrast.jpg', images: ['/images/crveni-hrast.jpg'],
     imageCredit: 'Foto: Velela, Wikimedia Commons (Public domain)',
     seoTitle: 'Crveni hrast – prodaja sadnica, cena na upit',
@@ -1512,7 +1512,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 30–40 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna zemlja', hardiness: 'Otporno na mraz do -25°C' }
   },
   {
-    id: 66, slug: 'javor-crimson-king', name: "Javor 'Crimson King'", category: 'liscari', categories: ['liscari'],
+    id: 66, slug: 'javor-crimson-king', relatedBlogSlug: 'javor-crimson-king-sadnja-nega-boja-lista', name: "Javor 'Crimson King'", category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-crimson-king.jpg', images: ['/images/javor-crimson-king.jpg'],
     imageCredit: 'Foto: Gmihail, Wikimedia Commons (CC BY-SA 3.0 rs)',
     seoTitle: "Javor 'Crimson King' – prodaja sadnica, cena na upit",
@@ -1523,7 +1523,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce (za najintenzivniju boju lišća)', watering: 'Umereno zalivanje', soil: 'Prilagodljiv različitim tipovima zemljišta', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 67, slug: 'magnolija-soulangeana', name: 'Magnolija Soulangeana', category: 'liscari', categories: ['liscari'],
+    id: 67, slug: 'magnolija-soulangeana', relatedBlogSlug: 'magnolija-soulangeana-sadnja-nega-cvetanje', name: 'Magnolija Soulangeana', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/magnolija-soulangeana.jpg', images: ['/images/magnolija-soulangeana.jpg'],
     imageCredit: 'Foto: Jean Tosti, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Magnolija Soulangeana – prodaja sadnica, cena na upit',
@@ -1624,7 +1624,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Redovno zalivanje', soil: 'Podnosi i vlažnija zemljišta', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 76, slug: 'judino-drvo', name: 'Judino drvo', category: 'liscari', categories: ['liscari'],
+    id: 76, slug: 'judino-drvo', relatedBlogSlug: 'judino-drvo-sadnja-nega-cvetanje-na-grani', name: 'Judino drvo', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/judino-drvo.jpg', images: ['/images/judino-drvo.jpg'],
     imageCredit: 'Foto: אורנה לוטן, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Judino drvo – prodaja sadnica, cena na upit',
