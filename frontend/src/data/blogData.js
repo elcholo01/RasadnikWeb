@@ -2508,7 +2508,7 @@ const blogPosts = [
     date: '2026-06-13',
     readTime: '9 min',
     category: 'Voćke i egzotično',
-    image: '/images/maslina1.jpeg',
+    image: '/images/maslina1.jpg',
     relatedSlugs: ['hortenzija-nega-rezidba-cvetanje', 'katalpa-sadnja-i-nega', 'fotinija-red-robin-sadnja-i-nega'],
     faq: [
       {
