@@ -56,7 +56,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
   {
     id: 2,
     slug: 'tisa',
-    relatedBlogSlug: 'tisa-sadnja-nega-otrovnost',
+    relatedBlogSlug: 'tisa-sadnja-nega-ziva-ograda-vekovima',
     name: 'Tisa',
     category: 'cetinari',
     categories: ['cetinari', 'ziva-ograda'],

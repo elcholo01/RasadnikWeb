@@ -8,7 +8,7 @@ const blogPosts = [
     readTime: '6 min',
     category: 'Perene',
     image: '/images/lavanda.jpg',
-    relatedSlugs: ['bozur-sadnja-nega-zasto-ne-cveta', 'tisa-sadnja-nega-otrovnost', 'ruza-sadnja-nega-rezidba-zastita-zimi'],
+    relatedSlugs: ['bozur-sadnja-nega-zasto-ne-cveta', 'tisa-sadnja-nega-ziva-ograda-vekovima', 'ruza-sadnja-nega-rezidba-zastita-zimi'],
     faq: [
       {
         q: 'Kada se orezuje lavanda?',
@@ -148,9 +148,9 @@ const blogPosts = [
   },
   {
     id: 27,
-    slug: 'tisa-sadnja-nega-otrovnost',
-    title: 'Tisa – sadnja, nega i da li je otrovna',
-    excerpt: 'Tisa je jedan od najdugovečnijih četinara i odlična je za formiranu živu ogradu, ali oko nje postoji i opravdana zabrinutost — njene bobice su otrovne. Objašnjavamo šta je bezbedno znati pre sadnje, posebno ako imate decu ili kućne ljubimce.',
+    slug: 'tisa-sadnja-nega-ziva-ograda-vekovima',
+    title: 'Tisa – živa ograda koja traje generacijama',
+    excerpt: 'Tisa je jedan od najdugovečnijih četinara na svetu i jedina živa ograda koja uspeva i u dubokoj senci, gde tuja i čempres jedva opstaju. Objašnjavamo zašto je tisa najisplativija dugoročna investicija za vaše dvorište.',
     date: '2026-11-11',
     readTime: '6 min',
     category: 'Četinari',
@@ -158,8 +158,8 @@ const blogPosts = [
     relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'lovor-visnja-sadnja-i-nega'],
     faq: [
       {
-        q: 'Da li je tisa otrovna?',
-        a: 'Da — igličice i semenke tise sadrže toksine opasne za ljude i životinje ako se progutaju u većoj količini. Jedino crveni, mesnati deo bobice (arilus) oko semenke nije otrovan i njime se hrane ptice, ali samu semenku ne treba jesti.'
+        q: 'Koliko dugo traje živa ograda od tise?',
+        a: 'Pravilno posađena i negovana ograda od tise može trajati i preko 100 godina, a pojedini primerci u Evropi stari su i preko hiljadu godina. To je po ceni sadnice najisplativija dugoročna investicija u izgled i privatnost dvorišta.'
       },
       {
         q: 'Koliko tisa raste godišnje?',
@@ -181,18 +181,18 @@ const blogPosts = [
     content: `
       <p><strong>Tisa</strong> (Taxus baccata) spada među najdugovečnije biljke na planeti — pojedini primerci u Evropi stari su i preko hiljadu godina. Podnosi rezanje bolje od skoro bilo koje druge biljke, raste i u dubokoj senci, i upravo zbog toga je klasičan izbor za formirane žive ograde i topijariju koje traju generacijama.</p>
 
-      <p>Istovremeno, oko tise postoji realna i opravdana predostrožnost — njene bobice sadrže toksine. U ovom tekstu objašnjavamo šta tačno treba da znate, posebno ako u dvorištu imate decu ili kućne ljubimce, i kako pravilno saditi i negovati ovu biljku.</p>
+      <p>U ovom tekstu objašnjavamo zašto je tisa, iako raste sporije od tuje ili čempresa, dugoročno najisplativiji izbor za živu ogradu — i kako je pravilno posaditi i negovati.</p>
 
-      <h2>Da li je tisa otrovna?</h2>
-      <p>Da, i ovo je važno razjasniti precizno: <strong>igličice i semenke</strong> tise sadrže taksine, jedinjenja toksična za ljude i životinje (pogotovo pse i konje) ako se progutaju u većoj količini. Simptomi trovanja mogu biti ozbiljni, pa je gutanje veće količine lišća ili semenki hitan slučaj za veterinara ili lekara.</p>
-      <p>Ono što često zbunjuje: crvena, mesnata <strong>bobica (arilus)</strong> koja obavija semenku <em>nije</em> sama po sebi toksična i njome se slobodno hrane ptice, raznoseći seme. Problem je sama semenka unutra, koja jeste otrovna ako se razgrize i proguta. U praksi, decu i kućne ljubimce koji grickaju biljke treba držati podalje od tise, kao mera opreza — a odrasle, zimzelene žive ograde od tise su decenijama bezbedno gajene širom Evrope upravo zato što se ne beru i ne jedu.</p>
+      <h2>Tisa kao dugoročna investicija u dvorište</h2>
+      <p>Dok brže rastuće ograde (tuja, čempres, lovor višnja) imaju vek trajanja od nekoliko decenija pre nego što se razrede ili moraju obnavljati, tisa posađena danas može krasiti isto dvorište i za sto godina — gušća i impozantnija nego prvog dana. Malo je ulaganja u baštu sa tako dugim rokom trajanja po tako pristupačnoj ceni. Jednom formirana, zahteva samo povremeno orezivanje i gotovo nikakvu dodatnu negu.</p>
 
       <h2>Zašto je tisa dobar izbor za živu ogradu</h2>
       <ul>
-        <li><strong>Izuzetna dugovečnost</strong> — živi i po nekoliko stotina godina uz minimalnu negu</li>
-        <li><strong>Podnosi senku</strong> bolje od gotovo svakog drugog četinara, uključujući duboku senku</li>
-        <li><strong>Odličan odgovor na rezidbu</strong> — podnosi i jaku, obnavljajuću rezidbu u staro drvo bez štete</li>
+        <li><strong>Izuzetna dugovečnost</strong> — živi i po nekoliko stotina godina uz minimalnu negu, pravi je "nasledni" zasad</li>
+        <li><strong>Jedina rešava senovita dvorišta</strong> — uspeva i u dubokoj senci gde tuja i čempres jedva opstaju ili propadaju</li>
+        <li><strong>Odličan odgovor na rezidbu</strong> — podnosi i jaku, obnavljajuću rezidbu u staro drvo bez štete, pa se lako oblikuje u savršenu geometrijsku formu</li>
         <li><strong>Otporna na mraz</strong> do -20°C, pouzdana u svim regionima Srbije</li>
+        <li><strong>Gusta i neprobojna</strong> — jednom formirana, daje potpunu privatnost i tišinu tokom cele godine</li>
       </ul>
 
       <h2>Kada i kako saditi tisu</h2>
