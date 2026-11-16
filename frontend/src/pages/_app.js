@@ -19,10 +19,12 @@ import '../components/ImageLightbox.css';
 import '../components/LanguageSwitcher.css';
 import '../components/AIDizajnModal.css';
 import '../components/FloatingLeaves.css';
+import '../components/Preloader.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import WhatsAppButton from '../components/WhatsAppButton';
+import Preloader from '../components/Preloader';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '700'], display: 'swap' });
 
@@ -69,6 +71,7 @@ export default function App({ Component, pageProps }) {
         gtag('config', 'G-3JB3R13ED6');
         gtag('config', 'AW-17913841051');
       `}</Script>
+      <Preloader />
       <div className={`App ${poppins.className}`}>
         <Navbar />
         <main className={fading ? 'page-exit' : 'page-enter'}>
