@@ -1,60 +1,57 @@
 import { useEffect, useState } from 'react';
 
-const STORAGE_KEY = 'tilija-preloader-shown';
-const MIN_DISPLAY_MS = 1700;
-const LEAVE_DURATION_MS = 500;
+const STORAGE_KEY = 'plSeen';
+const MIN_MS = 1650;
+
+function renderLetters(word, accent, startDelay, step, extraLastStyle) {
+  return word.split('').map((ch, i) => {
+    const delay = startDelay + i * step;
+    const style = { animationDelay: `${delay}s` };
+    if (extraLastStyle && i === word.length - 1) Object.assign(style, extraLastStyle);
+    return (
+      <span key={`${word}-${i}`} className={accent ? 'pl-accent' : undefined} style={style}>
+        {ch}
+      </span>
+    );
+  });
+}
 
 export default function Preloader() {
   const [visible, setVisible] = useState(true);
-  const [leaving, setLeaving] = useState(false);
+  const [done, setDone] = useState(false);
 
   useEffect(() => {
-    let alreadyShown = false;
+    let seen = false;
     try {
-      alreadyShown = sessionStorage.getItem(STORAGE_KEY) === '1';
+      seen = sessionStorage.getItem(STORAGE_KEY) === '1';
+      sessionStorage.setItem(STORAGE_KEY, '1');
     } catch (e) {}
 
-    if (alreadyShown) {
-      setVisible(false);
-      return;
-    }
-
-    let reducedMotion = false;
-    try {
-      reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    } catch (e) {}
-
-    const minDisplay = reducedMotion ? 0 : MIN_DISPLAY_MS;
-    const leaveDuration = reducedMotion ? 0 : LEAVE_DURATION_MS;
-    const start = Date.now();
+    const mountedAt = performance.now();
     let finished = false;
 
-    const finish = () => {
+    const hide = () => {
       if (finished) return;
       finished = true;
-      const elapsed = Date.now() - start;
-      const wait = Math.max(minDisplay - elapsed, 0);
+      const wait = seen ? 0 : Math.max(0, MIN_MS - (performance.now() - mountedAt));
       setTimeout(() => {
-        setLeaving(true);
-        setTimeout(() => {
-          setVisible(false);
-          try {
-            sessionStorage.setItem(STORAGE_KEY, '1');
-          } catch (e) {}
-        }, leaveDuration);
+        requestAnimationFrame(() => {
+          setDone(true);
+          setTimeout(() => setVisible(false), 900);
+        });
       }, wait);
     };
 
     if (document.readyState === 'complete') {
-      finish();
+      hide();
     } else {
-      window.addEventListener('load', finish);
+      window.addEventListener('load', hide);
     }
-    const fallback = setTimeout(finish, 6000);
+    const failsafe = setTimeout(hide, 6000);
 
     return () => {
-      window.removeEventListener('load', finish);
-      clearTimeout(fallback);
+      window.removeEventListener('load', hide);
+      clearTimeout(failsafe);
     };
   }, []);
 
@@ -70,52 +67,47 @@ export default function Preloader() {
   if (!visible) return null;
 
   return (
-    <div className={`preloader${leaving ? ' preloader-leave' : ''}`} role="status" aria-label="Sajt se učitava">
-      <div className="preloader-glow preloader-glow-1" aria-hidden="true" />
-      <div className="preloader-glow preloader-glow-2" aria-hidden="true" />
-
-      <div className="preloader-icon-wrap">
-        <svg
-          className="preloader-icon"
-          viewBox="0 0 100 100"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
-          <defs>
-            <linearGradient id="pl-canopy-main" x1="26" y1="12" x2="74" y2="60" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#3f9144" />
-              <stop offset="1" stopColor="#1f5f24" />
-            </linearGradient>
-            <linearGradient id="pl-canopy-side" x1="15" y1="26" x2="45" y2="62" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#7fc983" />
-              <stop offset="1" stopColor="#4e9f54" />
-            </linearGradient>
-            <linearGradient id="pl-trunk" x1="46" y1="58" x2="54" y2="82" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#8a6a52" />
-              <stop offset="1" stopColor="#5c4432" />
-            </linearGradient>
-          </defs>
-
-          <ellipse className="preloader-icon-shadow" cx="50" cy="87" rx="20" ry="4" fill="rgba(31,95,36,0.18)" />
-          <rect x="46" y="58" width="8" height="24" rx="4" fill="url(#pl-trunk)" />
-          <path d="M46 72 C 36 70, 30 62, 32 54 C 42 56, 48 64, 46 72 Z" fill="url(#pl-canopy-side)" />
-          <path d="M54 68 C 64 66, 70 58, 68 50 C 58 52, 52 60, 54 68 Z" fill="url(#pl-canopy-main)" />
-          <circle cx="33" cy="44" r="18" fill="url(#pl-canopy-side)" />
-          <circle cx="67" cy="44" r="18" fill="url(#pl-canopy-side)" />
-          <circle cx="50" cy="36" r="24" fill="url(#pl-canopy-main)" />
-          <circle className="preloader-icon-highlight" cx="40" cy="22" r="5.5" fill="rgba(255,255,255,0.4)" />
+    <>
+      <noscript>
+        <style>{'#preloader { display: none !important; }'}</style>
+      </noscript>
+      <div id="preloader" className={done ? 'pl-done' : ''} role="status" aria-label="Učitavanje">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <ellipse className="pl-soil" cx="100" cy="170" rx="46" ry="5" fill="#8d6e63" opacity=".35" />
+          <path
+            className="pl-stem"
+            d="M100 166 C101 145 98 120 100 92"
+            fill="none"
+            stroke="#6d4c41"
+            strokeWidth="5"
+            strokeLinecap="round"
+          />
+          <path className="pl-leaf l" d="M99 134 C88 122 78 126 72 118 C84 110 96 118 99 134 Z" fill="#7cb342" />
+          <path className="pl-leaf r" d="M101 126 C112 114 122 118 128 110 C116 102 104 110 101 126 Z" fill="#8bc34a" />
+          <g className="pl-crown">
+            <circle cx="100" cy="74" r="30" fill="#2e7d32" />
+            <circle cx="73" cy="88" r="21" fill="#43a047" />
+            <circle cx="127" cy="88" r="21" fill="#388e3c" />
+            <circle cx="83" cy="60" r="19" fill="#66bb6a" />
+            <circle cx="117" cy="58" r="18" fill="#4caf50" />
+            <circle cx="100" cy="46" r="16" fill="#81c784" />
+            <circle cx="100" cy="95" r="17" fill="#2e7d32" />
+          </g>
+          <g className="pl-pollen" fill="#ffd54f">
+            <circle cx="80" cy="70" r="2.2" />
+            <circle cx="118" cy="58" r="1.8" />
+            <circle cx="100" cy="50" r="2" />
+            <circle cx="132" cy="80" r="1.6" />
+            <circle cx="68" cy="84" r="1.8" />
+          </g>
+          <ellipse className="pl-seed" cx="100" cy="164" rx="5" ry="6.5" fill="#795548" />
         </svg>
+        <div className="pl-name" aria-hidden="true">
+          {renderLetters('Rasadnik', false, 0.35, 0.07, { marginRight: '0.3em' })}
+          {renderLetters('Tilija', true, 0.91, 0.07)}
+        </div>
+        <div className="pl-root" />
       </div>
-
-      <div className="preloader-wordmark">
-        <span className="preloader-word preloader-word-1">Rasadnik</span>
-        <span className="preloader-word preloader-word-2">Tilija</span>
-      </div>
-
-      <div className="preloader-bar">
-        <div className="preloader-bar-fill" />
-      </div>
-    </div>
+    </>
   );
 }
