@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 
 const STORAGE_KEY = 'tilija-preloader-shown';
-const MIN_DISPLAY_MS = 1500;
+// Full grow-in sequence (soil → stem → leaves → wordmark → tagline) finishes
+// animating at ~2.25s — keep the floor well past that so the text is
+// actually readable before the exit transition can start.
+const MIN_DISPLAY_MS = 3200;
 const LEAVE_DURATION_MS = 700;
 
 export default function Preloader() {
