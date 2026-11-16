@@ -76,9 +76,6 @@ export default function Preloader() {
     <div className={`preloader${leaving ? ' preloader-leave' : ''}`} role="status" aria-label="Sajt se učitava">
       <div className="preloader-panel preloader-panel-left" />
       <div className="preloader-panel preloader-panel-right" />
-      <div className="preloader-seam" aria-hidden="true" />
-      <div className="preloader-seam-leaf preloader-seam-leaf-top" aria-hidden="true" />
-      <div className="preloader-seam-leaf preloader-seam-leaf-bottom" aria-hidden="true" />
 
       <div className="preloader-content">
         <svg

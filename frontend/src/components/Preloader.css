@@ -27,39 +27,6 @@
   left: auto;
 }
 
-/* Decorative seam drawn on top of the panels — never cuts into them, so it can never open a gap */
-.preloader-seam {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 3px;
-  transform: translateX(-50%);
-  background: linear-gradient(180deg, transparent 0%, var(--primary-light, #60ad5e) 15%, var(--primary, #2e7d32) 50%, var(--primary-light, #60ad5e) 85%, transparent 100%);
-  opacity: 0.55;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-.preloader-seam-leaf {
-  position: absolute;
-  left: 50%;
-  width: 16px;
-  height: 16px;
-  background: var(--primary, #2e7d32);
-  border-radius: 50% 0 50% 0;
-}
-
-.preloader-seam-leaf-top {
-  top: 32%;
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.preloader-seam-leaf-bottom {
-  top: 68%;
-  transform: translate(-50%, -50%) rotate(225deg);
-  background: var(--primary-light, #60ad5e);
-}
-
 .preloader-content {
   position: relative;
   z-index: 1;
@@ -162,15 +129,10 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Exit: leaves/panels open like doors, sprout fades and lifts */
-.preloader-leave .preloader-content,
-.preloader-leave .preloader-seam {
+/* Exit: panels open like doors, sprout fades and lifts */
+.preloader-leave .preloader-content {
   opacity: 0;
   transform: translateY(-16px) scale(0.96);
-}
-
-.preloader-leave .preloader-seam {
-  transform: translateX(-50%) scaleY(0.4);
 }
 
 .preloader-leave .preloader-panel-left {
@@ -183,7 +145,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .preloader-panel,
-  .preloader-seam,
   .preloader-content,
   .preloader-soil,
   .preloader-stem,
