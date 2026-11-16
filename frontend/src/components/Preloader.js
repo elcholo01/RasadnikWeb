@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
 const STORAGE_KEY = 'tilija-preloader-shown';
-const MIN_DISPLAY_MS = 1600;
-const LEAVE_DURATION_MS = 450;
+const MIN_DISPLAY_MS = 1700;
+const LEAVE_DURATION_MS = 500;
 
 export default function Preloader() {
   const [visible, setVisible] = useState(true);
@@ -71,22 +71,42 @@ export default function Preloader() {
 
   return (
     <div className={`preloader${leaving ? ' preloader-leave' : ''}`} role="status" aria-label="Sajt se učitava">
-      <svg
-        className="preloader-icon"
-        viewBox="0 0 100 100"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-      >
-        <ellipse cx="50" cy="86" rx="22" ry="4" fill="rgba(0,0,0,0.08)" />
-        <rect x="46" y="58" width="8" height="24" rx="4" fill="#6d4c3d" />
-        <path d="M46 72 C 36 70, 30 62, 32 54 C 42 56, 48 64, 46 72 Z" fill="var(--primary-light, #60ad5e)" />
-        <path d="M54 68 C 64 66, 70 58, 68 50 C 58 52, 52 60, 54 68 Z" fill="var(--primary, #2e7d32)" />
-        <circle cx="50" cy="36" r="24" fill="var(--primary, #2e7d32)" />
-        <circle cx="33" cy="44" r="18" fill="var(--primary-light, #60ad5e)" />
-        <circle cx="67" cy="44" r="18" fill="var(--primary-light, #60ad5e)" />
-        <circle cx="41" cy="23" r="5" fill="rgba(255,255,255,0.35)" />
-      </svg>
+      <div className="preloader-glow preloader-glow-1" aria-hidden="true" />
+      <div className="preloader-glow preloader-glow-2" aria-hidden="true" />
+
+      <div className="preloader-icon-wrap">
+        <svg
+          className="preloader-icon"
+          viewBox="0 0 100 100"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <defs>
+            <linearGradient id="pl-canopy-main" x1="26" y1="12" x2="74" y2="60" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stopColor="#3f9144" />
+              <stop offset="1" stopColor="#1f5f24" />
+            </linearGradient>
+            <linearGradient id="pl-canopy-side" x1="15" y1="26" x2="45" y2="62" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stopColor="#7fc983" />
+              <stop offset="1" stopColor="#4e9f54" />
+            </linearGradient>
+            <linearGradient id="pl-trunk" x1="46" y1="58" x2="54" y2="82" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stopColor="#8a6a52" />
+              <stop offset="1" stopColor="#5c4432" />
+            </linearGradient>
+          </defs>
+
+          <ellipse className="preloader-icon-shadow" cx="50" cy="87" rx="20" ry="4" fill="rgba(31,95,36,0.18)" />
+          <rect x="46" y="58" width="8" height="24" rx="4" fill="url(#pl-trunk)" />
+          <path d="M46 72 C 36 70, 30 62, 32 54 C 42 56, 48 64, 46 72 Z" fill="url(#pl-canopy-side)" />
+          <path d="M54 68 C 64 66, 70 58, 68 50 C 58 52, 52 60, 54 68 Z" fill="url(#pl-canopy-main)" />
+          <circle cx="33" cy="44" r="18" fill="url(#pl-canopy-side)" />
+          <circle cx="67" cy="44" r="18" fill="url(#pl-canopy-side)" />
+          <circle cx="50" cy="36" r="24" fill="url(#pl-canopy-main)" />
+          <circle className="preloader-icon-highlight" cx="40" cy="22" r="5.5" fill="rgba(255,255,255,0.4)" />
+        </svg>
+      </div>
 
       <div className="preloader-wordmark">
         <span className="preloader-word preloader-word-1">Rasadnik</span>
