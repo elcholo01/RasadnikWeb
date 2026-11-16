@@ -10,7 +10,8 @@
 
 .preloader-panel {
   position: absolute;
-  inset: 0;
+  top: 0;
+  bottom: 0;
   width: 50.4%;
   background: linear-gradient(135deg, #f9fbe7 0%, #e0f2f1 100%);
   transition: transform 0.7s cubic-bezier(0.65, 0, 0.35, 1), opacity 0.7s ease;
@@ -18,10 +19,12 @@
 
 .preloader-panel-left {
   left: 0;
+  right: auto;
 }
 
 .preloader-panel-right {
   right: 0;
+  left: auto;
 }
 
 /* Decorative seam drawn on top of the panels — never cuts into them, so it can never open a gap */
