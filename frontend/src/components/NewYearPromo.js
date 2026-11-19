@@ -146,7 +146,7 @@ export default function NewYearPromo() {
           </div>
 
           <p className="ny-footnote">
-            🚚 Dostava i sadnja na vašoj adresi &nbsp;·&nbsp; 🎁 Ograničene količine uoči Nove godine
+            🚚 Dostava &nbsp;·&nbsp; 🎁 Ograničene količine uoči Nove godine
           </p>
         </div>
       </div>
