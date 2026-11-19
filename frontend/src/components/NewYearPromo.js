@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-const STORAGE_KEY = 'nyPromoSeen2026';
+const STORAGE_SHOWN = 'nyPromoShown2026';
+const STORAGE_DISMISSED = 'nyPromoDismissed2026';
 const SHOW_DELAY_MS = 2600;
 
 const TREES = [
@@ -49,15 +50,21 @@ export default function NewYearPromo() {
   const [closing, setClosing] = useState(false);
 
   useEffect(() => {
-    let seen = false;
+    let dismissed = false;
+    let shown = false;
     try {
-      seen = sessionStorage.getItem(STORAGE_KEY) === '1';
+      dismissed = sessionStorage.getItem(STORAGE_DISMISSED) === '1';
+      shown = sessionStorage.getItem(STORAGE_SHOWN) === '1';
     } catch (e) {}
-    if (seen) return;
+    if (dismissed) return;
+    if (shown) {
+      setOpen(true);
+      return;
+    }
     const timer = setTimeout(() => {
       setOpen(true);
       try {
-        sessionStorage.setItem(STORAGE_KEY, '1');
+        sessionStorage.setItem(STORAGE_SHOWN, '1');
       } catch (e) {}
     }, SHOW_DELAY_MS);
     return () => clearTimeout(timer);
@@ -74,25 +81,19 @@ export default function NewYearPromo() {
 
   const close = () => {
     setClosing(true);
+    try {
+      sessionStorage.setItem(STORAGE_DISMISSED, '1');
+    } catch (e) {}
     setTimeout(() => {
       setOpen(false);
       setClosing(false);
     }, 260);
   };
 
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e) => {
-      if (e.key === 'Escape') close();
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [open]);
-
   if (!open) return null;
 
   return (
-    <div className={`ny-overlay${closing ? ' ny-closing' : ''}`} onClick={close}>
+    <div className={`ny-overlay${closing ? ' ny-closing' : ''}`}>
       <div className="ny-modal" onClick={(e) => e.stopPropagation()}>
         <button className="ny-close" onClick={close} aria-label="Zatvori">×</button>
 
@@ -137,7 +138,7 @@ export default function NewYearPromo() {
                     </li>
                   ))}
                 </ul>
-                <Link href={`/sadnice/${tree.slug}`} className="ny-tree-btn" onClick={close}>
+                <Link href={`/sadnice/${tree.slug}`} className="ny-tree-btn">
                   Pogledaj i naruči →
                 </Link>
               </div>
