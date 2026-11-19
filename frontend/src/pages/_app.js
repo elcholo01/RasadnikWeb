@@ -18,6 +18,7 @@ import '../components/Footer.css';
 import '../components/ImageLightbox.css';
 import '../components/LanguageSwitcher.css';
 import '../components/AIDizajnModal.css';
+import '../components/NewYearPromo.css';
 import '../components/FloatingLeaves.css';
 import '../components/Preloader.css';
 import Navbar from '../components/Navbar';

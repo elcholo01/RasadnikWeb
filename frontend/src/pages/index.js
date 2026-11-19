@@ -8,6 +8,7 @@ import useScrollReveal from '../hooks/useScrollReveal';
 import FloatingLeaves from '../components/FloatingLeaves';
 
 const AIDizajnModal = dynamic(() => import('../components/AIDizajnModal'), { ssr: false });
+const NewYearPromo = dynamic(() => import('../components/NewYearPromo'), { ssr: false });
 
 const Home = () => {
   const { t } = useTranslation();
@@ -294,6 +295,7 @@ const Home = () => {
       </button>
 
       {showAI && <AIDizajnModal onClose={() => setShowAI(false)} />}
+      <NewYearPromo />
     </>
   );
 };
