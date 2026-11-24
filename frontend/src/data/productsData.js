@@ -2056,6 +2056,28 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     inStock: true,
     details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja, podnosi i siromašna', hardiness: 'Otporan na mraz do -30°C' }
   },
+  {
+    id: 114, slug: 'kedar', name: 'Kedar', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/kedar.jpg', images: ['/images/kedar.jpg'],
+    imageCredit: 'Foto: Tangopaso, Wikimedia Commons (Public domain)',
+    seoTitle: 'Kedar – prodaja sadnica, cena na upit',
+    metaDescription: 'Kedar – prodaja sadnica, veličanstven četinar sa plavo-srebrnim iglicama za velika dvorišta. Cena na upit, dostava širom Srbije.',
+    description: 'Veličanstven četinar sa karakterističnim, raširenim granama i plavo-srebrnim iglicama — pravi akcenat za velika dvorišta i parkove.',
+    richContent: `Cedrus atlantica 'Glauca', plavi atlas kedar, četinar je impozantnog izgleda sa plavo-srebrnim iglicama i slojevitim, raširenim granama koje s godinama formiraju upečatljivu siluetu. U zrelosti dostiže 15–25 m. Sadi se na suncu, u dobro drenirana zemljišta, otporan je na mraz do -20°C. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
+  },
+  {
+    id: 115, slug: 'stubasta-zlatna-tisa', name: 'Stubasta zlatna tisa', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/stubasta-zlatna-tisa.jpg', images: ['/images/stubasta-zlatna-tisa.jpg'],
+    imageCredit: 'Foto: Rudolphous, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Stubasta zlatna tisa – prodaja sadnica, cena na upit',
+    metaDescription: 'Stubasta zlatna tisa – prodaja sadnica, uska tisa zlatnožutih iglica za vertikalne akcente. Cena na upit, dostava širom Srbije.',
+    description: 'Uska, stubasta tisa sa zlatnožutim iglicama tokom cele godine — odlična za vertikalne akcente i formalne baštenske kompozicije.',
+    richContent: `Taxus baccata 'Standishii' uska je, stubasta sorta tise sa zlatnožutim iglicama koje boju čuvaju tokom cele godine. Sporo raste, dostižući 1–1,5 m za desetak godina. Sadi se na suncu do polusenci, u dobro drenirana zemljišta, otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Sporo raste, do 1–1,5 m za 10 godina', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
 ];
 
 export const categories = [
