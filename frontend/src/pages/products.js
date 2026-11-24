@@ -53,7 +53,8 @@ const Products = () => {
       product.category === selectedCategory;
     const term = searchTerm.trim().toLowerCase();
     if (!term) return matchesCategory;
-    return matchesCategory && product.name.toLowerCase().startsWith(term);
+    const words = product.name.toLowerCase().split(/\s+/);
+    return matchesCategory && words.some(word => word.startsWith(term));
   });
 
   const visibleProducts = filteredProducts.slice(0, visibleCount);
