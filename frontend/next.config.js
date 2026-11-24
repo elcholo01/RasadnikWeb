@@ -7,6 +7,15 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
   },
+  async redirects() {
+    return [
+      {
+        source: '/sadnice/tulipanovo-drvo',
+        destination: '/sadnice/liriodendron',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

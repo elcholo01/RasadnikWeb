@@ -1513,12 +1513,12 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 20–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna, dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
   },
   {
-    id: 65, slug: 'tulipanovo-drvo', name: 'Tulipanovo drvo', category: 'liscari', categories: ['liscari'],
+    id: 65, slug: 'liriodendron', name: 'Liriodendron', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/tulipanovo-drvo.jpg', images: ['/images/tulipanovo-drvo.jpg'],
     imageCredit: 'Foto: Jean-Pol GRANDMONT, Wikimedia Commons (CC BY 3.0)',
-    seoTitle: 'Tulipanovo drvo – prodaja sadnica, cena na upit',
-    metaDescription: 'Tulipanovo drvo – prodaja sadnica, impozantno brzorastuće drvo sa cvetovima nalik tulipanu. Cena na upit, dostava širom Srbije.',
-    description: 'Impozantno, brzorastuće drvo prepoznatljivih listova i cvetova nalik tulipanu — jedno od najviših listopadnih drveća, pravi akcenat za veliki prostor.',
+    seoTitle: 'Liriodendron (tulipanovo drvo) – prodaja sadnica, cena na upit',
+    metaDescription: 'Liriodendron (tulipanovo drvo) – prodaja sadnica, impozantno brzorastuće drvo sa cvetovima nalik tulipanu. Cena na upit, dostava širom Srbije.',
+    description: 'Impozantno, brzorastuće drvo prepoznatljivih listova i cvetova nalik tulipanu, poznato i kao tulipanovo drvo — jedno od najviših listopadnih drveća, pravi akcenat za veliki prostor.',
     richContent: `Liriodendron tulipifera jedno je od najviših listopadnih drveća, u zrelosti dostiže i preko 30–40 m. Listovi su neobičnog, četvorokrakog oblika, a cvetovi podsećaju na tulipane. Sadi se na suncu, u plodnu, vlažnu zemlju, otporno je na mraz do -25°C. Dostupno u Rasadniku Tilija.`,
     inStock: true,
     details: { height: 'Do 30–40 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna zemlja', hardiness: 'Otporno na mraz do -25°C' }
@@ -1879,6 +1879,182 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     richContent: `Imperata cylindrica 'Red Baron' ukrasna je trava čiji vrhovi listova postaju krvavocrveni, a boja se tokom sezone širi ka osnovi. Dostiže 0,4–0,6 m visine. Sadi se na punom suncu, voli umereno vlažno zemljište, otporna je na mraz do -15 do -20°C (u oštrijim zimama koristan je sloj malča). Dostupna u Rasadniku Tilija.`,
     inStock: true,
     details: { height: '0,4–0,6 m', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Umereno vlažna zemlja', hardiness: 'Otporna na mraz do -15 do -20°C' }
+  },
+  {
+    id: 98, slug: 'visterija', name: 'Visterija', category: 'siblje', categories: ['siblje'],
+    price: 0, showPrice: false, image: '/images/visterija.jpg', images: ['/images/visterija.jpg'],
+    imageCredit: 'Foto: Schnobby, Wikimedia Commons (CC BY-SA 3.0)',
+    seoTitle: 'Visterija – prodaja sadnica, cena na upit',
+    metaDescription: 'Visterija – prodaja sadnica, snažna puzavica sa mirisnim ljubičastim cvetnim grozdovima za pergole i ograde. Cena na upit, dostava širom Srbije.',
+    description: 'Snažna, brzorastuća puzavica sa visećim grozdovima mirisnih ljubičastih cvetova u proleće — idealna za pergole, ograde i zidove gde stvara spektakularan cvetni vodopad.',
+    richContent: `Wisteria sinensis je odrvenjela puzavica poznata po dugim grozdovima ljubičastih, mirisnih cvetova koji se javljaju u proleće, pre ili uz listanje. Može narasti i preko 10 m duž potpore, zahteva jaku konstrukciju (pergola, ograda, zid) jer vremenom razvija debelo, drvenasto stablo. Sadi se na suncu ili u polusenci, u plodnu i dobro drenirana zemlju, i otporna je na mraz do -20°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 10 m uz potporu', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -20°C' }
+  },
+  {
+    id: 99, slug: 'stipa', name: 'Stipa', category: 'perene', categories: ['perene'],
+    price: 0, showPrice: false, image: '/images/stipa.jpg', images: ['/images/stipa.jpg'],
+    imageCredit: 'Foto: Forest and Kim Starr, Wikimedia Commons (CC BY 3.0 US)',
+    seoTitle: 'Stipa – prodaja sadnica, cena na upit',
+    metaDescription: 'Stipa – prodaja sadnica, nežna ukrasna trava sa finim perastim vlatima za svaku baštu. Cena na upit, dostava širom Srbije.',
+    description: 'Nežna ukrasna trava sa tankim, perastim vlatima koje se talasaju na najmanji povetarac — unosi lakoću i pokret u svaki baštenski rejon.',
+    richContent: `Stipa tenuissima je niska ukrasna trava sa izuzetno finim, svetlozelenim vlatima koje leti prelaze u zlatnožutu boju. Naraste do 50–60 cm, odlična je za grupnu sadnju, rubove staza i mediteranske bašte. Sadi se na suncu, podnosi sušu i siromašna zemljišta, otporna je na mraz do -15°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 50–60 cm', sunlight: 'Puno sunce', watering: 'Malo zalivanje, otporna na sušu', soil: 'Dobro drenirana, i siromašna zemljišta', hardiness: 'Otporna na mraz do -15°C' }
+  },
+  {
+    id: 100, slug: 'loptasta-tuja', name: 'Loptasta tuja', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/loptasta-tuja.jpg', images: ['/images/loptasta-tuja.jpg'],
+    imageCredit: 'Foto: Agnieszka Kwiecień, Nova, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Loptasta tuja – prodaja sadnica, cena na upit',
+    metaDescription: 'Loptasta tuja – prodaja sadnica, kompaktna tuja prirodno loptastog oblika za ivičenje i akcente. Cena na upit, dostava širom Srbije.',
+    description: 'Kompaktna, prirodno loptasta tuja koja ne zahteva orezivanje da bi zadržala savršen okrugli oblik — odličan izbor za ivičenje staza i male baštenske akcente.',
+    richContent: `Thuja occidentalis 'Danica' patuljasta je sorta tuje koja prirodno formira gustu, pravilnu loptu prečnika 50–80 cm, bez potrebe za orezivanjem. Iglice su sveže zelene, zimi mogu poprimiti braonkasti ton. Sadi se na suncu do polusenci, u dobro drenirana zemljišta, otporna je na mraz do -30°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 50–80 cm (loptast oblik)', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -30°C' }
+  },
+  {
+    id: 101, slug: 'galiardija', name: 'Galiardija', category: 'perene', categories: ['perene'],
+    price: 0, showPrice: false, image: '/images/galiardija.jpg', images: ['/images/galiardija.jpg'],
+    imageCredit: 'Foto: Matt Lavin, Wikimedia Commons (CC BY-SA 2.0)',
+    seoTitle: 'Galiardija – prodaja sadnica, cena na upit',
+    metaDescription: 'Galiardija – prodaja sadnica, dugo cvetajuća perena crveno-žutih cvetova za sunčane rabate. Cena na upit, dostava širom Srbije.',
+    description: 'Dugo cvetajuća perena sa upečatljivim crveno-žutim cvetovima nalik tratinčici — privlači leptire i cveta od juna do jeseni.',
+    richContent: `Gaillardia x grandiflora niska je, bogato cvetajuća perena sa dvobojnim crveno-žutim cvetovima koji se smenjuju tokom celog leta i jeseni. Naraste do 40–60 cm, odlična je za sunčane rabate i mešovite zasade. Sadi se na suncu, u dobro drenirana zemljišta, podnosi sušu i otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 40–60 cm', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
+  {
+    id: 102, slug: 'zebrina', name: 'Zebrina', category: 'perene', categories: ['perene'],
+    price: 0, showPrice: false, image: '/images/zebrina.jpg', images: ['/images/zebrina.jpg'],
+    imageCredit: 'Foto: Daderot, Wikimedia Commons (CC0)',
+    seoTitle: 'Zebrina – prodaja sadnica, cena na upit',
+    metaDescription: 'Zebrina – prodaja sadnica, ukrasna trava sa žutim prugama na listu za upečatljiv akcenat. Cena na upit, dostava širom Srbije.',
+    description: "Upečatljiva ukrasna trava sa žutim horizontalnim prugama na listu ('zebra trava') — snažan vizuelni akcenat u leju ili kao soliter.",
+    richContent: `Miscanthus sinensis 'Zebrinus' ukrasna je trava prepoznatljiva po žutim, horizontalnim prugama na tamnozelenom listu, otuda naziv 'zebra trava'. U zrelosti dostiže 1,2–1,5 m, krajem leta razvija perjanice cvasti. Sadi se na suncu, u vlažnu, plodnu zemlju, i otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 1,2–1,5 m', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
+  {
+    id: 103, slug: 'mishantus', name: 'Mishantus', category: 'perene', categories: ['perene'],
+    price: 0, showPrice: false, image: '/images/mishantus.jpg', images: ['/images/mishantus.jpg'],
+    imageCredit: 'Foto: Daderot, Wikimedia Commons (CC0 1.0)',
+    seoTitle: 'Mishantus – prodaja sadnica, cena na upit',
+    metaDescription: 'Mishantus – prodaja sadnica, visoka ukrasna trava sa srebrnastim perjanicama u jesen. Cena na upit, dostava širom Srbije.',
+    description: 'Visoka, elegantna ukrasna trava sa gracioznim lukovima listova i srebrnastim perjanicama u jesen — formira upečatljive mase ili žive zavese od zelenila.',
+    richContent: `Miscanthus sinensis krupna je ukrasna trava koja u zrelosti dostiže 1,5–2 m visine, sa uskim lukovitim listovima i srebrnastim cvasnim perjanicama koje se javljaju krajem leta i ostaju atraktivne do zime. Sadi se na suncu, u plodnu i umereno vlažnu zemlju, otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 1,5–2 m', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Plodna, umereno vlažna zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
+  {
+    id: 104, slug: 'ruzmarin', name: 'Ruzmarin', category: 'mediteranske', categories: ['mediteranske'],
+    price: 0, showPrice: false, image: '/images/ruzmarin.jpg', images: ['/images/ruzmarin.jpg'],
+    imageCredit: 'Foto: Fausta Samaritani, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Ruzmarin – prodaja sadnica, cena na upit',
+    metaDescription: 'Ruzmarin – prodaja sadnica, mirisno mediteransko zimzeleno šiblje, dekorativno i kulinarsko. Cena na upit, dostava širom Srbije.',
+    description: 'Mirisno mediteransko zimzeleno šiblje sa igličastim listom i plavim cvetovima — koristi se i kao dekorativna i kao aromatična/kulinarska biljka.',
+    richContent: `Rosmarinus officinalis zimzeleno je, aromatično šiblje poreklom sa Mediterana, sa uskim igličastim listovima i sitnim plavo-ljubičastim cvetovima koji se javljaju u proleće. Naraste do 1–1,5 m, odličan je za terase, žive ograde niskog rasta i kulinarsku upotrebu. Sadi se na suncu, u dobro drenirana, krečnjačka zemljišta, podnosi sušu, otporan je na mraz do oko -10°C. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 1–1,5 m', sunlight: 'Puno sunce', watering: 'Malo zalivanje, otporan na sušu', soil: 'Dobro drenirana, krečnjačka zemljišta', hardiness: 'Otporan na mraz do oko -10°C' }
+  },
+  {
+    id: 105, slug: 'plava-jela', name: 'Plava jela', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/plava-jela.jpg', images: ['/images/plava-jela.jpg'],
+    imageCredit: 'Foto: Crusier, Wikimedia Commons (CC BY 3.0)',
+    seoTitle: 'Plava jela – prodaja sadnica, cena na upit',
+    metaDescription: 'Plava jela – prodaja sadnica, impozantan četinar srebrnasto-plavih iglica, i novogodišnja jelka. Cena na upit, dostava širom Srbije.',
+    description: 'Impozantan četinar srebrnasto-plavih, mekih iglica i pravilne piramidalne krošnje — efektan soliter i tradicionalni izbor za novogodišnju jelku.',
+    richContent: `Abies concolor, poznata kao plava jela, četinar je prepoznatljiv po mekim, srebrnasto-plavim iglicama i simetričnoj, piramidalnoj krošnji. U zrelosti dostiže 15–25 m. Sadi se na suncu do polusenci, u dobro drenirana, plodna zemljišta, otporna je na mraz do -30°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -30°C' }
+  },
+  {
+    id: 106, slug: 'arizonski-cempres', name: 'Arizonski čempres', category: 'cetinari', categories: ['cetinari', 'ziva-ograda'],
+    price: 0, showPrice: false, image: '/images/arizonski-cempres.jpg', images: ['/images/arizonski-cempres.jpg'],
+    imageCredit: 'Foto: Chris M, Wikimedia Commons (CC BY 2.0)',
+    seoTitle: 'Arizonski čempres – prodaja sadnica, cena na upit',
+    metaDescription: 'Arizonski čempres – prodaja sadnica, brzorastući četinar sivkasto-plavih iglica, odličan za živu ogradu. Cena na upit, dostava širom Srbije.',
+    description: 'Brzorastući četinar sivkasto-plavih iglica i uske piramidalne forme — odličan kao soliter ili za formiranje guste, brze žive ograde.',
+    richContent: `Cupressus arizonica, arizonski čempres, brzorastući je četinar sa sivkasto-plavim iglicama i uskom, piramidalnom krošnjom. U zrelosti dostiže 10–15 m. Sadi se na suncu, dobro podnosi sušu i siromašna zemljišta, otporan je na mraz do -20°C. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo zalivanje, otporan na sušu', soil: 'Dobro drenirana, i siromašna zemljišta', hardiness: 'Otporan na mraz do -20°C' }
+  },
+  {
+    id: 107, slug: 'evonimus', name: 'Evonimus', category: 'siblje', categories: ['siblje', 'ziva-ograda'],
+    price: 0, showPrice: false, image: '/images/evonimus.jpg', images: ['/images/evonimus.jpg'],
+    imageCredit: 'Foto: Javier Martin, Wikimedia Commons (Public domain)',
+    seoTitle: 'Evonimus – prodaja sadnica, cena na upit',
+    metaDescription: 'Evonimus – prodaja sadnica, gusto zimzeleno šiblje za niske žive ograde i bordure. Cena na upit, dostava širom Srbije.',
+    description: 'Gusto, zimzeleno šiblje sjajnog, kožastog lista — lako se održava u obliku i odličan je izbor za niske žive ograde i bordure.',
+    richContent: `Euonymus japonicus zimzeleno je šiblje sjajnih, kožastih listova, često varijegiranih (zeleno-belih ili zeleno-žutih sorti). Naraste do 2–3 m, ali se lako održava nižim redovnim orezivanjem. Sadi se na suncu do polusenci, u dobro drenirana zemljišta, otporan je na mraz do -15°C. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 2–3 m, drži se nižim rezanjem', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -15°C' }
+  },
+  {
+    id: 108, slug: 'lejlandi-spirala', name: 'Lejlandi spirala', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/lejlandi-spirala.jpg', images: ['/images/lejlandi-spirala.jpg'],
+    imageCredit: 'Foto: Leon Brooks, Wikimedia Commons (Public domain)',
+    seoTitle: 'Lejlandi spirala – prodaja sadnica, cena na upit',
+    metaDescription: 'Lejlandi spirala – prodaja sadnica, brzorastući četinar formiran u dekorativni spiralni oblik. Cena na upit, dostava širom Srbije.',
+    description: 'Isti brzorastući lejlandi četinar, ali ručno formiran u elegantan spiralni oblik — upečatljiv dekorativni akcenat za ulaz ili terasu.',
+    richContent: `Cupressocyparis leylandii poznat je kao jedan od najbrže rastućih četinara za živu ogradu, a u ovoj varijanti je pažljivo formiran i orezan u spiralni, dekorativni oblik. Zadržava gustu, zimzelenu krošnju i otpornost na mraz do -25°C. Zahteva povremeno održavanje oblika redovnim orezivanjem. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Dostupne različite visine', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -25°C' }
+  },
+  {
+    id: 109, slug: 'arizonski-cempres-spirala', name: 'Arizonski čempres spirala', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/arizonski-cempres-spirala.jpg', images: ['/images/arizonski-cempres-spirala.jpg'],
+    imageCredit: 'Foto: Paul F. Kisak, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Arizonski čempres spirala – prodaja sadnica, cena na upit',
+    metaDescription: 'Arizonski čempres spirala – prodaja sadnica, dekorativno formiran četinar u spiralni oblik. Cena na upit, dostava širom Srbije.',
+    description: 'Arizonski čempres ručno formiran u dekorativni spiralni oblik — stilizovan akcenat koji ne zahteva veliko održavanje.',
+    richContent: `Cupressus arizonica u ovoj varijanti pažljivo je oblikovan i orezan u spiralni oblik, zadržavajući karakteristične sivkasto-plave iglice. Sadi se na suncu, dobro podnosi sušu, otporan je na mraz do -20°C, a oblik se održava povremenim doterivanjem. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Dostupne različite visine', sunlight: 'Puno sunce', watering: 'Malo zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
+  },
+  {
+    id: 110, slug: 'pom-pom', name: 'Pom pom', category: 'siblje', categories: ['siblje'],
+    price: 0, showPrice: false, image: '/images/pom-pom.jpg', images: ['/images/pom-pom.jpg'],
+    imageCredit: 'Foto: Radler59, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Pom pom – prodaja sadnica, cena na upit',
+    metaDescription: 'Pom pom – prodaja sadnica, šiblje orezano u prepoznatljiv pom pom oblik za moderno dvorište. Cena na upit, dostava širom Srbije.',
+    description: 'Šiblje orezano u prepoznatljiv "pom pom" oblik — kuglice zelenila raspoređene na ogoljenim granama, moderan i negovan izgled za dvorište.',
+    richContent: `Pom pom oblik je stil formiranja zimzelenog šiblja u kojem se krošnja oblikuje u nekoliko odvojenih, zaokruženih "oblačića" zelenila na ogoljenim granama. Rezultat je moderan, skulpturalan izgled koji se održava povremenim orezivanjem. Zahteva sunčano do polusenčano mesto i dobro drenirana zemljišta. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Dostupne različite visine', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz (zavisno od vrste)' }
+  },
+  {
+    id: 111, slug: 'nandina', name: 'Nandina', category: 'siblje', categories: ['siblje'],
+    price: 0, showPrice: false, image: '/images/nandina.jpg', images: ['/images/nandina.jpg'],
+    imageCredit: 'Foto: Dalgial, Wikimedia Commons (CC BY-SA 3.0)',
+    seoTitle: 'Nandina – prodaja sadnica, cena na upit',
+    metaDescription: 'Nandina – prodaja sadnica, šiblje sa crvenkastim listom i upečatljivim bobicama tokom zime. Cena na upit, dostava širom Srbije.',
+    description: 'Zimzeleno-polulistopadno šiblje sa finim, crvenkastim listom i upečatljivim crvenim bobicama tokom zime — unosi boju u dvorište i kad sve drugo uvene.',
+    richContent: `Nandina domestica, poznata i kao "nebeski bambus", šiblje je perastog, finog lista koji jesen i zimu prelazi u crvenkaste i bronzane tonove, uz sitne bele cvetove i upečatljive crvene bobice. Naraste do 1,5–2 m. Sadi se na suncu do polusenci, u dobro drenirana zemljišta, otporna je na mraz do -15°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 1,5–2 m', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -15°C' }
+  },
+  {
+    id: 112, slug: 'vrba', name: 'Vrba', category: 'liscari', categories: ['liscari'],
+    price: 0, showPrice: false, image: '/images/vrba.jpg', images: ['/images/vrba.jpg'],
+    imageCredit: 'Foto: Ket, Wikimedia Commons (CC BY-SA 4.0)',
+    seoTitle: 'Vrba – prodaja sadnica, cena na upit',
+    metaDescription: 'Vrba – prodaja sadnica, žalosna vrba visećih grana za obale i veće travnjake. Cena na upit, dostava širom Srbije.',
+    description: 'Elegantno drvo visećih, graciozno povijenih grana — klasičan izbor za obale vodenih površina i veće travnjake.',
+    richContent: `Salix babylonica, žalosna vrba, prepoznatljiva je po dugim, visećim granama koje se graciozno povijaju do zemlje. Brzo raste i u zrelosti dostiže 10–15 m. Sadi se na suncu, voli vlažnu zemlju i blizinu vode, otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Redovno zalivanje, voli vlagu', soil: 'Vlažna, plodna zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
+  {
+    id: 113, slug: 'dud', name: 'Dud', category: 'liscari', categories: ['liscari'],
+    price: 0, showPrice: false, image: '/images/dud.jpg', images: ['/images/dud.jpg'],
+    imageCredit: 'Foto: Chhe, Wikimedia Commons (Public domain)',
+    seoTitle: 'Dud – prodaja sadnica, cena na upit',
+    metaDescription: 'Dud – prodaja sadnica, izdržljivo brzorastuće drvo za hlad i slatke plodove. Cena na upit, dostava širom Srbije.',
+    description: 'Izdržljivo, brzorastuće drvo guste krošnje i slatkih plodova — tradicionalan izbor za hlad u dvorištu i duž puteva.',
+    richContent: `Morus alba, beli dud, brzorastuće je drvo guste, široke krošnje koje pruža izdašan hlad, a u leto rađa slatke, jestive plodove. U zrelosti dostiže 10–15 m. Sadi se na suncu, dobro podnosi gradske uslove i sušu, otporan je na mraz do -30°C. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja, podnosi i siromašna', hardiness: 'Otporan na mraz do -30°C' }
   },
 ];
 
