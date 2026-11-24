@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
+import NavSearch from './NavSearch';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,10 +57,13 @@ const Navbar = () => {
           <LanguageSwitcher />
         </div>
 
-        <div className={`navbar-toggle${isOpen ? ' active' : ''}`} onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="navbar-right">
+          <NavSearch />
+          <div className={`navbar-toggle${isOpen ? ' active' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </nav>

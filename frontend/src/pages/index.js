@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
 import useScrollReveal from '../hooks/useScrollReveal';
 import FloatingLeaves from '../components/FloatingLeaves';
@@ -16,18 +15,10 @@ const NewYearPromo = dynamic(() => import('../components/NewYearPromo'), { ssr: 
 
 const Home = () => {
   const { t } = useTranslation();
-  const router = useRouter();
   const [hoveredCard, setHoveredCard] = useState(null);
-  const [homeSearch, setHomeSearch] = useState('');
   useScrollReveal();
   const [isDesktop, setIsDesktop] = useState(false);
   const heroImgRef = useRef(null);
-
-  const handleHomeSearch = (e) => {
-    e.preventDefault();
-    const term = homeSearch.trim();
-    router.push(term ? `/products?search=${encodeURIComponent(term)}` : '/products');
-  };
 
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -123,29 +114,7 @@ const Home = () => {
           <div className="container" style={{ position: 'relative', zIndex: 3, textAlign: 'center', color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: isDesktop ? 18 : 12, padding: isDesktop ? '48px 0 56px 0' : '24px 16px 28px 16px' }}>
             <Image src="/images/logo.png" alt="Logo Rasadnik Tilija" width={isDesktop ? 120 : 75} height={isDesktop ? 120 : 75} style={{ margin: '0 auto 10px auto', display: 'block', filter: 'drop-shadow(0 2px 8px rgba(44,62,80,0.18))' }} />
             <h1 style={{ fontSize: isDesktop ? '3.2rem' : '1.8rem', fontWeight: 700, letterSpacing: 1, marginBottom: isDesktop ? 18 : 10, textShadow: '0 2px 12px rgba(0,0,0,0.18)' }}>{t('home.title')}</h1>
-            <p style={{ fontWeight: 500, fontSize: isDesktop ? '1.3rem' : '1rem', marginBottom: isDesktop ? 24 : 14, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
-            <form onSubmit={handleHomeSearch} style={{
-              display: 'flex', width: '100%', maxWidth: 480, marginBottom: isDesktop ? 20 : 12,
-              background: '#fff', borderRadius: 30, boxShadow: '0 6px 24px rgba(0,0,0,0.18)', overflow: 'hidden',
-            }}>
-              <input
-                type="text"
-                value={homeSearch}
-                onChange={(e) => setHomeSearch(e.target.value)}
-                placeholder="Pretraži proizvode (npr. tuja, lipa, bor...)"
-                aria-label="Pretraži proizvode"
-                style={{
-                  flex: 1, border: 'none', outline: 'none', padding: isDesktop ? '16px 22px' : '13px 16px',
-                  fontSize: isDesktop ? '1.05rem' : '0.95rem', color: '#234d20', background: 'transparent',
-                }}
-              />
-              <button type="submit" aria-label="Pretraži" style={{
-                border: 'none', cursor: 'pointer', background: '#2e7d32', color: '#fff',
-                padding: isDesktop ? '0 28px' : '0 20px', fontSize: isDesktop ? '1.2rem' : '1.05rem', fontWeight: 700,
-              }}>
-                🔍
-              </button>
-            </form>
+            <p style={{ fontWeight: 500, fontSize: isDesktop ? '1.3rem' : '1rem', marginBottom: isDesktop ? 32 : 16, opacity: 0.95, maxWidth: 600 }}>{t('home.subtitle')}</p>
             <Link href="/products" style={{
               marginTop: isDesktop ? 12 : 4, padding: isDesktop ? '18px 48px' : '12px 28px', fontSize: isDesktop ? '1.35rem' : '1.05rem', fontWeight: 700,
               borderRadius: 30, boxShadow: '0 6px 24px rgba(44,62,80,0.18)', background: '#2e7d32',

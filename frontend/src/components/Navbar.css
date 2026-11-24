@@ -82,6 +82,12 @@
   width: 100%;
 }
 
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .navbar-toggle {
   display: none;
   flex-direction: column;
@@ -95,6 +101,112 @@
   background: #333;
   border-radius: 2px;
   transition: all 0.3s;
+}
+
+/* Search ikonica + padajući panel */
+.nav-search {
+  position: relative;
+}
+
+.nav-search-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(46, 125, 50, 0.08);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, color 0.2s;
+}
+
+.nav-search-btn:hover {
+  background: rgba(46, 125, 50, 0.16);
+}
+
+.nav-search-btn.active {
+  background: var(--primary);
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+.nav-search-panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(44, 62, 80, 0.2);
+  padding: 8px 8px 8px 16px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px) scale(0.97);
+  transform-origin: top right;
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  z-index: 1100;
+}
+
+.nav-search-panel.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.nav-search-panel-icon {
+  color: #9aa79a;
+  flex-shrink: 0;
+}
+
+.nav-search-panel input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.98rem;
+  font-family: inherit;
+  color: #234d20;
+  min-width: 0;
+}
+
+.nav-search-panel input::placeholder {
+  color: #a9b6a9;
+}
+
+.nav-search-panel button[type='submit'] {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.nav-search-panel button[type='submit']:hover {
+  background: #1b5e20;
+}
+
+@media (max-width: 480px) {
+  .nav-search-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .nav-search-panel {
+    width: calc(100vw - 32px);
+    right: -8px;
+  }
 }
 
 @media (max-width: 768px) {
