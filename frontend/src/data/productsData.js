@@ -84,6 +84,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
   {
     id: 3,
     slug: 'crni-bor',
+    relatedBlogSlug: 'crni-bor-sadnja-nega-otporno-drvo',
     name: 'Crni bor', latinName: 'Pinus nigra',
     category: 'cetinari',
     categories: ['cetinari'],
@@ -1881,7 +1882,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: '0,4–0,6 m', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Umereno vlažna zemlja', hardiness: 'Otporna na mraz do -15 do -20°C' }
   },
   {
-    id: 98, slug: 'visterija', name: 'Visterija', latinName: 'Wisteria sinensis', category: 'siblje', categories: ['siblje'],
+    id: 98, slug: 'visterija', relatedBlogSlug: 'visterija-sadnja-nega-cvetanje-pergola', name: 'Visterija', latinName: 'Wisteria sinensis', category: 'siblje', categories: ['siblje'],
     price: 0, showPrice: false, image: '/images/visterija.jpg', images: ['/images/visterija.jpg'],
     imageCredit: 'Foto: Schnobby, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Visterija – prodaja sadnica, cena na upit',
@@ -1947,7 +1948,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 1,5–2 m', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Plodna, umereno vlažna zemlja', hardiness: 'Otporna na mraz do -25°C' }
   },
   {
-    id: 104, slug: 'ruzmarin', name: 'Ruzmarin', latinName: 'Rosmarinus officinalis', category: 'mediteranske', categories: ['mediteranske'],
+    id: 104, slug: 'ruzmarin', relatedBlogSlug: 'ruzmarin-sadnja-nega-prezimljavanje', name: 'Ruzmarin', latinName: 'Rosmarinus officinalis', category: 'mediteranske', categories: ['mediteranske'],
     price: 0, showPrice: false, image: '/images/ruzmarin.jpg', images: ['/images/ruzmarin.jpg'],
     imageCredit: 'Foto: Fausta Samaritani, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Ruzmarin – prodaja sadnica, cena na upit',
@@ -1969,7 +1970,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -30°C' }
   },
   {
-    id: 106, slug: 'arizonski-cempres', name: 'Arizonski čempres', latinName: 'Cupressus arizonica', category: 'cetinari', categories: ['cetinari', 'ziva-ograda'],
+    id: 106, slug: 'arizonski-cempres', relatedBlogSlug: 'arizonski-cempres-sadnja-nega-ziva-ograda', name: 'Arizonski čempres', latinName: 'Cupressus arizonica', category: 'cetinari', categories: ['cetinari', 'ziva-ograda'],
     price: 0, showPrice: false, image: '/images/arizonski-cempres.jpg', images: ['/images/arizonski-cempres.jpg'],
     imageCredit: 'Foto: Chris M, Wikimedia Commons (CC BY 2.0)',
     seoTitle: 'Arizonski čempres – prodaja sadnica, cena na upit',
@@ -2057,7 +2058,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja, podnosi i siromašna', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 114, slug: 'kedar', name: 'Kedar', latinName: 'Cedrus atlantica \'Glauca\'', category: 'cetinari', categories: ['cetinari'],
+    id: 114, slug: 'kedar', relatedBlogSlug: 'kedar-sadnja-nega-plavi-atlas-kedar', name: 'Kedar', latinName: 'Cedrus atlantica \'Glauca\'', category: 'cetinari', categories: ['cetinari'],
     price: 0, showPrice: false, image: '/images/kedar.jpg', images: ['/images/kedar.jpg'],
     imageCredit: 'Foto: Tangopaso, Wikimedia Commons (Public domain)',
     seoTitle: 'Kedar – prodaja sadnica, cena na upit',

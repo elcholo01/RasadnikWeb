@@ -1,5 +1,334 @@
 const blogPosts = [
   {
+    id: 38,
+    slug: 'arizonski-cempres-sadnja-nega-ziva-ograda',
+    title: 'Arizonski čempres – brzorastuća alternativa lejlandiju za živu ogradu',
+    excerpt: 'Arizonski čempres je četinar sivkasto-plavih iglica koji brzo formira gustu živu ogradu i, za razliku od lejlandija, bolje podnosi sušu i siromašnija zemljišta. Objašnjavamo sadnju, negu i kada je bolji izbor od lejlandija.',
+    date: '2026-11-25',
+    readTime: '6 min',
+    category: 'Četinari',
+    image: '/images/arizonski-cempres.jpg',
+    relatedSlugs: ['lejlandi-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'italijanski-cempres-sadnja-nega-mraz'],
+    faq: [
+      {
+        q: 'Da li je arizonski čempres brži od lejlandija?',
+        a: 'Lejlandi raste neznatno brže (60-100 cm godišnje naspram 40-60 cm kod arizonskog čempresa), ali arizonski čempres nadoknađuje to boljom otpornošću na sušu, siromašno zemljište i vrućinu, pa je dugoročno manje zahtevan za negu.'
+      },
+      {
+        q: 'Koji je razmak sadnje za živu ogradu od arizonskog čempresa?',
+        a: 'Za gustu živu ogradu preporučuje se razmak 60-80 cm između sadnica, isti kao kod lejlandija i italijanskog čempresa.'
+      },
+      {
+        q: 'Da li arizonski čempres podnosi orezivanje?',
+        a: 'Da, odlično podnosi redovno orezivanje jednom do dva puta godišnje, čime se održava gusta, uredna forma žive ograde ili se oblikuje u soliter.'
+      },
+      {
+        q: 'Koliko je otporan na mraz?',
+        a: 'Otporan je na mraz do oko -20°C, što je dovoljno za sve regione Srbije, uz eventualnu zaštitu mladih sadnica prve zime na izrazito hladnim lokacijama.'
+      },
+      {
+        q: 'Da li arizonski čempres podnosi sušu bolje od drugih četinara za ogradu?',
+        a: 'Da, to mu je glavna prednost — poreklom je iz suvih, kamenitih predela Arizone i Meksika, pa znatno bolje podnosi letnje vrućine i duže periode bez kiše od lejlandija ili tuje.'
+      },
+    ],
+    content: `
+      <p>Kada se priča o brzoj živoj ogradi u Srbiji, prva asocijacija je gotovo uvek <strong>lejlandi</strong>. Manje poznat, ali sve traženiji izbor je <strong>arizonski čempres</strong> (Cupressus arizonica) — četinar sivkasto-plavih iglica koji formira gustu, uspravnu ogradu i pri tome znatno bolje podnosi sušu i siromašnija zemljišta.</p>
+
+      <p>U ovom tekstu objašnjavamo kada je arizonski čempres bolji izbor od lejlandija, kako se sadi i kako se neguje.</p>
+
+      <h2>Zašto posaditi arizonski čempres</h2>
+      <ul>
+        <li><strong>Brz rast</strong> — 40-60 cm godišnje, dovoljno za gustu ogradu za 2-3 sezone</li>
+        <li><strong>Izuzetna otpornost na sušu</strong> — poreklom iz suvih predela, podnosi letnje vrućine bez čestog zalivanja</li>
+        <li><strong>Podnosi siromašna zemljišta</strong> — uspeva i na peskovitim, kamenitim parcelama gde drugi četinari teže uspevaju</li>
+        <li><strong>Prepoznatljiva boja</strong> — sivkasto-plave iglice daju drugačiji, moderniji izgled od klasične zelene žive ograde</li>
+        <li><strong>Dobro podnosi orezivanje</strong> — lako se održava u uskoj, formiranoj formi</li>
+      </ul>
+
+      <h2>Arizonski čempres ili lejlandi — koji izabrati?</h2>
+      <p>Ako imate plodnu zemlju sa redovnim zalivanjem i želite apsolutno najbrži rezultat, lejlandi je i dalje najbrži izbor. Ako je vaša parcela suvlja, peskovita ili nemate mogućnost čestog zalivanja leti, arizonski čempres je pouzdaniji dugoročni izbor — manje je osetljiv na sušne periode koji lejlandiju često škode.</p>
+
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Godišnji rast</th><th>Otpornost na sušu</th><th>Otpornost na mraz</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Arizonski čempres</td><td>40-60 cm</td><td>Odlična</td><td>-20°C</td></tr>
+          <tr><td>Lejlandi</td><td>60-100 cm</td><td>Umerena</td><td>-20°C</td></tr>
+          <tr><td>Italijanski čempres</td><td>30-40 cm</td><td>Odlična</td><td>-15°C</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Kako se sadi arizonski čempres</h2>
+      <p>Sadi se u proleće ili ranu jesen, na punom suncu. Za živu ogradu, sadnice se postavljaju na razmaku 60-80 cm u jednom ili dva reda. Rupa za sadnju treba da bude dvostruko šira od korenove lopte; posle sadnje prve sezone redovno zalivati dok se koren ne razvije, nakon čega je zalivanje potrebno samo u dugim sušnim periodima.</p>
+
+      <h2>Nega arizonskog čempresa</h2>
+      <p>Orezivanje jednom do dva puta godišnje (u proleće i krajem leta) održava gustu, urednu formu. Đubrenje nije neophodno na plodnijem zemljištu, ali blago prolećno đubrenje ubrzava formiranje ograde na siromašnijim parcelama. Nakon ukorenjivanja, biljka praktično ne zahteva dodatnu negu.</p>
+
+      <h2>Gde kupiti arizonski čempres u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice arizonskog čempresa, kao i spiralno i na štapu formirane primerke, uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/arizonski-cempres">pogledajte arizonski čempres i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 37,
+    slug: 'kedar-sadnja-nega-plavi-atlas-kedar',
+    title: 'Kedar (plavi atlas kedar) – veličanstven četinar, ali pazite na prostor',
+    excerpt: 'Plavi atlas kedar je jedan od najimpozantnijih četinara koje možete posaditi — ali u zrelosti postaje ogromno drvo. Objašnjavamo koliko prostora mu je zaista potrebno, kako se sadi i u čemu se razlikuje od plave smrče i plave jele.',
+    date: '2026-11-23',
+    readTime: '6 min',
+    category: 'Četinari',
+    image: '/images/kedar.jpg',
+    relatedSlugs: ['plava-smrca-sadnja-nega-cena', 'italijanski-cempres-sadnja-nega-mraz', 'arizonski-cempres-sadnja-nega-ziva-ograda'],
+    faq: [
+      {
+        q: 'Koliko veliko dvorište je potrebno za kedar?',
+        a: 'Plavi atlas kedar u zrelosti dostiže 15-25 m visine i širok obim grana koje se slojevito prostiru u širinu i preko 10 m, pa mu je potrebno veliko dvorište ili imanje — nije izbor za manje gradske parcele.'
+      },
+      {
+        q: 'Koliko brzo raste kedar?',
+        a: 'Raste sporo do umereno, oko 20-30 cm godišnje u mladosti, ali je dugovečan i sa godinama postaje sve impozantniji — prava investicija koja traje generacijama.'
+      },
+      {
+        q: 'Koja je razlika između kedra, plave smrče i plave jele?',
+        a: 'Sve tri imaju plavo-srebrnu boju iglica, ali se razlikuju po obliku: kedar formira raširene, slojevite, horizontalne grane i nepravilniju krošnju, dok plava smrča i plava jela imaju klasičan, pravilan piramidalan oblik jelke.'
+      },
+      {
+        q: 'Da li kedar podnosi orezivanje?',
+        a: 'Podnosi lako održavanje i uklanjanje suvih grana, ali se ne preporučuje agresivno orezivanje vrha ili glavnih grana — kedar najbolje izgleda kada mu se dozvoli prirodni, slobodan rast.'
+      },
+      {
+        q: 'Koliko je kedar otporan na mraz u Srbiji?',
+        a: 'Otporan je na mraz do oko -20°C, što pokriva veći deo Srbije; u izrazito hladnim, vetrovitim predelima preporučuje se zaštićenija lokacija za sadnju.'
+      },
+    ],
+    content: `
+      <p>Malo je četinara koji ostavljaju takav utisak kao zreo <strong>plavi atlas kedar</strong> (Cedrus atlantica 'Glauca') — drvo raširenih, slojevitih grana i plavo-srebrne boje koje sa godinama postaje sve upečatljivije. Pre nego što ga posadite, važno je razumeti koliko prostora mu je zaista potrebno.</p>
+
+      <h2>Zašto je kedar poseban</h2>
+      <ul>
+        <li><strong>Jedinstvena silueta</strong> — raširene, horizontalne grane u slojevima, drugačije od klasičnog piramidalnog oblika jelke</li>
+        <li><strong>Plavo-srebrna boja</strong> — iglice menjaju nijansu zavisno od svetlosti, posebno upečatljivo pri zalasku sunca</li>
+        <li><strong>Dugovečnost</strong> — živi i više stotina godina, drvo za generacije</li>
+        <li><strong>Otpornost</strong> — dobro podnosi sušu kada se ukoreni i mraz do -20°C</li>
+      </ul>
+
+      <h2>Koliko prostora je zaista potrebno</h2>
+      <p>Ovo je najvažnije pitanje pre sadnje. Zreo kedar dostiže 15-25 m visine, ali širina krošnje je ono što iznenadi najviše — donje grane se prostiru i preko 10 m u širinu. Sadite ga najmanje 8-10 m od kuće, ograde, podzemnih instalacija i drugog drveća, u otvoren prostor gde će moći slobodno da se razvija decenijama.</p>
+
+      <h2>Kedar, plava smrča i plava jela — koji izabrati?</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Oblik krošnje</th><th>Konačna visina</th><th>Potreban prostor</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Kedar</td><td>Raširen, slojevit, nepravilan</td><td>15-25 m</td><td>Veliko imanje, parkovi</td></tr>
+          <tr><td>Plava smrča</td><td>Pravilna piramida</td><td>10-15 m</td><td>Veće dvorište</td></tr>
+          <tr><td>Plava jela</td><td>Pravilna piramida</td><td>15-25 m</td><td>Veće dvorište, parkovi</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Ako želite klasičan oblik novogodišnje jelke u manjem dvorištu, plava smrča je praktičniji izbor. Kedar birate kada imate prostora i želite jedinstven, skulpturalan akcenat koji se neće uklapati u red — on je soliter za veliki prostor.</p>
+
+      <h2>Sadnja i nega kedra</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu, u dobro dreniranu zemlju — kedar ne podnosi stajaću vodu. Prve 1-2 sezone redovno zalivati dok se koren razvije, nakon čega zahteva samo zalivanje u dugim sušnim periodima. Orezivanje ograničiti na uklanjanje suvih ili oštećenih grana; glavne grane i vrh ostaviti da se prirodno razvijaju.</p>
+
+      <h2>Gde kupiti kedar u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice plavog atlas kedra uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/kedar">pogledajte kedar i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 36,
+    slug: 'visterija-sadnja-nega-cvetanje-pergola',
+    title: 'Visterija – zašto ne cveta i kako je posaditi na pergolu',
+    excerpt: 'Visterija je jedna od najspektakularnijih puzavica kada procveta, ali veliki broj vlasnika se žali da njihova godinama ne cveta. Objašnjavamo pravi razlog, kako je posaditi na pergolu ili ogradu i kako je orezati za cvetanje.',
+    date: '2026-11-21',
+    readTime: '6 min',
+    category: 'Šiblje',
+    image: '/images/visterija.jpg',
+    relatedSlugs: ['bozur-sadnja-nega-zasto-ne-cveta', 'forzicija-sadnja-cvetanje-orezivanje', 'ruza-sadnja-nega-rezidba-zastita-zimi'],
+    faq: [
+      {
+        q: 'Zašto visterija ne cveta godinama?',
+        a: 'Najčešći razlog je nepravilno orezivanje — ako se skraćuju baš oni izdanci na kojima bi se formirali cvetni pupoljci, ili se orezuje u pogrešno doba godine. Drugi čest razlog je premalo sunca ili previše azota iz đubriva, koje podstiče rast lista na štetu cvetanja.'
+      },
+      {
+        q: 'Koliko godina je potrebno da visterija prvi put procveta?',
+        a: 'Sadnice iz semena mogu da zacvetaju i za 7-10 godina, ali sadnice razmnožene kalemljenjem ili reznicama (kakve se prodaju u rasadnicima) obično prvi put cvetaju za 2-4 godine uz pravilnu negu.'
+      },
+      {
+        q: 'Kako se pravilno orezuje visterija za bolje cvetanje?',
+        a: 'Glavno orezivanje radi se u kasnu jesen ili zimu, kada se dugi letnji izdanci skraćuju na 2-3 pupoljka od glavne grane — upravo na tim kratkim izdancima formiraju se cvetni pupoljci za narednu godinu.'
+      },
+      {
+        q: 'Kakva konstrukcija je potrebna za visteriju?',
+        a: 'Potrebna je vrlo jaka konstrukcija — pergola, čvrsta metalna ograda ili zid sa nosačima — jer odraslo stablo visterije vremenom postaje debelo i teško, i može oštetiti slabije drvene strukture.'
+      },
+      {
+        q: 'Da li je visterija otporna na mraz u Srbiji?',
+        a: 'Da, Wisteria sinensis je otporna na mraz do oko -20°C, što je dovoljno za sve regione Srbije.'
+      },
+    ],
+    content: `
+      <p>Retko koja biljka izgleda tako spektakularno kao <strong>visterija</strong> (Wisteria sinensis) u punom cvetu — duge grozdovi ljubičastih, mirisnih cvetova koji prekrivaju celu pergolu. Upravo zato je i jedna od najčešćih žalbi u baštovanstvu: "posadio sam visteriju pre pet godina i još nije ni jednom procvetala".</p>
+
+      <p>U ovom tekstu objašnjavamo zašto se to događa i kako posaditi i orezati visteriju da zaista cveta.</p>
+
+      <h2>Zašto visterija ne cveta — najčešći razlozi</h2>
+      <ul>
+        <li><strong>Pogrešno orezivanje</strong> — najčešći uzrok; skraćivanje pogrešnih izdanaka u pogrešno vreme uklanja upravo pupoljke iz kojih bi nastali cvetovi</li>
+        <li><strong>Premalo sunca</strong> — visterija zahteva puno sunca za obilno cvetanje; u senci raste bujno, ali retko cveta</li>
+        <li><strong>Previše azota</strong> — đubriva bogata azotom podstiču bujan rast lišća na štetu cvetanja</li>
+        <li><strong>Premlada biljka</strong> — mlađim sadnicama je potrebno vreme da se razvije dovoljno zrelo drvo pre prvog cvetanja</li>
+      </ul>
+
+      <h2>Kako posaditi visteriju na pergolu</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu ili blagoj polusenci, u plodnu i dobro drenirana zemlju. Pre sadnje postavite čvrstu konstrukciju — pergolu, jaku metalnu ogradu ili zid sa nosačima — jer odraslo stablo vremenom postaje debelo i teško, i zahteva ozbiljnu potporu. Mladu biljku u početku treba usmeravati i vezivati dok se ne uhvati za konstrukciju.</p>
+
+      <h2>Orezivanje za cvetanje — ključni korak</h2>
+      <p>Glavno orezivanje radi se u kasnu jesen ili zimu, kada biljka mirno spava. Dugi letnji izdanci koji su izrasli tokom sezone skraćuju se na samo 2-3 pupoljka od glavne grane — upravo na tim kratkim izdancima se formiraju cvetni pupoljci za narednu godinu. Letnje, lakše orezivanje (skraćivanje prebujnih izdanaka) pomaže da biljka usmeri energiju u cvetanje umesto u nekontrolisan rast.</p>
+
+      <h2>Nega visterije tokom sezone</h2>
+      <p>Prve 1-2 sezone redovno zalivati dok se koren ne razvije. Izbegavati đubriva bogata azotom — umesto toga, u proleće koristiti đubrivo bogato fosforom i kalijumom koje podstiče cvetanje. Otporna je na mraz do -20°C, pa ne zahteva zimsku zaštitu u većini Srbije.</p>
+
+      <h2>Gde kupiti visteriju u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice visterije uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/visterija">pogledajte visteriju i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 35,
+    slug: 'ruzmarin-sadnja-nega-prezimljavanje',
+    title: 'Ruzmarin – sadnja, nega i kako ga prezimiti u Srbiji',
+    excerpt: 'Ruzmarin je mirisno mediteransko šiblje koje je i dekorativno i korisno u kuhinji, ali u oštrijim zimama Srbije zahteva zaštitu. Objašnjavamo pravilnu sadnju, negu i, najvažnije, kako ga uspešno prezimiti.',
+    date: '2026-11-19',
+    readTime: '5 min',
+    category: 'Mediteranske biljke',
+    image: '/images/ruzmarin.jpg',
+    relatedSlugs: ['lavanda-sadnja-nega-rezidba', 'italijanski-cempres-sadnja-nega-mraz', 'maslina-uzgoj-sadnja-prezimljavanje-srbija'],
+    faq: [
+      {
+        q: 'Da li ruzmarin podnosi zimu u Srbiji na otvorenom?',
+        a: 'Zavisi od regiona — podnosi mraz do oko -10°C, što je dovoljno za blaže zime u Vojvodini i centralnoj Srbiji na zaštićenoj, osunčanoj lokaciji, ali u oštrijim zimama ili izloženim položajima preporučuje se zaštita slojem malča oko korena ili gajenje u saksiji koja se zimi unosi.'
+      },
+      {
+        q: 'Koliko sunca je potrebno ruzmarinu?',
+        a: 'Potrebno mu je puno sunca, najmanje 6-8 sati direktne svetlosti dnevno — u senci slabo cveta i postaje izdužen i retk.'
+      },
+      {
+        q: 'Da li se ruzmarin zaliva često?',
+        a: 'Ne — ruzmarin je izuzetno otporan na sušu i mnogo bolje podnosi suvlje zemljište nego prekomerno zalivanje, koje može dovesti do truljenja korena.'
+      },
+      {
+        q: 'Može li ruzmarin da se koristi i u kuhinji i kao ukras?',
+        a: 'Da, to je jedna od njegovih najvećih prednosti — isti ruzmarin koji ukrašava baštu ili terasu može se koristiti i za kuhinju, bere se tokom cele sezone.'
+      },
+      {
+        q: 'Kako se oblikuje ruzmarin u nisku živu ogradu?',
+        a: 'Blagim redovnim orezivanjem nakon cvetanja ruzmarin se lako održava u kompaktnoj, niskoj formi i koristi se za oivičavanje staza ili niske mediteranske žive ograde.'
+      },
+    ],
+    content: `
+      <p><strong>Ruzmarin</strong> (Rosmarinus officinalis) spaja ono što retko koja biljka uspe — jednako je dobar kao dekorativno zimzeleno šiblje za baštu i terasu, i kao sveža aromatična biljka za kuhinju. Jedini izazov u našim krajevima je zima, pa objašnjavamo kako ga uspešno prezimiti.</p>
+
+      <h2>Zašto posaditi ruzmarin</h2>
+      <ul>
+        <li><strong>Dvostruka namena</strong> — dekorativan tokom cele godine i koristan u kuhinji</li>
+        <li><strong>Mirisan</strong> — igličasti list oslobađa prepoznatljiv mediteranski miris na dodir</li>
+        <li><strong>Otporan na sušu</strong> — skoro ne zahteva zalivanje kada se ukoreni</li>
+        <li><strong>Cveta</strong> — sitni plavo-ljubičasti cvetovi u proleće privlače pčele</li>
+        <li><strong>Nezahtevan</strong> — kompaktan rast, lako se oblikuje orezivanjem</li>
+      </ul>
+
+      <h2>Sadnja ruzmarina</h2>
+      <p>Sadi se u proleće, nakon što prođe opasnost od kasnih mrazeva, na punom suncu u dobro drenirano, po mogućstvu blago krečnjačko zemljište. Ruzmarin ne podnosi stajaću vodu — ako je zemljište teško i glinovito, preporučuje se sadnja na blago uzdignutoj gredici ili dodavanje peska u rupu za sadnju radi bolje drenaže.</p>
+
+      <h2>Nega tokom sezone</h2>
+      <p>Zalivati umereno, samo u dugim sušnim periodima — čest je slučaj da ljudi ruzmarin "ubiju ljubavlju", prekomernim zalivanjem koje dovodi do truljenja korena. Blago orezivanje nakon cvetanja održava kompaktnu formu i podstiče novi, gušći rast.</p>
+
+      <h2>Kako prezimiti ruzmarin u Srbiji</h2>
+      <p>Ovo je ključno pitanje za naše podneblje. Ruzmarin je otporan na mraz do oko -10°C, što je dovoljno za blaže zime uz zaštićenu, osunčanu lokaciju (na primer, pored zida okrenutog jugu). U regionima sa oštrijim zimama ili na izloženim mestima preporučuje se:</p>
+      <ul>
+        <li>Deblji sloj malča (8-10 cm) oko korena pre prvih mrazeva</li>
+        <li>Sadnja pored zida ili ograde koja pruža dodatnu zaštitu od vetra</li>
+        <li>Gajenje u saksiji koja se zimi premešta na zaštićeno mesto (terasa, garaža sa svetlom)</li>
+      </ul>
+
+      <h2>Gde kupiti ruzmarin u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice ruzmarina uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/ruzmarin">pogledajte ruzmarin i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 34,
+    slug: 'crni-bor-sadnja-nega-otporno-drvo',
+    title: 'Crni bor – najotporniji četinar za vetrovita i suva dvorišta',
+    excerpt: 'Crni bor podnosi vetar, sušu i gradsku prašinu bolje od gotovo svakog drugog četinara u Srbiji. Objašnjavamo zašto je odličan izbor za veća, izložena dvorišta i pošumljavanje, i kako ga pravilno posaditi.',
+    date: '2026-11-17',
+    readTime: '5 min',
+    category: 'Četinari',
+    image: '/images/WhatsApp Image 2025-12-30 at 20.53.06.jpeg',
+    relatedSlugs: ['italijanski-cempres-sadnja-nega-mraz', 'plava-smrca-sadnja-nega-cena', 'arizonski-cempres-sadnja-nega-ziva-ograda'],
+    faq: [
+      {
+        q: 'Zašto se crni bor preporučuje za izložena, vetrovita dvorišta?',
+        a: 'Crni bor ima duboko, snažno korenje i žilave grane koje dobro podnose jak vetar, pa se često koristi i kao vetrozaštitni pojas na otvorenim, izloženim parcelama gde druge vrste teže uspevaju.'
+      },
+      {
+        q: 'Koliko brzo raste crni bor?',
+        a: 'Raste relativno brzo za četinar — do 40-60 cm godišnje u povoljnim uslovima, i vremenom dostiže i preko 20 m visine.'
+      },
+      {
+        q: 'Da li crni bor podnosi gradske uslove i zagađenje?',
+        a: 'Da, jedna je od njegovih najvećih prednosti — izuzetno dobro podnosi gradsku prašinu i zagađenje vazduha, zbog čega se često sadi u parkovima i duž saobraćajnica.'
+      },
+      {
+        q: 'Kakvo zemljište je potrebno crnom boru?',
+        a: 'Nije izbirljiv — podnosi peskovita, kamenita i siromašna zemljišta na kojima bi mnoge druge vrste teže uspevale, što ga čini odličnim izborom za teren koji još nije "idealan" za sadnju.'
+      },
+      {
+        q: 'Koliko je crni bor otporan na mraz?',
+        a: 'Veoma je otporan na mraz, pouzdan u svim regionima i klimatskim zonama Srbije.'
+      },
+    ],
+    content: `
+      <p>Kada je parcela izložena vetru, suvlja ili zemljište nije baš plodno, veliki broj četinara teško uspeva. <strong>Crni bor</strong> (Pinus nigra) je upravo biljka za te uslove — robustan, žilav i prilagodljiv četinar koji podnosi ono što bi druge vrste teško izdržale.</p>
+
+      <h2>Zašto posaditi crni bor</h2>
+      <ul>
+        <li><strong>Otpornost na vetar</strong> — duboko korenje i žilave grane dobro podnose jake udare vetra</li>
+        <li><strong>Otpornost na sušu</strong> — mnogo manje zalivanja nego kod većine drugih četinara</li>
+        <li><strong>Podnosi siromašna zemljišta</strong> — peskovita, kamenita i glinena tla ne predstavljaju problem</li>
+        <li><strong>Gradski uslovi</strong> — odlično podnosi zagađenje vazduha i prašinu</li>
+        <li><strong>Brz rast za četinar</strong> — do 40-60 cm godišnje</li>
+      </ul>
+
+      <h2>Kada i gde saditi crni bor</h2>
+      <p>Sadi se u proleće ili ranu jesen, na punom suncu. Zbog konačne veličine (i preko 20 m visine), potrebno je dovoljno prostora — idealan je za veća dvorišta, imanja, vetrozaštitne pojaseve i pošumljavanje otvorenih, izloženih parcela gde druge vrste teže uspevaju.</p>
+
+      <h2>Nega crnog bora</h2>
+      <p>Nakon sadnje, redovno zalivati prve 1-2 sezone dok se koren ne razvije. Kada se ukoreni, crni bor je izuzetno izdržljiv i zahteva samo povremeno zalivanje u najdužim sušnim periodima. Orezivanje nije neophodno — crni bor prirodno formira lepu, piramidalnu krošnju bez formiranja.</p>
+
+      <h2>Crni bor u poređenju sa drugim otpornim četinarima</h2>
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Otpornost na vetar</th><th>Otpornost na sušu</th><th>Podnosi siromašno tlo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Crni bor</td><td>Odlična</td><td>Odlična</td><td>Da</td></tr>
+          <tr><td>Beli bor</td><td>Dobra</td><td>Dobra</td><td>Da</td></tr>
+          <tr><td>Arizonski čempres</td><td>Dobra</td><td>Odlična</td><td>Da</td></tr>
+          <tr><td>Plava smrča</td><td>Umerena</td><td>Umerena</td><td>Ne</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Gde kupiti crni bor u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice crnog bora, kao i patuljastu sortu 'Brepo' za manje bašte, uz dostavu širom Srbije. Cena je od 800 RSD — <a href="/sadnice/crni-bor">pogledajte crni bor i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 33,
     slug: 'crveni-hrast-sadnja-nega-brzorastuce-drvo',
     title: 'Crveni hrast – brzorastuće drvo sa vatreno crvenom jesenjom bojom',
