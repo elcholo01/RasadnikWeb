@@ -219,6 +219,7 @@ const ProductDetails = ({ product }) => {
             <div className="product-category-badge">{categoryName}</div>
 
             <h1 className="product-title">{product.name}</h1>
+            {product.latinName && <p className="product-latin-name">{product.latinName}</p>}
 
             <div className="product-description">
               <p>{product.description}</p>

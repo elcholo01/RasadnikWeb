@@ -4,8 +4,9 @@ import Link from 'next/link';
 
 const MAX_SUGGESTIONS = 6;
 
-function matchesTerm(name, term) {
-  return name.toLowerCase().split(/\s+/).some((word) => word.startsWith(term));
+function matchesTerm(product, term) {
+  const haystack = `${product.name} ${product.latinName || ''}`.toLowerCase();
+  return haystack.split(/\s+/).some((word) => word.startsWith(term));
 }
 
 export default function NavSearch() {
@@ -23,7 +24,7 @@ export default function NavSearch() {
   const suggestions = useMemo(() => {
     const q = term.trim().toLowerCase();
     if (!q || !catalog) return [];
-    return catalog.filter((p) => matchesTerm(p.name, q)).slice(0, MAX_SUGGESTIONS);
+    return catalog.filter((p) => matchesTerm(p, q)).slice(0, MAX_SUGGESTIONS);
   }, [term, catalog]);
 
   // Katalog proizvoda je velik (opisi, nega, itd.) — učitavamo ga odvojeno,
@@ -104,7 +105,10 @@ export default function NavSearch() {
                 <li key={p.slug}>
                   <Link href={`/sadnice/${p.slug}`} onClick={() => { setTerm(''); close(); }}>
                     <img src={p.image} alt="" loading="lazy" />
-                    <span>{p.name}</span>
+                    <span className="nav-search-suggestion-text">
+                      <span className="nav-search-suggestion-name">{p.name}</span>
+                      {p.latinName && <span className="nav-search-suggestion-latin">{p.latinName}</span>}
+                    </span>
                   </Link>
                 </li>
               ))}
