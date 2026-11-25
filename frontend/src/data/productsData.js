@@ -2121,6 +2121,16 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     inStock: true,
     details: { height: 'Dostupne sve visine', sunlight: 'Sunce do polusenka', watering: 'Redovno zalivanje', soil: 'Blago kisela, bogata zemlja', hardiness: 'Otporna na mraz do -12°C' }
   },
+  {
+    id: 120, slug: 'magnolija-listopadna', relatedBlogSlug: 'magnolija-soulangeana-sadnja-nega-cvetanje', name: 'Magnolija listopadna', latinName: 'Magnolia × soulangeana', category: 'liscari', categories: ['liscari'],
+    price: 0, showPrice: false, image: '/images/WhatsApp Image 2026-01-03 at 19.52.34.jpeg', images: ['/images/WhatsApp Image 2026-01-03 at 19.52.34.jpeg'],
+    seoTitle: 'Magnolija listopadna – prodaja sadnica, cena na upit',
+    metaDescription: 'Magnolija listopadna – prodaja sadnica, listopadna magnolija sa krupnim prolećnim cvetovima nalik tulipanima. Cena na upit, dostava širom Srbije.',
+    description: 'Listopadna magnolija koja se u ranom proleću, pre nego što joj se pojavi lišće, prekrije krupnim cvetovima nalik tulipanima — za razliku od zimzelene magnolije, u jesen gubi lišće.',
+    richContent: `Magnolia × soulangeana je listopadna magnolija — za razliku od zimzelene magnolije (Magnolia grandiflora), u jesen gubi lišće, a rano u proleće, pre listanja, nosi krupne cvetove nalik tulipanima u belo-ružičastim nijansama. Dostiže 5–8 m visine. Sadi se na suncu do polusenci, otporna je na mraz do -20°C. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Do 5–8 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Redovno zalivanje', soil: 'Blago kisela, plodna zemlja', hardiness: 'Otporna na mraz do -20°C' }
+  },
 ];
 
 export const categories = [
