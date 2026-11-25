@@ -65,7 +65,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     <link>https://rasadniktilija.rs/sadnice/plava-smrca</link>
     <g:image_link>https://rasadniktilija.rs/images/WhatsApp Image 2026-01-04 at 19.50.56.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>3500.00 RSD</g:price>
+    <g:price>4000.00 RSD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Rasadnik Tilija</g:brand>
     <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>
@@ -89,7 +89,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     <title>Bor na štapu</title>
     <description>Ovaj dekorativni četinar formira se kalemljenjem na jedno ravno stablo, čime dobija prepoznatljivu, uređenu siluetu retku kod drugih četinara. Otporan je na mraz i ne zahteva posebnu negu izuzev povremenog oblikovanja krune. Dostupan je u Rasadniku Tilija, uz dostavu i sadnju.</description>
     <link>https://rasadniktilija.rs/sadnice/bor-na-stapu</link>
-    <g:image_link>https://rasadniktilija.rs/images/Bor na štapu cetinar.jpg</g:image_link>
+    <g:image_link>https://rasadniktilija.rs/images/pinusnastapu.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
     <g:price>2500.00 RSD</g:price>
     <g:condition>new</g:condition>
@@ -104,7 +104,7 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     <link>https://rasadniktilija.rs/sadnice/katalpa</link>
     <g:image_link>https://rasadniktilija.rs/images/katalpa.jpg</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>4000.00 RSD</g:price>
+    <g:price>4500.00 RSD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Rasadnik Tilija</g:brand>
     <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>
@@ -483,7 +483,7 @@ Sadnice su spremne za odmah sadnju u živu ogradu ili kao soliter u dvorištu, u
     <title>Maslina</title>
     <description>Olea europaea može živeti stotinama godina. Kod nas se najčešće uzgaja kao dekorativna biljka u teglama ili zaštićenim dvorištima, jer podnosi mraz do -10°C. Traži puno sunca i dobro oceditnu zemlju. Rasadnik Tilija nudi masline uz dostavu širom Srbije.</description>
     <link>https://rasadniktilija.rs/sadnice/maslina</link>
-    <g:image_link>https://rasadniktilija.rs/images/maslina1.jpeg</g:image_link>
+    <g:image_link>https://rasadniktilija.rs/images/maslina1.jpg</g:image_link>
     <g:availability>in_stock</g:availability>
     <g:price>15000.00 RSD</g:price>
     <g:condition>new</g:condition>
@@ -508,8 +508,8 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   </item>
   <item>
     <g:id>palma</g:id>
-    <title>Palma</title>
-    <description>Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.</description>
+    <title>Lepezasta Palma</title>
+    <description>Trachycarpus fortunei, poznata kao lepezasta palma, prepoznatljiva je po velikim, lepezastim listovima i dlakavom stablu. Jedna je od najotpornijih palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealna za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sadi se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.</description>
     <link>https://rasadniktilija.rs/sadnice/palma</link>
     <g:image_link>https://rasadniktilija.rs/images/palma2.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
@@ -561,7 +561,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   <item>
     <g:id>crveni-malc</g:id>
     <title>Malč crveni</title>
-    <description>Crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone, a pored dekorativne uloge malč obavlja i praktične funkcije: čuva vlagu (smanjuje potrebu za zalivanjem i do 30%), sprečava korov i štiti koren od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja je 5–8 cm; jedan džak od 60 litara pokriva 0,75–1,2 m².</description>
+    <description>Crvena boja daje atraktivan kontrast uz zelene biljke tokom cele sezone, a pored dekorativne uloge malč obavlja i praktične funkcije: čuva vlagu (smanjuje potrebu za zalivanjem i do 30%), sprečava korov i štiti koren od letnjih vrućina i zimskih mrazeva. Preporučena debljina sloja je 5–8 cm; jedan džak od 50 litara pokriva 0,6–1 m².</description>
     <link>https://rasadniktilija.rs/sadnice/crveni-malc</link>
     <g:image_link>https://rasadniktilija.rs/images/mulchred.webp</g:image_link>
     <g:availability>in_stock</g:availability>
@@ -574,7 +574,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   <item>
     <g:id>malc-borova-kora</g:id>
     <title>Malč borova kora</title>
-    <description>Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom, dok istovremeno čuva vlagu i sprečava korov. Preporučena debljina sloja je 6–8 cm; jedan džak od 60 litara pokriva 0,75–1 m².</description>
+    <description>Za razliku od dekorativnih malčeva, borova kora se postepeno razgrađuje i obogaćuje zemlju humusom, dok istovremeno čuva vlagu i sprečava korov. Preporučena debljina sloja je 6–8 cm; jedan džak od 50 litara pokriva 0,6–0,8 m².</description>
     <link>https://rasadniktilija.rs/sadnice/malc-borova-kora</link>
     <g:image_link>https://rasadniktilija.rs/images/malcborovakora.jpg</g:image_link>
     <g:availability>in_stock</g:availability>
@@ -618,6 +618,19 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     <g:image_link>https://rasadniktilija.rs/images/italijanskicempres.jpeg</g:image_link>
     <g:availability>in_stock</g:availability>
     <g:price>7200.00 RSD</g:price>
+    <g:condition>new</g:condition>
+    <g:brand>Rasadnik Tilija</g:brand>
+    <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>
+    <g:identifier_exists>false</g:identifier_exists>
+  </item>
+  <item>
+    <g:id>zelena-smrca</g:id>
+    <title>Zelena smrča</title>
+    <description>Picea abies je jedan od najpoznatijih evropskih četinara, tradicionalno korišćen kao novogodišnja jelka. U prirodi dostiže i do 40 m, dok se u baštama najčešće održava nižom redovnim rezanjem. Sadi se na suncu do polusenci, voli vlažnu, dobro dreniranu zemlju, i otporna je na mraz do -30°C. Dostupna u Rasadniku Tilija uz dostavu.</description>
+    <link>https://rasadniktilija.rs/sadnice/zelena-smrca</link>
+    <g:image_link>https://rasadniktilija.rs/images/zelena-smrca.jpg</g:image_link>
+    <g:availability>in_stock</g:availability>
+    <g:price>3500.00 RSD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Rasadnik Tilija</g:brand>
     <g:google_product_category>Home &amp; Garden &gt; Plants</g:google_product_category>

@@ -185,13 +185,14 @@ Na raspolaganju je čitav niz veličina — od manjih kontejnerskih sadnica (0,5
     id: 19,
     slug: 'bor-na-stapu',
     name: 'Bor na štapu',
+    latinName: "Pinus nigra 'Brepo'",
     category: 'cetinari',
     categories: ['cetinari'],
     price: 2500,
     showPrice: true,
-    image: '/images/Bor na štapu cetinar.jpg',
+    image: '/images/pinusnastapu.jpeg',
     images: [
-      '/images/Bor na štapu cetinar.jpg',
+      '/images/pinusnastapu.jpeg',
       '/images/bornastapu.jpeg'
     ],
     seoTitle: 'Bor na štapu – prodaja sadnica, cena od 2.500 RSD',
@@ -1101,7 +1102,8 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   {
     id: 42,
     slug: 'palma',
-    name: 'Palma',
+    name: 'Lepezasta Palma',
+    latinName: 'Trachycarpus fortunei',
     category: 'mediteranske',
     categories: ['mediteranske'],
     price: 12000,
@@ -1114,12 +1116,13 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     images: [
       '/images/palma2.jpeg',
       '/images/palma1.jpeg',
-      '/images/palmica.jpg'
+      '/images/palmica.jpg',
+      '/images/palmalepeza.jpeg'
     ],
-    seoTitle: 'Palma – prodaja sadnica, cena od 12.000 RSD',
-    metaDescription: 'Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Cena od 12.000 RSD, dostava širom Srbije.',
-    description: 'Egzotična dekorativna biljka koja momentalno unosi mediteranski šmek u dvorište ili terasu, dostupna u više visina i vrsta.',
-    richContent: `Rasadnik Tilija nudi otpornije vrste palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealne za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sade se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.`,
+    seoTitle: 'Lepezasta Palma – prodaja sadnica, cena od 12.000 RSD',
+    metaDescription: 'Lepezasta Palma – prodaja sadnica, egzotična dekorativna biljka za mediteranski stil dvorišta i terase. Cena od 12.000 RSD, dostava širom Srbije.',
+    description: 'Egzotična, lepezastog lišća palma koja momentalno unosi mediteranski šmek u dvorište ili terasu — jedna od najotpornijih palmi za naše podneblje.',
+    richContent: `Trachycarpus fortunei, poznata kao lepezasta palma, prepoznatljiva je po velikim, lepezastim listovima i dlakavom stablu. Jedna je od najotpornijih palmi koje mogu da prežive srpske zime uz minimalnu zaštitu, idealna za mediteranski stil uređenja dvorišta, terase i ulazne prostore. Sadi se na sunčanom, zaštićenom mestu, u dobro oceditnu zemlju.`,
     relatedBlogSlug: 'palma-za-dvoriste-da-li-podnosi-mraz',
     inStock: true,
     details: {
@@ -1503,7 +1506,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   },
   {
     id: 64, slug: 'likvidambar', name: 'Likvidambar', latinName: 'Liquidambar styraciflua', category: 'liscari', categories: ['liscari'],
-    price: 0, showPrice: false, image: '/images/likvidambar.jpg', images: ['/images/likvidambar.jpg'],
+    price: 0, showPrice: false, image: '/images/likvidambar.jpg', images: ['/images/likvidambar.jpg', '/images/platanlikvidambar.jpeg'],
     imageCredit: 'Foto: Famartin, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Likvidambar – prodaja sadnica, cena na upit',
     metaDescription: 'Likvidambar – prodaja sadnica, drvo zvezdastih listova sa spektakularnom jesenjom bojom. Cena na upit, dostava širom Srbije.',
@@ -1570,7 +1573,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   },
   {
     id: 70, slug: 'platan', name: 'Platan', latinName: 'Platanus × acerifolia', category: 'liscari', categories: ['liscari'],
-    price: 0, showPrice: false, image: '/images/platan.jpg', images: ['/images/platan.jpg'],
+    price: 0, showPrice: false, image: '/images/platan.jpg', images: ['/images/platan.jpg', '/images/platanlikvidambar.jpeg'],
     imageCredit: 'Foto: Der-Herr-Simo-95, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Platan – prodaja sadnica, cena na upit',
     metaDescription: 'Platan – prodaja sadnica, veliko senovito drvo otporno na gradske uslove. Cena na upit, dostava širom Srbije.',
@@ -1993,8 +1996,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
   },
   {
     id: 108, slug: 'lejlandi-spirala', name: 'Lejlandi spirala', latinName: 'Cupressus × leylandii', category: 'cetinari', categories: ['cetinari'],
-    price: 0, showPrice: false, image: '/images/lejlandi-spirala.jpg', images: ['/images/lejlandi-spirala.jpg'],
-    imageCredit: 'Foto: Leon Brooks, Wikimedia Commons (Public domain)',
+    price: 0, showPrice: false, image: '/images/lejlandispirala.jpeg', images: ['/images/lejlandispirala.jpeg'],
     seoTitle: 'Lejlandi spirala – prodaja sadnica, cena na upit',
     metaDescription: 'Lejlandi spirala – prodaja sadnica, brzorastući četinar formiran u dekorativni spiralni oblik. Cena na upit, dostava širom Srbije.',
     description: 'Isti brzorastući lejlandi četinar, ali ručno formiran u elegantan spiralni oblik — upečatljiv dekorativni akcenat za ulaz ili terasu.',
@@ -2078,6 +2080,46 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     richContent: `Taxus baccata 'Standishii' uska je, stubasta sorta tise sa zlatnožutim iglicama koje boju čuvaju tokom cele godine. Sporo raste, dostižući 1–1,5 m za desetak godina. Sadi se na suncu do polusenci, u dobro drenirana zemljišta, otporna je na mraz do -25°C. Dostupna u Rasadniku Tilija.`,
     inStock: true,
     details: { height: 'Sporo raste, do 1–1,5 m za 10 godina', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
+  },
+  {
+    id: 116, slug: 'lejlandi-tri-lopte', name: 'Lejlandi tri lopte', latinName: 'Cupressus × leylandii', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/lejlanditrilopte.jpeg', images: ['/images/lejlanditrilopte.jpeg'],
+    seoTitle: 'Lejlandi tri lopte – prodaja sadnica, cena na upit',
+    metaDescription: 'Lejlandi tri lopte – prodaja sadnica, dekorativno formiran četinar u obliku tri lopte na stablu. Cena na upit, dostava širom Srbije.',
+    description: 'Lejlandi četinar ručno formiran u tri zaokružene lopte jedna iznad druge — stilizovan, skulpturalan akcenat za ulaz ili terasu.',
+    richContent: `Cupressus × leylandii u ovoj varijanti pažljivo je formiran i orezan u tri odvojene, zaokružene lopte postavljene jedna iznad druge na jednom stablu. Zadržava gustu, zimzelenu krošnju i otpornost na mraz do -20°C. Oblik se održava povremenim doterivanjem, dva puta godišnje. Dostupan u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Dostupne različite visine', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
+  },
+  {
+    id: 117, slug: 'arizonski-cempres-na-stapu', name: 'Arizonski čempres na štapu', latinName: 'Cupressus arizonica', category: 'cetinari', categories: ['cetinari'],
+    price: 0, showPrice: false, image: '/images/arizonanastapu.jpeg', images: ['/images/arizonanastapu.jpeg'],
+    seoTitle: 'Arizonski čempres na štapu – prodaja sadnica, cena na upit',
+    metaDescription: 'Arizonski čempres na štapu – prodaja sadnica, stablašica sa loptastom krošnjom za simetrične zasade. Cena na upit, dostava širom Srbije.',
+    description: 'Arizonski čempres formiran kao stablašica — gusta loptasta krošnja na visokom, golom stablu, elegantan akcenat za simetrične zasade uz ulaz.',
+    richContent: `Ova varijanta Cupressus arizonica formirana je kao stablašica (standard) — gusta, loptasta krošnja podignuta na jednom golom, ravnom stablu, zadržavajući karakteristične sivkasto-plave iglice. Sadi se na suncu, otporna je na mraz do -20°C, i idealna je za parnu sadnju uz staze i ulaze. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Dostupne različite visine', sunlight: 'Puno sunce', watering: 'Malo do umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -20°C' }
+  },
+  {
+    id: 118, slug: 'cikas-palma', name: 'Cikas palma', latinName: 'Cycas revoluta', category: 'mediteranske', categories: ['mediteranske'],
+    price: 0, showPrice: false, image: '/images/cikaspalma.jpeg', images: ['/images/cikaspalma.jpeg'],
+    seoTitle: 'Cikas palma – prodaja, cena na upit',
+    metaDescription: 'Cikas palma – prodaja, egzotična biljka nalik palmi sa tamnozelenim perastim lišćem. Cena na upit, dostava širom Srbije.',
+    description: 'Egzotična biljka nalik palmi, sa tamnozelenim, krutim perastim lišćem raspoređenim u prepoznatljivu rozetu — upečatljiv akcenat za terase i saksije.',
+    richContent: `Cycas revoluta, cikas palma, nije prava palma već drevna biljka iz grupe cikasa, prepoznatljiva po tvrdom, perastom lišću raspoređenom u rozetu oko debelog, nižeg stabla. Raste izuzetno sporo. Kod nas se najčešće gaji u saksiji na terasi ili zaštićenom dvorištu, jer ne podnosi jak mraz — zahteva unošenje u zatvoreni prostor ili dobru zaštitu zimi. Traži puno sunca do blage polusenke i dobro oceditu zemlju. Dostupna u Rasadniku Tilija.`,
+    inStock: true,
+    details: { height: 'Sporo raste, kompaktna forma', sunlight: 'Puno sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Ne podnosi jak mraz, zahteva zimsku zaštitu' }
+  },
+  {
+    id: 119, slug: 'magnolija-zimzelena', name: 'Magnolija zimzelena', latinName: 'Magnolia grandiflora', category: 'liscari', categories: ['liscari'],
+    price: 0, showPrice: false, image: '/images/magnoliazimzelena.jpeg', images: ['/images/magnoliazimzelena.jpeg'],
+    seoTitle: 'Magnolija zimzelena – prodaja sadnica, cena na upit',
+    metaDescription: 'Magnolija zimzelena – prodaja sadnica, zimzelena magnolija sa krupnim mirisnim cvetovima. Cena na upit, dostava širom Srbije.',
+    description: 'Zimzelena magnolija krupnih, sjajnih listova i mirisnih belih cvetova koji krase dvorište tokom cele godine.',
+    richContent: `Magnolia grandiflora zadržava listove tokom cele godine, za razliku od listopadnih magnolija, i cveta krupnim, mirisnim belim cvetovima. Naraste do 10–15 metara. Sadi se u proleće na zaštićenom, osunčanom mestu, u blago kiselu, bogatu zemlju uz redovno zalivanje dok se ne ukoreni. Rasadnik Tilija nudi je uz dostavu i sadnju na celoj teritoriji Srbije.`,
+    inStock: true,
+    details: { height: 'Dostupne sve visine', sunlight: 'Sunce do polusenka', watering: 'Redovno zalivanje', soil: 'Blago kisela, bogata zemlja', hardiness: 'Otporna na mraz do -12°C' }
   },
 ];
 

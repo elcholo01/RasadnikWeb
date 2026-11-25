@@ -14,6 +14,9 @@ const galleryImages = [
   '/images/72100.jpeg', '/images/WhatsApp Image 2025-12-26 at 13.00.03.jpeg',
   '/images/486679551_18465391054068689_5399905233392503403_n.jpg',
   '/images/588721729_18509882257068689_6717567260362003079_n.jpg',
+  '/images/brezazagaleriju.jpeg', '/images/platanjavorlikvizagaleriju.jpeg',
+  '/images/magnoliazimzelenazagaleriju.jpeg', '/images/biljkezagaleriju.jpeg',
+  '/images/tujezagaleriju.jpeg',
 ];
 
 const Gallery = () => {
