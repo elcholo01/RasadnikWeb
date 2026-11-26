@@ -1436,7 +1436,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: '1–2 m (patuljasta forma)', sunlight: 'Puno sunce', watering: 'Malo zalivanje', soil: 'Peskovita do glinena', hardiness: 'Veoma otporan na mraz' }
   },
   {
-    id: 57, slug: 'japanska-tresnja-royal-burgundy', name: "Japanska trešnja 'Royal Burgundy'", latinName: 'Prunus serrulata \'Royal Burgundy\'', category: 'liscari', categories: ['liscari'],
+    id: 57, slug: 'japanska-tresnja-royal-burgundy', relatedBlogSlug: 'japanska-tresnja-royal-burgundy-sadnja-nega', name: "Japanska trešnja 'Royal Burgundy'", latinName: 'Prunus serrulata \'Royal Burgundy\'', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/japanska-tresnja-royal-burgundy.jpg', images: ['/images/japanska-tresnja-royal-burgundy.jpg'],
     imageCredit: 'Foto: Myrabella, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: "Japanska trešnja 'Royal Burgundy' – prodaja sadnica, cena na upit",
@@ -1447,7 +1447,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 5–8 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -20°C' }
   },
   {
-    id: 58, slug: 'albicija', name: 'Albicija', latinName: 'Albizia julibrissin', category: 'liscari', categories: ['liscari'],
+    id: 58, slug: 'albicija', relatedBlogSlug: 'albicija-sadnja-nega-cvetanje', name: 'Albicija', latinName: 'Albizia julibrissin', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/albicija.jpg', images: ['/images/albicija.jpg'],
     imageCredit: 'Foto: Famartin, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Albicija – prodaja sadnica, cena na upit',
@@ -1517,7 +1517,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 20–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno do redovno zalivanje', soil: 'Plodna, vlažna, dobro drenirana zemlja', hardiness: 'Otporan na mraz do -20°C' }
   },
   {
-    id: 65, slug: 'liriodendron', name: 'Liriodendron', latinName: 'Liriodendron tulipifera', category: 'liscari', categories: ['liscari'],
+    id: 65, slug: 'liriodendron', relatedBlogSlug: 'liriodendron-tulipanovo-drvo-sadnja-nega', name: 'Liriodendron', latinName: 'Liriodendron tulipifera', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/tulipanovo-drvo.jpg', images: ['/images/tulipanovo-drvo.jpg'],
     imageCredit: 'Foto: Jean-Pol GRANDMONT, Wikimedia Commons (CC BY 3.0)',
     seoTitle: 'Liriodendron (tulipanovo drvo) – prodaja sadnica, cena na upit',
@@ -1550,7 +1550,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 5–8 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Redovno zalivanje', soil: 'Blago kisela, plodna zemlja', hardiness: 'Otporna na mraz do -20°C' }
   },
   {
-    id: 68, slug: 'crvena-sljiva', name: 'Crvena šljiva', latinName: 'Prunus cerasifera \'Pissardii\'', category: 'liscari', categories: ['liscari'],
+    id: 68, slug: 'crvena-sljiva', relatedBlogSlug: 'crvena-sljiva-pissardii-sadnja-nega', name: 'Crvena šljiva', latinName: 'Prunus cerasifera \'Pissardii\'', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crvena-sljiva.jpg', images: ['/images/crvena-sljiva.jpg'],
     imageCredit: 'Foto: An-d, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Crvena šljiva – prodaja sadnica, cena na upit',
@@ -1561,7 +1561,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 6–10 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiva različitim tipovima zemljišta', hardiness: 'Otporna na mraz do -25°C' }
   },
   {
-    id: 69, slug: 'crveni-javor', name: 'Crveni javor', latinName: 'Acer rubrum', category: 'liscari', categories: ['liscari'],
+    id: 69, slug: 'crveni-javor', relatedBlogSlug: 'javori-za-dvoriste-vrste-i-izbor', name: 'Crveni javor', latinName: 'Acer rubrum', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/crveni-javor.jpg', images: ['/images/crveni-javor.jpg'],
     imageCredit: 'Foto: Ayotte, Gilles, 1948-, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Crveni javor – prodaja sadnica, cena na upit',
@@ -1584,7 +1584,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 25–35 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiv različitim tipovima zemljišta', hardiness: 'Otporan na mraz do -20°C' }
   },
   {
-    id: 71, slug: 'kuglasti-bagrem', name: 'Kuglasti bagrem', latinName: 'Robinia pseudoacacia \'Umbraculifera\'', category: 'liscari', categories: ['liscari'],
+    id: 71, slug: 'kuglasti-bagrem', relatedBlogSlug: 'oblikovana-drveca-male-dvoriste-bagrem-grab', name: 'Kuglasti bagrem', latinName: 'Robinia pseudoacacia \'Umbraculifera\'', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/kuglasti-bagrem.jpg', images: ['/images/kuglasti-bagrem.jpg'],
     imageCredit: 'Foto: Pollinator at English Wikipedia, Wikimedia Commons (CC BY-SA 3.0)',
     seoTitle: 'Kuglasti bagrem – prodaja sadnica, cena na upit',
@@ -1607,7 +1607,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 15–25 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Prilagodljiva različitim tipovima zemljišta', hardiness: 'Otporna na mraz do -40°C' }
   },
   {
-    id: 73, slug: 'cvetajuci-jasen', name: 'Cvetajući jasen', latinName: 'Fraxinus ornus', category: 'liscari', categories: ['liscari'],
+    id: 73, slug: 'cvetajuci-jasen', relatedBlogSlug: 'cvetajuci-jasen-sadnja-nega', name: 'Cvetajući jasen', latinName: 'Fraxinus ornus', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/cvetajuci-jasen.jpg', images: ['/images/cvetajuci-jasen.jpg'],
     imageCredit: 'Foto: Jean-Pol GRANDMONT, Wikimedia Commons (CC BY 3.0)',
     seoTitle: 'Cvetajući jasen – prodaja sadnica, cena na upit',
@@ -1618,7 +1618,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 8–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo zalivanje, otporan na sušu', soil: 'Prilagodljiv, i siromašna zemljišta', hardiness: 'Otporan na mraz do -25°C' }
   },
   {
-    id: 74, slug: 'stubasti-grab', name: 'Stubasti grab', latinName: 'Carpinus betulus \'Fastigiata\'', category: 'liscari', categories: ['liscari'],
+    id: 74, slug: 'stubasti-grab', relatedBlogSlug: 'oblikovana-drveca-male-dvoriste-bagrem-grab', name: 'Stubasti grab', latinName: 'Carpinus betulus \'Fastigiata\'', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/stubasti-grab.jpg', images: ['/images/stubasti-grab.jpg'],
     imageCredit: 'Foto: Willow, Wikimedia Commons (CC BY 2.5)',
     seoTitle: 'Stubasti grab – prodaja sadnica, cena na upit',
@@ -1629,7 +1629,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 10–15 m u zrelosti, uska forma', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Prilagodljiv različitim tipovima zemljišta', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 75, slug: 'javor-secerac', name: 'Javor šećerac', latinName: 'Acer saccharinum', category: 'liscari', categories: ['liscari'],
+    id: 75, slug: 'javor-secerac', relatedBlogSlug: 'javori-za-dvoriste-vrste-i-izbor', name: 'Javor šećerac', latinName: 'Acer saccharinum', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-secerac.jpg', images: ['/images/javor-secerac.jpg'],
     imageCredit: 'Foto: Darkone, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Javor šećerac – prodaja sadnica, cena na upit',
@@ -1651,7 +1651,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 5–10 m u zrelosti', sunlight: 'Puno sunce', watering: 'Malo zalivanje, otporno na sušu', soil: 'Dobro drenirana zemlja', hardiness: 'Otporno na mraz do -15 do -20°C' }
   },
   {
-    id: 77, slug: 'javor-mlec', name: 'Javor mleč', latinName: 'Acer platanoides', category: 'liscari', categories: ['liscari'],
+    id: 77, slug: 'javor-mlec', relatedBlogSlug: 'javori-za-dvoriste-vrste-i-izbor', name: 'Javor mleč', latinName: 'Acer platanoides', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/javor-mlec.jpg', images: ['/images/javor-mlec.jpg'],
     imageCredit: 'Foto: Martin Bobka, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Javor mleč – prodaja sadnica, cena na upit',
@@ -1662,7 +1662,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 20–30 m u zrelosti', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Prilagodljiv različitim tipovima zemljišta', hardiness: 'Otporan na mraz do -30°C' }
   },
   {
-    id: 78, slug: 'japanska-jabuka', name: 'Japanska jabuka', latinName: 'Malus floribunda', category: 'liscari', categories: ['liscari'],
+    id: 78, slug: 'japanska-jabuka', relatedBlogSlug: 'japanska-jabuka-malus-floribunda-sadnja-nega', name: 'Japanska jabuka', latinName: 'Malus floribunda', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/japanska-jabuka.jpg', images: ['/images/japanska-jabuka.jpg'],
     imageCredit: 'Foto: MichaelMaggs, Wikimedia Commons (CC BY-SA 2.5)',
     seoTitle: 'Japanska jabuka – prodaja sadnica, cena na upit',
@@ -1673,7 +1673,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 4–8 m u zrelosti', sunlight: 'Puno sunce', watering: 'Umereno zalivanje', soil: 'Plodna, dobro drenirana zemlja', hardiness: 'Otporna na mraz do -25°C' }
   },
   {
-    id: 79, slug: 'jablan', name: 'Jablan', latinName: 'Populus nigra \'Italica\'', category: 'liscari', categories: ['liscari'],
+    id: 79, slug: 'jablan', relatedBlogSlug: 'jablan-topola-sadnja-nega', name: 'Jablan', latinName: 'Populus nigra \'Italica\'', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/jablan.jpg', images: ['/images/jablan.jpg'],
     imageCredit: 'Foto: WeeJeeVee, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Jablan – prodaja sadnica, cena na upit',
@@ -2038,7 +2038,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 1,5–2 m', sunlight: 'Sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Otporna na mraz do -15°C' }
   },
   {
-    id: 112, slug: 'vrba', name: 'Vrba', latinName: 'Salix babylonica', category: 'liscari', categories: ['liscari'],
+    id: 112, slug: 'vrba', relatedBlogSlug: 'vrba-placuca-sadnja-nega', name: 'Vrba', latinName: 'Salix babylonica', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/vrba.jpg', images: ['/images/vrba.jpg'],
     imageCredit: 'Foto: Ket, Wikimedia Commons (CC BY-SA 4.0)',
     seoTitle: 'Vrba – prodaja sadnica, cena na upit',
@@ -2049,7 +2049,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Do 10–15 m u zrelosti', sunlight: 'Puno sunce', watering: 'Redovno zalivanje, voli vlagu', soil: 'Vlažna, plodna zemlja', hardiness: 'Otporna na mraz do -25°C' }
   },
   {
-    id: 113, slug: 'dud', name: 'Dud', latinName: 'Morus alba', category: 'liscari', categories: ['liscari'],
+    id: 113, slug: 'dud', relatedBlogSlug: 'dud-sadnja-nega', name: 'Dud', latinName: 'Morus alba', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/dud.jpg', images: ['/images/dud.jpg'],
     imageCredit: 'Foto: Chhe, Wikimedia Commons (Public domain)',
     seoTitle: 'Dud – prodaja sadnica, cena na upit',
@@ -2112,7 +2112,7 @@ Sadnice su dostupne u više visina — od manjih za ekonomičniju sadnju i prać
     details: { height: 'Sporo raste, kompaktna forma', sunlight: 'Puno sunce do polusenka', watering: 'Umereno zalivanje', soil: 'Dobro drenirana zemlja', hardiness: 'Ne podnosi jak mraz, zahteva zimsku zaštitu' }
   },
   {
-    id: 119, slug: 'magnolija-zimzelena', name: 'Magnolija zimzelena', latinName: 'Magnolia grandiflora', category: 'liscari', categories: ['liscari'],
+    id: 119, slug: 'magnolija-zimzelena', relatedBlogSlug: 'magnolija-grandiflora-sadnja-i-nega', name: 'Magnolija zimzelena', latinName: 'Magnolia grandiflora', category: 'liscari', categories: ['liscari'],
     price: 0, showPrice: false, image: '/images/magnoliazimzelena.jpeg', images: ['/images/magnoliazimzelena.jpeg'],
     seoTitle: 'Magnolija zimzelena – prodaja sadnica, cena na upit',
     metaDescription: 'Magnolija zimzelena – prodaja sadnica, zimzelena magnolija sa krupnim mirisnim cvetovima. Cena na upit, dostava širom Srbije.',

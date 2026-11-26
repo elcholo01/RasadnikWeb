@@ -1,5 +1,597 @@
 const blogPosts = [
   {
+    id: 49,
+    slug: 'vrba-placuca-sadnja-nega',
+    title: 'Vrba plačuća – sadnja i nega drveta za obale i velika dvorišta',
+    excerpt: 'Vrba plačuća je prepoznatljivo drvo visećih grana koje traži vlagu i prostor. Objašnjavamo gde je saditi, kako je negovati i zašto treba paziti na rastojanje od kuće i instalacija.',
+    date: '2026-11-26',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/vrba.jpg',
+    relatedSlugs: ['jablan-topola-sadnja-nega', 'breza-sadnja-nega-koren-pored-kuce', 'dud-sadnja-nega'],
+    faq: [
+      {
+        q: 'Koliko brzo raste vrba plačuća?',
+        a: 'Raste brzo, i do 1 m godišnje u povoljnim uslovima sa dovoljno vlage, pa već za nekoliko sezona formira impozantnu krošnju.'
+      },
+      {
+        q: 'Da li vrbu treba saditi blizu kuće?',
+        a: 'Ne. Korenov sistem je snažan, površinski i širi se u potrazi za vlagom, pa je bezbedno rastojanje od temelja, septičkih jama, bazena i cevi najmanje 10-15 m, slično kao kod breze i jablana.'
+      },
+      {
+        q: 'Koliko vlage je potrebno vrbi?',
+        a: 'Voli stalno vlažno tlo i najbolje izgleda uz jezera, bare i potoke, ali dobro uspeva i na običnom travnjaku uz redovno zalivanje, posebno u sušnim letima.'
+      },
+      {
+        q: 'Da li se vrba plačuća orezuje?',
+        a: 'Da, povremeno uklanjanje suvih, oštećenih ili preniskih grana održava urednu krošnju i sprečava da grane previše dodiruju zemlju ili smetaju prolazu.'
+      },
+      {
+        q: 'Koliko je vrba otporna na mraz u Srbiji?',
+        a: 'Otporna je na mraz do oko -25°C, pa bez problema podnosi zime u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p><strong>Vrba plačuća</strong> (Salix babylonica) jedno je od najprepoznatljivijih drveća u pejzažnoj arhitekturi — dugi, viseći grani koji se graciozno povijaju do zemlje stvaraju romantičan, umirujući prizor, posebno uz vodu. Pre sadnje je važno znati gde joj je mesto, a gde nije.</p>
+
+      <h2>Zašto posaditi vrbu plačuću</h2>
+      <ul>
+        <li><strong>Brz rast</strong> — i do 1 m godišnje, brzo pravi senku i vizuelni akcenat</li>
+        <li><strong>Prepoznatljiv, elegantan oblik</strong> — viseće grane koje se pokreću i na najslabiji vetar</li>
+        <li><strong>Idealna uz vodu</strong> — najbolje izgleda i raste uz jezera, bare i potoke</li>
+        <li><strong>Otpornost na mraz</strong> — do -25°C, pogodna za ceo teritoriju Srbije</li>
+      </ul>
+
+      <h2>Gde (ne) saditi vrbu</h2>
+      <p>Najčešća greška je sadnja vrbe preblizu kući ili infrastrukturi. Korenov sistem je agresivan i traga za vlagom — može ugroziti temelje, septičke jame, cevi za vodu i kanalizaciju, kao i kolovoz. Idealno mesto je veći travnjak, obala vodene površine ili udaljeniji deo imanja, na rastojanju od najmanje 10-15 metara od svih objekata i instalacija.</p>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu, u vlažnu, plodnu zemlju. Prve sezone je potrebno redovno zalivanje dok se koren ne razvije; nakon toga, ako nije u blizini vode, zalivanje treba nastaviti redovno u sušnim periodima jer vrba ne podnosi dugotrajnu sušu. Povremeno orezivanje suvih i preniskih grana održava zdravu, urednu krošnju.</p>
+
+      <h2>Gde kupiti vrbu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice vrbe plačuće uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/vrba">pogledajte vrbu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 48,
+    slug: 'dud-sadnja-nega',
+    title: 'Dud – sadnja i nega izdržljivog drveta za hlad i plodove',
+    excerpt: 'Dud je brzorastuće, izdržljivo drvo koje pruža gust hlad i slatke plodove uz minimalnu negu. Objašnjavamo sadnju, negu i na šta obratiti pažnju ako ga sadite uz dvorište ili ulaz.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/dud.jpg',
+    relatedSlugs: ['vrba-placuca-sadnja-nega', 'breza-sadnja-nega-koren-pored-kuce', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Koliko brzo raste dud?',
+        a: 'Raste brzo, posebno u prvih nekoliko godina, i već za 5-6 sezona formira gustu krošnju koja pruža solidan hlad.'
+      },
+      {
+        q: 'Da li dud rađa plodove svake godine?',
+        a: 'Da, zdravo, ukorenjeno drvo rađa svake godine u leto — plodovi su slatki i jestivi, cenjeni i kod ljudi i kod ptica.'
+      },
+      {
+        q: 'Da li postoji dud koji ne pravi plodove (zbog prljanja terase)?',
+        a: 'Da, postoje muške, bezplodne sorte dude koje se gaje isključivo zbog hlada i lišća, bez problema sa padanjem plodova — raspitajte se u rasadniku o dostupnosti.'
+      },
+      {
+        q: 'Koliko je dud otporan na sušu i gradske uslove?',
+        a: 'Izuzetno je otporan — dobro podnosi sušu, zagađenje vazduha i siromašnija zemljišta, zbog čega je tradicionalno čest izbor duž puteva i u dvorištima.'
+      },
+      {
+        q: 'Koliko je dud otporan na mraz?',
+        a: 'Veoma je otporan, podnosi mraz do -30°C, bez problema u svim regionima Srbije.'
+      },
+    ],
+    content: `
+      <p><strong>Dud</strong> (Morus alba) jedno je od najizdržljivijih i najdugovečnijih drveća u našim dvorištima i selima — gusta krošnja pruža obilan hlad, a leti rodi slatke plodove koji su generacijama bili deo domaćinstva. Uz minimalnu negu, dud traje decenijama.</p>
+
+      <h2>Zašto posaditi dud</h2>
+      <ul>
+        <li><strong>Brz rast i gust hlad</strong> — već za nekoliko godina pravi gustu, široku krošnju</li>
+        <li><strong>Slatki, jestivi plodovi</strong> — tradicionalno cenjeni, mogu se jesti sveži ili koristiti za slatkiše i sokove</li>
+        <li><strong>Izuzetna izdržljivost</strong> — podnosi sušu, siromašno zemljište i gradske uslove bolje od većine drugog drveća</li>
+        <li><strong>Minimalna nega</strong> — kada se ukoreni, praktično ne zahteva posebnu pažnju</li>
+      </ul>
+
+      <h2>Plodonosni ili bezplodni dud?</h2>
+      <p>Ako planirate dud pored terase, prilaza ili parkinga, imajte na umu da plodovi padaju i mogu praviti fleke. U tom slučaju tražite bezplodnu (mušku) sortu, koja zadržava svu dekorativnost i hlad lista bez plodova. Za one koji žele i ukras i plodove, standardni dud je i dalje odličan izbor malo dalje od staza.</p>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu, u dobro dreniranu zemlju. Prve sezone redovno zalivati dok se koren ne razvije; nakon toga dud dobro podnosi i duže sušne periode. Povremeno orezivanje viška grana održava prohodnost ispod krošnje i uredan oblik.</p>
+
+      <h2>Gde kupiti dud u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice duda uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/dud">pogledajte dud i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 47,
+    slug: 'jablan-topola-sadnja-nega',
+    title: 'Jablan (italijanska topola) – brzorastuća zaštita od vetra i pogleda',
+    excerpt: 'Jablan je visoko, usko drvo koje najbrže od svih stvara živu ogradu ili vetrozaštitni pojas. Objašnjavamo sadnju, razmak i zašto treba paziti na rastojanje od kuće.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/jablan.jpg',
+    relatedSlugs: ['breza-sadnja-nega-koren-pored-kuce', 'najbrza-ziva-ograda-srbija', 'vrba-placuca-sadnja-nega'],
+    faq: [
+      {
+        q: 'Koliko brzo raste jablan?',
+        a: 'Jablan je među najbrže rastućim drvećem uopšte — u povoljnim uslovima raste i preko 1 m godišnje, pa za par godina formira visoku vizuelnu ili vetrozaštitnu barijeru.'
+      },
+      {
+        q: 'Na kom razmaku se sadi jablan za alee ili granicu imanja?',
+        a: 'Zbog uske, stubaste forme, sadi se na razmaku 2-3 m za gustu, kontinuiranu liniju, ili ređe ako je cilj samo povremeni vertikalni akcenat.'
+      },
+      {
+        q: 'Da li jablan treba saditi blizu kuće?',
+        a: 'Ne. Kao i druge topole, ima snažan, širok korenov sistem i veliku visinu, pa je bezbedno rastojanje od temelja, instalacija i kolovoza najmanje 10-15 m.'
+      },
+      {
+        q: 'Da li jablan podnosi vlažnija zemljišta?',
+        a: 'Da, dobro podnosi i povremeno vlažnija i teža zemljišta, što ga čini praktičnim izborom za parcele gde druga drveća teže uspevaju.'
+      },
+      {
+        q: 'Koliko je jablan otporan na mraz?',
+        a: 'Veoma je otporan, podnosi mraz do -30°C, bez problema u svim delovima Srbije.'
+      },
+    ],
+    content: `
+      <p>Kada je potrebna brza, visoka zaštita od vetra, pogleda ili buke, teško je pronaći brže rešenje od <strong>jablana</strong> (Populus nigra 'Italica') — uske, stubaste topole koja raste impresivno brzo i u zrelosti dostiže i preko 30 metara.</p>
+
+      <h2>Zašto posaditi jablan</h2>
+      <ul>
+        <li><strong>Izuzetno brz rast</strong> — najbrži izbor za visoku barijeru ili vetrozaštitni pojas</li>
+        <li><strong>Uska, stubasta forma</strong> — ne širi se mnogo u širinu, pogodan za granice imanja i alee</li>
+        <li><strong>Izdržljivost</strong> — podnosi i vlažnija zemljišta gde druga drveća teže uspevaju</li>
+        <li><strong>Otpornost na mraz</strong> — do -30°C, pogodan za ceo teritoriju Srbije</li>
+      </ul>
+
+      <h2>Sadnja i razmak</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu. Za kontinuiranu vizuelnu ili vetrozaštitnu liniju, sadnice se postavljaju na razmaku 2-3 m; za pojedinačne vertikalne akcente razmak može biti veći. Prve sezone redovno zalivati dok se koren ne razvije.</p>
+
+      <h2>Na šta obratiti pažnju</h2>
+      <p>Jablan ima snažan, širok korenov sistem — ne sadite ga blizu temelja, septičkih jama, cevi ili kolovoza; bezbedno rastojanje je najmanje 10-15 m. Zbog velike konačne visine, najbolje se uklapa na granicama većih imanja, duž poljskih puteva ili kao vetrobran za voćnjake i useve, a ne kao drvo tik uz kuću.</p>
+
+      <h2>Gde kupiti jablan u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice jablana uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/jablan">pogledajte jablan i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 46,
+    slug: 'japanska-jabuka-malus-floribunda-sadnja-nega',
+    title: 'Japanska jabuka – obilno prolećno cvetanje za manja dvorišta',
+    excerpt: 'Japanska jabuka je ukrasno drvo koje se u proleće prekrije obiljem ružičasto-belih cvetova. Objašnjavamo sadnju, negu i zašto je odličan izbor za manje dvorište.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/japanska-jabuka.jpg',
+    relatedSlugs: ['japanska-tresnja-sakura-cvetanje-sadnja', 'judino-drvo-sadnja-nega-cvetanje-na-grani', 'magnolija-soulangeana-sadnja-nega-cvetanje'],
+    faq: [
+      {
+        q: 'Kada cveta japanska jabuka?',
+        a: 'Cveta u aprilu, pre ili istovremeno sa listanjem — pupoljci su tamnoružičasti, a otvoreni cvetovi bledoružičasti do beli, u obilju koje prekrije celu krošnju.'
+      },
+      {
+        q: 'Da li plodovi japanske jabuke mogu da se jedu?',
+        a: 'Plodovi su sitni, gorki i uglavnom dekorativni, a privlače ptice u jesen i zimu — nisu namenjeni ljudskoj ishrani kao obična jabuka.'
+      },
+      {
+        q: 'Koliko je japanska jabuka velika kada odraste?',
+        a: 'Ostaje relativno kompaktna, 4-8 m visine, pa se lepo uklapa i u manja dvorišta, kao soliter ili uz stazu.'
+      },
+      {
+        q: 'Da li japanska jabuka zahteva posebnu negu?',
+        a: 'Ne, uz redovno zalivanje prve sezone i povremeno uklanjanje suvih grana, zahteva minimalno održavanje.'
+      },
+      {
+        q: 'Koliko je otporna na mraz?',
+        a: 'Otporna je na mraz do -25°C, pa bez problema prezimljava u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p>Malo je prizora u aprilu upečatljivijih od krošnje prekrivene cvetovima — <strong>japanska jabuka</strong> (Malus floribunda) jedno je od najobilnije cvetajućih ukrasnih drveća, a pri tome ostaje dovoljno kompaktna za svako, i manje, dvorište.</p>
+
+      <h2>Zašto posaditi japansku jabuku</h2>
+      <ul>
+        <li><strong>Obilno prolećno cvetanje</strong> — krošnja bukvalno iščezava pod cvetovima u aprilu</li>
+        <li><strong>Dvostruka dekorativnost</strong> — tamnoružičasti pupoljci pre otvaranja, zatim bledoružičasti do beli cvetovi</li>
+        <li><strong>Kompaktna veličina</strong> — 4-8 m, pogodna i za manja dvorišta</li>
+        <li><strong>Sitni dekorativni plodovi</strong> — privlače ptice tokom jeseni i zime</li>
+      </ul>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu — što više sunca, bujnije cvetanje. Zemlja treba da bude plodna i dobro drenirana. Prve sezone redovno zalivati dok se koren ne razvije; nakon toga zalivanje je potrebno samo u dužim sušnim periodima. Povremeno orezivanje suvih ili ukrštenih grana održava zdravu, prozračnu krošnju.</p>
+
+      <h2>Gde kupiti japansku jabuku u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice japanske jabuke uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/japanska-jabuka">pogledajte japansku jabuku i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 45,
+    slug: 'cvetajuci-jasen-sadnja-nega',
+    title: 'Cvetajući jasen – retkost među jasenovima, mirisno prolećno cvetanje',
+    excerpt: 'Cvetajući jasen je, za razliku od većine jasenova, drvo koje se u proleće prekrije mirisnim belim cvetnim metlicama. Objašnjavamo sadnju, negu i zašto je dobar izbor za manje dvorište.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/cvetajuci-jasen.jpg',
+    relatedSlugs: ['katalpa-sadnja-i-nega', 'judino-drvo-sadnja-nega-cvetanje-na-grani', 'japanska-jabuka-malus-floribunda-sadnja-nega'],
+    faq: [
+      {
+        q: 'Zašto se zove cvetajući jasen?',
+        a: 'Za razliku od većine jasenova, koji imaju sitne, nedekorativne cvetove, ova vrsta se u proleće prekrije upečatljivim, mirisnim belim cvetnim metlicama, slično jorgovanu.'
+      },
+      {
+        q: 'Koliko veliko drvo je cvetajući jasen?',
+        a: 'Ostaje relativno umereno, 8-15 m visine, pogodno i za manja i srednja dvorišta, ne samo za parkove.'
+      },
+      {
+        q: 'Da li cvetajući jasen podnosi sušu?',
+        a: 'Da, izuzetno dobro podnosi sušu i siromašnija, kamenita zemljišta, što ga čini pogodnim i za teže uslove sadnje.'
+      },
+      {
+        q: 'Kada cveta cvetajući jasen?',
+        a: 'Cveta u maju, kratko nakon listanja, u trajanju od oko dve nedelje.'
+      },
+      {
+        q: 'Koliko je otporan na mraz?',
+        a: 'Otporan je na mraz do -25°C, pa dobro podnosi zime u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p>Kada se pomene jasen, retko se pomisli na cvetanje — ali <strong>cvetajući jasen</strong> (Fraxinus ornus) upravo to radi: u maju se prekriva mirisnim, belim cvetnim metlicama, čineći ga jednim od najneobičnijih izbora među manjim ukrasnim drvećem.</p>
+
+      <h2>Zašto posaditi cvetajući jasen</h2>
+      <ul>
+        <li><strong>Neobično, mirisno prolećno cvetanje</strong> — retkost među jasenovima</li>
+        <li><strong>Umerena veličina</strong> — 8-15 m, pogodan i za srednja dvorišta</li>
+        <li><strong>Otpornost na sušu</strong> — dobro podnosi siromašna, kamenita zemljišta</li>
+        <li><strong>Jesenja boja</strong> — lišće pred opadanje poprima žuto-ljubičaste tonove</li>
+      </ul>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu. Prilagodljiv je različitim tipovima zemljišta, uključujući siromašnija i kamenita. Prve sezone redovno zalivati dok se koren ne razvije; nakon toga zahteva malo zalivanja, samo u dugim sušnim periodima. Povremeno uklanjanje suvih grana dovoljno je za održavanje zdrave krošnje.</p>
+
+      <h2>Gde kupiti cvetajući jasen u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice cvetajućeg jasena uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/cvetajuci-jasen">pogledajte cvetajući jasen i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 44,
+    slug: 'oblikovana-drveca-male-dvoriste-bagrem-grab',
+    title: 'Kuglasti bagrem i stubasti grab – oblikovana drveca za male dvorišta',
+    excerpt: 'Kuglasti bagrem i stubasti grab su dva drveta prirodno uskog ili zaobljenog oblika, bez potrebe za agresivnim rezanjem. Objašnjavamo kada je koje bolji izbor za manji prostor.',
+    date: '2026-11-26',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/kuglasti-bagrem.jpg',
+    relatedSlugs: ['tuja-smaragd-sadnja-i-nega', 'najbrza-ziva-ograda-srbija', 'javor-crimson-king-sadnja-nega-boja-lista'],
+    faq: [
+      {
+        q: 'Da li kuglasti bagrem treba redovno orezivati da bi zadržao oblik?',
+        a: 'Ne, kuglasti bagrem je kalemljena forma koja prirodno formira zaobljenu krošnju bez potrebe za formiranjem rezanjem — povremeno uklanjanje suvih grančica je sve što je potrebno.'
+      },
+      {
+        q: 'Da li stubasti grab zahteva rezanje da ostane uzan?',
+        a: 'Stubasti grab prirodno raste u uskoj formi, ali redovno, lagano orezivanje jednom godišnje može dodatno izoštriti i ujednačiti oblik, posebno ako se koristi u alei ili živom zidu.'
+      },
+      {
+        q: 'Koje je drvo bolji izbor za malo dvorište — kuglasti bagrem ili stubasti grab?',
+        a: 'Kuglasti bagrem je bolji kao pojedinačan, upečatljiv soliter uz ulaz ili stazu; stubasti grab je bolji kada je potrebna uska vertikalna linija, alea ili živi zid od više primeraka.'
+      },
+      {
+        q: 'Da li oba podnose gradske uslove i zagađenje?',
+        a: 'Da, oba su izuzetno otporna na gradske uslove, zagađenje vazduha i rezanje korena prilikom radova, što ih čini pouzdanim izborom za ulice i male gradske parcele.'
+      },
+      {
+        q: 'Koliko su otporni na mraz?',
+        a: 'Oba su veoma otporna — kuglasti bagrem i stubasti grab podnose mraz do -30°C, bez problema u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p>Za manja dvorišta i uske gradske parcele, dva drveta posebno se izdvajaju jer rešavaju isti problem na drugačiji način — prirodno uzan ili zaobljen oblik, bez potrebe za čestim i agresivnim rezanjem: <strong>kuglasti bagrem</strong> i <strong>stubasti grab</strong>.</p>
+
+      <h2>Kuglasti bagrem (Robinia pseudoacacia 'Umbraculifera')</h2>
+      <p>Ovo je kalemljena forma običnog bagrema koja prirodno formira kompaktnu, zaobljenu krošnju nalik lopti, na čvrstom stablu — bez potrebe za oblikovanjem rezanjem. Dostiže samo 4-6 m visine, izuzetno je otporan na sušu, siromašno zemljište i gradske uslove. Idealan je kao pojedinačan soliter uz ulaz, parking ili stazu, ili u paru simetrično uz prilaz.</p>
+
+      <h2>Stubasti grab (Carpinus betulus 'Fastigiata')</h2>
+      <p>Raste u uskoj, piramidalnoj do stubastoj formi, u visinu bez većeg širenja — dostiže 10-15 m visine uz znatno manju širinu. Zbog ovog oblika i dobre podnošljivosti rezanja, čest je izbor za alee, žive zidove i uske gradske prostore gde klasično, široko drvo ne bi stalo.</p>
+
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Oblik</th><th>Visina</th><th>Najbolja upotreba</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Kuglasti bagrem</td><td>Zaobljena krošnja na stablu</td><td>4-6 m</td><td>Soliter, simetrične alee uz prilaz</td></tr>
+          <tr><td>Stubasti grab</td><td>Uska, stubasta, piramidalna</td><td>10-15 m</td><td>Alea, živi zid, uski prostori</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Sadnja i nega</h2>
+      <p>Oba drveta sade se u proleće ili jesen, na suncu do polusenke, u prilagodljivo zemljište. Prve sezone redovno zalivati dok se koren ne razvije. Kuglasti bagrem posle toga zahteva vrlo malo zalivanja, dok stubasti grab voli umereno, redovno zalivanje. Oba dobro podnose rezanje korena i presađivanje, što ih čini praktičnim i za sadnju pored puteva i prilaza.</p>
+
+      <h2>Gde kupiti u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice kuglastog bagrema i stubastog graba uz dostavu širom Srbije. Cena je na upit — pogledajte <a href="/sadnice/kuglasti-bagrem">kuglasti bagrem</a> ili <a href="/sadnice/stubasti-grab">stubasti grab</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 43,
+    slug: 'javori-za-dvoriste-vrste-i-izbor',
+    title: 'Javori za dvorište – crveni javor, javor mleč i javor šećerac',
+    excerpt: 'Crveni javor, javor mleč i javor šećerac su tri popularna javora za srpska dvorišta i parkove, svaki sa svojom prednošću. Pomažemo vam da izaberete onaj koji odgovara vašem prostoru.',
+    date: '2026-11-26',
+    readTime: '7 min',
+    category: 'Lišćari',
+    image: '/images/crveni-javor.jpg',
+    relatedSlugs: ['javor-crimson-king-sadnja-nega-boja-lista', 'likvidambar-jesenje-boje-sadnja-nega', 'platan-sadnja-nega-gradsko-drvo'],
+    faq: [
+      {
+        q: 'Koji javor ima najlepšu jesenju boju?',
+        a: 'Crveni javor (Acer rubrum) je poznat po izuzetno vatrenoj, crvenoj jesenjoj boji, dok javor mleč prelazi u žutu, a javor šećerac u svetlozelenu do žutu nijansu.'
+      },
+      {
+        q: 'Koji javor je najbrže rastući?',
+        a: 'Javor šećerac (Acer saccharinum) spada među najbrže rastuće javorove, pogodan kada je brz hlad prioritet.'
+      },
+      {
+        q: 'Koji javor cveta najupečatljivije?',
+        a: 'Crveni javor nosi crvene cvetove i krilate plodove rano u proleće, pre listanja, pa deluje dekorativno i pre nego što se pojavi lišće.'
+      },
+      {
+        q: 'Koji je javor najotporniji na gradske uslove?',
+        a: 'Javor mleč (Acer platanoides) je najprilagodljiviji i najčešće korišćen u gradskoj sredini zbog dobre podnošljivosti zagađenja i različitih tipova zemljišta.'
+      },
+      {
+        q: 'Da li su sva tri javora otporna na mraz u Srbiji?',
+        a: 'Da, sva tri podnose mraz do -30°C i bez problema prezimljavaju u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p>Javor je jedno od najtraženijih senovitih drveća za dvorišta i parkove u Srbiji, ali pod tim imenom krije se nekoliko vrsta sa različitim prednostima. U ovom tekstu poredimo tri najpopularnije: <strong>crveni javor</strong>, <strong>javor mleč</strong> i <strong>javor šećerac</strong> — i pomažemo vam da izaberete onaj koji odgovara vašem prostoru. (Za kultivar sa ljubičastim lišćem tokom cele sezone pogledajte poseban tekst o <a href="/blog/javor-crimson-king-sadnja-nega-boja-lista">javoru 'Crimson King'</a>.)</p>
+
+      <h2>Crveni javor (Acer rubrum)</h2>
+      <p>Poznat po dvostrukom dekorativnom efektu — crvenim cvetovima i krilatim plodovima rano u proleće, i izuzetno vatrenom crvenom jesenjom bojom lišća. Dostiže 15-25 m visine, voli vlažnije, dobro drenirano zemljište.</p>
+
+      <h2>Javor mleč (Acer platanoides)</h2>
+      <p>Rasprostranjeno, prilagodljivo senovito drvo širok krošnje i žute jesenje boje. Dostiže 20-30 m visine, dobro podnosi gradske uslove i različite tipove zemljišta — klasičan, pouzdan izbor kada je glavni cilj gust hlad.</p>
+
+      <h2>Javor šećerac (Acer saccharinum)</h2>
+      <p>Spada među najbrže rastuće javorove, sa dubokо usečenim listovima koji su na donjoj strani srebrnasti i blešte na vetru. U zrelosti dostiže 15-25 m, dobro podnosi i vlažnija zemljišta — izbor kada je prioritet brz rast.</p>
+
+      <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Vrsta</th><th>Prednost</th><th>Jesenja boja</th><th>Visina</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Crveni javor</td><td>Prolećno cvetanje + jesenja boja</td><td>Vatreno crvena</td><td>15-25 m</td></tr>
+          <tr><td>Javor mleč</td><td>Prilagodljivost, gradski uslovi</td><td>Žuta</td><td>20-30 m</td></tr>
+          <tr><td>Javor šećerac</td><td>Najbrži rast</td><td>Svetlozelena do žuta</td><td>15-25 m</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sva tri javora sade se u proleće ili jesen, na suncu do polusenke, uz redovno zalivanje prve sezone dok se koren ne razvije. Nakon ukorenjivanja zahtevaju umereno zalivanje i povremeno uklanjanje suvih ili ukrštenih grana.</p>
+
+      <h2>Gde kupiti javor u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice sve tri vrste javora uz dostavu širom Srbije. Cena je na upit — pogledajte <a href="/sadnice/crveni-javor">crveni javor</a>, <a href="/sadnice/javor-mlec">javor mleč</a> ili <a href="/sadnice/javor-secerac">javor šećerac</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 42,
+    slug: 'crvena-sljiva-pissardii-sadnja-nega',
+    title: 'Crvena šljiva (Pissardii) – ukrasno drvo tamnocrvenog lišća',
+    excerpt: 'Crvena šljiva Pissardii nosi tamnocrveno, skoro ljubičasto lišće tokom cele sezone, a u rano proleće i nežne cvetove. Objašnjavamo sadnju, negu i gde joj je mesto u dvorištu.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/crvena-sljiva.jpg',
+    relatedSlugs: ['javor-crimson-king-sadnja-nega-boja-lista', 'japanska-tresnja-royal-burgundy-sadnja-nega', 'judino-drvo-sadnja-nega-cvetanje-na-grani'],
+    faq: [
+      {
+        q: 'Da li crvena šljiva Pissardii rađa plodove?',
+        a: 'Može da rodi sitne, tamne plodove slične šljivi, ali se gaji prevashodno kao ukrasno drvo zbog lišća i cvetova, a ne radi prinosa.'
+      },
+      {
+        q: 'Kada cveta crvena šljiva?',
+        a: 'Cveta rano u proleće, pre ili istovremeno sa listanjem, nežnim svetlo-ružičastim cvetovima koji se ističu na tamnoj pozadini grana.'
+      },
+      {
+        q: 'Da li lišće ostaje crveno tokom cele sezone?',
+        a: 'Da, to je glavna odlika ove sorte — tamnocrveno, skoro ljubičasto lišće ne postaje zeleno tokom leta, za razliku od običnih šljiva.'
+      },
+      {
+        q: 'Koliko veliko drvo postaje?',
+        a: 'Ostaje umerene veličine, 6-10 m, pa se dobro uklapa i u manja i srednja dvorišta kao soliter ili akcenat.'
+      },
+      {
+        q: 'Koliko je otporna na mraz?',
+        a: 'Otporna je na mraz do -25°C, pa bez problema prezimljava u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p><strong>Crvena šljiva</strong> (Prunus cerasifera 'Pissardii') jedno je od omiljenih drveća kada je potreban trajan akcenat boje u dvorištu — tamnocrveno, skoro ljubičasto lišće traje od proleća do jeseni, a ne samo kratko u jesenjoj sezoni kao kod većine drugog drveća.</p>
+
+      <h2>Zašto posaditi crvenu šljivu</h2>
+      <ul>
+        <li><strong>Boja tokom cele sezone</strong> — tamnocrveno lišće od proleća do jeseni, ne samo u jesen</li>
+        <li><strong>Nežno prolećno cvetanje</strong> — svetlo-ružičasti cvetovi pre ili uz listanje</li>
+        <li><strong>Umerena veličina</strong> — 6-10 m, pogodna i za manja dvorišta</li>
+        <li><strong>Prilagodljivost</strong> — podnosi različite tipove zemljišta</li>
+      </ul>
+
+      <h2>Gde joj je mesto u dvorištu</h2>
+      <p>Zbog tamne boje lišća koja se ističe na zelenoj pozadini, crvena šljiva je efektna kao pojedinačan soliter na travnjaku, uz ulaz, ili kao kontrastni akcenat pored zelenih žbunova i žive ograde. Dobro se kombinuje i sa javorom 'Crimson King' za koherentnu, tamnocrvenu paletu u dvorištu.</p>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu — potrebno je dovoljno sunca za najintenzivniju boju lišća. Prve sezone redovno zalivati dok se koren ne razvije, nakon čega je potrebno samo umereno zalivanje. Povremeno orezivanje suvih ili ukrštenih grana održava uredan oblik.</p>
+
+      <h2>Gde kupiti crvenu šljivu u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice crvene šljive uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/crvena-sljiva">pogledajte crvenu šljivu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 41,
+    slug: 'liriodendron-tulipanovo-drvo-sadnja-nega',
+    title: 'Liriodendron (tulipanovo drvo) – impozantno drvo za velike prostore',
+    excerpt: 'Liriodendron, poznat i kao tulipanovo drvo, jedno je od najviših listopadnih drveća sa neobičnim lišćem i cvetovima nalik tulipanu. Objašnjavamo kome je namenjeno i kako se sadi.',
+    date: '2026-11-26',
+    readTime: '6 min',
+    category: 'Lišćari',
+    image: '/images/tulipanovo-drvo.jpg',
+    relatedSlugs: ['platan-sadnja-nega-gradsko-drvo', 'likvidambar-jesenje-boje-sadnja-nega', 'katalpa-sadnja-i-nega'],
+    faq: [
+      {
+        q: 'Zašto se liriodendron zove tulipanovo drvo?',
+        a: 'Zbog cvetova koji oblikom i bojom podsećaju na tulipane, a pojavljuju se kasno u proleće na već odraslim primercima.'
+      },
+      {
+        q: 'Koliko veliko drvo postaje liriodendron?',
+        a: 'Jedno je od najviših listopadnih drveća — u zrelosti dostiže i preko 30-40 m, pa mu je potreban veliki prostor, park ili imanje.'
+      },
+      {
+        q: 'Kada liriodendron prvi put cveta?',
+        a: 'Obično prvi put cveta tek nakon 10-15 godina, kada drvo dovoljno odraste — strpljenje je potrebno, ali rezultat je spektakularan.'
+      },
+      {
+        q: 'Da li su listovi liriodendrona neobični?',
+        a: 'Da, listovi su prepoznatljivog, četvorokrakog, skoro kvadratnog oblika, različitog od svih drugih vrsta drveća kod nas.'
+      },
+      {
+        q: 'Koliko je otporan na mraz?',
+        a: 'Otporan je na mraz do -25°C, pa dobro podnosi zime u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p><strong>Liriodendron</strong> (Liriodendron tulipifera), poznat i kao tulipanovo drvo, spada u red najviših i najimpozantnijih listopadnih drveća koje možete posaditi — neobičan, četvorokraki oblik listova i cvetovi nalik tulipanu čine ga pravim raritetom u srpskim dvorištima i parkovima.</p>
+
+      <h2>Zašto posaditi liriodendron</h2>
+      <ul>
+        <li><strong>Neobičan oblik listova</strong> — četvorokraki, skoro kvadratni, lako prepoznatljiv</li>
+        <li><strong>Cvetovi nalik tulipanu</strong> — svetložuto-zelenkasti, pojavljuju se kasno u proleće</li>
+        <li><strong>Impozantna veličina</strong> — jedno od najviših listopadnih drveća, pravi akcenat za veliki prostor</li>
+        <li><strong>Lepa jesenja boja</strong> — lišće prelazi u zlatnožutu nijansu</li>
+      </ul>
+
+      <h2>Kome je namenjen</h2>
+      <p>Zbog konačne visine od preko 30-40 metara, liriodendron nije izbor za malo gradsko dvorište — potreban mu je veliki, otvoren prostor: park, imanje ili veliko dvorište gde će moći da se razvija decenijama bez ugrožavanja objekata ili instalacija. Sadite ga na rastojanju od najmanje 10-15 m od kuće.</p>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu, u plodnu, vlažnu zemlju. Prve 1-2 sezone redovno zalivati dok se koren ne razvije, nakon čega je potrebno umereno do redovno zalivanje, posebno u sušnim periodima. Zahteva malo rezanja — samo uklanjanje suvih ili oštećenih grana.</p>
+
+      <h2>Gde kupiti liriodendron u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice liriodendrona uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/liriodendron">pogledajte liriodendron i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 40,
+    slug: 'albicija-sadnja-nega-cvetanje',
+    title: 'Albicija – egzotično drvo svilenkastih cvetova za srpska dvorišta',
+    excerpt: 'Albicija je egzotično drvo paprativog lišća i svilenkastih ružičastih cvasti koje leto čini posebnim. Objašnjavamo sadnju, negu i koliko dobro podnosi naše zime.',
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/albicija.jpg',
+    relatedSlugs: ['judino-drvo-sadnja-nega-cvetanje-na-grani', 'katalpa-sadnja-i-nega', 'magnolija-soulangeana-sadnja-nega-cvetanje'],
+    faq: [
+      {
+        q: 'Da li albicija podnosi zime u Srbiji?',
+        a: 'Da, otporna je na mraz do oko -15 do -20°C, što je dovoljno za veći deo Srbije; u izrazito hladnim i vetrovitim krajevima preporučuje se zaštićenija lokacija, posebno prvih sezona.'
+      },
+      {
+        q: 'Kada cveta albicija?',
+        a: 'Cveta tokom leta, od juna do avgusta, svilenkastim ružičastim cvasti koje se ističu na tamnozelenom, paprativom lišću.'
+      },
+      {
+        q: 'Koliko veliko drvo postaje albicija?',
+        a: 'Dostiže 5-10 m visine, sa širokom, rasprostrtom krošnjom koja pruža prijatnu, laganu senku.'
+      },
+      {
+        q: 'Da li albicija zahteva puno vode?',
+        a: 'Ne, kada se ukoreni dobro podnosi sušu i zahteva samo umereno zalivanje — pogodna i za sušnije lokacije.'
+      },
+      {
+        q: 'Zašto se albicija zove i svilena akacija?',
+        a: 'Zbog cvasti koje imaju karakterističnu, mekanu, svilenkastu teksturu nalik resama, za razliku od klasičnih cvetova.'
+      },
+    ],
+    content: `
+      <p><strong>Albicija</strong> (Albizia julibrissin), poznata i kao svilena akacija, pravo je egzotično osveženje u srpskim dvorištima — paprativo lišće i svilenkaste, ružičaste cvasti koje se pojavljuju tokom čitavog leta čine je retkošću koja odmah privlači pažnju.</p>
+
+      <h2>Zašto posaditi albiciju</h2>
+      <ul>
+        <li><strong>Egzotičan izgled</strong> — fino, paprativo lišće i svilenkaste ružičaste cvasti</li>
+        <li><strong>Dugo cvetanje</strong> — od juna do avgusta, kada većina drugog drveća ne cveta</li>
+        <li><strong>Laka, prijatna senka</strong> — širok, rasprostrti krošnja propušta deo svetlosti</li>
+        <li><strong>Otpornost na sušu</strong> — kada se ukoreni, dobro podnosi sušne periode</li>
+      </ul>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće, na punom suncu, u dobro dreniranu zemlju. Prve 1-2 sezone redovno zalivati dok se koren ne razvije i, u hladnijim krajevima, obezbediti zaštitu mladim sadnicama prve zime (nabacivanje malča oko korena). Nakon ukorenjivanja, albicija zahteva samo umereno zalivanje i povremeno uklanjanje suvih grana.</p>
+
+      <h2>Gde kupiti albiciju u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice albicije uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/albicija">pogledajte albiciju i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
+    id: 39,
+    slug: 'japanska-tresnja-royal-burgundy-sadnja-nega',
+    title: "Japanska trešnja 'Royal Burgundy' – tamnoljubičasto lišće i prolećni cvetovi",
+    excerpt: "Japanska trešnja 'Royal Burgundy' nosi tamnoljubičasto, skoro crno lišće tokom cele sezone, a u proleće se prekrije ružičastim cvetovima. Objašnjavamo sadnju, negu i gde joj je mesto u dvorištu.",
+    date: '2026-11-26',
+    readTime: '5 min',
+    category: 'Lišćari',
+    image: '/images/japanska-tresnja-royal-burgundy.jpg',
+    relatedSlugs: ['japanska-tresnja-sakura-cvetanje-sadnja', 'crvena-sljiva-pissardii-sadnja-nega', 'javor-crimson-king-sadnja-nega-boja-lista'],
+    faq: [
+      {
+        q: "Čime se 'Royal Burgundy' razlikuje od obične japanske trešnje?",
+        a: "Osnovna razlika je boja lišća — 'Royal Burgundy' nosi tamnoljubičasto, skoro crno lišće tokom cele sezone, dok obična japanska trešnja (sakura) ima zeleno lišće i naglasak je na obilnom cvetanju."
+      },
+      {
+        q: 'Kada cveta ova sorta?',
+        a: 'Cveta u proleće, ružičastim cvetovima koji se posebno ističu na tamnoj, skoro crnoj pozadini lišća.'
+      },
+      {
+        q: 'Da li lišće ostaje ljubičasto tokom cele sezone?',
+        a: 'Da, to je glavna odlika sorte — boja se zadržava od proleća do jeseni, za razliku od zelenog lišća kod standardnih sorti.'
+      },
+      {
+        q: 'Koliko veliko drvo postaje?',
+        a: 'Dostiže 5-8 m visine, pa se dobro uklapa kao soliter u srednja i veća dvorišta.'
+      },
+      {
+        q: 'Koliko je otporna na mraz?',
+        a: 'Otporna je na mraz do -20°C, pa bez problema prezimljava u celoj Srbiji.'
+      },
+    ],
+    content: `
+      <p>Dok klasična japanska trešnja oduševljava obiljem cvetova, kultivar <strong>'Royal Burgundy'</strong> (Prunus serrulata 'Royal Burgundy') nudi drugačiju vrstu dekorativnosti — tamnoljubičasto, skoro crno lišće koje traje tokom cele sezone, dodatno naglašeno ružičastim cvetovima u proleće.</p>
+
+      <h2>Zašto posaditi 'Royal Burgundy'</h2>
+      <ul>
+        <li><strong>Boja lišća tokom cele sezone</strong> — tamnoljubičasto, skoro crno, ne samo u jesen</li>
+        <li><strong>Kontrastno prolećno cvetanje</strong> — ružičasti cvetovi upečatljivo se ističu na tamnoj pozadini</li>
+        <li><strong>Upečatljiv soliter</strong> — snažan vizuelni akcenat u svakom dvorištu</li>
+        <li><strong>Umerena veličina</strong> — 5-8 m, pogodna i za srednja dvorišta</li>
+      </ul>
+
+      <h2>Gde joj je mesto u dvorištu</h2>
+      <p>Zbog tamne boje lišća, najefektnija je kao pojedinačan soliter na travnjaku ili uz ulaz, gde se ističe nasuprot zelenoj pozadini trave i žive ograde. Dobro se kombinuje sa crvenom šljivom Pissardii ili javorom 'Crimson King' za koherentnu, tamnocrvenu paletu boja u dvorištu.</p>
+
+      <h2>Sadnja i nega</h2>
+      <p>Sadi se u proleće ili jesen, na punom suncu — dovoljno sunca je ključno za najintenzivniju boju lišća. Zemlja treba da bude plodna i dobro drenirana. Prve sezone redovno zalivati dok se koren ne razvije, nakon čega je potrebno umereno zalivanje i povremeno uklanjanje suvih ili ukrštenih grana.</p>
+
+      <h2>Gde kupiti u Srbiji?</h2>
+      <p><strong>Rasadnik Tilija</strong> u Pločici (kod Kovina) nudi sadnice japanske trešnje 'Royal Burgundy' uz dostavu širom Srbije. Cena je na upit — <a href="/sadnice/japanska-tresnja-royal-burgundy">pogledajte ovu sortu i zatražite ponudu</a>, ili nas pozovite na <a href="tel:+381638870837">063 88 70 837</a>.</p>
+    `,
+  },
+  {
     id: 38,
     slug: 'arizonski-cempres-sadnja-nega-ziva-ograda',
     title: 'Arizonski čempres – brzorastuća alternativa lejlandiju za živu ogradu',
